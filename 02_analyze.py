@@ -276,7 +276,7 @@ def main() -> int:
         print("-" * 60)
         print(f"OK {pid} {h['abbreviation']} lang={h['body_lang']}")
         print(
-            f"   examples {tei['example_p']} (header {h['extent'].get('examples')}), "
+            f"   adverbs {tei['w_by_type'].get('adverb', 0)} (header {h['extent'].get('examples')}), "
             f"syntagms {tei['syntagm']}, adverb lemmas {tei['adverb_lemmas']}, "
             f"triples {rdf['triples']}"
         )
@@ -316,11 +316,22 @@ def _problems(entry: dict) -> list[str]:
         problems.append("header has no ref[@type='corpus']")
     if not rdf["corpus_link"]:
         problems.append("RDF has no link from the corpus object to its context")
+    # The project counts "tagged examples of adverbs", one per annotated adverb
+    # (context:aaif HOWTO, "How are the examples counted?"), and "all words" as
+    # the size of the whole text, which the ab[@type='all_words'] values sum up.
+    adverbs = tei["w_by_type"].get("adverb", 0)
     stated = h["extent"].get("examples")
-    if stated and stated.isdigit() and int(stated) != tei["example_p"]:
-        problems.append(f"header states {stated} examples, TEI has {tei['example_p']}")
+    if stated and stated.isdigit() and int(stated) != adverbs:
+        problems.append(f"header states {stated} examples, TEI has {adverbs} adverbs")
+    tokens = h["extent"].get("tokens")
+    if tokens and tokens.isdigit() and int(tokens) != tei["sum_all_words"]:
+        problems.append(
+            f"header states {tokens} tokens, all_words sum to {tei['sum_all_words']}"
+        )
+    # A p without syntagm is not listed here. The annotation manual allows context
+    # paragraphs without an annotated syntagm (o:aaif.manual, section 3, Primary
+    # Text), so the count stays in the report as a property of the corpus.
     for key in (
-        "example_p_without_syntagm",
         "adverb_without_lemma",
         "adverb_without_function",
         "bibliography_records_unused",
