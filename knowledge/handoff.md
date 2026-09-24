@@ -17,6 +17,6 @@ This process inbox holds only open handoff points. Check source and current targ
 
 ## Open handoff points
 
-### Searches on the website
+### Reproduction of the larger corpora
 
-Source. The missing corpus link of Fr_A_DHAA, Ro_ADP_aaif and Sp_AP_SH3 and the target verb and subject, which the RDF does not contain ([data.md](data.md#known-properties)). Target. A search on https://gams.uni-graz.at/query:aaif.db restricted to one of these corpora and one for the target verb and subject, whose results decide whether the findings affect users of the website. The test belongs to the presentation layer and its result to `ZIMLAB/aaif`, with a note here.
+Source. The comparison of locally generated and published RDF, which holds for Sp_AP_SH3 and its bibliography ([testing.md](testing.md#what-is-guaranteed)). Target. The same comparison for the other eight corpora, which needs Saxon for Java or a faster processor, because SaxonJS did not finish Fr_A_DHAA. The harness for it belongs to the local simulation planned in `ZIMLAB/aaif`.

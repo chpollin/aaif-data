@@ -22,16 +22,19 @@ knowledge-sources:
     OWL 2: https://www.w3.org/TR/owl2-overview/
   vocabularies:
     AAIF ontology: https://gams.uni-graz.at/o:aaif.ontology
+    Annotation model, 2nd version (Zenodo): https://doi.org/10.5281/zenodo.4447209
 related: [data.md, specification.md, testing.md]
 ---
 
 # Annotation model
 
-This document states which linguistic categories the AAIF corpora annotate, how they are encoded in TEI and how the RDF transformation turns them into triples, so that the TEI, the RDF and the ontology can be read against each other. It covers all nine corpora. Its sources are the prose description of the model (`data/tei/o-aaif.ontology.DESCRIPTION.xml`, also as PDF in `data/docs/`), the ontology (`data/rdf/o-aaif.ontology.ONTOLOGY.rdf`), the annotation manual (`data/docs/o-aaif.manual.PDF_STREAM.pdf`) and the transformation `aaif-TORDF.xsl` of the presentation layer in `ZIMLAB/aaif`, whose line numbers are cited below.
+This document states which linguistic categories the AAIF corpora annotate, how they are encoded in TEI and how the RDF transformation turns them into triples, so that the TEI, the RDF and the ontology can be read against each other. It covers all nine corpora. Its sources are the prose description of the model (`data/tei/o-aaif.ontology.DESCRIPTION.xml`, also as PDF in `data/docs/`), the ontology (`data/rdf/o-aaif.ontology.ONTOLOGY.rdf`), the annotation manual (`data/docs/o-aaif.manual.PDF_STREAM.pdf`) and the transformation `aaif-TORDF.xsl` of the presentation layer in `ZIMLAB/aaif`, whose line numbers are cited below. The annotation model is also published on Zenodo, a first version in 2020 and a revised second version in 2021 (Gerhalter 2021).
 
 ## Rationale
 
-The model offers one cross-linguistic categorisation of the forms, functions and meanings of adverbials with an adjectival root, so that corpora of different languages, compiled by different linguists, can be searched together. Only adverbials with an adjectival root, exceptionally a noun root, are in scope. Lexical adverbs such as Spanish `bien`, French `mal` or Romanian `bine`, and modifiers such as `muy` or `très`, are not tagged. The adverb tag is the only obligatory one, every example contains at least one, and the project counts its examples by tagged adverbs. The other tags are added where they are present and relevant for the adverb. Each corpus header declares which categories were annotated in that corpus (`encodingDesc/editorialDecl/ab[@type='categories']`), and the description notes that annotators of different corpora may have applied categories with different granularity.
+The model offers one cross-linguistic categorisation of the forms, functions and meanings of adverbials with an adjectival root, so that corpora of different languages, compiled by different linguists, can be searched together. Only adverbials with an adjectival root, exceptionally a noun root, are in scope. Lexical adverbs such as Spanish `bien`, French `mal` or Romanian `bine`, and modifiers such as `muy` or `très`, are not tagged. The adverb tag is the only obligatory one, every example contains at least one, and the project counts its examples by tagged adverbs. The other tags are added where they are present and relevant for the adverb. Each corpus header declares which categories were annotated in that corpus (`encodingDesc/editorialDecl/ab[@type='categories']`), and the description notes that annotators of different corpora may have applied categories with different granularity. Cross-linguistic comparability rests on these shared categories and not on shared lemmas.
+
+The project publications give the TEI schema the normative role. The TEI from the Word tool "is validated against a schema that implements the annotation model", and all processing is based on it (Gerhalter et al. 2018, p. 309). The ontology is described as a domain-specific RDFS ontology serving as conceptual and reference model, for retrieval and for the parameterised search (Pollin et al. 2018, p. 44), and never as a constraint the RDF has to satisfy. The published file uses OWL vocabulary. Its names follow the prose model, while the RDF keeps the names of the 2018 prototype, which already wrote `#Adjective` (Pollin et al. 2018, p. 45).
 
 ## Phenomena and their treatment
 
@@ -41,7 +44,7 @@ Adverbs, verbs and prepositions are lemmatised. Articles, possessives and subjec
 
 ### Adverb
 
-- Morphosyntactic structure. Adjectival (an adjective in adverbial function, Spanish `hablar claro`), derived with `-mente` and its historical and regional variants (lemma the adjectival base), derived with the Romanian suffixes `-eşte`, `-iş`, `-ul`, derived with Italian `-oni`/`-one` or English `-ly` (available in the tool, unattested), noun (Spanish `pasarlo bomba`, not systematically annotated), and other, which only the overview table of the description names.
+- Morphosyntactic structure. Adjectival (an adjective in adverbial function, Spanish `hablar claro`), derived with `-mente` and its historical and regional variants (lemma the adjectival base), derived with the Romanian suffixes `-eşte`, `-iş`, `-ul`, derived with Italian `-oni`/`-one` or English `-ly` (available in the tool, unattested), noun (Spanish `pasarlo bomba`, not systematically annotated), and other, which the manual codes as `O` for "any other category" and the description names only in its overview table.
 - Inflection. Uninflected by default, which includes masculine singular because the forms coincide, otherwise feminine singular, masculine plural, feminine plural, and for Romanian neuter singular and plural. The French corpora use audible and inaudible inflection instead (`vivre saine`, `je m'en vais seule`). `mente` adverbs count as uninflected.
 - Attribution target, the segment the adverb modifies. Verb (manner, `proceder de ligero`), verb and subject (`decía el Marquesito muy serio`), verb and object, with possible agreement with the object (`los ha de pagar bien caros`), adjective (`foarte mare`, the adjective itself untagged, participles tagged as verbs), adverb, noun or syntagm without verb reference (`con sola una palabra`), sentence, including discourse markers (`infelizmente`), and other.
 - Modified. True when another adverbial, mostly an intensifier, modifies the adverb (`bien bas`). The modifier is only tagged when it has an adjectival root.
@@ -80,13 +83,13 @@ Sp_AP_SH3. A null subject, undefined gender, singular. The verb `decir`, transit
 
 ### `@function` codes and their RDF values
 
-`aaif-TORDF.xsl` reads `@function` character by character. A character without a mapping produces no triple. Values are local names in `https://gams.uni-graz.at/o:aaif.ontology#`.
+The complete list of codes is the category list in the appendix of the annotation manual (`data/docs/o-aaif.manual.PDF_STREAM.pdf`, version April 2020). In Word a code carries a leading `C` for coordination and, for subject and verb, a last character `s` or `h` for overt or part of text. The TEI conversion moves these into `@subtype` and `@rend`. An earlier six-position scheme with a position 0 for coordination is described in Pollin et al. (2018, p. 43). `aaif-TORDF.xsl` reads `@function` character by character. A character without a mapping produces no triple. Values are local names in `https://gams.uni-graz.at/o:aaif.ontology#`.
 
 | `w/@type` | Position | Category, RDF property | Character and value | Lines |
 |---|---|---|---|---|
-| adverb | 1 | `morphosyntacticStructure` | `a` Adjective, `n` Noun, `m` mente, `e` este, `i` is, `u` ul, `o` one, `l` ly | 481–523 |
+| adverb | 1 | `morphosyntacticStructure` | `a` Adjective, `n` Noun, `m` mente, `e` este, `i` is, `u` ul, `o` one, `l` ly, `O` (other) without mapping | 481–523 |
 | adverb | 2 | `inflection` | `u` Uninflected, `a` AudibleInflection, `i` InaudibleInflection, `f` FeminineSingular, `p` MasculinePlural, `x` FemininePlural, `n` NeuterSingular, `z` NeuterPlural | 525–572 |
-| adverb | 3 | `attributionTarget` | `v` Verb, `s` Verb, `o` VerbObject, `S` Sentence, `A` Adverb, `a` Adjective, `n` Noun, `O` Other | 574–616 |
+| adverb | 3 | `attributionTarget` | `v` Verb, `s` Verb (verb and subject in the manual), `o` VerbObject, `S` Sentence, `A` Adverb, `a` Adjective, `n` Noun, `O` Other | 574–616 |
 | adverb | 4 | `modified` (boolean) | `m` true, `n` false | 618–635 |
 | adverb | 5 | `semanticClassification` | `m` Manner, `q` Quantity, `t` Time, `l` Location, `d` Discourse, `s` Specification, `u` Other | 637–676 |
 | adverb | 6 | `reduplicated` (boolean) | `r` true, `n` false | 678–695 |
@@ -123,11 +126,18 @@ Inflection values, the six semantic classes, the syntactic constructions, the wo
 
 ## Unresolved phenomena
 
-- The attribution target verb and subject (code `s`) becomes `aaif:Verb` in the RDF (lines 580–582), while the display of the website labels it "Verb Subject" and the search form offers `aaif:VerbSubject`. No archived RDF contains `VerbSubject`. The inference is that a search for this target on the website finds nothing and a search for verb also returns the verb-and-subject cases.
+- The attribution target verb and subject (code `s`) becomes `aaif:Verb` in the RDF (lines 580–582). The manual defines `s` as "Verb and Subject", the model description treats it as a distinct value that the search interface offers, the display of the website labels it "Verb Subject" and the search form sends `aaif:VerbSubject`. Neither the archived RDF nor the live triple store contains that value, so the search for it finds nothing and the search for verb returns both groups. This is a defect of the transformation.
 - `w` elements outside a syntagm are not transformed. In Lt_P_aaif some annotated words stand directly in `s`, among them hidden verbs, so their annotation is missing from the RDF. In Sp_AP_Cordiam one example was entered in the bibliography paragraph style, so its syntagm stands in `ab[@type='bibliography']` and has no RDF.
-- Codes without mapping produce no triple. The Romanian structure `O`, the Fr_A_DHAA verb code `x`, whose meaning no source documents, and single malformed codes in It_A_aaif, Pt_APM_DeG, Sp_AP_Cordiam and Ro_ADP_aaif are affected.
+- Codes without mapping produce no triple. The structure `O` is defined in the manual as "other" and used in Ro_ADP_aaif, but the transformation has no branch for it. The Fr_A_DHAA verb code `x` is documented in neither the manual, the model description nor the publications, which describe the DHAA verbs only as transitive, intransitive or reflexive. Single malformed codes in It_A_aaif, Pt_APM_DeG, Sp_AP_Cordiam and Ro_ADP_aaif are affected as well.
 - The contraction of prepositions is read from empty content in the RDF and from `@function` on the website, and the two disagree for some Romanian prepositions.
 - The ODD removes `@rend` from `w`, on which the transformation relies for null subjects and elided verbs.
 - The Latin corpus is absent from the description. Its adverbs mostly carry the inflection code `n` (neuter singular), which the description restricts to Romanian, while its header declares it.
 - The description names six semantic classes and adds undefined or other only in its overview table. Its overview also places part of text and coordinated under the possessive, where the prose defines them as verb categories.
-- Whether the RDF in GAMS was built with the transformation version kept in `ZIMLAB/aaif` (dated 2021) cannot be settled from the files. The absence of `VerbSubject` from every archived RDF agrees with it.
+- The transformation version kept in `ZIMLAB/aaif` (dated 2021) reproduces the published RDF of Sp_AP_SH3 and its bibliography triple for triple. The larger corpora were not reproduced, because SaxonJS processes them too slowly.
+
+## Sources
+
+- Gerhalter, Katharina (2021): Annotation Model. Criteria for Linguistic Categorization in the Database "Adjective-Adverb Interfaces in Romance". 2nd version. Zenodo. https://doi.org/10.5281/zenodo.4447209 (1st version 2020, https://doi.org/10.5281/zenodo.4030346)
+- Gerhalter, Katharina / Hummel, Martin / Pollin, Christopher / Schneider, Gerlinde (2018): Compilation and Annotation of Adjective-Adverb Interfaces in Romance. Towards a multilingual Open Access Corpus. CHIMERA 5 (2), 305–311. https://doi.org/10.15366/chimera2018.5.2.009
+- Pollin, Christopher / Schneider, Gerlinde / Gerhalter, Katharina / Hummel, Martin (2018): Semantic Annotation in the Project "Open Access Database 'Adjective-Adverb Interfaces' in Romance". Proceedings of the Workshop on Annotation in Digital Humanities, CEUR Workshop Proceedings 2155, 41–46. https://ceur-ws.org/Vol-2155/pollin.pdf
+- User's Manual for the aaif-Annotation Tool, version April 2020, `o:aaif.manual`, `hdl:11471/513.30.30`, archived as `data/docs/o-aaif.manual.PDF_STREAM.pdf`

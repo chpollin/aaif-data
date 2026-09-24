@@ -49,6 +49,7 @@ Entry point to the knowledge about the archived data of the AAIF database, for r
 
 - Reusing the corpora. [data.md](data.md), then [annotation-model.md](annotation-model.md), then the known properties in [data.md](data.md#known-properties).
 - Querying the RDF. [annotation-model.md](annotation-model.md) for the names that occur in the data, then the RDF section of [data.md](data.md#rdf).
+- Preparing corrections in GAMS. The known properties in [data.md](data.md#known-properties), then the unresolved phenomena in [annotation-model.md](annotation-model.md#unresolved-phenomena), then [handoff.md](handoff.md).
 - Working on the archive. [specification.md](specification.md#decisions), then [testing.md](testing.md).
 
 ## Convention
@@ -77,6 +78,9 @@ Entry
 
 GAMS
 : Geisteswissenschaftliches Asset Management System, the Fedora-based repository of the Centre for Information Modelling at the University of Graz, which publishes the database.
+
+Normative form
+: The TEI, validated against the schema of the annotation model. The RDF is derived from it at ingest, and the ontology serves as reference model.
 
 PID
 : Persistent identifier of a GAMS object, such as `o:aaif.spapsh3`.

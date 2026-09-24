@@ -46,18 +46,23 @@ The checks establish that the archive is a faithful copy of GAMS and describe ho
 | Source targets | Every `aaif:source` target is a record in the bibliography RDF | Fails where the bibliography references fail |
 | Ontology coverage | Every `aaif:` term of the RDF is declared | Fails in every corpus ([annotation-model.md](annotation-model.md)) |
 | Lemma IRIs | Lemma IRIs are valid and language-specific | Neither holds ([data.md](data.md#known-properties)) |
+| Reproduction | The transformation in `ZIMLAB/aaif` produces the published RDF | Holds triple for triple for Sp_AP_SH3 and its bibliography, the larger corpora not run |
+| Live triple store | The public triple store holds what the archive holds | Entries and adverbs per corpus equal the archived RDF, no `VerbSubject`, no corpus link for Fr_A_DHAA, Ro_ADP_aaif and Sp_AP_SH3 |
+| Search effect | The core query of the database search finds the adverbs of every corpus | Finds none in Fr_A_DHAA, Ro_ADP_aaif and Sp_AP_SH3 |
 
 ## Acceptance
 
 - Is the archive complete? Discovery through the Fedora search and a manifest entry for every datastream of the archived kinds. Automatic, `01_fetch.py`.
 - Is the archive unchanged? `03_verify.py` recomputes every checksum of the working copy and reports files missing from the manifest. Automatic, runs offline.
+- Does the archive describe production? Single SPARQL queries against `https://gams.uni-graz.at/sesame/sparqlendpoint`, counting entries, adverbs, corpus links and attribution targets per corpus, and the core of the `query:aaif.db` text restricted to one corpus. Manual, 2026-09-24.
+- Which transformation produced the RDF? `aaif-TORDF.xsl` compiled with SaxonJS (the `xslt3` package of the UFBAS test harness) and run on the archived TEI, the result compared with the archived RDF as sets of triples. Manual, 2026-09-24.
 - Are the findings true? The findings in [data.md](data.md#known-properties) were checked against examples in the TEI and RDF before they entered it. The missing word nodes of Lt_P_aaif and Sp_AP_Cordiam were traced to the passages behind them. Contextual.
 
 ## What is deliberately not checked
 
 - Validation against the RelaxNG schema. The archive documents the data as delivered, and schema conformance is a question for the data owners.
 - The linguistic correctness of the annotation. It is the domain of the annotators and cannot be decided mechanically.
-- The behaviour of the website search. It belongs to the presentation layer in `ZIMLAB/aaif`, where the effect of the missing corpus link has to be tested.
+- The search interface in a browser. Its query was checked on the triple store, the rendering of results belongs to the presentation layer in `ZIMLAB/aaif`.
 - Paragraphs without syntagm. The annotation manual allows them, so the analysis reports their number without a warning.
 
 ## How to run

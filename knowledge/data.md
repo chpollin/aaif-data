@@ -79,7 +79,7 @@ A `p` is one context paragraph, with `bibl/citedRange` for page or verse when gi
 
 ### RDF
 
-The RDF was generated at ingest by the stylesheet `aaif-TORDF.xsl` of the website, whose production state is kept in the presentation-layer repository `ZIMLAB/aaif`.
+The RDF was generated at ingest by the stylesheet `aaif-TORDF.xsl` of the website, whose production state is kept in the presentation-layer repository `ZIMLAB/aaif`. Run locally with SaxonJS on the archived TEI of Sp_AP_SH3 and its bibliography, that stylesheet reproduces the published RDF triple for triple, and the public triple store at `https://gams.uni-graz.at/sesame/sparqlendpoint` holds the same numbers of entries and adverbs per corpus as the archived RDF (checked 2026-09-24).
 
 - Every `p` becomes an `aaif:Entry` `https://gams.uni-graz.at/<PID>#En<n>`, `n` counting the preceding `p` elements. It links to its source with `aaif:source` (`<PID>.bibl#<id>`), carries the paragraph text as `gams:textualContent` and belongs to the corpus object through `rel:isPartOf` (`rel:` is `http://gams.uni-graz.at#`).
 - Every syntagm becomes an `aaif:Phrase` (`…#En<n>Ph<m>`) with `aaif:text` and `aaif:annoText`, the syntagm with its annotations in a bracket notation (`[a|quedo|quedo|…]`).
@@ -128,13 +128,13 @@ The same adverb in the RDF, abbreviated:
 
 ## Known properties
 
-These properties were found by `02_analyze.py` and are left unchanged in the archive.
+These properties were found by `02_analyze.py`, traced to their passages and, where they concern the website, checked against the public triple store. They are left unchanged in the archive.
 
 - The RDF uses names of the `aaif:` namespace that the ontology does not declare, the ontology declares related names for the same concepts ([annotation-model.md](annotation-model.md)). The search form of the website uses the names of the RDF.
-- The headers of Fr_A_DHAA, Ro_ADP_aaif and Sp_AP_SH3 name their CMDI context with `ref[@type='context']`, the others with `ref[@type='corpus']`. The RDF of these three corpora therefore lacks the link from the corpus object to its context, which the database search joins on. The inference that a corpus-restricted search on the website finds nothing in them has not been tested.
-- Lemma IRIs carry no language, so lemmas of equal spelling in different languages share one node, for example Spanish and Portuguese `alto`. Lemmas with spaces give invalid IRIs, among them multi-word verb lemmas in Ro_ADP_aaif and trailing spaces in Fr_A_DHAA. One Romanian lemma contains a remnant of the Word bracket notation.
+- The headers of Fr_A_DHAA, Ro_ADP_aaif and Sp_AP_SH3 name their CMDI context with `ref[@type='context']`, the others with `ref[@type='corpus']`. The RDF of these three corpora therefore lacks the link from the corpus object to its context. The database search of the website always restricts by corpus and joins on that link, so the core of its query returns nothing for Fr_A_DHAA, Ro_ADP_aaif and Sp_AP_SH3 on the live triple store. These three corpora cannot be found through the search interface, only read as full text.
+- Lemma IRIs carry no language, so lemmas of equal spelling in different languages share one node, for example Spanish and Portuguese `alto`. The project publications define a lemma as a normalised form within one language and describe cross-language lemma search only for identically spelled prepositions such as `de`, so the shared node is a side effect of the IRI pattern. The search matches lemma text and is not affected. Lemmas with spaces give invalid IRIs, among them multi-word verb lemmas in Ro_ADP_aaif and trailing spaces in Fr_A_DHAA. One Romanian lemma contains a remnant of the Word bracket notation.
 - In the Fr_A_Web bibliography some `xml:id` values carry trailing URLs, dates or text, so they are not valid XML names and do not match the references in the corpus. Lt_P_aaif contains two undefined references to Latin works (`Cic.Catil.`, `Suet.Galba.`).
-- The attribution target verb and subject is written to the RDF as `aaif:Verb`, and the search form offers `aaif:VerbSubject`, which no RDF contains ([annotation-model.md](annotation-model.md#unresolved-phenomena)).
+- The attribution target verb and subject, a distinct and searchable value according to the annotation model and the manual, is written to the RDF as `aaif:Verb`. The search form offers `aaif:VerbSubject`, which neither the archived RDF nor the live triple store contains, so a search for it finds nothing, and a search for the target verb also returns every verb-and-subject case, in all corpora ([annotation-model.md](annotation-model.md#unresolved-phenomena)).
 - In Lt_P_aaif some annotated words, mostly hidden verbs, stand outside the syntagm and are missing from the RDF. In Sp_AP_Cordiam one example was entered in the bibliography paragraph style, so its text and syntagm stand in `ab[@type='bibliography']`, its reference is undefined and it has no RDF.
 - The stated number of tagged adverbs in the header matches the TEI only in Sp_A_CDH and differs strongly in Fr_A_DHAA, Lt_P_aaif and Ro_ADP_aaif. The stated token count is a round placeholder in most headers and does not match the `all_words` sums.
 - `body/@xml:lang` uses `sp` for Spanish and `lt` for Latin, where BCP 47 has `es` and `la` (`lt` is Lithuanian).
