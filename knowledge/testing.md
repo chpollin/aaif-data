@@ -43,6 +43,7 @@ The checks establish that the archive is a faithful copy of GAMS and describe ho
 | Entries and phrases | RDF entries and phrases equal TEI paragraphs and syntagms | Holds except one syntagm of Sp_AP_Cordiam |
 | Word nodes | RDF nodes per class equal TEI `w` per type | Words outside a syntagm missing in Lt_P_aaif and Sp_AP_Cordiam ([annotation-model.md](annotation-model.md#unresolved-phenomena)) |
 | Corpus link | The corpus object is linked to its context | Missing in Fr_A_DHAA, Ro_ADP_aaif and Sp_AP_SH3 |
+| Profile counts | `04_export.py` counts every tagged adverb of the TEI and recognises every value the headers declare | Holds, the adverb totals equal the TEI `w` counts, and the run fails on an unrecognised declaration |
 | Source targets | Every `aaif:source` target is a record in the bibliography RDF | Fails where the bibliography references fail |
 | Ontology coverage | Every `aaif:` term of the RDF is declared | Fails in every corpus ([annotation-model.md](annotation-model.md)) |
 | Lemma IRIs | Lemma IRIs are valid and language-specific | Neither holds ([data.md](data.md#known-properties)) |

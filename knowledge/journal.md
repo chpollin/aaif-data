@@ -48,3 +48,7 @@ The shared lemma node across languages had been listed as a defect. The publicat
 ### 2026-09-24 integriert reproduction of all corpora
 
 Source. The handoff point on the larger corpora. Target. [data.md](data.md#rdf), [testing.md](testing.md) and [annotation-model.md](annotation-model.md#unresolved-phenomena). Result. With SaxonC the check in `ZIMLAB/aaif` reproduces all nine corpora and their bibliographies, Lt_P_aaif with entry numbers shifted by one because the entry number counts header paragraphs. The same check shows that the repaired transformation changes exactly the intended triples. The repository is published as `chpollin/aaif-data`.
+
+### 2026-09-24 integriert profile view on GitHub Pages
+
+Source. The operator decision to try a data visualisation on the GitHub Pages of this repository. Target. `04_export.py`, `docs/` and [specification.md](specification.md#adr-9-derived-counts-and-a-profile-view-on-github-pages). Result. A static page shows per category how the adverbs of the corpora distribute, counted from the TEI, with values outside a header declaration hatched and declarations shown where they explain a gap. Checked in a browser at desktop and phone width.

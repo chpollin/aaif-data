@@ -1,0 +1,1768 @@
+{
+ "retrieved": "2026-09-24",
+ "categories": [
+  {
+   "key": "structure",
+   "label": "Morphosyntactic structure",
+   "values": [
+    {
+     "key": "a",
+     "label": "Adjectival"
+    },
+    {
+     "key": "m",
+     "label": "Derived -mente"
+    },
+    {
+     "key": "e",
+     "label": "Derived -este"
+    },
+    {
+     "key": "i",
+     "label": "Derived -iş"
+    },
+    {
+     "key": "u",
+     "label": "Derived -ul"
+    },
+    {
+     "key": "o",
+     "label": "Derived -one/-oni"
+    },
+    {
+     "key": "l",
+     "label": "Derived -ly"
+    },
+    {
+     "key": "n",
+     "label": "Noun"
+    },
+    {
+     "key": "O",
+     "label": "Other"
+    }
+   ]
+  },
+  {
+   "key": "inflection",
+   "label": "Inflection",
+   "values": [
+    {
+     "key": "u",
+     "label": "Uninflected"
+    },
+    {
+     "key": "f",
+     "label": "Feminine singular"
+    },
+    {
+     "key": "p",
+     "label": "Masculine plural"
+    },
+    {
+     "key": "x",
+     "label": "Feminine plural"
+    },
+    {
+     "key": "n",
+     "label": "Neuter singular"
+    },
+    {
+     "key": "z",
+     "label": "Neuter plural"
+    },
+    {
+     "key": "a",
+     "label": "Audibly inflected"
+    },
+    {
+     "key": "i",
+     "label": "Inaudibly inflected"
+    }
+   ]
+  },
+  {
+   "key": "target",
+   "label": "Attribution target",
+   "values": [
+    {
+     "key": "v",
+     "label": "Verb"
+    },
+    {
+     "key": "s",
+     "label": "Verb and subject"
+    },
+    {
+     "key": "o",
+     "label": "Verb and object"
+    },
+    {
+     "key": "S",
+     "label": "Sentence"
+    },
+    {
+     "key": "A",
+     "label": "Adverb"
+    },
+    {
+     "key": "a",
+     "label": "Adjective"
+    },
+    {
+     "key": "n",
+     "label": "Noun or syntagm"
+    },
+    {
+     "key": "O",
+     "label": "Other"
+    }
+   ]
+  },
+  {
+   "key": "semantic",
+   "label": "Semantic classification",
+   "values": [
+    {
+     "key": "m",
+     "label": "Manner"
+    },
+    {
+     "key": "q",
+     "label": "Quantity"
+    },
+    {
+     "key": "t",
+     "label": "Time"
+    },
+    {
+     "key": "l",
+     "label": "Location"
+    },
+    {
+     "key": "d",
+     "label": "Discourse"
+    },
+    {
+     "key": "s",
+     "label": "Specification"
+    },
+    {
+     "key": "u",
+     "label": "Other"
+    }
+   ]
+  },
+  {
+   "key": "modified",
+   "label": "Modified",
+   "values": [
+    {
+     "key": "m",
+     "label": "Modified"
+    },
+    {
+     "key": "n",
+     "label": "Not modified"
+    }
+   ]
+  },
+  {
+   "key": "coordinated",
+   "label": "Coordinated",
+   "values": [
+    {
+     "key": "c",
+     "label": "Coordinated"
+    },
+    {
+     "key": "n",
+     "label": "Not coordinated"
+    }
+   ]
+  },
+  {
+   "key": "reduplicated",
+   "label": "Reduplicated",
+   "values": [
+    {
+     "key": "r",
+     "label": "Reduplicated"
+    },
+    {
+     "key": "n",
+     "label": "Not reduplicated"
+    }
+   ]
+  },
+  {
+   "key": "pp",
+   "label": "Part of a prepositional phrase",
+   "values": [
+    {
+     "key": "p",
+     "label": "In a prepositional phrase"
+    },
+    {
+     "key": "n",
+     "label": "Not in a prepositional phrase"
+    }
+   ]
+  }
+ ],
+ "corpora": [
+  {
+   "key": "fradhaa",
+   "abbreviation": "Fr_A_DHAA",
+   "title": "Corpus French Dictionnaire historique de l’adjectif-adverbe",
+   "language": "French",
+   "url": "https://gams.uni-graz.at/o:aaif.fradhaa",
+   "declared": null,
+   "counts": {
+    "structure": {
+     "all": {
+      "a": 13558
+     },
+     "outside": {},
+     "inside": {}
+    },
+    "inflection": {
+     "all": {
+      "u": 12469,
+      "i": 597,
+      "a": 492
+     },
+     "outside": {},
+     "inside": {}
+    },
+    "target": {
+     "all": {
+      "v": 12512,
+      "s": 804,
+      "o": 242
+     },
+     "outside": {},
+     "inside": {}
+    },
+    "semantic": {
+     "all": {
+      "_none": 13558
+     },
+     "outside": {},
+     "inside": {}
+    },
+    "modified": {
+     "all": {
+      "n": 8115,
+      "m": 5443
+     },
+     "outside": {},
+     "inside": {}
+    },
+    "coordinated": {
+     "all": {
+      "n": 11929,
+      "c": 1629
+     },
+     "outside": {},
+     "inside": {}
+    },
+    "reduplicated": {
+     "all": {
+      "_none": 13558
+     },
+     "outside": {},
+     "inside": {}
+    },
+    "pp": {
+     "all": {
+      "_none": 13558
+     },
+     "outside": {},
+     "inside": {}
+    }
+   }
+  },
+  {
+   "key": "fraweb",
+   "abbreviation": "Fr_A_Web",
+   "title": "Corpus of French Adjective-Adverbs in informal texts from the Web",
+   "language": "French",
+   "url": "https://gams.uni-graz.at/o:aaif.fraweb",
+   "declared": {
+    "structure": [
+     "a"
+    ],
+    "inflection": [
+     "u",
+     "a",
+     "i"
+    ],
+    "target": [
+     "v",
+     "s",
+     "o",
+     "a",
+     "A",
+     "n",
+     "O"
+    ],
+    "semantic": [
+     "m",
+     "t",
+     "l",
+     "s",
+     "q",
+     "u"
+    ],
+    "coordinated": [
+     "c",
+     "n"
+    ],
+    "modified": [
+     "m",
+     "n"
+    ],
+    "reduplicated": [
+     "r",
+     "n"
+    ],
+    "pp": [
+     "n"
+    ]
+   },
+   "counts": {
+    "structure": {
+     "all": {
+      "a": 5091
+     },
+     "outside": {
+      "a": 5091
+     },
+     "inside": {}
+    },
+    "inflection": {
+     "all": {
+      "u": 3979,
+      "i": 641,
+      "a": 471
+     },
+     "outside": {
+      "u": 3979,
+      "i": 641,
+      "a": 471
+     },
+     "inside": {}
+    },
+    "target": {
+     "all": {
+      "v": 3349,
+      "s": 994,
+      "o": 646,
+      "a": 97,
+      "A": 2,
+      "n": 2,
+      "O": 1
+     },
+     "outside": {
+      "v": 3349,
+      "s": 994,
+      "o": 646,
+      "a": 97,
+      "A": 2,
+      "n": 2,
+      "O": 1
+     },
+     "inside": {}
+    },
+    "semantic": {
+     "all": {
+      "m": 3715,
+      "q": 672,
+      "l": 562,
+      "t": 123,
+      "u": 14,
+      "s": 5
+     },
+     "outside": {
+      "m": 3715,
+      "q": 672,
+      "l": 562,
+      "t": 123,
+      "u": 14,
+      "s": 5
+     },
+     "inside": {}
+    },
+    "modified": {
+     "all": {
+      "n": 4731,
+      "m": 360
+     },
+     "outside": {
+      "n": 4731,
+      "m": 360
+     },
+     "inside": {}
+    },
+    "coordinated": {
+     "all": {
+      "n": 3888,
+      "c": 1203
+     },
+     "outside": {
+      "n": 3888,
+      "c": 1203
+     },
+     "inside": {}
+    },
+    "reduplicated": {
+     "all": {
+      "n": 5033,
+      "r": 58
+     },
+     "outside": {
+      "n": 5033,
+      "r": 58
+     },
+     "inside": {}
+    },
+    "pp": {
+     "all": {
+      "n": 5091
+     },
+     "outside": {
+      "n": 5091
+     },
+     "inside": {}
+    }
+   }
+  },
+  {
+   "key": "itaaaif",
+   "abbreviation": "It_A_aaif",
+   "title": "Corpus of Adjective-Adverbs in Southern Varieties of Italy",
+   "language": "Italian",
+   "url": "https://gams.uni-graz.at/o:aaif.itaaaif",
+   "declared": {
+    "structure": [
+     "a",
+     "n",
+     "m"
+    ],
+    "inflection": [
+     "u",
+     "f",
+     "p",
+     "x"
+    ],
+    "target": [
+     "v",
+     "s",
+     "o",
+     "S",
+     "A",
+     "a",
+     "n",
+     "O"
+    ],
+    "semantic": [
+     "m",
+     "t",
+     "l",
+     "q",
+     "s",
+     "d",
+     "u"
+    ],
+    "coordinated": [
+     "c",
+     "n"
+    ],
+    "modified": [
+     "m",
+     "n"
+    ],
+    "reduplicated": [
+     "r",
+     "n"
+    ],
+    "pp": [
+     "p",
+     "n"
+    ]
+   },
+   "counts": {
+    "structure": {
+     "all": {
+      "a": 826,
+      "m": 15,
+      "n": 3
+     },
+     "outside": {
+      "a": 820,
+      "m": 15,
+      "n": 3
+     },
+     "inside": {
+      "a": 5
+     }
+    },
+    "inflection": {
+     "all": {
+      "u": 534,
+      "f": 197,
+      "p": 67,
+      "x": 46
+     },
+     "outside": {
+      "u": 529,
+      "f": 197,
+      "p": 66,
+      "x": 46
+     },
+     "inside": {
+      "u": 5
+     }
+    },
+    "target": {
+     "all": {
+      "v": 492,
+      "s": 140,
+      "o": 139,
+      "S": 30,
+      "a": 29,
+      "n": 9,
+      "A": 3,
+      "O": 2
+     },
+     "outside": {
+      "v": 488,
+      "s": 140,
+      "o": 139,
+      "a": 29,
+      "S": 28,
+      "n": 9,
+      "A": 3,
+      "O": 2
+     },
+     "inside": {
+      "v": 3,
+      "S": 2
+     }
+    },
+    "semantic": {
+     "all": {
+      "m": 741,
+      "q": 39,
+      "d": 25,
+      "l": 14,
+      "s": 12,
+      "t": 11,
+      "_unmapped": 1,
+      "u": 1
+     },
+     "outside": {
+      "m": 738,
+      "q": 39,
+      "d": 23,
+      "l": 14,
+      "s": 12,
+      "t": 11,
+      "u": 1
+     },
+     "inside": {
+      "m": 3,
+      "d": 2
+     }
+    },
+    "modified": {
+     "all": {
+      "n": 775,
+      "m": 69
+     },
+     "outside": {
+      "n": 770,
+      "m": 68
+     },
+     "inside": {
+      "n": 5
+     }
+    },
+    "coordinated": {
+     "all": {
+      "n": 802,
+      "c": 42
+     },
+     "outside": {
+      "n": 798,
+      "c": 40
+     },
+     "inside": {
+      "n": 3,
+      "c": 2
+     }
+    },
+    "reduplicated": {
+     "all": {
+      "n": 745,
+      "r": 98,
+      "_none": 1
+     },
+     "outside": {
+      "n": 740,
+      "r": 98
+     },
+     "inside": {
+      "n": 5
+     }
+    },
+    "pp": {
+     "all": {
+      "n": 838,
+      "p": 5,
+      "_none": 1
+     },
+     "outside": {
+      "n": 838
+     },
+     "inside": {
+      "p": 5
+     }
+    }
+   }
+  },
+  {
+   "key": "ltpaaif",
+   "abbreviation": "Lt_P_aaif",
+   "title": "Corpus of Latin Prepositional Adverbials with Adjectival Core",
+   "language": "Latin",
+   "url": "https://gams.uni-graz.at/o:aaif.ltpaaif",
+   "declared": {
+    "structure": [
+     "a"
+    ],
+    "inflection": [
+     "u",
+     "f",
+     "n",
+     "p",
+     "x",
+     "z"
+    ],
+    "target": [
+     "v",
+     "s",
+     "o",
+     "S",
+     "A",
+     "a",
+     "n"
+    ],
+    "semantic": [
+     "m",
+     "q",
+     "t",
+     "l",
+     "d",
+     "s"
+    ],
+    "coordinated": [
+     "c",
+     "n"
+    ],
+    "modified": [
+     "m",
+     "n"
+    ],
+    "reduplicated": [
+     "r",
+     "n"
+    ],
+    "pp": [
+     "p"
+    ]
+   },
+   "counts": {
+    "structure": {
+     "all": {
+      "a": 3573
+     },
+     "outside": {},
+     "inside": {
+      "a": 3573
+     }
+    },
+    "inflection": {
+     "all": {
+      "n": 3430,
+      "f": 48,
+      "u": 48,
+      "z": 33,
+      "p": 11,
+      "x": 3
+     },
+     "outside": {},
+     "inside": {
+      "n": 3430,
+      "f": 48,
+      "u": 48,
+      "z": 33,
+      "p": 11,
+      "x": 3
+     }
+    },
+    "target": {
+     "all": {
+      "v": 2480,
+      "a": 560,
+      "S": 228,
+      "n": 168,
+      "s": 57,
+      "o": 39,
+      "A": 38,
+      "O": 3
+     },
+     "outside": {},
+     "inside": {
+      "v": 2480,
+      "a": 560,
+      "S": 228,
+      "n": 168,
+      "s": 57,
+      "o": 39,
+      "A": 38,
+      "O": 3
+     }
+    },
+    "semantic": {
+     "all": {
+      "m": 1397,
+      "l": 1006,
+      "q": 679,
+      "t": 395,
+      "d": 96
+     },
+     "outside": {},
+     "inside": {
+      "m": 1397,
+      "l": 1006,
+      "q": 679,
+      "t": 395,
+      "d": 96
+     }
+    },
+    "modified": {
+     "all": {
+      "n": 3568,
+      "m": 5
+     },
+     "outside": {},
+     "inside": {
+      "n": 3568,
+      "m": 5
+     }
+    },
+    "coordinated": {
+     "all": {
+      "n": 3549,
+      "c": 24
+     },
+     "outside": {},
+     "inside": {
+      "n": 3549,
+      "c": 24
+     }
+    },
+    "reduplicated": {
+     "all": {
+      "n": 3573
+     },
+     "outside": {},
+     "inside": {
+      "n": 3573
+     }
+    },
+    "pp": {
+     "all": {
+      "p": 3573
+     },
+     "outside": {},
+     "inside": {
+      "p": 3573
+     }
+    }
+   }
+  },
+  {
+   "key": "ptapmdeg",
+   "abbreviation": "Pt_APM_DeG",
+   "title": "Corpus of Brazilian Portuguese Adjective-Adverbs, mente-Adverbs and Prepositional Phrases in Corpus Discurso & Gramática.",
+   "language": "Portuguese",
+   "url": "https://gams.uni-graz.at/o:aaif.ptapmdeg",
+   "declared": {
+    "structure": [
+     "a",
+     "n",
+     "m"
+    ],
+    "inflection": [
+     "u",
+     "f",
+     "p",
+     "x"
+    ],
+    "target": [
+     "v",
+     "s",
+     "o",
+     "S",
+     "A",
+     "a",
+     "n",
+     "O"
+    ],
+    "semantic": [
+     "m",
+     "q",
+     "t",
+     "l",
+     "d",
+     "s",
+     "u"
+    ],
+    "coordinated": [
+     "c",
+     "n"
+    ],
+    "modified": [
+     "m",
+     "n"
+    ],
+    "reduplicated": [
+     "r",
+     "n"
+    ],
+    "pp": [
+     "p",
+     "n"
+    ]
+   },
+   "counts": {
+    "structure": {
+     "all": {
+      "a": 5150,
+      "m": 1111,
+      "n": 6
+     },
+     "outside": {
+      "a": 4922,
+      "m": 1111
+     },
+     "inside": {
+      "a": 228,
+      "n": 6
+     }
+    },
+    "inflection": {
+     "all": {
+      "u": 6105,
+      "f": 121,
+      "p": 33,
+      "x": 8
+     },
+     "outside": {
+      "u": 5875,
+      "f": 121,
+      "p": 32,
+      "x": 5
+     },
+     "inside": {
+      "u": 230,
+      "x": 3,
+      "p": 1
+     }
+    },
+    "target": {
+     "all": {
+      "a": 1970,
+      "n": 1598,
+      "S": 1344,
+      "v": 955,
+      "A": 249,
+      "s": 92,
+      "O": 45,
+      "o": 14
+     },
+     "outside": {
+      "a": 1964,
+      "n": 1581,
+      "S": 1316,
+      "v": 783,
+      "A": 249,
+      "s": 89,
+      "O": 40,
+      "o": 11
+     },
+     "inside": {
+      "v": 172,
+      "S": 28,
+      "n": 17,
+      "a": 6,
+      "O": 5,
+      "s": 3,
+      "o": 3
+     }
+    },
+    "semantic": {
+     "all": {
+      "s": 2196,
+      "q": 2035,
+      "d": 748,
+      "m": 650,
+      "t": 574,
+      "l": 59,
+      "u": 5
+     },
+     "outside": {
+      "s": 2187,
+      "q": 2032,
+      "d": 737,
+      "m": 616,
+      "t": 413,
+      "l": 47,
+      "u": 1
+     },
+     "inside": {
+      "t": 161,
+      "m": 34,
+      "l": 12,
+      "d": 11,
+      "s": 9,
+      "u": 4,
+      "q": 3
+     }
+    },
+    "modified": {
+     "all": {
+      "n": 6168,
+      "m": 98,
+      "_unmapped": 1
+     },
+     "outside": {
+      "n": 5939,
+      "m": 93,
+      "_unmapped": 1
+     },
+     "inside": {
+      "n": 229,
+      "m": 5
+     }
+    },
+    "coordinated": {
+     "all": {
+      "n": 6243,
+      "c": 24
+     },
+     "outside": {
+      "n": 6010,
+      "c": 23
+     },
+     "inside": {
+      "n": 233,
+      "c": 1
+     }
+    },
+    "reduplicated": {
+     "all": {
+      "n": 6258,
+      "r": 9
+     },
+     "outside": {
+      "n": 6024,
+      "r": 9
+     },
+     "inside": {
+      "n": 234
+     }
+    },
+    "pp": {
+     "all": {
+      "n": 6033,
+      "p": 234
+     },
+     "outside": {
+      "n": 6033
+     },
+     "inside": {
+      "p": 234
+     }
+    }
+   }
+  },
+  {
+   "key": "roadpaaif",
+   "abbreviation": "Ro_ADP_aaif",
+   "title": "Corpus of Old Romanian Adjective-Adverbs, Derived Adverbs and Prepositional Phrases",
+   "language": "Romanian",
+   "url": "https://gams.uni-graz.at/o:aaif.roadpaaif",
+   "declared": {
+    "structure": [
+     "a",
+     "n",
+     "u",
+     "e",
+     "i"
+    ],
+    "inflection": [
+     "u",
+     "f",
+     "p",
+     "x",
+     "z"
+    ],
+    "target": [
+     "v",
+     "s",
+     "o",
+     "A",
+     "a",
+     "n",
+     "O"
+    ],
+    "semantic": [
+     "m",
+     "q",
+     "t",
+     "s",
+     "u"
+    ],
+    "coordinated": [
+     "c",
+     "n"
+    ],
+    "modified": [
+     "m",
+     "n"
+    ],
+    "reduplicated": [
+     "r",
+     "n"
+    ],
+    "pp": [
+     "p",
+     "n"
+    ]
+   },
+   "counts": {
+    "structure": {
+     "all": {
+      "a": 1011,
+      "O": 50,
+      "e": 46,
+      "i": 16,
+      "n": 8
+     },
+     "outside": {
+      "a": 823,
+      "e": 45,
+      "O": 41,
+      "i": 9
+     },
+     "inside": {
+      "a": 188,
+      "O": 9,
+      "n": 8,
+      "i": 7,
+      "e": 1
+     }
+    },
+    "inflection": {
+     "all": {
+      "u": 1082,
+      "p": 29,
+      "f": 12,
+      "x": 5,
+      "z": 3
+     },
+     "outside": {
+      "u": 870,
+      "p": 29,
+      "f": 12,
+      "x": 5,
+      "z": 2
+     },
+     "inside": {
+      "u": 212,
+      "z": 1
+     }
+    },
+    "target": {
+     "all": {
+      "v": 860,
+      "s": 120,
+      "o": 57,
+      "a": 47,
+      "A": 32,
+      "n": 14,
+      "O": 1
+     },
+     "outside": {
+      "v": 651,
+      "s": 120,
+      "o": 56,
+      "a": 45,
+      "A": 32,
+      "n": 13,
+      "O": 1
+     },
+     "inside": {
+      "v": 209,
+      "a": 2,
+      "n": 1,
+      "o": 1
+     }
+    },
+    "semantic": {
+     "all": {
+      "m": 715,
+      "q": 243,
+      "t": 165,
+      "s": 5,
+      "u": 3
+     },
+     "outside": {
+      "m": 550,
+      "q": 233,
+      "t": 127,
+      "s": 5,
+      "u": 3
+     },
+     "inside": {
+      "m": 165,
+      "t": 38,
+      "q": 10
+     }
+    },
+    "modified": {
+     "all": {
+      "n": 922,
+      "m": 209
+     },
+     "outside": {
+      "n": 728,
+      "m": 190
+     },
+     "inside": {
+      "n": 194,
+      "m": 19
+     }
+    },
+    "coordinated": {
+     "all": {
+      "n": 1085,
+      "c": 46
+     },
+     "outside": {
+      "n": 878,
+      "c": 40
+     },
+     "inside": {
+      "n": 207,
+      "c": 6
+     }
+    },
+    "reduplicated": {
+     "all": {
+      "n": 1128,
+      "r": 3
+     },
+     "outside": {
+      "n": 918
+     },
+     "inside": {
+      "n": 210,
+      "r": 3
+     }
+    },
+    "pp": {
+     "all": {
+      "n": 918,
+      "p": 213
+     },
+     "outside": {
+      "n": 918
+     },
+     "inside": {
+      "p": 213
+     }
+    }
+   }
+  },
+  {
+   "key": "spapcordiam",
+   "abbreviation": "Sp_AP_Cordiam",
+   "title": "Corpus of Spanish Adjective-Adverbs and Prepositional Phrases in CORDIAM",
+   "language": "Spanish",
+   "url": "https://gams.uni-graz.at/o:aaif.spapcordiam",
+   "declared": {
+    "structure": [
+     "a",
+     "m"
+    ],
+    "inflection": [
+     "u",
+     "f",
+     "p",
+     "x"
+    ],
+    "target": [
+     "v",
+     "s",
+     "o",
+     "S",
+     "A",
+     "a",
+     "n"
+    ],
+    "semantic": [
+     "m",
+     "q",
+     "t",
+     "l",
+     "d",
+     "s"
+    ],
+    "coordinated": [
+     "c",
+     "n"
+    ],
+    "modified": [
+     "m",
+     "n"
+    ],
+    "reduplicated": [
+     "r",
+     "n"
+    ],
+    "pp": [
+     "p",
+     "n"
+    ]
+   },
+   "counts": {
+    "structure": {
+     "all": {
+      "a": 1240,
+      "m": 1
+     },
+     "outside": {
+      "a": 687,
+      "m": 1
+     },
+     "inside": {
+      "a": 553
+     }
+    },
+    "inflection": {
+     "all": {
+      "u": 1127,
+      "x": 88,
+      "p": 13,
+      "f": 13
+     },
+     "outside": {
+      "u": 670,
+      "p": 12,
+      "f": 5,
+      "x": 1
+     },
+     "inside": {
+      "u": 457,
+      "x": 87,
+      "f": 8,
+      "p": 1
+     }
+    },
+    "target": {
+     "all": {
+      "v": 1033,
+      "n": 78,
+      "S": 43,
+      "o": 35,
+      "s": 32,
+      "a": 13,
+      "A": 4,
+      "O": 3
+     },
+     "outside": {
+      "v": 542,
+      "n": 74,
+      "s": 24,
+      "S": 20,
+      "o": 17,
+      "a": 6,
+      "A": 3,
+      "O": 2
+     },
+     "inside": {
+      "v": 491,
+      "S": 23,
+      "o": 18,
+      "s": 8,
+      "a": 7,
+      "n": 4,
+      "O": 1,
+      "A": 1
+     }
+    },
+    "semantic": {
+     "all": {
+      "m": 358,
+      "q": 280,
+      "s": 264,
+      "t": 202,
+      "l": 71,
+      "d": 56,
+      "u": 10
+     },
+     "outside": {
+      "s": 253,
+      "q": 175,
+      "m": 111,
+      "t": 102,
+      "l": 20,
+      "d": 20,
+      "u": 7
+     },
+     "inside": {
+      "m": 247,
+      "q": 105,
+      "t": 100,
+      "l": 51,
+      "d": 36,
+      "s": 11,
+      "u": 3
+     }
+    },
+    "modified": {
+     "all": {
+      "n": 1070,
+      "m": 171
+     },
+     "outside": {
+      "n": 596,
+      "m": 92
+     },
+     "inside": {
+      "n": 474,
+      "m": 79
+     }
+    },
+    "coordinated": {
+     "all": {
+      "n": 1208,
+      "c": 33
+     },
+     "outside": {
+      "n": 675,
+      "c": 13
+     },
+     "inside": {
+      "n": 533,
+      "c": 20
+     }
+    },
+    "reduplicated": {
+     "all": {
+      "n": 1239,
+      "r": 2
+     },
+     "outside": {
+      "n": 686,
+      "r": 2
+     },
+     "inside": {
+      "n": 553
+     }
+    },
+    "pp": {
+     "all": {
+      "n": 688,
+      "p": 553
+     },
+     "outside": {
+      "n": 688
+     },
+     "inside": {
+      "p": 553
+     }
+    }
+   }
+  },
+  {
+   "key": "spapsh3",
+   "abbreviation": "Sp_AP_SH3",
+   "title": "Corpus of Spanish Adjective-Adverbs in Diachrony (for Sintaxis Histórica III)",
+   "language": "Spanish",
+   "url": "https://gams.uni-graz.at/o:aaif.spapsh3",
+   "declared": {
+    "structure": [
+     "a",
+     "m"
+    ],
+    "inflection": [
+     "u",
+     "f",
+     "p",
+     "x"
+    ],
+    "target": [
+     "v",
+     "s",
+     "o",
+     "S",
+     "A",
+     "a",
+     "n",
+     "O"
+    ],
+    "semantic": [
+     "m",
+     "q",
+     "t",
+     "l",
+     "d",
+     "s",
+     "u"
+    ],
+    "coordinated": [
+     "c",
+     "n"
+    ],
+    "modified": [
+     "m",
+     "n"
+    ],
+    "reduplicated": [
+     "r",
+     "n"
+    ],
+    "pp": [
+     "p",
+     "n"
+    ]
+   },
+   "counts": {
+    "structure": {
+     "all": {
+      "a": 1249,
+      "m": 4
+     },
+     "outside": {
+      "a": 784,
+      "m": 4
+     },
+     "inside": {
+      "a": 465
+     }
+    },
+    "inflection": {
+     "all": {
+      "u": 1083,
+      "x": 90,
+      "f": 54,
+      "p": 26
+     },
+     "outside": {
+      "u": 713,
+      "f": 37,
+      "p": 25,
+      "x": 13
+     },
+     "inside": {
+      "u": 370,
+      "x": 77,
+      "f": 17,
+      "p": 1
+     }
+    },
+    "target": {
+     "all": {
+      "v": 606,
+      "S": 290,
+      "a": 102,
+      "s": 98,
+      "n": 85,
+      "o": 40,
+      "A": 18,
+      "O": 14
+     },
+     "outside": {
+      "v": 339,
+      "S": 234,
+      "a": 67,
+      "n": 61,
+      "s": 56,
+      "A": 17,
+      "o": 14
+     },
+     "inside": {
+      "v": 267,
+      "S": 56,
+      "s": 42,
+      "a": 35,
+      "o": 26,
+      "n": 24,
+      "O": 14,
+      "A": 1
+     }
+    },
+    "semantic": {
+     "all": {
+      "m": 398,
+      "d": 301,
+      "t": 221,
+      "q": 187,
+      "s": 60,
+      "l": 52,
+      "u": 34
+     },
+     "outside": {
+      "d": 262,
+      "m": 228,
+      "q": 115,
+      "t": 106,
+      "s": 36,
+      "l": 34,
+      "u": 7
+     },
+     "inside": {
+      "m": 170,
+      "t": 115,
+      "q": 72,
+      "d": 39,
+      "u": 27,
+      "s": 24,
+      "l": 18
+     }
+    },
+    "modified": {
+     "all": {
+      "n": 1109,
+      "m": 144
+     },
+     "outside": {
+      "n": 670,
+      "m": 118
+     },
+     "inside": {
+      "n": 439,
+      "m": 26
+     }
+    },
+    "coordinated": {
+     "all": {
+      "n": 1193,
+      "c": 60
+     },
+     "outside": {
+      "n": 750,
+      "c": 38
+     },
+     "inside": {
+      "n": 443,
+      "c": 22
+     }
+    },
+    "reduplicated": {
+     "all": {
+      "n": 1220,
+      "r": 33
+     },
+     "outside": {
+      "n": 779,
+      "r": 9
+     },
+     "inside": {
+      "n": 441,
+      "r": 24
+     }
+    },
+    "pp": {
+     "all": {
+      "n": 788,
+      "p": 465
+     },
+     "outside": {
+      "n": 788
+     },
+     "inside": {
+      "p": 465
+     }
+    }
+   }
+  },
+  {
+   "key": "spacdh",
+   "abbreviation": "Sp_A_CDH",
+   "title": "Corpus of Spanish \"Verb + Adjective-Adverbs\" in CDH",
+   "language": "Spanish",
+   "url": "https://gams.uni-graz.at/o:aaif.spacdh",
+   "declared": {
+    "structure": [
+     "a"
+    ],
+    "inflection": [
+     "u",
+     "f",
+     "p",
+     "x"
+    ],
+    "target": [
+     "v",
+     "s",
+     "o",
+     "S",
+     "a",
+     "O"
+    ],
+    "semantic": [
+     "m",
+     "q",
+     "t",
+     "l",
+     "d",
+     "s"
+    ],
+    "coordinated": [
+     "c",
+     "n"
+    ],
+    "modified": [
+     "m",
+     "n"
+    ],
+    "reduplicated": [
+     "r",
+     "n"
+    ],
+    "pp": [
+     "n"
+    ]
+   },
+   "counts": {
+    "structure": {
+     "all": {
+      "a": 2421,
+      "m": 3
+     },
+     "outside": {
+      "a": 2421,
+      "m": 3
+     },
+     "inside": {}
+    },
+    "inflection": {
+     "all": {
+      "u": 2079,
+      "f": 164,
+      "p": 104,
+      "x": 77
+     },
+     "outside": {
+      "u": 2079,
+      "f": 164,
+      "p": 104,
+      "x": 77
+     },
+     "inside": {}
+    },
+    "target": {
+     "all": {
+      "v": 1702,
+      "s": 479,
+      "o": 214,
+      "S": 23,
+      "O": 4,
+      "n": 1,
+      "a": 1
+     },
+     "outside": {
+      "v": 1702,
+      "s": 479,
+      "o": 214,
+      "S": 23,
+      "O": 4,
+      "n": 1,
+      "a": 1
+     },
+     "inside": {}
+    },
+    "semantic": {
+     "all": {
+      "m": 2052,
+      "q": 268,
+      "l": 64,
+      "d": 14,
+      "t": 13,
+      "u": 12,
+      "s": 1
+     },
+     "outside": {
+      "m": 2052,
+      "q": 268,
+      "l": 64,
+      "d": 14,
+      "t": 13,
+      "u": 12,
+      "s": 1
+     },
+     "inside": {}
+    },
+    "modified": {
+     "all": {
+      "n": 2393,
+      "m": 31
+     },
+     "outside": {
+      "n": 2393,
+      "m": 31
+     },
+     "inside": {}
+    },
+    "coordinated": {
+     "all": {
+      "n": 2076,
+      "c": 348
+     },
+     "outside": {
+      "n": 2076,
+      "c": 348
+     },
+     "inside": {}
+    },
+    "reduplicated": {
+     "all": {
+      "n": 2407,
+      "r": 17
+     },
+     "outside": {
+      "n": 2407,
+      "r": 17
+     },
+     "inside": {}
+    },
+    "pp": {
+     "all": {
+      "n": 2424
+     },
+     "outside": {
+      "n": 2424
+     },
+     "inside": {}
+    }
+   }
+  }
+ ]
+}

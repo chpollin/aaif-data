@@ -14,6 +14,7 @@ Archive copy of the data of the Open Access Database "Adjective-Adverb Interface
 | `data/objects.json` | Inventory of every GAMS object of the database |
 | `knowledge/` | Documentation of data, annotation model, decisions and checks, starting at [knowledge/INDEX.md](knowledge/INDEX.md) |
 | `01_fetch.py`, `02_analyze.py`, `03_verify.py` | Retrieval, analysis and checksum verification |
+| `04_export.py`, `docs/` | Counts of the annotation categories per corpus and the profile view served at https://chpollin.github.io/aaif-data/ |
 
 File names follow the pattern `<PID>.<datastream id>.<extension>` with `:` in the PID replaced by `-`.
 
@@ -27,6 +28,10 @@ The TEI is the normative form of the data. The RDF was generated from it and car
 
 [knowledge/data.md](knowledge/data.md#known-properties) lists every known property, [knowledge/annotation-model.md](knowledge/annotation-model.md) explains the categories, decodes the compact annotation codes in `w/@function` and aligns the names of RDF and ontology.
 
+## Profile view
+
+https://chpollin.github.io/aaif-data/ shows for each annotation category how the tagged adverbs of the nine corpora distribute over its values, for all adverbs or only those inside or outside a prepositional phrase. The counts come from the TEI and mark values that a corpus header does not declare.
+
 ## Usage
 
 The scripts need [uv](https://docs.astral.sh/uv/).
@@ -35,6 +40,7 @@ The scripts need [uv](https://docs.astral.sh/uv/).
 uv run 03_verify.py           # check every file against the manifest, offline
 uv run 02_analyze.py          # analyse TEI, RDF and ontology, report in reports/analysis.json
 uv run 01_fetch.py            # fetch missing datastreams from GAMS, --force fetches everything again
+uv run 04_export.py           # recount the categories for the profile view
 ```
 
 ## Publications

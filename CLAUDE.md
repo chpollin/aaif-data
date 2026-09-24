@@ -24,7 +24,7 @@ The archive is readable without GAMS and without running code. Every statement a
 
 ## Scope
 
-Retrieval, verification and analysis of the AAIF data, and its documentation. Correcting the data, publishing derived datasets and maintaining the website are out of scope.
+Retrieval, verification and analysis of the AAIF data, its documentation, and the profile view on GitHub Pages built from aggregated counts (ADR-9). Correcting the data, publishing derived corpus files and maintaining the website are out of scope.
 
 ## Known limits
 
@@ -42,6 +42,8 @@ uv sync
 uv run 01_fetch.py            # retrieval from GAMS, --force fetches everything again
 uv run 02_analyze.py          # analysis, report in reports/analysis.json
 uv run 03_verify.py           # checksums against the manifest
+uv run 04_export.py           # counts for the profile view in docs/data/profiles.json
+python -m http.server -d docs # local preview of the profile view
 uv run ruff check . && uv run ruff format --check .
 ```
 

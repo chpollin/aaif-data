@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Annotation profiles of the AAIF corpora</title>
+  <meta name="description" content="How the adverbs of the nine corpora of the database Adjective-Adverb Interfaces in Romance distribute over the categories of its annotation model.">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Annotation profiles of the AAIF corpora</h1>
+    <p class="source">Tagged adverbs per corpus, counted from the TEI of the <a href="https://gams.uni-graz.at/aaif">Open Access Database “Adjective-Adverb Interfaces in Romance”</a> as archived on <span id="retrieved"></span>.</p>
+  </header>
+
+  <main>
+    <form id="controls" aria-controls="profile">
+      <fieldset>
+        <legend>Category</legend>
+        <div class="options" id="category-options"></div>
+      </fieldset>
+      <fieldset>
+        <legend>Adverbs</legend>
+        <div class="options">
+          <label><input type="radio" name="scope" value="all" checked> All</label>
+          <label><input type="radio" name="scope" value="outside"> Outside a prepositional phrase</label>
+          <label><input type="radio" name="scope" value="inside"> Inside a prepositional phrase</label>
+        </div>
+      </fieldset>
+    </form>
+
+    <section id="profile" aria-live="polite">
+      <h2 id="profile-title"></h2>
+      <ul class="legend" id="legend"></ul>
+      <ol class="rows" id="rows"></ol>
+    </section>
+
+    <section>
+      <h2 id="table-title">Counts</h2>
+      <div class="table-wrap">
+        <table id="counts"></table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>The categories and their codes are defined in the <a href="https://github.com/chpollin/aaif-data/blob/main/knowledge/annotation-model.md">annotation model</a>. The counts come from <a href="https://github.com/chpollin/aaif-data">chpollin/aaif-data</a>, produced by <code>04_export.py</code>.</p>
+    <p>Data: Schneider, Gerlinde / Pollin, Christopher / Gerhalter, Katharina &amp; Hummel, Martin (2020): Adjective-Adverb Interfaces in Romance. Open-Access Database (AAIF-Database). <a href="https://gams.uni-graz.at/aaif">https://gams.uni-graz.at/aaif</a>, licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Code under the MIT License.</p>
+  </footer>
+  <div id="tooltip" role="status" hidden></div>
+</body>
+</html>

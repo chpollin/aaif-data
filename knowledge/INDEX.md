@@ -44,6 +44,7 @@ Entry point to the knowledge about the archived data of the AAIF database, for r
 | `knowledge/` | This knowledge base |
 | `reports/` | Output of `02_analyze.py`, regenerated and not versioned |
 | `01_fetch.py`, `02_analyze.py`, `03_verify.py` | Retrieval, analysis and checksum verification |
+| `04_export.py`, `docs/` | Counts per corpus and category, and the profile view on GitHub Pages ([specification.md](specification.md#adr-9-derived-counts-and-a-profile-view-on-github-pages)) |
 
 ## Reading paths
 
