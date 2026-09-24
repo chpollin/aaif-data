@@ -79,9 +79,9 @@ A `p` is one context paragraph, with `bibl/citedRange` for page or verse when gi
 
 ### RDF
 
-The RDF was generated at ingest by the stylesheet `aaif-TORDF.xsl` of the website, whose production state is kept in the presentation-layer repository `ZIMLAB/aaif`. Run locally with SaxonJS on the archived TEI of Sp_AP_SH3 and its bibliography, that stylesheet reproduces the published RDF triple for triple, and the public triple store at `https://gams.uni-graz.at/sesame/sparqlendpoint` holds the same numbers of entries and adverbs per corpus as the archived RDF (checked 2026-09-24).
+The RDF was generated at ingest by the stylesheet `aaif-TORDF.xsl` of the website, whose production state is kept in the presentation-layer repository `ZIMLAB/aaif`. Run locally with SaxonC on the archived TEI (`local-test-build/tordf_check.py` in `ZIMLAB/aaif`), that stylesheet reproduces the published RDF of all nine corpora and their bibliographies triple for triple, and the public triple store at `https://gams.uni-graz.at/sesame/sparqlendpoint` holds the same numbers of entries and adverbs per corpus as the archived RDF (checked 2026-09-24).
 
-- Every `p` becomes an `aaif:Entry` `https://gams.uni-graz.at/<PID>#En<n>`, `n` counting the preceding `p` elements. It links to its source with `aaif:source` (`<PID>.bibl#<id>`), carries the paragraph text as `gams:textualContent` and belongs to the corpus object through `rel:isPartOf` (`rel:` is `http://gams.uni-graz.at#`).
+- Every `p` becomes an `aaif:Entry` `https://gams.uni-graz.at/<PID>#En<n>`, `n` counting the preceding `p` elements, including those of the TEI header. It links to its source with `aaif:source` (`<PID>.bibl#<id>`), carries the paragraph text as `gams:textualContent` and belongs to the corpus object through `rel:isPartOf` (`rel:` is `http://gams.uni-graz.at#`).
 - Every syntagm becomes an `aaif:Phrase` (`…#En<n>Ph<m>`) with `aaif:text` and `aaif:annoText`, the syntagm with its annotations in a bracket notation (`[a|quedo|quedo|…]`).
 - Every `w` becomes a node of class `aaif:Adverb`, `aaif:Verb`, `aaif:Subject`, `aaif:Preposition`, `aaif:Article` or `aaif:Possessive`, linked from the phrase, with `aaif:text`, `aaif:position`, `aaif:lemma` and the categories decoded from `@function`.
 - Lemmas are nodes `https://gams.uni-graz.at/o:aaif.lemma#<lemma>` of class `aaif:Lemma` with `aaif:text`. The object `o:aaif.lemma` does not exist in GAMS.
@@ -128,7 +128,7 @@ The same adverb in the RDF, abbreviated:
 
 ## Known properties
 
-These properties were found by `02_analyze.py`, traced to their passages and, where they concern the website, checked against the public triple store. They are left unchanged in the archive.
+These properties were found by `02_analyze.py`, traced to their passages and, where they concern the website, checked against the public triple store. They are left unchanged in the archive. A repaired transformation in `ZIMLAB/aaif` corrects the corpus link, the target verb and subject, the structure other, the preposition contraction and the lemma IRIs once the operator deploys it and the corpora are re-ingested, the TEI properties need corrections of the TEI itself.
 
 - The RDF uses names of the `aaif:` namespace that the ontology does not declare, the ontology declares related names for the same concepts ([annotation-model.md](annotation-model.md)). The search form of the website uses the names of the RDF.
 - The headers of Fr_A_DHAA, Ro_ADP_aaif and Sp_AP_SH3 name their CMDI context with `ref[@type='context']`, the others with `ref[@type='corpus']`. The RDF of these three corpora therefore lacks the link from the corpus object to its context. The database search of the website always restricts by corpus and joins on that link, so the core of its query returns nothing for Fr_A_DHAA, Ro_ADP_aaif and Sp_AP_SH3 on the live triple store. These three corpora cannot be found through the search interface, only read as full text.
@@ -139,4 +139,5 @@ These properties were found by `02_analyze.py`, traced to their passages and, wh
 - The stated number of tagged adverbs in the header matches the TEI only in Sp_A_CDH and differs strongly in Fr_A_DHAA, Lt_P_aaif and Ro_ADP_aaif. The stated token count is a round placeholder in most headers and does not match the `all_words` sums.
 - `body/@xml:lang` uses `sp` for Spanish and `lt` for Latin, where BCP 47 has `es` and `la` (`lt` is Lithuanian).
 - The Sp_A_CDH bibliography carries the main title of the Sp_AP_SH3 bibliography, and the Ro_ADP_aaif bibliography says Rumanian where the corpus says Romanian.
+- The published entry IRIs of Lt_P_aaif are numbered one higher than its archived TEI yields, with otherwise identical triples. Since the entry number counts the header paragraphs as well, the TEI most likely lost one header paragraph after the RDF was written (inference). A re-ingest renumbers every entry of this corpus.
 - Four corpus objects declare their membership to `context:aaif` in a different PID form (`info:fedora/gams.uni-graz.at/context:aaif`) than the other five.

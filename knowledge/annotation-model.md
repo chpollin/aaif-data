@@ -133,7 +133,7 @@ Inflection values, the six semantic classes, the syntactic constructions, the wo
 - The ODD removes `@rend` from `w`, on which the transformation relies for null subjects and elided verbs.
 - The Latin corpus is absent from the description. Its adverbs mostly carry the inflection code `n` (neuter singular), which the description restricts to Romanian, while its header declares it.
 - The description names six semantic classes and adds undefined or other only in its overview table. Its overview also places part of text and coordinated under the possessive, where the prose defines them as verb categories.
-- The transformation version kept in `ZIMLAB/aaif` (dated 2021) reproduces the published RDF of Sp_AP_SH3 and its bibliography triple for triple. The larger corpora were not reproduced, because SaxonJS processes them too slowly.
+- The transformation version kept in `ZIMLAB/aaif` (dated 2021) reproduces the published RDF of all nine corpora and their bibliographies triple for triple, Lt_P_aaif up to the entry numbering ([data.md](data.md#known-properties)).
 
 ## Sources
 

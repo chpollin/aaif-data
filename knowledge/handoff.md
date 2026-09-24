@@ -17,6 +17,4 @@ This process inbox holds only open handoff points. Check source and current targ
 
 ## Open handoff points
 
-### Reproduction of the larger corpora
-
-Source. The comparison of locally generated and published RDF, which holds for Sp_AP_SH3 and its bibliography ([testing.md](testing.md#what-is-guaranteed)). Target. The same comparison for the other eight corpora, which needs Saxon for Java or a faster processor, because SaxonJS did not finish Fr_A_DHAA. The harness for it belongs to the local simulation planned in `ZIMLAB/aaif`.
+None.

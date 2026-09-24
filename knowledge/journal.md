@@ -44,3 +44,7 @@ Source. The three project papers and both versions of the annotation model on Ze
 ### 2026-09-24 korrigiert lemma IRIs and publication pages
 
 The shared lemma node across languages had been listed as a defect. The publications define lemmas within one language and let the search match lemma text, so the shared node is a side effect of the IRI pattern that does not affect the search. The LREC paper, cited from the website with pages 946–950, carries pages 953–957.
+
+### 2026-09-24 integriert reproduction of all corpora
+
+Source. The handoff point on the larger corpora. Target. [data.md](data.md#rdf), [testing.md](testing.md) and [annotation-model.md](annotation-model.md#unresolved-phenomena). Result. With SaxonC the check in `ZIMLAB/aaif` reproduces all nine corpora and their bibliographies, Lt_P_aaif with entry numbers shifted by one because the entry number counts header paragraphs. The same check shows that the repaired transformation changes exactly the intended triples. The repository is published as `chpollin/aaif-data`.

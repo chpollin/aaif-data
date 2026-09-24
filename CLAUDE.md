@@ -28,7 +28,7 @@ Retrieval, verification and analysis of the AAIF data, and its documentation. Co
 
 ## Known limits
 
-- The transformation in `ZIMLAB/aaif` was reproduced against the published RDF only for Sp_AP_SH3, because SaxonJS does not finish the large corpora ([knowledge/handoff.md](knowledge/handoff.md)).
+- The archived TEI of Lt_P_aaif yields entry numbers one lower than the published RDF ([knowledge/data.md](knowledge/data.md#known-properties)).
 - The Word documents from which the TEI was converted are not archived.
 
 ## Tooling
