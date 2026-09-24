@@ -1,4 +1,5 @@
-"""Harvest every TEI and RDF datastream of the AAIF objects from GAMS.
+"""Harvest every TEI and RDF datastream of the AAIF objects from GAMS, plus the
+documentation PDFs.
 
 Data flow: the Fedora object search on gams.uni-graz.at lists every object whose
 PID contains "aaif", the datastream list of each object is read, and every
@@ -41,13 +42,17 @@ FEDORA_ACCESS = "http://www.fedora.info/definitions/1/0/access/"
 
 # Datastream id -> (target folder, file extension). DESCRIPTION is the TEI prose
 # description of the annotation model in o:aaif.ontology, SCHEMA.RNG the schema
-# generated from the ODD in o:aaif.odd.
+# generated from the ODD in o:aaif.odd. The two PDFs document how the data came
+# about, the annotation tool manual (o:aaif.manual) and the printed model
+# description, so the archive stays readable without the website.
 ARCHIVED: dict[str, tuple[str, str]] = {
     "TEI_SOURCE": ("tei", "xml"),
     "DESCRIPTION": ("tei", "xml"),
     "RDF": ("rdf", "rdf"),
     "ONTOLOGY": ("rdf", "rdf"),
     "SCHEMA.RNG": ("schema", "rng"),
+    "PDF_STREAM": ("docs", "pdf"),
+    "DESCRIPTION_PDF": ("docs", "pdf"),
 }
 
 ROOT = Path(__file__).parent

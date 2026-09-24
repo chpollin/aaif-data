@@ -187,6 +187,17 @@
     "fetched": "2026-09-24"
   },
   {
+    "pid": "o:aaif.manual",
+    "dsid": "PDF_STREAM",
+    "label": "PDF Stream",
+    "mimeType": "application/pdf",
+    "url": "https://gams.uni-graz.at/archive/objects/o:aaif.manual/datastreams/PDF_STREAM/content",
+    "path": "data/docs/o-aaif.manual.PDF_STREAM.pdf",
+    "bytes": 997961,
+    "sha256": "33692f4cc0779d231660ef72683f97e1b2ccc1774a16e27d1d19059a12db33f1",
+    "fetched": "2026-09-24"
+  },
+  {
     "pid": "o:aaif.odd",
     "dsid": "TEI_SOURCE",
     "label": "TEI Source",
@@ -217,6 +228,17 @@
     "path": "data/tei/o-aaif.ontology.DESCRIPTION.xml",
     "bytes": 143624,
     "sha256": "764d6c6870fe80c3cde6b55774d89a7d5353dffb05feee56095e832c6622fd4f",
+    "fetched": "2026-09-24"
+  },
+  {
+    "pid": "o:aaif.ontology",
+    "dsid": "DESCRIPTION_PDF",
+    "label": "",
+    "mimeType": "application/pdf",
+    "url": "https://gams.uni-graz.at/archive/objects/o:aaif.ontology/datastreams/DESCRIPTION_PDF/content",
+    "path": "data/docs/o-aaif.ontology.DESCRIPTION_PDF.pdf",
+    "bytes": 493480,
+    "sha256": "4e91fcaafcb0caa8c50b4e06b2541d4638326318654eb2674c981b13bb4f3e95",
     "fetched": "2026-09-24"
   },
   {
