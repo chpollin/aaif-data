@@ -1,0 +1,3499 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns:refworks="www.refworks.com/xml/">
+    <fileDesc>
+      <titleStmt>
+        <title>Bibliography: Corpus of Adjective-Adverbs, mente-Adverbs and Prepositional Phrases</title>
+        <title type="abbreviation">Pt_APM_DeG</title>
+        <funder>
+          <orgName ref="http://d-nb.info/gnd/2054142-9">Fonds zur
+                                                  Förderung der wissenschaftlichen
+                                                  Forschung</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName corresp="https://romanistik.uni-graz.at" ref="http://d-nb.info/gnd/1069331422">Institut
+                                                  für Romanistik, Karl-Franzens-Universität Graz
+                                                  </orgName>
+        </publisher>
+        <authority>
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung - Austrian
+                                                  Centre for Digital Humanities,
+                                                  Karl-Franzens-Universität
+                                                  Graz</orgName>
+        </authority>
+        <distributor>
+          <orgName ref="https://gams.uni-graz.at">GAMS -
+                                                  Geisteswissenschaftliches Asset Management
+                                                  System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+        </availability>
+        <date when="2019">2019</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:aaif.ptapmdeg.bibl</idno>
+        <ref target="corpus:aaif.ptapmdeg" type="context"></ref>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="http://gams.uni-graz.at/aaif">Open
+                                                  Access Database &quot;Adjective-Adverb Interfaces in
+                                                  Romance</title>
+        <respStmt>
+          <resp>Project Leader</resp>
+          <persName ref="http://d-nb.info/gnd/1012341119">
+            <forename>Martin</forename>
+            <surname>Hummel</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Acquisition</resp>
+          <persName>
+            <forename>Katharina</forename>
+            <surname>Gerhalter</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Gerlinde</forename>
+            <surname>Schneider</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Christopher</forename>
+            <surname>Pollin</surname>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Bibliography</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listBibl>
+        <bibl xml:id="DeG1">
+          <name>André (&amp; Entrevistadora: Fernanda), m,
+                                                  24, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG2">
+          <name>André, m, 24, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG3">
+          <name>Daniel (&amp; Entrevistadora: Fernanda),     
+                                             m, 22, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG4">
+          <name>Daniel, m, 22, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG5">
+          <name>Érica (&amp; Entrevistadora: Fernanda), f,
+                                                  24, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG6">
+          <name>Érica, f, 24, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG7">
+          <name>Jorge Luís (&amp; Entrevistadora:
+                                                  Fernanda), m, 26, Informantes do Ensino Superior
+                                                  (&gt;23 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG8">
+          <name>Jorge Luís, m, 26, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG9">
+          <name>Mônica (&amp; Entrevistadora: Fernanda),
+                                                  f, 23, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG10">
+          <name>Mônica, f, 23, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG11">
+          <name>Rafaela (&amp; Entrevistadora: Fernanda),
+                                                  f, 24, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG12">
+          <name>Rafaela, f, 24, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG13">
+          <name>Regina (&amp; Entrevistadora: Fernanda),
+                                                  f, 23, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG14">
+          <name>Regina, f, 23, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG15">
+          <name>Valéria (&amp; Entrevistadora: Fernanda),
+                                                  f, 23, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG16">
+          <name>Valéria, f, 23, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG17">
+          <name>Carlos (&amp; Entrevistador: Enrico), m,
+                                                  18, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG18">
+          <name>Carlos, m, 18, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG19">
+          <name>Claire (&amp; Entrevistadora: Tatiana), f,
+                                                  17, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG20">
+          <name>Claire, f, 17, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG21">
+          <name>Cristina (&amp; Entrevistadora: Tatiana),
+                                                  f, 17, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG22">
+          <name>Cristina, f, 17, Informantes do Ensino
+                                                  Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement> 
+       </bibl>
+        <bibl xml:id="DeG23">
+          <name>Dario (&amp; Entrevistador: Enrico), m,
+                                                  20, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG24">
+          <name>Dario, m, 20, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG25">
+          <name>Fábio (&amp; Entrevistadora: Tatiana), m,
+                                                  18, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG26">
+          <name>Fábio, m, 18, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG27">
+          <name>Flávia (&amp; Entrevistador: Enrico), f,
+                                                  19, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG28">
+          <name>Flávia, f, 19, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG29">
+          <name>Flávia Regina (&amp; Entrevistadora:
+                                                  Tatiana), f, 18, Informantes do Ensino Médio (de
+                                                  18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG30">
+          <name>Flávia Regina, f, 18, Informantes do
+                                                  Ensino Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG31">
+          <name>Isabel (&amp; Entrevistador: Enrico), f,
+                                                  18, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG32">
+          <name>Isabel, f, 18, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG33">
+          <name>Jean (&amp; Entrevistadora: Tatiana), m,
+                                                  18, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG34">
+          <name>Jean, m, 18, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG35">
+          <name>Márcio (&amp; Entrevistadora: Tatiana), m,
+                                                  16, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG36">
+          <name>Márcio, m, 16, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG37">
+          <name>Maria de Fátima (&amp; Entrevistador:
+                                                  Enrico), f, 22, Informantes do Ensino Médio (de 18
+                                                  a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG38">
+          <name>Maria de Fátima, f, 22, Informantes do
+                                                  Ensino Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG39">
+          <name>Roney (&amp; Entrevistador: Enrico), m,
+                                                  19, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG40">
+          <name>Roney, m, 19, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG41">
+          <name>Suzana (&amp; Entrevistador: Enrico), f,
+                                                  18, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG42">
+          <name>Suzana, f, 18, Informantes do Ensino Médio                                             
+     (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>         
+ <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG43">
+          <name>Valéria Cristina (&amp; Entrevistadora:
+                                                  Tatiana), f, 17, Informantes do Ensino Médio (de
+                                                  18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG44">
+          <name>Valéria Cristina, f, 17, Informantes do
+                                                  Ensino Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG45">
+          <name>Wagner (&amp; Entrevistador: Enrico), m,
+                                                  18, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG46">
+          <name>Wagner, m, 18, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG47">
+          <name>Yuri (&amp; Entrevistadora: Tatiana), m,
+                                                  18, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG48">
+          <name>Yuri, m, 18, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG49">
+          <name>Carla (&amp; Entrevistadora: Dina
+                                                  Claudia), f, 16, Informantes do Ensino Fundamental
+                                                  (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG50">
+          <name>Carla, f, 16, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG51">
+          <name>Cristiane (&amp; Entrevistadora: Ana
+                                                  Maria), f, 16, Informantes do Ensino Fundamental
+                                                  (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG52">
+          <name>Cristiane, f, 16, Informantes do Ensino        
+                                          Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG53">
+          <name>José Augusto (&amp; Entrevistadora: Ana
+                                                  Maria), m, 15, Informantes do Ensino Fundamental
+                                                  (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG54">
+          <name>José Augusto, m, 15, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG55">
+          <name>Nilson (&amp; Entrevistadora: Ana Maria),
+                                                  m, 14, Informantes do Ensino Fundamental (de 13 a
+                                                  16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG56">
+          <name>Nilson, m, 14, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG57">
+          <name>Olivaldo (&amp; Entrevistadora: Ana
+                                                  Maria), m, 18, Informantes do Ensino Fundamental
+                                                  (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG58">
+          <name>Olivaldo, m, 18, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG59">
+          <name>Patricia (&amp; Entrevistadora: Dina
+                                                  Claudia), f, 15, Informantes do Ensino Fundamental
+                                                  (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG60">
+          <name>Patricia, f, 15, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG61">
+          <name>Paula Fernanda (&amp; Entrevistadora: Dina
+                                                  Claudia), f, 15, Informantes do Ensino Fundamental
+                                                  (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>    
+    </bibl>
+        <bibl xml:id="DeG62">
+          <name>Paula Fernanda, f, 15, Informantes do
+                                                  Ensino Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG63">
+          <name>Quéli (&amp; Entrevistadora: Ana Maria),
+                                                  f, 15, Informantes do Ensino Fundamental (de 13 a
+                                                  16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG64">
+          <name>Quéli, f, 15, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG65">
+          <name>Roberto (&amp; Entrevistadora: Ana Maria),
+                                                  m, 15, Informantes do Ensino Fundamental (de 13 a
+                                                  16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG66">
+          <name>Roberto, m, 15, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG67">
+          <name>Sônia (&amp; Entrevistadora: Dina
+                                                  Claudia), f, 14, Informantes do Ensino Fundamental
+                                                  (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG68">
+          <name>Sônia, f, 14, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG69">
+          <name>Vanessa (&amp; Entrevistadora: Ana Maria),
+                                                  f, 14, Informantes do Ensino Fundamental (de 13 a
+                                                  16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG70">
+          <name>Vanessa, f, 14, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG71">
+          <name>Viviane (&amp; Entrevistadora: Ana Maria),
+                                                  f, 15, Informantes do Ensino Fundamental (de 13 a                 
+                                 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG72">
+          <name>Viviane, f, 15, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG73">
+          <name>Alaine (&amp; Entrevistadora: Rosa), f, 9,
+                                                  Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG74">
+          <name>Alaine, f, 9, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG75">
+          <name>Alexsandro (&amp; Entrevistadora: Deise),
+                                                  m, 10, Informantes do Ensino Fundamental (de 9 a
+                                                  11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG76">
+          <name>Alexsandro, m, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG77">
+          <name>Ana Caroline (&amp; Entrevistadora:
+                                                  Deise), f, 11, Informantes do Ensino Fundamental
+                                                  (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG78">
+          <name>Ana Caroline, f, 11, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG79">
+          <name>Ana Maria (&amp; Entrevistadora: Rosa), f,
+                                                  12, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG80">
+          <name>Ana Maria, f, 12, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG81">
+          <name>Angela (&amp; Entrevistadora: Rosimeri),                                                 
+ f, 12, Informantes do Ensino Fundamental (de 9 a     
+                                             11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG82">
+          <name>Angela, f, 12, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG83">
+          <name>Artur (&amp; Entrevistadora: Rosimeri), m,
+                                                  11, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG84">
+          <name>Artur, m, 11, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG85">
+          <name>Carlos Vinícius (&amp; Entrevistadora:
+                                                  Rosimeri), m, Informantes do Ensino Fundamental
+                                                  (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG86">
+          <name>Carlos Vinícius, m, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG87">
+          <name>Daniel (&amp; Entrevistadora: Rosimeri),
+                                                  m, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG88">
+          <name>Daniel, m, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG89">
+          <name>Fábio Luís (&amp; Entrevistadora: Deise),
+                                                  m, 13, Informantes do Ensino Fundamental (de 9 a
+                                                  11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG90">
+          <name>Fábio Luís, m, 13, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG91">
+          <name>Fernando (&amp; Entrevistadora: Rosa), m,
+                                                  9, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG92">
+          <name>Fernando, m, 9, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG93">
+          <name>Flávia M. (&amp; Entrevistadora:
+                                                  Rosimeri), f, 12, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG94">
+          <name>Flávia M., f, 12, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG95">
+          <name>Flávia V. (&amp; Entrevistadora:
+                                                  Rosimeri), f, Informantes do Ensino Fundamental
+                                                  (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG96">
+          <name>Flávia V., f, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG97">
+          <name>Ivan Cláudio (&amp; Entrevistadora: Rosa),
+                                                  m, 11, Informantes do Ensino Fundamental (de 9 a
+                                                  11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG98">
+          <name>Ivan Cláudio, m, 11, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG99">
+          <name>Jéssica (&amp; Entrevistadora: Deise), f,
+                                                  11, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG100">
+          <name>Jéssica, f, 11, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG101">
+          <name>Juliana (&amp; Entrevistadora: Rosimeri),
+                                                  f, 11, Informantes do Ensino Fundamental (de 9 a
+                                                  11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1992">1992</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG102">
+          <name>Juliana, f, 11, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1992">1992</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG103">
+          <name>Letícia (&amp; Entrevistadora: Rosimeri),
+                                                  f, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG104">
+          <name>Letícia, f, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG105">
+          <name>Luanne (&amp; Entrevistadora: Deise), f,
+                                                  10, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG106">
+          <name>Luanne, f, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG107">
+          <name>Luís Carlos (&amp; Entrevistadora:
+                                                  Rosimeri), m, Informantes do Ensino Fundamental
+                                                  (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG108">
+          <name>Luís Carlos, m, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG109">
+          <name>Marcela (&amp; Entrevistadora: Rosa), f,
+                                                  12, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG110">
+          <name>Marcela, f, 12, Informantes do Ensino                                   
+               Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG111">
+          <name>Maria Carolina (&amp; Entrevistadora:
+                                                  Deise), f, 10, Informantes do Ensino Fundamental
+                                                  (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG112">
+          <name>Maria Carolina, f, 10, Informantes do
+                                                  Ensino Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG113">
+          <name>Mariana (&amp; Entrevistadora: Rosimeri),
+                                                  f, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG114">
+          <name>Mariana, f, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG115">
+          <name>Patrícia (&amp; Entrevistadora: Rosimeri),
+                                                  f, 13, Informantes do Ensino Fundamental (de 9 a
+                                                  11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG116">
+          <name>Patrícia, f, 13, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG117">
+          <name>Pedro (&amp; Entrevistadora: Rosimeri), m,
+                                                  13, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1992">1992</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG118">
+          <name>Pedro, m, 13, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1992">1992</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG119">
+          <name>Rachel (&amp; Entrevistadora: Deise), f,
+                                                  11, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG120">
+          <name>Rachel, f, 11, Informantes do Ensino                   
+                               Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG121">
+          <name>Rafael N. (&amp; Entrevistadora:
+                                                  Rosimeri), m, Informantes do Ensino Fundamental
+                                                  (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG122">
+          <name>Rafael N., m, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG123">
+          <name>Rafael N. S. (&amp; Entrevistadora: Rosa),
+                                                  m, 10, Informantes do Ensino Fundamental (de 9 a
+                                                  11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG124">
+          <name>Rafael N. S., m, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG125">
+          <name>Rafael S. (&amp; Entrevistadora:
+                                                  Rosimeri), m, 11, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG126">
+          <name>Rafael S., m, 11, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG127">
+          <name>Renato José (&amp; Entrevistadora:
+                                                  Rosimeri), m, 13, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1992">1992</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG128">
+          <name>Renato José, m, 13, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1992">1992</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG129">
+          <name>Rodrigo Bruno (&amp; Entrevistadora:
+                                                  Rosimeri), m, Informantes do Ensino Fundamental
+                                                  (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG130">
+          <name>Rodrigo Bruno, m, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG131">
+          <name>Roselane (&amp; Entrevistadora: Rosa), f,
+                                                  15, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG132">
+          <name>Roselane, f, 15, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG133">
+          <name>Sidney (&amp; Entrevistadora: Rosa), m,
+                                                  11, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG134">
+          <name>Sidney, m, 11, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG135">
+          <name>Thiago (&amp; Entrevistadora: Rosimeri),
+                                                  m, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG136">
+          <name>Thiago, m, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG137">
+          <name>Viviane (&amp; Entrevistadora: Rosimeri),
+                                                  f, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG138">
+          <name>Viviane, f, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG139">
+          <name>Wellington (&amp; Entrevistadora: Deise),
+                                                  m, 11, Informantes do Ensino Fundamental (de 9 a                   
+                               11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG140">
+          <name>Wellington, m, 11, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG141">
+          <name>Adilson (&amp; Entrevistadora: Margarete),
+                                                  m, 18, Informantes do C.A. Supletivo</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG142">
+          <name>Adilson, m, 18, Informantes do C.A.
+                                                  Supletivo</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG143">
+          <name>Adriana (&amp; Entrevistadora: Margarete),
+                                                  f, 15, Informantes do C.A. Supletivo</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG144">
+          <name>Adriana, f, 15, Informantes do C.A.
+                                                  Supletivo</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG145">
+          <name>Antônio José (&amp; Entrevistadora:
+                                                  Margarete), m, 22, Informantes do C.A.
+                                                  Supletivo</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG146">
+          <name>Antônio José, m, 22, Informantes do C.A.
+                                                  Supletivo</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG147">
+          <name>Francisco de Assis (&amp; Entrevistadora:
+                                                  Margarete), m, 20, Informantes do C.A.
+                                                  Supletivo</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG148">
+          <name>Francisco de Assis, m, 20, Informantes do
+                                                  C.A. Supletivo</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG149">
+          <name>José (&amp; Entrevistadora: Margarete), m,
+                                                  36, Informantes do C.A. Supletivo</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG150">
+          <name>José, m, 36, Informantes do C.A.
+                                                  Supletivo</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG151">
+          <name>Jucineide (&amp; Entrevistadora:
+                                                  Margarete), f, 19, Informantes do C.A.
+                                                  Supletivo</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG152">
+          <name>Jucineide, f, 19, Informantes do C.A.
+                                                  Supletivo</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG153">
+          <name>Maria Rosa (&amp; Entrevistadora:
+                                                  Margarete), f, 42, Informantes do C.A.
+                                                  Supletivo</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG154">
+          <name>Maria Rosa, f, 42, Informantes do C.A.
+                                                  Supletivo</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG155">
+          <name>Rosilda (&amp; Entrevistadora: Margarete),
+                                                  f, 22, Informantes do C.A. Supletivo</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG156">
+          <name>Rosilda, f, 22, Informantes do C.A.
+                                                  Supletivo</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG157">
+          <name>Alex (&amp; Entrevistadora: Thais), m, 7,
+                                                  Informantes da classe de alfabetização (de 5 a 8
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG158">
+          <name>Alex, m, 7, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG159">
+          <name>Bruna (&amp; Entrevistadora: Rosimeri), f,
+                                                  6, Informantes da classe de alfabetização (de 5 a
+                                                  8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG160">
+          <name>Bruna, f, 6, Informantes da classe de  
+                                                alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG161">
+          <name>Camila (&amp; Entrevistadora: Rosimeri),
+                                                  f, 6, Informantes da classe de alfabetização (de 5
+                                                  a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG162">
+          <name>Camila, f, 6, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG163">
+          <name>Eloísa (&amp; Entrevistadora: Thais), f,
+                                                  7, Informantes da classe de alfabetização (de 5 a
+                                                  8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG164">
+          <name>Eloísa, f, 7, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG165">
+          <name>Fábio (&amp; Entrevistadora: Thais), m, 8,
+                                                  Informantes da classe de alfabetização (de 5 a 8
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG166">
+          <name>Fábio, m, 8, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG167">
+          <name>Felipe (&amp; Entrevistadora: Thais), m,
+                                                  8, Informantes da classe de alfabetização (de 5 a
+                                                  8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG168">
+          <name>Felipe, m, 8, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG169">
+          <name>João (&amp; Entrevistadora: Rosimeri), m,
+                                                  6, Informantes da classe de alfabetização (de 5 a
+                                                  8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG170">
+          <name>João, m, 6, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG171">
+          <name>Juliana (&amp; Entrevistadora: Thais), f,
+                                                  7, Informantes da classe de alfabetização (de 5 a
+                                                  8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG172">
+          <name>Juliana, f, 7, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG173">
+          <name>Marta (&amp; Entrevistadora: Thais), f, 9,
+                                                  Informantes da classe de alfabetização (de 5 a 8
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG174">
+          <name>Marta, f, 9, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG175">
+          <name>Paulo Alexandre (&amp; Entrevistadora:
+                                                  Rosimeri), m, 6, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG176">
+          <name>Paulo Alexandre, m, 6, Informantes da
+                                                  classe de alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG177">
+          <name>Rafael (&amp; Entrevistadora: Rosimeri),
+                                                  m, 6, Informantes da classe de alfabetização (de 5
+                                                  a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG178">
+          <name>Rafael, m, 6, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG179">
+          <name>Sabrina Letícia (&amp; Entrevistadora:
+                                                  Rosimeri), f, 9, Informantes da classe de                        
+                          alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG180">
+          <name>Sabrina Letícia, f, 9, Informantes da
+                                                  classe de alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1991">1991</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG181">
+          <name>Sirlan (&amp; Entrevistadora: Rosimeri),
+                                                  m, 6, Informantes da classe de alfabetização (de 5
+                                                  a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1992">1992</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG182">
+          <name>Sirlan, m, 6, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1992">1992</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG183">
+          <name>Suellen (&amp; Entrevistadora: Thais), m,
+                                                  8, Informantes da classe de alfabetização (de 5 a
+                                                  8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG184">
+          <name>Suellen, m, 8, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG185">
+          <name>Thiago (&amp; Entrevistadora: Thais), m,
+                                                  9, Informantes da classe de alfabetização (de 5 a
+                                                  8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG186">
+          <name>Thiago, m, 9, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG187">
+          <name>Fernanda (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG188">
+          <name>Enrico (Entrevistador), m,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG189">
+          <name>Tatiana (Entrevistadora), f,                         
+                         Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG190">
+          <name>Dina Clauda (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG191">
+          <name>Ana Maria (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG192">
+          <name>Rosa (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG193">
+          <name>Deise (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG194">
+          <name>Rosimeri (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG195">
+          <name>Margarete (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG196">
+          <name>Thais (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio de Janeiro</settlement>
+        </bibl>
+        <bibl xml:id="DeG197">
+          <name>Aydano (&amp; Entrevistador: Valmir), m,
+                                                  30, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG198">
+          <name>Aydano, m, 30, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG199">
+          <name>Margarete (&amp; Entrevistador: Valmir),
+                                                  f, 20, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG200">
+          <name>Margarete, f, 20, Informantes do Ensino                   
+                               Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG201">
+          <name>Eliane (&amp; Entrevistador: Valmir), f,
+                                                  35, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG202">
+          <name>Eliane, f, 35, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG203">
+          <name>Lina (&amp; Entrevistadora: Monique), f,
+                                                  30, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG204">
+          <name>Lina, f, 30, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG205">
+          <name>Alex (&amp; Entrevistadora: Monique), m,
+                                                  29, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG206">
+          <name>Alex, m, 29, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG207">
+          <name>Pablo (&amp; Entrevistador: Angelo), m,
+                                                  17, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG208">
+          <name>Pablo, m, 17, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG209">
+          <name>Marcelo (&amp; Entrevistadora:
+                                                  Alessandra), m, 19, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG210">
+          <name>Marcelo, m, 19, Informantes do Ensino                                         
+         Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG211">
+          <name>Priscila (&amp; Entrevistadora: Tatiana),
+                                                  f, 17, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG212">
+          <name>Priscila, f, 17, Informantes do Ensino
+                                                  Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG213">
+          <name>Mariana (&amp; Entrevistadora: Eduardo
+                                                  Kenedy), f, 15, Informantes do Ensino Fundamental
+                                                  (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG214">
+          <name>Mariana, f, 15, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG215">
+          <name>Alfonso (&amp; Entrevistador: Eduardo
+                                                  kenedy), m, 15, Informantes do Ensino Fundamental
+                                                  (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG216">
+          <name>Alfonso, m, 15, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG217">
+          <name>Isabelle (&amp; Entrevistador: Angelo), f,
+                                                  15, Informantes do Ensino Fundamental (de 13 a 16
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG218">
+          <name>Isabelle, f, 15, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG219">
+          <name>Simone (&amp; Entrevistadora: Cíntia), f,
+                                                  15, Informantes do Ensino Fundamental (de 13 a 16
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG220">
+          <name>Simone, f, 15, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG221">
+          <name>Fábio (&amp; Entrevistador: Fabiano
+                                                  Henrique), m, 27, Informantes do Ensino
+                                                  Fundamental Supletivo</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG222">
+          <name>Fábio, m, 27, Informantes do Ensino
+                                                  Fundamental Supletivo</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG223">
+          <name>Josilene (&amp; Entrevistador: Fabiano
+                                                  Henrique), f, 21, Informantes do Ensino
+                                                  Fundamental Supletivo</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG224">
+          <name>Josilene, f, 21, Informantes do Ensino
+                                                  Fundamental Supletivo</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG225">
+          <name>Flávio (&amp; Entrevistador: Eduardo
+                                                  Kenedy), m, 10, Informantes do Ensino Fundamental
+                                                  (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG226">
+          <name>Flávio, m, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG227">
+          <name>Bruna (&amp; Entrevistadora: Cíntia), f,
+                                                  10, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG228">
+          <name>Bruna, f, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG229">
+          <name>Elizângela (Entrevistadir: Eduardo
+                                                  Kenedy), f, 10, Informantes do Ensino Fundamental
+                                                  (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG230">
+          <name>Elizângela, f, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG231">
+          <name>Luiz Eduardo (&amp; Entrevistadora:
+                                                  Simone), m, 7, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1997">1997</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG232">
+          <name>Luiz Eduardo, m, 7, Informantes da classe
+                                                  de alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1997">1997</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG233">
+          <name>Aline (&amp; Entrevistadora: Simone), f,
+                                                  7, Informantes da classe de alfabetização (de 5 a
+                                                  8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG234">
+          <name>Aline, f, 7, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG235">
+          <name>Fellipe (&amp; Entrevistadora: Simone), m,
+                                                  Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG236">
+          <name>Fellipe, m, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG237">
+          <name>Monique (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG238">
+          <name>Ângelo (Entrevistador), m,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG239">
+          <name>Alessandra (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG240">
+          <name>Tatiana (Entrevistadora), f,                                 
+                 Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG241">
+          <name>Eduardo Kenedy (Entrevistador), m,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG242">
+          <name>Cíntia (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG243">
+          <name>Fabiano Henrique (Entrevistador), m,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG244">
+          <name>Simone (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1998">1998</date>
+          <country>Brazil</country>
+          <settlement>Nitéroi</settlement>
+        </bibl>
+        <bibl xml:id="DeG245">
+          <name>João Carlos, m, 28, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG246">
+          <name>João Carlos, m, 28, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG247">
+          <name>Lisandra, f, 23, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG248">
+          <name>Lisandra, f, 23, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG249">
+          <name>Carla Beatriz, f, 21, Informantes do
+                                                  Ensino Médio (de 18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG250">
+          <name>Carla Beatriz, f, 21, Informantes do
+                                                  Ensino Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG251">
+          <name>Giovane, m, 17, Informantes do Ensino    
+                                              Médio (de 18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG252">
+          <name>Giovane, m, 17, Informantes do Ensino
+                                                  Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG253">
+          <name>Isabel, f, 16, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG254">
+          <name>Isabel, f, 16, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG255">
+          <name>Magda, f, 19, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG256">
+          <name>Magda, f, 19, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG257">
+          <name>Vanderlei, m, 17, Informantes do Ensino
+                                                  Médio (de 18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG258">
+          <name>Vanderlei, m, 17, Informantes do Ensino
+                                                  Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG259">
+          <name>Ary, m, 13, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG260">
+          <name>Ary, m, 13, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG261">
+          <name>Fábio, m, 14, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG262">
+          <name>Fábio, m, 14, Informantes do Ensino      
+                                            Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG263">
+          <name>Flávia, f, 14, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG264">
+          <name>Flávia, f, 14, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG265">
+          <name>Kelly Cristina, f, 17, Informantes do
+                                                  Ensino Fundamental (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG266">
+          <name>Kelly Cristina, f, 17, Informantes do
+                                                  Ensino Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG267">
+          <name>Daniele, f, 11, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG268">
+          <name>Daniele, f, 11, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG269">
+          <name>Felipe, m, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG270">
+          <name>Felipe, m, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG271">
+          <name>Mária Cláudia, f, 10, Informantes do
+                                                  Ensino Fundamental (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG272">
+          <name>Mária Cláudia, f, 10, Informantes do
+                                                  Ensino Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG273">
+          <name>Thiago, m, 10, Informantes do Ensino                                    
+              Fundamental (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG274">
+          <name>Thiago, m, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG275">
+          <name>Fernanda, f, 7, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG276">
+          <name>Fernanda, f, 7, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG277">
+          <name>Luana, f, 8, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG278">
+          <name>Luana, f, 8, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG279">
+          <name>Rafael, m, 8, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG280">
+          <name>Rafael, m, 8, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG281">
+          <name>Sisney, m, 7, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG282">
+          <name>Sisney, m, 7, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Rio Grande</settlement>
+        </bibl>
+        <bibl xml:id="DeG283">
+          <name>Carlos, m, 26, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG284">
+          <name>Carlos, m, 26, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG285">
+          <name>Diva, f, 31, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG286">
+          <name>Diva, f, 31, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG287">
+          <name>Glislaine, f, 21, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG288">
+          <name>Glislaine, f, 21, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG289">
+          <name>Ítalo (&amp; Entrevistador: Marcos), m,
+                                                  30, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG290">
+          <name>Ítalo, m, 30, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG291">
+          <name>Gerson, m, 19, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG292">
+          <name>Gerson, m, 19, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG293">
+          <name>Gustavo, m, 16, Informantes do Ensino
+                                                  Médio (de 18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG294">
+          <name>Gustavo, m, 16, Informantes do Ensino
+                                                  Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG295">
+          <name>Rosemeire, f, 19, Informantes do Ensino
+                                                  Médio (de 18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG296">
+          <name>Rosemeire, f, 19, Informantes do Ensino
+                                                  Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG297">
+          <name>Solange, f, 19, Informantes do Ensino
+                                                  Médio (de 18 a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG298">
+          <name>Solange, f, 19, Informantes do Ensino
+                                                  Médio (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG299">
+          <name>Emerson, m, 15, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG300">
+          <name>Emerson, m, 15, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG301">
+          <name>Gerlândia, f, 17, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG302">
+          <name>Gerlândia, f, 17, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG303">
+          <name>Lúcia, f, 16, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG304">
+          <name>Lúcia, f, 16, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG305">
+          <name>Vladimir, m, 14, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG306">
+          <name>Vladimir, m, 14, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG307">
+          <name>Julyana, f, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG308">
+          <name>Julyana, f, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG309">
+          <name>Olavo, m, 9, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG310">
+          <name>Olavo, m, 9, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG311">
+          <name>Sueli, f, 13, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG312">
+          <name>Sueli, f, 13, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG313">
+          <name>Wagner, m, 13, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG314">
+          <name>Wagner, m, 13, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG315">
+          <name>Daniele, f, 6, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG316">
+          <name>Daniele, f, 6, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG317">
+          <name>Pablo, m, 6, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG318">
+          <name>Pablo, m, 6, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG319">
+          <name>Talita, f, 6, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG320">
+          <name>Talita, f, 6, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1993">1993</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG321">
+          <name>Wesley, m, 7, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG322">
+          <name>Wesley, m, 7, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Natal</settlement>
+        </bibl>
+        <bibl xml:id="DeG323">
+          <name>Alcione (&amp; Entrevistadora: Cristiane),
+                                                  f, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG324">
+          <name>Alcione, f, Informantes do Ensino Superior
+                                                  (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG325">
+          <name>Enéas (&amp; Entrevistadora: Walkyria), m,
+                                                  Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG326">
+          <name>Enéas, m, Informantes do Ensino Superior
+                                                  (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG327">
+          <name>Ronaldo (&amp; Entrevistadora: Cristiane),
+                                                  m, 23, Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>          
+<term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG328">
+          <name>Ronaldo, m, 23, Informantes do Ensino
+                                                  Superior (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG329">
+          <name>Silvany (&amp; Entrevistadora: Paula), f,
+                                                  Informantes do Ensino Superior (&gt;23
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG330">
+          <name>Silvany, f, Informantes do Ensino Superior
+                                                  (&gt;23 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG331">
+          <name>Aleandro (&amp; Entrevistadora:
+                                                  Cristiane), m, Informantes do Ensino Médio (de 18
+                                                  a 20 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG332">
+          <name>Aleandro, m, Informantes do Ensino Médio
+                                                  (de 18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG333">
+          <name>Andréa (&amp; Entrevistadora: Cristiane),
+                                                  f, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG334">
+          <name>Andréa, f, Informantes do Ensino Médio (de
+                                                  18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG335">
+          <name>Cíntia (&amp; Entrevistadora: Cristiane),
+                                                  f, Informantes do Ensino Médio (de 18 a 20
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG336">
+          <name>Cíntia, f, Informantes do Ensino Médio (de
+                                                  18 a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG337">
+          <name>Gilson (&amp; Entrevistadora: Cristiane),
+                                                  m, 19, Informantes do Ensino Médio (de 18 a 20                                
+                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG338">
+          <name>Gilson (written part not included in
+                                                  corpus), m, 19, Informantes do Ensino Médio (de 18
+                                                  a 20 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG339">
+          <name>Ana Amélia (&amp; Entrevistadora:
+                                                  Cristiane), f, Informantes do Ensino Fundamental
+                                                  (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG340">
+          <name>Ana Amélia, f, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG341">
+          <name>Leonardo (&amp; Entrevistadora:
+                                                  Cristiane), m, Informantes do Ensino Fundamental
+                                                  (de 13 a 16 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG342">
+          <name>Leonardo, m, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG343">
+          <name>José Renato (&amp; Entrevistadora: Paula),
+                                                  m, Informantes do Ensino Fundamental (de 13 a 16
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG344">
+          <name>José Renato, m, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG345">
+          <name>Renata (&amp; Entrevistadora: Paula), f,
+                                                  Informantes do Ensino Fundamental (de 13 a 16
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG346">
+          <name>Renata, f, Informantes do Ensino
+                                                  Fundamental (de 13 a 16 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG347">
+          <name>Alexandra (&amp; Entrevistadora:                     
+                             Cristiane), f, Informantes do Ensino Fundamental
+                                                  (de 9 a 11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG348">
+          <name>Alexandra, f, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG349">
+          <name>Eduardo (&amp; Entrevistadora: Walkyria),
+                                                  m, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG350">
+          <name>Eduardo, m, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG351">
+          <name>Elisa (&amp; Entrevistadora: Cristiane),
+                                                  f, 10, Informantes do Ensino Fundamental (de 9 a
+                                                  11 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG352">
+          <name>Elisa, f, 10, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG353">
+          <name>Gustavo (&amp; Entrevistadora: Cristiane),
+                                                  m, Informantes do Ensino Fundamental (de 9 a 11
+                                                  anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG354">
+          <name>Gustavo, m, Informantes do Ensino
+                                                  Fundamental (de 9 a 11 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG355">
+          <name>Ana Paula (&amp; Entrevistadora:
+                                                  Walkyria), f, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG356">
+          <name>Ana Paula, f, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG357">
+          <name>Giovane (&amp; Entrevistadora: Cristiane),
+                                                  m, Informantes da classe de alfabetização (de 5 a
+                                                  8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG358">
+          <name>Giovane, m, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG359">
+          <name>Janaína (&amp; Entrevistadora: Cristiane),
+                                                  f, Informantes da classe de alfabetização (de 5 a
+                                                  8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG360">
+          <name>Janaína, f, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG361">
+          <name>Leonardo (&amp; Entrevistadora:
+                                                  Cristiane), m, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte oral</title>
+          <term>spoken</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG362">
+          <name>Leonardo, m, Informantes da classe de
+                                                  alfabetização (de 5 a 8 anos)</name>
+          <title>Parte escrita</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG363">
+          <name>Cristiane (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG364">
+          <name>Walkyria (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+        <bibl xml:id="DeG365">
+          <name>Paula (Entrevistadora), f,
+                                                  Entrevistadores</name>
+          <title>Relato de interação</title>
+          <term>written</term>
+          <date when="1994">1994</date>
+          <country>Brazil</country>
+          <settlement>Juiz de Fora</settlement>
+        </bibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>

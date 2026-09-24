@@ -1,0 +1,2595 @@
+<rdf:RDF xmlns:aaif="https://gams.uni-graz.at/o:aaif.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/" xmlns:functx="http://www.functx.com"
+  xmlns:gams="https://gams.uni-graz.at/o:gams-ontology/#" xmlns:gn="http://www.geonames.org/ontology#"
+  xmlns:rdau="http://rdaregistry.info/Elements/u/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rel="http://gams.uni-graz.at#" xmlns:t="http://www.tei-c.org/ns/1.0" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Acc.trag.">
+    <dcterms:creator>Lucius Accius</dcterms:creator>
+    <dc:title>Tragoediarum fragmenta</dc:title>
+    <dcterms:issued>1898</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Aetna.">
+    <dc:title>Aetna, carmen apendicis Vergilianae</dc:title>
+    <dcterms:issued>1966</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Afran.tog.">
+    <dcterms:creator>Lucius Afranius</dcterms:creator>
+    <dc:title>Comoediarum fragmenta</dc:title>
+    <dcterms:issued>1898</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ampel.">
+    <dcterms:creator>Lucius Ampelius</dcterms:creator>
+    <dc:title>Liber Memoralis</dc:title>
+    <dcterms:issued>1935</dcterms:issued>
+    <dcterms:created>imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Apic.">
+    <dcterms:creator>Apicius</dcterms:creator>
+    <dc:title>De re coquinaria</dc:title>
+    <dcterms:issued>1969</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Apul.apol.">
+    <dcterms:creator>Apuleius Madaurus Afer</dcterms:creator>
+    <dc:title>Apologia</dc:title>
+    <dcterms:issued>1959</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Apul.flor.">
+    <dcterms:creator>Apuleius Madaurus Afer</dcterms:creator>
+    <dc:title>Florida</dc:title>
+    <dcterms:issued>1959</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Apul.met.">
+    <dcterms:creator>Apuleius Madaurus Afer</dcterms:creator>
+    <dc:title>Metamorphoses (Asinus Aureus)</dc:title>
+    <dcterms:issued>1940</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Apul.mund.">
+    <dcterms:creator>Apuleius Madaurus Afer</dcterms:creator>
+    <dc:title>De mundo</dc:title>
+    <dcterms:issued>1973</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Apul.Plat.">
+    <dcterms:creator>Apuleius Madaurus Afer</dcterms:creator>
+    <dc:title>De Platonis et euius dogmate</dc:title>
+    <dcterms:issued>1973</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Apul.Socr.">
+    <dcterms:creator>Apuleius Madaurus Afer</dcterms:creator>
+    <dc:title>De deo Socratis</dc:title>
+    <dcterms:issued>1973</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Caecil.com.">
+    <dcterms:creator>Caecilius Statius Insuber Gallus</dcterms:creator>
+    <dc:title>Comoediarum fragmenta</dc:title>
+    <dcterms:issued>1898</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Caes.Civ.">
+    <dcterms:creator>Caius Iulius Caesar</dcterms:creator>
+    <dc:title>Comentarii belli civilis</dc:title>
+    <dcterms:issued>1950</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Caes.Gall.">
+    <dcterms:creator>Caius Iulius Caesar</dcterms:creator>
+    <dc:title>Comentarii belli Gallici</dc:title>
+    <dcterms:issued>1961</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cato.agr.">
+    <dcterms:creator>Marcus Porcius Cato Censorinus</dcterms:creator>
+    <dc:title>De agri cultura</dc:title>
+    <dcterms:issued>1974</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Università di Messina</dc:publisher>
+    <rdau:P60163>Messina</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cato.orat.">
+    <dcterms:creator>Marcus Porcius Cato Censorinus</dcterms:creator>
+    <dc:title>Orationum fragmenta</dc:title>
+    <dcterms:issued>1930</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Paravia</dc:publisher>
+    <rdau:P60163>Turin</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Catul.">
+    <dcterms:creator>Caius Valerius Catullus</dcterms:creator>
+    <dc:title>Carmina</dc:title>
+    <dcterms:issued>1958</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cels.">
+    <dcterms:creator>Aulus Cornelius Celsus</dcterms:creator>
+    <dc:title>De medicina</dc:title>
+    <dcterms:issued>1915</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cens.">
+    <dcterms:creator>Censorinus</dcterms:creator>
+    <dc:title>De die natali</dc:title>
+    <dcterms:issued>1964</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Rodopi</dc:publisher>
+    <rdau:P60163>Amsterdam</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.ac.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Academica</dc:title>
+    <dcterms:issued>1992</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Arat.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Aratea</dc:title>
+    <dcterms:issued>1972</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Arch.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro A. Licinio Archia Poeta Oratio</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Att.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Epistulae ad Atticum</dc:title>
+    <dcterms:issued>1965</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Brut.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Brutus</dc:title>
+    <dcterms:issued>1992</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.adBrut.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Epistulae ad Brutum</dc:title>
+    <dcterms:issued>1980</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Caecin.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro A. Caecina Oratio</dc:title>
+    <dcterms:issued>1909</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Cael.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro M. Caelio Rufo Oratio</dc:title>
+    <dcterms:issued>1905</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.catil.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>In L. Sergium Catilinam Orationes</dc:title>
+    <dcterms:issued>1905</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Cato.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Cato maior de senectute</dc:title>
+    <dcterms:issued>1917</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Cluent.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro A. Cluentio Habito oratio</dc:title>
+    <dcterms:issued>1905</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Deiot.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro rege Deiotaro oratio</dc:title>
+    <dcterms:issued>1918</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.div.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>De divinatione</dc:title>
+    <dcterms:issued>1890</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.divInCaec.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>in Q. Caecilium Nigrum oratio quae divinatio dicitur</dc:title>
+    <dcterms:issued>1917</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.dom.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>De domo sua ad pontifices oratio</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.fam.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Epistulae ad familiares</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.fat.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>De fato</dc:title>
+    <dcterms:issued>1890</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.fin.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>De finibus bonorum et malorum</dc:title>
+    <dcterms:issued>1915</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Flacc.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro L Valerio Flacco oratio</dc:title>
+    <dcterms:issued>1909</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Font.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro M. Fonteio orationes quae extant</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Har.Resp.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>De haruspicum responso oratio</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.inv.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Rhetorici libri qui vocantur de inventione</dc:title>
+    <dcterms:issued>1915</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Lael.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Laelius de amicitia</dc:title>
+    <dcterms:issued>1890</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.leg.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Librorum de legibus quae exstant</dc:title>
+    <dcterms:issued>1968</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.LegAgr.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>De lege agraria orationum quae exstant</dc:title>
+    <dcterms:issued>1909</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Lig.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro Q. Ligario oratio</dc:title>
+    <dcterms:issued>1918</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Manil.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro lege Manilia (de imperio Cn. Pompei) oratio</dc:title>
+    <dcterms:issued>1905</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Marcell.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro M. Claudio Marcello oratio</dc:title>
+    <dcterms:issued>1918</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Mil.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro T. Annio Milone oratio</dc:title>
+    <dcterms:issued>1918</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Mur.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro L. Licinio Murena oratio</dc:title>
+    <dcterms:issued>1905</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.NatDeor.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>De natura deorum</dc:title>
+    <dcterms:issued>1933</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.off.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>De officiis</dc:title>
+    <dcterms:issued>1932</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.orat.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Orator (ad M. Brutum)</dc:title>
+    <dcterms:issued>1932</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.deOrat.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>De oratore</dc:title>
+    <dcterms:issued>1955</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.parad.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Paradoxa stoicorum</dc:title>
+    <dcterms:issued>1890</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.part.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Partitiones oratoriae</dc:title>
+    <dcterms:issued>1942</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Phil.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>In M. Antonium orationes Philippicae</dc:title>
+    <dcterms:issued>1918</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Pis.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>In L. Calpurnium Pisonem oratio</dc:title>
+    <dcterms:issued>1909</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Planc.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro Cn. Plancio oratio</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.prov.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>De provinciis consularibus oratio</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.AdQFr.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Epistulae ad Quintum Fratrem</dc:title>
+    <dcterms:issued>1980</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.QRosc.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro Q. Roscio Gallo Comoedo oratio</dc:title>
+    <dcterms:issued>1909</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Quinct.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro C. Quinctio oratio</dc:title>
+    <dcterms:issued>1909</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.RabPerd.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro C. Rabirio perduellionis reo orationis quae exstant</dc:title>
+    <dcterms:issued>1909</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.RabPost.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Por C. Rabirio Postumo oratio</dc:title>
+    <dcterms:issued>1909</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.PRedAdQuir.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Post reditum ad quirites</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.PRedInSen.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Post reditum in senatu</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.rep.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Librorum de re publica quae exstant</dc:title>
+    <dcterms:issued>1890</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Sest.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro P. Sestio oratio</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.SRosc.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro Sex. Roscio Amerino oratio</dc:title>
+    <dcterms:issued>1905</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Sull.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Pro P. Cornelio Sulla oratio</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Tim.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Timaei Platonici versionis fragmenta</dc:title>
+    <dcterms:issued>1890</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.top.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Topica</dc:title>
+    <dcterms:issued>1949</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Tusc.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>Tusculanae disputationes</dc:title>
+    <dcterms:issued>1918</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Vatin.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>In P. Vatinium testem interrogatio</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Cic.Verr.">
+    <dcterms:creator>Marcus Tullius Cicero</dcterms:creator>
+    <dc:title>In C. Verrem orationes sex</dc:title>
+    <dcterms:issued>1917</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Colum.arb.">
+    <dcterms:creator>L. Iunius Columella</dcterms:creator>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Colum.">
+    <dcterms:creator>L. Iunius Columella</dcterms:creator>
+    <dc:title>Res rusticae</dc:title>
+    <dcterms:issued>2010</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Curt.">
+    <dcterms:creator>Q. Curtius Rufus</dcterms:creator>
+    <dc:title>Historiae Alexandri Magni</dc:title>
+    <dcterms:issued>1946</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Enn.ann.">
+    <dcterms:creator>Ennius</dcterms:creator>
+    <dc:title>Annales</dc:title>
+    <dcterms:issued>1985</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Enn.com.">
+    <dcterms:creator>Ennius</dcterms:creator>
+    <dc:title>Comoediarum fragmenta</dc:title>
+    <dcterms:issued>1898</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Enn.trag.">
+    <dcterms:creator>Ennius</dcterms:creator>
+    <dc:title>Tragoediarum fragmenta</dc:title>
+    <dcterms:issued>1967</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Cambridge classical texts</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#EpicedDrusi.">
+    <dc:title>Epicedion Drusi</dc:title>
+    <dcterms:issued>1979</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Fest.">
+    <dcterms:creator>Sex. Pompeius Festus</dcterms:creator>
+    <dc:title>Epitomae operis de verborum significatu</dc:title>
+    <dcterms:issued>1913</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Flor.epit.">
+    <dcterms:creator>Florus</dcterms:creator>
+    <dc:title>Epitoma de Tito Livio</dc:title>
+    <dcterms:issued>1938</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Librería dello Stato</dc:publisher>
+    <rdau:P60163>Rome</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Frontin.aq.">
+    <dcterms:creator>Sextus Iulius Frontinus</dcterms:creator>
+    <dc:title>De aquaeductu urbis Romae comentarius</dc:title>
+    <dcterms:issued>1973</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Frontin.grom.">
+    <dc:title>Excerpta e Frontini opere quodam gromatico</dc:title>
+    <dcterms:issued>1971</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Frontin.strat.">
+    <dcterms:creator>Sextus Iulius Frontinus</dcterms:creator>
+    <dc:title>Strategemata</dc:title>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Akademie Verlag</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Fronto.AdMCaes.">
+    <dcterms:creator>M. Cornelius Fronto Cirtensis</dcterms:creator>
+    <dc:title>Epistula ad M. Caesarem et invicem</dc:title>
+    <dcterms:issued>1954</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Brill</dc:publisher>
+    <rdau:P60163>Leiden</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Fronto.AdMAntoniumImpEpist.">
+    <dcterms:creator>M. Cornelius Fronto Cirtensis</dcterms:creator>
+    <dc:title>Epistula ad M. Antonium imperator</dc:title>
+    <dcterms:issued>1954</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Brill</dc:publisher>
+    <rdau:P60163>Leiden</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Gaius.inst.">
+    <dcterms:creator>Gaius iurisconsultus</dcterms:creator>
+    <dc:title>Institutiones</dc:title>
+    <dcterms:issued>1969</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Gall.epigr.">
+    <dcterms:creator>C. Asinius Gallus</dcterms:creator>
+    <dc:title>Epigramma</dc:title>
+    <dcterms:issued>1927</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Gell.">
+    <dcterms:creator>Aulus Gellius</dcterms:creator>
+    <dc:title>Noctes Atticae</dc:title>
+    <dcterms:issued>1990</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Germ.">
+    <dcterms:creator>Germanicus Caesar</dcterms:creator>
+    <dc:title>Aratea</dc:title>
+    <dcterms:issued>1976</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>The Athelone Press</dc:publisher>
+    <rdau:P60163>London</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Gratt.">
+    <dcterms:creator>Grattius</dcterms:creator>
+    <dc:title>Cynegetica</dc:title>
+    <dcterms:issued>1918</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>W. J. Thieme &amp; cie.</dc:publisher>
+    <rdau:P60163>California</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Hor.ars.">
+    <dcterms:creator>Quintus Horatius Flaccus</dcterms:creator>
+    <dc:title>De arte poetica</dc:title>
+    <dcterms:issued>1959</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Hor.carm.">
+    <dcterms:creator>Quintus Horatius Flaccus</dcterms:creator>
+    <dc:title>Carmina</dc:title>
+    <dcterms:issued>1959</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Hor.epist.">
+    <dcterms:creator>Quintus Horatius Flaccus</dcterms:creator>
+    <dc:title>Epistulae</dc:title>
+    <dcterms:issued>1959</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Hor.epod.">
+    <dcterms:creator>Quintus Horatius Flaccus</dcterms:creator>
+    <dc:title>Epodi</dc:title>
+    <dcterms:issued>1959</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Hor.sat.">
+    <dcterms:creator>Quintus Horatius Flaccus</dcterms:creator>
+    <dc:title>Saturae (sermones)</dc:title>
+    <dcterms:issued>1959</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Hyg.astr.">
+    <dcterms:creator>Hyginus</dcterms:creator>
+    <dc:title>Astronomica</dc:title>
+    <dcterms:issued>1983</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Hyg.fab.">
+    <dcterms:creator>Hyginus</dcterms:creator>
+    <dc:title>Fabulae</dc:title>
+    <dcterms:issued>1933</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Sijthoff</dc:publisher>
+    <rdau:P60163>Leyden</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Hyg.grom.">
+    <dcterms:creator>Hyginus</dcterms:creator>
+    <dc:title>De limitibus</dc:title>
+    <dcterms:issued>1971</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Hyg.munCastr.">
+    <dcterms:creator>Pseudo Hyginus</dcterms:creator>
+    <dc:title>De munitionibus castrorum</dc:title>
+    <dcterms:issued>1979</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Iust.">
+    <dcterms:creator>Marcus Iunianus Iustinus</dcterms:creator>
+    <dc:title>Epitoma historiarum Philippicarum Pompei Trogi</dc:title>
+    <dcterms:issued>2003</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Bibliotheca Augustana</dc:publisher>
+    <rdau:P60163>online</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Liv.">
+    <dcterms:creator>Titus Livius Patavinus</dcterms:creator>
+    <dc:title>Ab urbe condita</dc:title>
+    <dcterms:issued>1914</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Liv.perioch.">
+    <dc:title>operis Liviani epitoma</dc:title>
+    <dcterms:issued>1984</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Iuv.">
+    <dcterms:creator>D. Iunius Iuvenalis</dcterms:creator>
+    <dc:title>Carmina</dc:title>
+    <dcterms:issued>1959</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Lucan.">
+    <dcterms:creator>M. Anneus Lucanus</dcterms:creator>
+    <dc:title>Bellum civile</dc:title>
+    <dcterms:issued>1927</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Basil Blackwell</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Lucil.">
+    <dcterms:creator>C. Lucilius</dcterms:creator>
+    <dc:title>Saturarum fragmenta</dc:title>
+    <dcterms:issued>1904</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Lucr.">
+    <dcterms:creator>Titus Lucretius Carus</dcterms:creator>
+    <dc:title>De rerum natura</dc:title>
+    <dcterms:issued>1953</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Manil.">
+    <dcterms:creator>M. Manilius</dcterms:creator>
+    <dc:title>Astronomica</dc:title>
+    <dcterms:issued>1927</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Mart.">
+    <dcterms:creator>M. Valerius Martialis</dcterms:creator>
+    <dc:title>Epigrammata</dc:title>
+    <dcterms:issued>1925</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Mela.">
+    <dcterms:creator>Pomponius Mela</dcterms:creator>
+    <dc:title>De chorographia</dc:title>
+    <dcterms:issued>1971</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Universitas Gothoburgensis</dc:publisher>
+    <rdau:P60163>Stockholm</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Naev.com.">
+    <dcterms:creator>Cn. Naevius</dcterms:creator>
+    <dc:title>Comoediarum fragmenta</dc:title>
+    <dcterms:issued>1898</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Naev.trag.">
+    <dcterms:creator>Cn. Naevius</dcterms:creator>
+    <dc:title>Tragoediarum fragmenta</dc:title>
+    <dcterms:issued>1898</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Ages.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Agesilaus</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Alc.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Alcibiades</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Arist.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Aristides</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Att.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Atticus</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Dat.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Datames</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Epam.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Epaminondas</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Eum.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Eumenes</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Ham.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Hamilcar</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Hann.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Hannibal</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Iph.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Iphicrates</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Milt.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Miltiades</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Paus.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Pausanias</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Nep.Them.">
+    <dcterms:creator>Cornelius Nepos</dcterms:creator>
+    <dc:title>Themistocles</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Novius.Atell.">
+    <dcterms:creator>Novius</dcterms:creator>
+    <dc:title>Atellanarum fragmenta</dc:title>
+    <dcterms:issued>1898</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Octavia.">
+    <dc:title>Octavia</dc:title>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ov.am.">
+    <dcterms:creator>Publius Ovidius Naso</dcterms:creator>
+    <dc:title>Amores</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ov.ars.">
+    <dcterms:creator>Publius Ovidius Naso</dcterms:creator>
+    <dc:title>Ars amatoria</dc:title>
+    <dcterms:issued>1979</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ov.epist.">
+    <dcterms:creator>Publius Ovidius Naso</dcterms:creator>
+    <dc:title>Epistulae (heroides)</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ov.fast.">
+    <dcterms:creator>Publius Ovidius Naso</dcterms:creator>
+    <dc:title>Fasti</dc:title>
+    <dcterms:issued>1978</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ov.Ibis.">
+    <dcterms:creator>Publius Ovidius Naso</dcterms:creator>
+    <dc:title>Ibis</dc:title>
+    <dcterms:issued>1979</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ov.met.">
+    <dcterms:creator>Publius Ovidius Naso</dcterms:creator>
+    <dc:title>Metamorphoses</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ov.Pont.">
+    <dcterms:creator>Publius Ovidius Naso</dcterms:creator>
+    <dc:title>Epistulae ex Ponto</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ov.rem.">
+    <dcterms:creator>Publius Ovidius Naso</dcterms:creator>
+    <dc:title>Remedia amoris</dc:title>
+    <dcterms:issued>1979</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ov.trist.">
+    <dcterms:creator>Publius Ovidius Naso</dcterms:creator>
+    <dc:title>Tristia</dc:title>
+    <dcterms:issued>1967</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Karl Winter</dc:publisher>
+    <rdau:P60163>Heidelberg</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Pacuv.trag.">
+    <dcterms:creator>M. Pacuvius</dcterms:creator>
+    <dc:title>Tragoediarum fragmenta</dc:title>
+    <dcterms:issued>1898</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Pers.">
+    <dcterms:creator>A. Persius Flaccus</dcterms:creator>
+    <dc:title>Satura</dc:title>
+    <dcterms:issued>1959</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Petron.">
+    <dcterms:creator>Petronius (arbiter)</dcterms:creator>
+    <dc:title>Satyrica</dc:title>
+    <dcterms:issued>1983</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>De Gruyter</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Phaedr.">
+    <dcterms:creator>Phaedrus Augusti libertus</dcterms:creator>
+    <dc:title>Fabulae</dc:title>
+    <dcterms:issued>1969</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Augus Taurinorum, osv.</dc:publisher>
+    <rdau:P60163>Turin</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Amph.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Amphitruo</dc:title>
+    <dcterms:issued>1895</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Asin.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Asinaria</dc:title>
+    <dcterms:issued>1895</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Aul.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Aulularia</dc:title>
+    <dcterms:issued>1895</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Bacch.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Bacchides</dc:title>
+    <dcterms:issued>1895</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Capt.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Captivi</dc:title>
+    <dcterms:issued>1895</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Cas.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Casina</dc:title>
+    <dcterms:issued>1895</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Cist.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Cistellaria</dc:title>
+    <dcterms:issued>1895</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Curc.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Curculio</dc:title>
+    <dcterms:issued>1895</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Epid.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Epidicus</dc:title>
+    <dcterms:issued>1895</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Men.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Menaechmi</dc:title>
+    <dcterms:issued>1895</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Merc.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Mercator</dc:title>
+    <dcterms:issued>1895</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Mil.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Miles Gloriosus</dc:title>
+    <dcterms:issued>1896</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Most.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Mostellaria</dc:title>
+    <dcterms:issued>1896</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Persa.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Persa</dc:title>
+    <dcterms:issued>1896</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Poen.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Poenulus</dc:title>
+    <dcterms:issued>1896</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Pseud.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Pseudolus</dc:title>
+    <dcterms:issued>1896</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Rud.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Rudens</dc:title>
+    <dcterms:issued>1896</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Stich.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Stichus</dc:title>
+    <dcterms:issued>1896</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Trin.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Trinummus</dc:title>
+    <dcterms:issued>1896</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Truc.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Truculentus</dc:title>
+    <dcterms:issued>1896</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plaut.Vid.">
+    <dcterms:creator>Titus Maccius Plautus</dcterms:creator>
+    <dc:title>Vidularia</dc:title>
+    <dcterms:issued>1896</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plin.nat.">
+    <dcterms:creator>C. Secundus Plinius</dcterms:creator>
+    <dc:title>Naturalis historia</dc:title>
+    <dcterms:issued>1892</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plin.epist.">
+    <dcterms:creator>C. Plinius Caecilius Secundos</dcterms:creator>
+    <dc:title>Epistulae</dc:title>
+    <dcterms:issued>1966</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Plin.paneg.">
+    <dcterms:creator>C. Plinius Caecilius Secundos</dcterms:creator>
+    <dc:title>Panegyricus</dc:title>
+    <dcterms:issued>1964</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Pompon.praetext.">
+    <dcterms:creator>P. Pomponius Secundus</dcterms:creator>
+    <dc:title>Fabularum praetextarum fragmenta</dc:title>
+    <dcterms:issued>1898</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Prop.">
+    <dcterms:creator>Sex. Propertius</dcterms:creator>
+    <dc:title>Elegiae</dc:title>
+    <dcterms:issued>1963</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Publil.">
+    <dcterms:creator>Publilius Syrus</dcterms:creator>
+    <dc:title>Sententiae</dc:title>
+    <dcterms:issued>1880</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Theobaldus Griebenus</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#QCic.pet.">
+    <dcterms:creator>Q. Tullius Cicero</dcterms:creator>
+    <dc:title>Commentariolum petitionis</dc:title>
+    <dcterms:issued>1958</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Quint.decl.">
+    <dcterms:creator>M. Fabius Quintilianus</dcterms:creator>
+    <dc:title>Declamationes minores</dc:title>
+    <dcterms:issued>1984</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>De Gruyter</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Quint.inst.">
+    <dcterms:creator>M. Fabius Quintilianus</dcterms:creator>
+    <dc:title>Institutio oratoria</dc:title>
+    <dcterms:issued>1970</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>De Gruyter</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#PsQuint.decl.">
+    <dcterms:creator>Ps. M. Fabius Quintilianos</dcterms:creator>
+    <dc:title>Declamationes maiores</dc:title>
+    <dcterms:issued>1982</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>De Gruyter</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Rhet.Her.">
+    <dc:title>Rhetorica ad Herennium</dc:title>
+    <dcterms:issued>1923</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Rut.Lup.">
+    <dcterms:creator>Publius Rutilius Rufus</dcterms:creator>
+    <dc:title>De vita sua</dc:title>
+    <dcterms:issued>1914</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sall.Catil.">
+    <dcterms:creator>C. Sallustius Crispus</dcterms:creator>
+    <dc:title>De coniuratione Catilinae</dc:title>
+    <dcterms:issued>1957</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sall.epist.">
+    <dcterms:creator>C. Sallustius Crispus</dcterms:creator>
+    <dc:title>Epistulae</dc:title>
+    <dcterms:issued>1970</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sall.hist.">
+    <dcterms:creator>C. Sallustius Crispus</dcterms:creator>
+    <dc:title>Historiarum reliquiae</dc:title>
+    <dcterms:issued>1893</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sall.Iug.">
+    <dcterms:creator>C. Sallustius Crispus</dcterms:creator>
+    <dc:title>De bello Iugurthino</dc:title>
+    <dcterms:issued>1957</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#PsSall.rep.">
+    <dcterms:creator>Ps. C. Sallustius Crispus</dcterms:creator>
+    <dc:title>Epistulae ad Caesarem senem de re publica</dc:title>
+    <dcterms:issued>1970</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#ScribLarg.">
+    <dcterms:creator>Scribonius Largus</dcterms:creator>
+    <dc:title>Compositiones</dc:title>
+    <dcterms:issued>1983</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.contr.">
+    <dcterms:creator>L. Annaeus Seneca (rhetor)</dcterms:creator>
+    <dc:title>Controversiae</dc:title>
+    <dcterms:issued>1974</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.suas.">
+    <dcterms:creator>L. Annaeus Seneca (rhetor)</dcterms:creator>
+    <dc:title>Suasoriae</dc:title>
+    <dcterms:issued>1974</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Loeb Classical Library</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.Ag.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Agamemno</dc:title>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.apocol.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Divi Claudii apocolocyntosis</dc:title>
+    <dcterms:issued>1984</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Cambridge classical texts</dc:publisher>
+    <rdau:P60163>Cambridge</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.benef.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>De beneficiis</dc:title>
+    <dcterms:issued>1914</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.clem.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>De clementia</dc:title>
+    <dcterms:issued>1900</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.dial.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Dialogi</dc:title>
+    <dcterms:issued>1977</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.epist.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Epistulae morales ad Lucilium</dc:title>
+    <dcterms:issued>1965</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.HercF.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Hercules (furens)</dc:title>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.HercO.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Hercules (Oataeus)</dc:title>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.Med.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Medea</dc:title>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.nat.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Naturales quaestiones</dc:title>
+    <dcterms:issued>1929</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.Oed.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Oedipus</dc:title>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.Phaedr.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Phaedra</dc:title>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.Phoen.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Phoenissae</dc:title>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.Thy.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Thyestes</dc:title>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sen.Tro.">
+    <dcterms:creator>L. Annaeus Seneca (philosophus)</dcterms:creator>
+    <dc:title>Troades</dc:title>
+    <dcterms:issued>1987</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Sil.">
+    <dcterms:creator>Ti. Catius Asconius Silius Italicus</dcterms:creator>
+    <dc:title>Punica</dc:title>
+    <dcterms:issued>1905</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Sumptibus G. Bell et filiorum</dc:publisher>
+    <rdau:P60163>London</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Stat.silv.">
+    <dcterms:creator>P. Papinius Statius</dcterms:creator>
+    <dc:title>Silvae</dc:title>
+    <dcterms:issued>1970</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Stat.Theb.">
+    <dcterms:creator>P. Papinius Statius</dcterms:creator>
+    <dc:title>Thebais</dc:title>
+    <dcterms:issued>1983</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Brill</dc:publisher>
+    <rdau:P60163>Lugduni Batavorum</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.Aug.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita Augusti</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.Cal.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita caligulae</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.Claud.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita Claudii</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.Dom.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita Domitiani</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.galba.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita Galbae</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.Iul.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita Iulii</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.Nero.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita Neronis</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.Otho.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita Othonis</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.Tib.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita Tiberii</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.Tit.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita Titi</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.Vesp.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita Vespasiani</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Suet.Vit.">
+    <dcterms:creator>C. Suetonius Tranquillus</dcterms:creator>
+    <dc:title>Vita Vitellii</dc:title>
+    <dcterms:issued>1908</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Stuttgart</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Tac.Agr.">
+    <dcterms:creator>(P.) Cornelius Tacitus</dcterms:creator>
+    <dc:title>De vita Iulii Agricolae</dc:title>
+    <dcterms:issued>1939</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Tac.ann.">
+    <dcterms:creator>(P.) Cornelius Tacitus</dcterms:creator>
+    <dc:title>Annales</dc:title>
+    <dcterms:issued>1906</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Tac.dial.">
+    <dcterms:creator>(P.) Cornelius Tacitus</dcterms:creator>
+    <dc:title>Dialogus de oratoribus</dc:title>
+    <dcterms:issued>1939</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Tac.Germ.">
+    <dcterms:creator>(P.) Cornelius Tacitus</dcterms:creator>
+    <dc:title>Germania</dc:title>
+    <dcterms:issued>1939</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Tac.hist.">
+    <dcterms:creator>(P.) Cornelius Tacitus</dcterms:creator>
+    <dc:title>Historiae</dc:title>
+    <dcterms:issued>1911</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ter.Ad.">
+    <dcterms:creator>P. Terentius Afer</dcterms:creator>
+    <dc:title>Adelphoe</dc:title>
+    <dcterms:issued>1958</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ter.Andr.">
+    <dcterms:creator>P. Terentius Afer</dcterms:creator>
+    <dc:title>Andria</dc:title>
+    <dcterms:issued>1958</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ter.Eun.">
+    <dcterms:creator>P. Terentius Afer</dcterms:creator>
+    <dc:title>Eunuchus</dc:title>
+    <dcterms:issued>1958</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ter.Haut.">
+    <dcterms:creator>P. Terentius Afer</dcterms:creator>
+    <dc:title>Heautontimorumenos</dc:title>
+    <dcterms:issued>1958</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ter.Hec.">
+    <dcterms:creator>P. Terentius Afer</dcterms:creator>
+    <dc:title>hecyra</dc:title>
+    <dcterms:issued>1958</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Ter.Phorm.">
+    <dcterms:creator>P. Terentius Afer</dcterms:creator>
+    <dc:title>Phormio</dc:title>
+    <dcterms:issued>1958</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Tib.">
+    <dcterms:creator>Albius Tibullus</dcterms:creator>
+    <dc:title>Elegiae</dc:title>
+    <dcterms:issued>1971</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>E. J. Brill</dc:publisher>
+    <rdau:P60163>Leiden</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Trabea.com.">
+    <dcterms:creator>Trabea</dcterms:creator>
+    <dc:title>Comoediarum palliatarum fragmenta</dc:title>
+    <dcterms:issued>1958</dcterms:issued>
+    <dcterms:created>Early</dcterms:created>
+    <dc:publisher>Clarendon University Press</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#ValMax.">
+    <dcterms:creator>Valerius Maximus</dcterms:creator>
+    <dc:title>Dicta et facta memorabilia</dc:title>
+    <dcterms:issued>1888</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Varro.ling.">
+    <dcterms:creator>M. Terentius Varro Reatinus</dcterms:creator>
+    <dc:title>De lingua latina</dc:title>
+    <dcterms:issued>1910</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Varro.Men.">
+    <dcterms:creator>M. Terentius Varro Reatinus</dcterms:creator>
+    <dc:title>Menippearum fragmenta</dc:title>
+    <dcterms:issued>1963</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Weidmann</dc:publisher>
+    <rdau:P60163>Berlin</rdau:P60163>
+    <dc:type>Drama</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Varro.rust.">
+    <dcterms:creator>M. Terentius Varro Reatinus</dcterms:creator>
+    <dc:title>Res rusticae</dc:title>
+    <dcterms:issued>1929</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Vell.">
+    <dcterms:creator>Velleius Paterculus</dcterms:creator>
+    <dc:title>Historiae Romanae</dc:title>
+    <dcterms:issued>1982</dcterms:issued>
+    <dcterms:created>Imperial</dcterms:created>
+    <dc:publisher>Belles Lettres</dc:publisher>
+    <rdau:P60163>Paris</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Verg.Aen.">
+    <dcterms:creator>Publius Vergilius Maro</dcterms:creator>
+    <dc:title>Aeneis</dc:title>
+    <dcterms:issued>1972</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Verg.ecl.">
+    <dcterms:creator>Publius Vergilius Maro</dcterms:creator>
+    <dc:title>Eclogae</dc:title>
+    <dcterms:issued>1972</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Verg.georg.">
+    <dcterms:creator>Publius Vergilius Maro</dcterms:creator>
+    <dc:title>Georgica</dc:title>
+    <dcterms:issued>1972</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Oxford classical texts</dc:publisher>
+    <rdau:P60163>Oxford</rdau:P60163>
+    <dc:type>Poetry</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+  <dcterms:BibliographicResource rdf:about="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl#Vitr.">
+    <dcterms:creator>Vitruvius</dcterms:creator>
+    <dc:title>De architectura</dc:title>
+    <dcterms:issued>1912</dcterms:issued>
+    <dcterms:created>Classical</dcterms:created>
+    <dc:publisher>Teubner</dc:publisher>
+    <rdau:P60163>Leipzig</rdau:P60163>
+    <dc:type>Prose</dc:type>
+    <dcterms:coverage>Ancient Rome</dcterms:coverage>
+    <rel:isPartOf rdf:resource="https://gams.uni-graz.at/o:aaif.ltpaaif.bibl"/>
+  </dcterms:BibliographicResource>
+</rdf:RDF>

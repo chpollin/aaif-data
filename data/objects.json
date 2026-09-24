@@ -1,0 +1,3848 @@
+[
+  {
+    "pid": "cirilo:Context.aaif",
+    "title": "Context Object",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "KML",
+        "label": "OCG KML Representation of Context",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "KML_REF",
+        "label": "Reference to KML stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Context resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "cirilo:TEI.aaif",
+    "title": "TEI Object",
+    "datastreams": [
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "cirilo:aaif",
+    "title": "Initializer Object",
+    "datastreams": [
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "TEI to RDF Mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "KML_TEMPLATE",
+        "label": "KML Template",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CONTEXTtoFO",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOMETS",
+        "label": "Transformation to DFG Viewer METS Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CONTEXTtoHTML",
+        "label": "Context to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements about this object",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "TEITOMETS",
+        "label": "Stylesheet to generate dfgMETS from a TEI Document",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERYtoHSSF",
+        "label": "Enter a label here.",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERYtoHTML",
+        "label": "Enter a label here.",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEItoHSSF",
+        "label": "Enter a label here.",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "XSLT_PIPELINES",
+        "label": "XSLT Pipelines",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOTEI",
+        "label": "",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "context:aaif",
+    "title": "Adjective-Adverb Interfaces in Romance. Open Access Database",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "KML",
+        "label": "OCG KML Representation of Context",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "KML_REF",
+        "label": "Reference to KML stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Context resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HOWTO",
+        "label": "",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "IMPRINT",
+        "label": "Imprint",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "INTRO",
+        "label": "Introduction",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "ABOUT",
+        "label": "",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "BIBLIOGRAPHY",
+        "label": "",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "corpus:aaif.fradhaa",
+    "title": "Fr_A_DHAA",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "CMDI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TCF",
+        "label": "TCF Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Corpus resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TODSPIN",
+        "label": "CLARIN Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOCMDI",
+        "label": "Extract Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOTCF",
+        "label": "Convert to Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "corpus:aaif.fraweb",
+    "title": "Fr_A_Web",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "CMDI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TCF",
+        "label": "TCF Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Corpus resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TODSPIN",
+        "label": "CLARIN Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOCMDI",
+        "label": "Extract Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOTCF",
+        "label": "Convert to Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "corpus:aaif.itaaaif",
+    "title": "It_A_aaif",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "CMDI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TCF",
+        "label": "TCF Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Corpus resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TODSPIN",
+        "label": "CLARIN Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOCMDI",
+        "label": "Extract Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOTCF",
+        "label": "Convert to Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "corpus:aaif.ltpaaif",
+    "title": "Lt_P_aaif",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "CMDI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TCF",
+        "label": "TCF Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Corpus resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TODSPIN",
+        "label": "CLARIN Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOCMDI",
+        "label": "Extract Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOTCF",
+        "label": "Convert to Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "corpus:aaif.ptapmdeg",
+    "title": "Pt_APM_DeG",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "CMDI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TCF",
+        "label": "TCF Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Corpus resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TODSPIN",
+        "label": "CLARIN Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOCMDI",
+        "label": "Extract Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOTCF",
+        "label": "Convert to Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "corpus:aaif.roadpaaif",
+    "title": "Ro_AP_aaif",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "CMDI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TCF",
+        "label": "TCF Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Corpus resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TODSPIN",
+        "label": "CLARIN Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOCMDI",
+        "label": "Extract Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOTCF",
+        "label": "Convert to Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "corpus:aaif.spacdh",
+    "title": "Sp_A_CDH",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "CMDI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TCF",
+        "label": "TCF Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Corpus resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TODSPIN",
+        "label": "CLARIN Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOCMDI",
+        "label": "Extract Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOTCF",
+        "label": "Convert to Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "corpus:aaif.spapcordiam",
+    "title": "Sp_AP_Cordiam",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "CMDI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TCF",
+        "label": "TCF Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Corpus resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TODSPIN",
+        "label": "CLARIN Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOCMDI",
+        "label": "Extract Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOTCF",
+        "label": "Convert to Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "corpus:aaif.spapsh3",
+    "title": "Sp_AP_SH3",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "CMDI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TCF",
+        "label": "TCF Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Corpus resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TODSPIN",
+        "label": "CLARIN Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOCMDI",
+        "label": "Extract Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TOTCF",
+        "label": "Convert to Text Corpus Format",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.fradhaa",
+    "title": "Corpus French Dictionnaire historique de l’adjectif-adverbe: Fr_A_DHAA",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_SOURCE",
+        "label": "METS Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_REF",
+        "label": "Reference to mets stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.fradhaa.bibl",
+    "title": "Bibliography: Corpus French Dictionnaire historique de l’adjectif-adverbe",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.fraweb",
+    "title": "Corpus of French Adjective-Adverbs in informal texts from the Web: Fr_A_Web",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.fraweb.bibl",
+    "title": "Bibliography: Corpus of French Adjective-Adverbs in informal texts from the Web",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.itaaaif",
+    "title": "Corpus of Adjective-Adverbs in Southern Varieties of Italy: It_A_aaif",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.itaaaif.bibl",
+    "title": "Bibliography: Corpus Adjective-Adverbs in Southern Varieties of Italy:It_A_aaif",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.ltpaaif",
+    "title": "Corpus of Latin Prepositional Adverbials with Adjectival Core: Lt_P_aaif",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.ltpaaif.bibl",
+    "title": "Bibliography: Corpus of Latin Prepositional Adverbials with Adjectival Core: Lt_P_aaif",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.manual",
+    "title": "User’s Manual for the aaif-Annotation Tool",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "application/pdf"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "PDF_STREAM",
+        "label": "PDF Stream",
+        "mimeType": "application/pdf"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.odd",
+    "title": "Schema for TEI AAIF",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SCHEMA.RNG",
+        "label": "RNG Schema",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.ontology",
+    "title": "Ontology for Adjective-Adverb Interfaces in Romance",
+    "datastreams": [
+      {
+        "dsid": "REPOSITORY",
+        "label": "SESAME server location",
+        "mimeType": "plain/text"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "OntologytoFO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "OntologytoHTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DESCRIPTION",
+        "label": "",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DESCRIPTION_PDF",
+        "label": "",
+        "mimeType": "application/pdf"
+      },
+      {
+        "dsid": "ONTOLOGY",
+        "label": "Ontology Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.ptapmdeg",
+    "title": "Corpus of Brazilian Portuguese Adjective-Adverbs, mente-Adverbs and Prepositional Phrases in Corpus Discurso & Gramática.: Pt_APM_DeG",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_REF",
+        "label": "Reference to mets stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_SOURCE",
+        "label": "METS Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.ptapmdeg.bibl",
+    "title": "Bibliography: Corpus of Adjective-Adverbs and Prepositional Phrases in Brazilian Portuguese",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.roadpaaif",
+    "title": "Corpus of Old Romanian Adjective-Adverbs, Derived Adverbs and Prepositional Phrases: Ro_ADP_aaif",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_SOURCE",
+        "label": "METS Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_REF",
+        "label": "Reference to mets stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.roadpaaif.bibl",
+    "title": "Bibliography: Corpus of Old Rumanian Adjective-Adverbs",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.spacdh",
+    "title": "Corpus of Spanish \"Verb + Adjective-Adverbs\" in CDH: Sp_A_CDH",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_SOURCE",
+        "label": "METS Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_REF",
+        "label": "Reference to mets stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.spacdh.bibl",
+    "title": "Bibliography: Corpus of Spanish Adjective-Adverbs in Diachrony (for Sintaxis Histórica III). 2nd version.",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.spapcordiam",
+    "title": "Corpus of Spanish Adjective-Adverbs and Prepositional Phrases in CORDIAM: Sp_AP_Cordiam",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_SOURCE",
+        "label": "METS Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_REF",
+        "label": "Reference to mets stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.spapcordiam.bibl",
+    "title": "Bibliography: Corpus of Spanish Adjective-Adverbs and Prepositional Phrases in CORDIAM.",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.spapsh3",
+    "title": "Corpus of Spanish Adjective-Adverbs in Diachrony (for Sintaxis Histórica III): Sp_AP_SH3",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_SOURCE",
+        "label": "METS Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METS_REF",
+        "label": "Reference to mets stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "CMDI",
+        "label": "Component Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      }
+    ]
+  },
+  {
+    "pid": "o:aaif.spapsh3.bibl",
+    "title": "Bibliography: Corpus of Spanish Adjective-Adverbs in Diachrony (for Sintaxis Histórica III). 2nd version.",
+    "datastreams": [
+      {
+        "dsid": "BIBTEX",
+        "label": "BIBTEX Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "PID",
+        "label": "Persistent Identifier",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "VOYANT",
+        "label": "Reference to Voyant Tools",
+        "mimeType": "text/html"
+      },
+      {
+        "dsid": "METHODS",
+        "label": "Dissemination Methods",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "SOURCE_REF",
+        "label": "Reference to source stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "METADATA",
+        "label": "Mulgara Triplestore Metadata",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "LATEX_STYLESHEET",
+        "label": "Reference to TEI2LaTeX Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "FO_STYLESHEET",
+        "label": "TEI resp. BibTeX to FO Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC_MAPPING",
+        "label": "TEI to DC mapping rules",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF_MAPPING",
+        "label": "Reference to RDF Template for generating RELS-INT",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "REPLACEMENT_RULESET",
+        "label": "Set of REGEX replacements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TORDF",
+        "label": "XSLT Stylesheet to create RDF-Triples from TEI_SOURCE",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "TEI resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-INT",
+        "label": "RDF Statements about the TEI_SOURCE stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "TEI_SOURCE",
+        "label": "TEI Source",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statments about this object",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RDF",
+        "label": "RDF Stream created by TORDF",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "query:aaif.authors",
+    "title": "Get Authors",
+    "datastreams": [
+      {
+        "dsid": "STYLESHEET",
+        "label": "Query resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "query:aaif.bib",
+    "title": "Get Bibliographic info",
+    "datastreams": [
+      {
+        "dsid": "STYLESHEET",
+        "label": "Query resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "query:aaif.corpusview",
+    "title": "InfoVis Corpus",
+    "datastreams": [
+      {
+        "dsid": "STYLESHEET",
+        "label": "Query resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "query:aaif.db",
+    "title": "AAIF Database search",
+    "datastreams": [
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Query resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "query:aaif.fulltext",
+    "title": "Fulltextsearch",
+    "datastreams": [
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "STYLESHEET",
+        "label": "Query resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "query:aaif.regions",
+    "title": "Get Regions",
+    "datastreams": [
+      {
+        "dsid": "STYLESHEET",
+        "label": "Query resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "application/rdf+xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  },
+  {
+    "pid": "query:aaif.spokenwritten",
+    "title": "Get entries with dc:type \"spoken\" from Pt_APM_DeG Corpus",
+    "datastreams": [
+      {
+        "dsid": "STYLESHEET",
+        "label": "Query resp. BibTeX to HTML Stylesheet",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "THUMBNAIL",
+        "label": "Thumbnail",
+        "mimeType": "image/jpeg"
+      },
+      {
+        "dsid": "HSSF_STYLESHEET",
+        "label": "Stylesheet to generate HSSF stream",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QUERY",
+        "label": "Mulgara Triplestore Query",
+        "mimeType": "text/plain"
+      },
+      {
+        "dsid": "RELS-EXT",
+        "label": "RDF Statements",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "DC",
+        "label": "Dublin Core Record",
+        "mimeType": "text/xml"
+      },
+      {
+        "dsid": "QR",
+        "label": "QR Code",
+        "mimeType": "image/jpeg"
+      }
+    ]
+  }
+]

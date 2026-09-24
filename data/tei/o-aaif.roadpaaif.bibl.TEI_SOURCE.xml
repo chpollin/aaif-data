@@ -1,0 +1,209 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Bibliography: Corpus of Old Rumanian Adjective-Adverbs</title>
+        <funder>
+          <orgName ref="http://d-nb.info/gnd/2054142-9">Fonds zur Förderung der
+                        wissenschaftlichen Forschung</orgName>
+        </funder>
+      </titleStmt>
+      <extent>
+        <num type="entries">10</num>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName corresp="https://romanistik.uni-graz.at" ref="http://d-nb.info/gnd/1069331422">Institut für Romanistik,
+                        Karl-Franzens-Universität Graz </orgName>
+        </publisher>
+        <authority>
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                        Informationsmodellierung - Austrian Centre for Digital Humanities,
+                        Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor>
+          <orgName ref="https://gams.uni-graz.at">GAMS -
+                        Geisteswissenschaftliches Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+        </availability>
+        <date when="2019">2020</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:aaif.roadpaaif.bibl</idno>
+        <ref target="info:fedora/corpus:aaif.roadpaaif" type="context"></ref>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="http://gams.uni-graz.at/aaif">Open Access Database &quot;Adjective-Adverb
+                    Interfaces in Romance</title>
+        <respStmt>
+          <resp>Project Leader</resp>
+          <persName ref="http://d-nb.info/gnd/1012341119">
+            <forename>Martin</forename>
+            <surname>Hummel</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Acquisition</resp>
+          <persName>
+            <forename>Katharina</forename>
+            <surname>Gerhalter</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Gerlinde</forename>
+            <surname>Schneider</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Christopher</forename>
+            <surname>Pollin</surname>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Bibliography</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listBibl>
+        <bibl xml:id="OR1">
+          <title>Învăţătura lui Archirie, cum învăţe pre nepotu-său, pre
+                        Anadan, de toate învăţăturile</title>
+          <date cert="low" when="1708">1708</date>
+          <edition>
+            <title>&quot;Cele mai vechi cărţi populare în literatura
+                            română&quot;, vol. II (Fiziologul – Archirie și Anadan), studiu filologic,
+                            studiu lingvistic și ediţie de Magdalena Georgescu, București, Editura
+                            Minerva, 1997. p.
+                    157-168.</title>
+          </edition>
+          <country>Romania</country>
+        </bibl>
+        <bibl xml:id="OR2">
+          <title>Floarea darurilor</title>
+          <date cert="low" when="1600">1600</date>
+          <edition>
+            <title>text stabilit, studiu filologic şi lingvistic,
+                            glosar de Alexandra Moraru, în &quot;Cele mai vechi cărţi populare în
+                            literatura română&quot;, vol.I, Bucureşti, Editura Minerva, 1996, p. 119-182.
+                        </title>
+          </edition>
+          <country>Romania</country>
+        </bibl>
+        <bibl xml:id="OR3">
+          <title>Bertoldo</title>
+          <date when="1774">1774</date>
+          <edition>
+            <title>&quot;Cele mai vechi cărţi populare în literatura
+                            română&quot;, vol. III (Bertoldo), studiu filologic, studiu lingvistic,
+                            ediţie și glosar de Magdalena Georgescu, București, Editura Minerva,
+                            1999, p. 157-239.</title>
+          </edition>
+          <country>Romania</country>
+        </bibl>
+        <bibl xml:id="OR4">
+          <author>Mihail Moxa</author>
+          <title>Cronica
+                        universală</title>
+          <date cert="low" when="1620">1620</date>
+          <edition>
+            <title>ediţie critică, însoţită de izvoare, studiu
+                            introductiv, note şi indici de G. Mihăilă, Bucureşti, Editura Minerva,
+                            1989. p. 95-223 </title>
+          </edition>
+          <country>Romania</country>
+        </bibl>
+        <bibl xml:id="OR5">
+          <author>Ioannykij Haleatovkyi</author>
+          <title>Cheia
+                        înţelesului</title>
+          <date when="1678">1678</date>
+          <edition>
+            <title>ediţie,
+                            indice de nume şi glosar de Rodica Popescu, prefaţă de Alexandru Mareş,
+                            Bucureşti, Editura Libra, 2000, p. 13-194.
+                        </title>
+          </edition>
+          <country>Romania</country>
+        </bibl>
+        <bibl xml:id="OR6">
+          <author>Coresi</author>
+          <title>Tâlcul evangheliilor şi Molitevnic
+                        rumânesc</title>
+          <date when="1567">1567</date>
+          <edition>
+            <title>ediţie critică
+                            de Vladimir Drimba, cu un studiu introductiv de Ion Gheţie, Bucureşti,
+                            Editura Academiei
+                        Române,1998</title>
+          </edition>
+          <country>Romania</country>
+        </bibl>
+        <bibl xml:id="OR7">
+          <author>Ion Neculce</author>
+          <title>Letopiseţul Ţării Moldovei de
+                        la Dabija-Vodă până la a doua domnie a lui Constantin Mavrocordat, precedat
+                        de O samă de cuvinte</title>
+          <date when="1750">1750-1766</date>
+          <edition>
+            <title>ediţie îngrijită, cu glosar, indice, şi
+                            o introducere de Iorgu Iordan, Bucureşti, Editura de Stat pentru
+                            Literatură şi Artă, 1955, p.
+                        103-405.</title>
+          </edition>
+          <country>Romania</country>
+        </bibl>
+        <bibl xml:id="OR8">
+          <author>Grigore Ureche</author>
+          <title>Letopiseţul Ţărîi
+                        Moldovei</title>
+          <date when="1725">1725</date>
+          <edition>
+            <title>ediţie
+                            îngrijită, studiu introductiv, indice şi glosar de P. P. Panaitescu,
+                            Bucureşti, Editura de Stat pentru Literatură şi Artă, 1955, p.
+                            57-210.</title>
+          </edition>
+          <country>Romania</country>
+        </bibl>
+        <bibl xml:id="OR9">
+          <author>Miron Costin</author>
+          <title>Letopiseţul Ţărâi Moldovei de
+                        la Aaron Vodă încoace, de unde este părăsit de Ureache vornicul de Ţara de
+                        Gios, scos de Miron Costin vornicul de Ţara de Gios în oraşu la Iaşi, în
+                        anul de la zidirea lumiei 7183, iară de la naşterea Mântuitorului Lumii, lui
+                        Iisus Hristos, 1675, meseţa</title>
+          <date when="1675">1675</date>
+          <edition>
+            <title>Idem, Opere, Bucureşti, Editura de Stat
+                            pentru Literatură şi Artă, 1958, p. 41-201.
+                        </title>
+          </edition>
+          <country>Romania</country>
+        </bibl>
+        <bibl xml:id="OR10">
+          <title>Palia de la Orăştie </title>
+          <date when="1582">1582</date>
+          <edition>
+            <title>vol. I (Textul), Text stabilit şi îngrijire
+                            editorială de Vasile Arvinte, Ioan Caproşu, Alexandru Gafton.  
+                          Transcrierea textului de Sorin Guia. Introducere şi notă asupra ediţiei
+                            de Vasile Arvinte, Ioan Caproşu şi Alexandru Gafton, Iaşi, Editura
+                            Universităţii “Alexandru Ion Cuza”, 2005, p.
+                        15-228.</title>
+          </edition>
+          <country>Romania</country>
+        </bibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# The archived datastreams stay byte-identical to what GAMS delivered, so the
+# SHA-256 sums in data/manifest.json keep matching on every checkout. This line
+# comes last because later patterns override earlier ones.
+data/** -text

@@ -1,0 +1,15 @@
+repos:
+  - repo: local
+    hooks:
+      # ruff is a dev dependency of the project venv, so `python -m ruff`
+      # works both under `uv run pre-commit` and in a local install.
+      - id: ruff-check
+        name: ruff check
+        entry: python -m ruff check
+        language: system
+        types: [python]
+      - id: ruff-format-check
+        name: ruff format check
+        entry: python -m ruff format --check
+        language: system
+        types: [python]

@@ -1,0 +1,1063 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns:refworks="www.refworks.com/xml/">
+    <fileDesc>
+      <titleStmt>
+        <title>Bibliography: Corpus Adjective-Adverbs in Southern Varieties of
+                              Italy</title>
+        <title type="abbreviation">It_A_aaif</title>
+        <funder>
+          <orgName ref="http://d-nb.info/gnd/2054142-9">Fonds zur Förderung
+                                    der wissenschaftlichen Forschung</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName corresp="https://romanistik.uni-graz.at" ref="http://d-nb.info/gnd/1069331422">Institut für
+                                    Romanistik, Karl-Franzens-Universität Graz
+                              </orgName>
+        </publisher>
+        <authority>
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum
+                                    für Informationsmodellierung - Austrian Centre for Digital
+                                    Humanities, Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor>
+          <orgName ref="https://gams.uni-graz.at">GAMS -
+                                    Geisteswissenschaftliches Asset Management
+                              System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">Creative
+                                    Commons BY 4.0</licence>
+        </availability>
+        <date when="2019">2019</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:aaif.itaaaif.bibl</idno>
+        <ref target="corpus:aaif.itaaaif" type="context"></ref>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="http://gams.uni-graz.at/aaif">Open Access Database
+                              &quot;Adjective-Adverb Interfaces in Romance</title>
+        <respStmt>
+          <resp>Project Leader</resp>
+          <persName ref="http://d-nb.info/gnd/1012341119">
+            <forename>Martin</forename>
+            <surname>Hummel</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Acquisition</resp>
+          <persName>
+            <forename>Katharina</forename>
+            <surname>Gerhalter</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Gerlinde</forename>
+            <surname>Schneider</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Christopher</forename>
+            <surname>Pollin</surname>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Bibliography</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listBibl>
+        <bibl xml:id="Cal1">
+          <author>Gemelli, N.</author>
+          <title>’A porta ’e l’ortu</title>
+          <date when="1990">1990</date>
+          <edition>
+            <title>Calabria letteraria, Soveria Mannelli</title>
+          </edition>
+          <country>Calabria</country>
+        </bibl>
+        <bibl xml:id="Cal2">
+          <author>Barca, F.</author>
+          <title>Teatro dialettale. Commedie</title>
+          <date when="1996">1996</date>
+          <edition>
+            <title>Santelli, Mendicino</title>
+          </edition>
+          <country>Calabria</country>
+        </bibl>
+        <bibl xml:id="Cal3">
+          <author>Cappellari, Francesco</author>
+          <title>La poesia dialettale de Giuseppe Carlino</title>
+          <date when="1983">1983</date>
+          <edition>
+            <title>Cosenza: Aiello Editrice (=Roccella Ironica)</title>
+          </edition>
+          <country>Calabria</country>
+        </bibl>
+        <bibl xml:id="Cal4">
+          <author>Colacino, E.</author>
+          <title>E cchi ni manca?</title>
+          <date when="1994">1994</date>
+          <edition>           
+ <title>VIP Comunicazione, Reggio Calabria</title>
+          </edition>
+          <country>Calabria</country>
+        </bibl>
+        <bibl xml:id="Cal5">
+          <author>De Marco, Ciccio</author>
+          <title>Teatro 3</title>
+          <date when="1986">1986</date>
+          <edition>
+            <title>Soveria Mannelli: Calabria Editrice</title>
+          </edition>
+          <country>Calabria</country>
+        </bibl>
+        <bibl xml:id="Cal6">
+          <author>Filocamo, S.</author>
+          <title>Farse canevalesche</title>
+          <date when="1984">1984</date>
+          <edition>
+            <title>Rubbettino, Soveria Mannelli</title>
+          </edition>
+          <country>Calabria</country>
+        </bibl>
+        <bibl xml:id="Cal7">
+          <author>Carè, P.</author>
+          <title>’Ju matrimoniu</title>
+          <date when="1982">1982</date>
+          <edition>
+            <title>Barbaro, Oppido Maritimo</title>
+          </edition>
+          <country>Calabria</country>
+        </bibl>
+        <bibl xml:id="Cal8">
+          <author>Falcone, G</author>
+          <title>Racconti popolari calabresi con prolegomeni linguistici</title>
+          <date when="1979">1979</date>
+          <edition>
+            <title>Casa del libro, Reggio Calabria</title>
+          </edition>
+          <country>Calabria</country>
+        </bibl>
+        <bibl xml:id="Cal9">
+          <author>Pascuzzi, U.</author>
+          <title>’A vrigogna d’a gente</title>
+          <date when="1982">1982</date>
+          <edition>
+            <title>Rubbettino, Soveria Mannelli</title>
+          </edition>
+          <country>Calabria</country>
+        </bibl>
+        <bibl xml:id="Nap1">
+          <author>Bagni di Pozzuoli</author>
+          <title>Un nuovo testo die Bagni di Pozzuoli in volgare napoletano (volgarizzamento in
+                        versi, 1290-1310)</title>
+          <date when="1310">1310</date>
+          <edition>
+            <title>Pelaez, Mario: Studj romanzi 19 (1928), 47-134</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap10">
+          <author>Cortese, Giulio</author>
+          <title>Micco Passaro, in: Opere di Giulio Cesare Cortese (1° tomo), 1621, poesia,
+                        Ristampa anastatica dell&apos;originale del 1783</title>
+          <date when="1621">1621</date>
+          <edition>
+            <title>Napoli: Centro Editoriale del Mezziogiorno, 1976, 1-97</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap11">
+          <author>Cortese, Guilio</author>
+          <title>Lo cerriglio ncantato, in: Opere de Giulio Cesare Cortese (1° tomo), ca.
+                        1575-1627, poesia, Ristampa anastatica dell&apos;originale del 1783</title>
+          <date when="1650">1650</date>
+          <edition>
+            <title>Napoli: Centro Editoriale del Mezziogiorno, 1976, 99-170</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap12">
+          <author>Cortese, Giulio</author>
+          <title>Viaggio de Parnaso, in: Opere de Giulio Cesare Cortese (1° tomo), 1621,
+                        poesia, Ristampa anastatica dell&apos;originale del 1783</title>
+          <date when="1621">1621</date>
+          <edition>
+            <title>Napoli: Centro Editoriale del Mezziogiorno, 1976, 171-252</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap13">
+          <author>Cortese, Giulio</author>
+          <title>La vajasseide, in: Opere de Giulio Cesare Cortese (2° tomo), 1615, poesia e
+                        prosa, Ristampa anastatica dell&apos;originale del 1783</title>
+          <date when="1615">1615</date>
+          <edition>
+            <title>Napoli: Centro Editoriale del Mezziogiorno, 1976, 1-239</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap14">
+          <author>D&apos;Antonio, Giovanni</author>
+          <title>La vita e morte de lo sciatamone &apos;mpetrato (primo Settecento), in: Antonio
+                        Borrelli (ed.), Giovanni D&apos;Antonio. Le opere napoletane</title>
+          <date when="1750">1750</date>
+          <edition>
+            <title>Roma: Benincasa, 1989, 377-447</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap15">
+          <author>De Falco, Renato</author>
+          <title>&apos;Ovangelo. Versione napoletana del vangelo secondo Marco</title>
+          <date when="1987">1987</date>
+          <edition>
+            <title>Napoli, M. D&apos;Auria</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap16">
+          <author>De Filippo, Eduardo</author>
+          <title>I capolavori di Eduardo (commedie in prosa)</title>
+          <date when="1973">1973</date>
+          <edition>
+            <title>Torino: Einaudi, 1973</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap17">
+          <author>De Filippo, Eduardo</author>
+          <title>Il dono di natale (commedia in un atto unico)</title>
+          <date when="1932">1932</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap18">
+          <author>Loise De Rosa</author>
+          <title>Ricordi (diario di un famiglio/maggiordomo, 1452-1475)</title>
+          <date when="1475">1475</date>
+          <edition>
+            <title>Formentin, Vittorio (ed.), Roma, Salerno, 1998</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap19">
+          <author>De Santis, Oreste</author>
+          <title>La famiglia Bruscolin (commedia in due atti)</title>
+          <date when="1996">1996</date>
+          <edition>
+            <title>http://gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap2">
+          <author>Basile, Giambattista</author>
+          <title>Lo cunto de li cunti (1634-1636, prosa (Lo cunto) e versi (Le muse))</title>
+          <date when="1634">1634</date>
+          <edition>
+            <title>Rak, Michele (ed.), Milano: Garzanti, 1986</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap20">
+          <author>Di Giacomo, Salvatore</author>
+          <title>Tutto il teatro (1860-1934)</title>
+          <date when="1934">1934</date>
+          <edition>
+            <title>Roma: Grandi Tascabili Newton, 1991</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap21">
+          <author>Di Maio, Gaetano / Di Maio, Olimpia</author>
+          <title>Gennaro Belvedere, testimone cieco (commedia in due atti)</title>
+          <date when="1991">1991</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap22">
+          <author>Di Maio, Gaetano</author>
+          <title>Madama quatte solde (commedia in tre atti)</title>
+          <date when="1991">1991</date>
+          <edition>
+            <title>http://www gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap23">
+          <author>Di Maio, Gaetano / Di Maio, Olimpia</author>
+          <title>Ce penza mammà (commedia in due atti)</title>
+          <date when="1982">1982</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap24">
+          <author>Boccaccio, Giovanni</author>
+          <title>L&apos;epistola napoletana (lettera in prosa)</title>
+          <date when="1339">1339</date>
+          <edition>
+            <title>In: Francesco Sabatini, Prospettive sul parlato nella storia linguistica
+                        italiana (con una lettura (iell&apos;Epistola napoletana del Boccaccio). in:
+                        Vittorio Coletti/Rosario Coluccia/Paolo D&apos;Achillc/Nicola De Blasi/Livio
+                        Petrucci (edd.), Francesco Sabatini. Italia linguistica delle origini. Saggi
+                        editi dal 1956 al 1996, Lecce. Argo. 1996. 425-466 (Versione originale in:
+                        Federico Albano Leoni/Daniele Gambarara/Franco Lo Piparo/Raffaele Simone
+                        (edd.), Italia linguistica: Idee, storia, strutture. Bologna, il Mulino.
+                        1983. 167-201)</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap25">
+          <author>Ferraiolo, M.</author>
+          <title>Cronaca del Ferraiolo (Cronaca figurata del Quattrocento)</title>
+          <date when="1498">1498</date>
+          <edition>
+            <title>Coluccia, Rosario (ed.), Firenze: Accademia della Crusca. 1987</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap26">
+          <author>Grasso, Corrado</author>
+          <title>Peonie Ilo, rasalo... forbice (commedia in un atto unico)</title>
+          <date when="1995">1995</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.plip, Caiazzo (CE)</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap27">
+          <title>Il &quot;Libro de li antichi facti de li gentili o de li paganie&quot;: Un testo d&apos;età
+                        angioina (trattato didascalico in prosa. Data: primi decenni
+                        Quattrocento)</title>
+          <date when="1410">1410</date>
+          <edition>
+            <title>Chiosi, Lucia: Bollettino campano 2 (2002), 87-167</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap28">
+          <title>Libro de la destructione de Troya. Volgarizzamento napoletano trecentesco da
+                        Guido delle Colonne (prosa cronistica e narrativa, 1330-1340 manoscritto
+                        parigino / primo Quattrocento manoscritto oxoniense)</title>
+          <date when="1340">1340</date>
+          <edition>
+            <title>De Blasi. Nicola (ed.). Roma: Bonaccì, 1986</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap29">
+          <author>Luigi d&apos;Angiò-Taranlo / Giovanni I</author>
+          <title>Lettera del re Luigi d&apos;Angiò-Taranlo e di Giovanni I a Roberto d&apos;Angiò,
+                        Imperatore titolare di Costantinopoli e principe di Acaia. Trascritta in una
+                        lettera degli stessi sovrani a Nicola Acciaiuoli ( 9 marzo 1356)</title>
+          <date when="1356">1356</date>
+          <edition>
+            <title>In: Francesco Sabatini, Volgare «civile» e volgare cancelleresco nella Napoli
+                        angioina, in: Paolo Trovato (ed.). Lingue e culture dell&apos;Italia meridionale
+                        (1200- 1600), Roma, Bonacci. 1993, 109-132 (pp. 124—126: ristampato in:
+                        Vittorio Coletti/Rosario Coluccia/Paolo D&apos;Achille/Nicola De Blasi/Livio
+                        Petrucci (edd.), Francesco Sabatini. Italia linguistica delle origini. Saggi
+                        editi dal 1956 al 1996. Lecce. Argo. 1996, 467-506)</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap3">
+          <author>Braca, Vincenzo</author>
+          <title>Farse cavaiole. La ricevuta dell&apos;imperadore alla vaca (commedia in versi)</title>
+          <date cert="low" when="1600">1600</date>
+          <edition>
+            <title>Mango, Achille (ed.), Roma, Bulzoni, 1973</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap30">
+          <author>Lupo de Specillo</author>
+          <title>Summa dei re di Napoli e Sicilia e dei re d&apos;Aragona (prosa cronistica e
+                        narrativa)</title>
+          <date when="1468">1468</date>
+          <edition>
+            <title>Compagna, Anna Maria (ed.), Napoli: Liguori, 1990</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap31">
+          <author>Oliva, Francesco</author>
+          <title>Aminta (commedia in versi)</title>
+          <date when="1725">1725</date>
+          <edition>
+            <title>In: Carla Chiara Perrone (ed.), Francesco Oliva. Opere napoletane, Roma:
+                        Bulzoni, 1977, 1—97</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap32">
+          <author>Palumbo, Mauro</author>
+          <title>Il gobbo di Notrenaple (commedia musicale in un atto unico)</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap33">
+          <author>Petito, Antonio</author>
+          <title>Tre surice dint’a no mastillo (commedia in un atto unico)</title>
+          <date when="1876">1876</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap34">
+          <author>Petito, Antonio</author>
+          <title>Pascariello surdato cungedato (commedia in un atto unico)</title>
+          <date when="1876">1876</date>
+          <edition>
+            <title>http://www.gliantinati.it/copio- ni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap35">
+          <title>«Il Romanzo di Francia». Une version du «Libro di Fiora- vante», édité d’après
+                        le manuscrit unique conserve à la Bibliothèque nationale. (Primo
+                        Quattrocento)</title>
+          <date when="1450">1450</date>
+          <edition>
+            <title>McArthur, Douglas (ed.), Università di Parigi, tesi di dottorato inedita,
+                        s.d.</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap36">
+          <author>Rocco, Michele</author>
+          <title>Virgilio napoletano. La buccoleca de Vergilio. La greogeca de Vergilio
+                        (volgarizzamento in versi)</title>
+          <date when="1789">1789</date>
+          <edition>
+            <title>Perrone, Carla Chiara (ed.), Roma, Benincasa, 1994</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap37">
+          <author>Ruccello, Annibaie</author>
+          <title>Ferdinando (commedia in prosa)</title>
+          <date when="1985">1985</date>
+          <edition>
+            <title>In: Luciana Libero (ed.). Dopo Eduardo. Nuova drammaturgia a Napoli, Napoli,
+                        Guida Editori, 1988, 87-138</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap38">
+          <author>Ruocco, Pasquale</author>
+          <title>All&apos;inferno (poesia)</title>
+          <date when="1943">1943</date>
+          <edition>
+            <title>Napoli, Edizioni BIDERI, 1989</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap39">
+          <author>Russo, Ferdinando</author>
+          <title>N paraviso (poesia 1866-1927)</title>
+          <date when="1891">1891</date>
+          <edition>
+            <title>Napoli, Edizioni BIDERI, 1989</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap4">
+          <author>Bracanti, Giovanni</author>
+          <title>Vita e favole di Esopo. Volgarizzamento del secolo XV (Glossario di Rosa
+                        Franzese)</title>
+          <date when="1480">1480</date>
+          <edition>  
+          <title>Gentile, Salvatore (ed.), Napoli Liguori, 1988</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap40">
+          <author>Sarnelli, Pompeo</author>
+          <title>La Posilecheata</title>
+          <date when="1684">1684</date>
+          <edition>
+            <title>Malato, Enrico (ed.), Firenze, Sansoni, 1962</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap41">
+          <author>Scarpetta, Eduardo</author>
+          <title>Tutto il teatro (1853-1925)</title>
+          <date when="1925">1925</date>
+          <edition>
+            <title>Marrone, Romualdo (ed.), Roma, Grandi Tascabili Newton, 1992</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap42">
+          <author>Scarpetta, Eduardo</author>
+          <title>Qui rido io. Commedie di Eduardo Scarpetta (1853-1925)</title>
+          <date when="1925">1925</date>
+          <edition>
+            <title>Torre, Luca (ed.), Napoli, Torre, 1994</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap43">
+          <author>Scarpetta. Eduardo</author>
+          <title>Duje marite ’mbrugliune (commedia in tre atti)</title>
+          <date when="1880">1880</date>
+          <edition>
+            <title>1996. http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap44">
+          <author>Scarpetta, Eduardo</author>
+          <title>Amore e polenta: &apos;na paglia ’e Firenze (commedia in quattro atti)</title>
+          <date when="1883">1883</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap45">
+          <author>Scarpetta, Eduardo</author>
+          <title>Felice maestro di calligrafia ovvero Lu curaggio de nu pompiere napulitano
+                        (commedia in tre atti)</title>
+          <date when="1877">1877</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap46">
+          <author>Scarpetta, Eduardo</author>
+          <title>Gelusia ovvero Amore sposalizio e gelosia (commedia in tre atti)</title>
+          <date when="1875">1875</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php.</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap47">
+          <author>Scarpetta, Eduardo</author>
+          <title>L’amico ’e papà (commedia in tre atti)</title>
+          <date when="1881">1881</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap48">
+          <author>Scarpetta, Eduardo</author>
+          <title>La nutriccia (commedia in tre atti)</title>
+          <date when="1882">1882</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap49">
+          <author>Scarpetta, Eduardo</author>
+          <title>Lu café chantant (commedia in due atti)</title>
+          <date when="1893">1893</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap5">
+          <author>Caianiello, Raffaele</author>
+          <title>E figlie unice (commedia in tre atti, secondo novecento)</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap50">    
+      <author>Scarpetta, Eduardo</author>
+          <title>Lu marito de Nannina (commedia in tre atti)</title>
+          <date when="1885">1885</date>
+          <edition>
+            <title>http://www.gliantinati.it/copio- ni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap51">
+          <author>Scarpetta, Eduardo</author>
+          <title>Lu pagnottina (commedia in due atti)</title>
+          <date when="1880">1880</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap52">
+          <author>Scarpetta, Eduardo</author>
+          <title>Mettiteve a fà Tammore cu me! (commedia in tre atti)</title>
+          <date when="1880">1880</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap53">
+          <author>Scarpetta, Eduardo</author>
+          <title>Na muglierà zetella (commedia in quattro atti)</title>
+          <date when="1907">1907</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap54">
+          <author>Scarpetta, Eduardo</author>
+          <title>’Nu brutto difetto (commedia in tre atti)</title>
+          <date when="1884">1884</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap55">
+          <author>Scarpetta, Eduardo</author>
+          <title>’Nu ministro mmiezo a li guaje (commedia in tre atti)</title>
+          <date when="1894">1894</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap56">
+          <author>Scarpetta, Eduardo</author>
+          <title>Il romanzo d’un farmacista povero (commedia in quattro atti)</title>
+          <date when="1882">1882</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap57">
+          <author>Scarpetta, Eduardo</author>
+          <title>Tetillo (commedia in tre atti)</title>
+          <date when="1880">1880</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap58">
+          <title>Trattato dei bagni di Pozzuoli. In: Erasmo Pèrcopo. I bagni di Pozzuoli.
+                        Poemetto napolitano del secolo XIV (volgarizzamento in prosa)</title>
+          <date cert="low" when="1400">1400</date>
+          <edition>
+            <title>Napoli, Federico Furchheim, 1887, 97—138</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap59">
+          <author>Velardiniello</author>
+          <title>Una sconosciuta versione della «Storia di cient’anne arreto» dì
+                        Velardiniello</title>
+          <date cert="low" when="1550">1550</date>
+          <edition>
+            <title>Croce, Benedetto (ed.), Archivio storico per le province napoletane 39 (1914),
+                        81-94</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap6">
+          <author>Caianiello, Raffaele</author>
+          <title>A ricchezza dà povertà (commedia in tre atti)</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap60">
+          <author>Viviani, Raffaele</author>
+          <title>L’ultimo scugnizzo (commedia in tre atti)</title>
+          <date when="1932">1932</date>
+          <edition>
+            <title>In: Guido Davico Bonino/Antonia Lezza/Pasquale Scialò (edd.), Raffaele
+                        Viviani. Teatro V, Napoli, Guida, 1991, 567-527</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap61">
+          <author>Zito, Egidio</author>
+          <title>Voglio bene a ll’ammore (poesie)</title>
+          <date when="1968">1968</date>
+          <edition>
+            <title>Napoli, Fratelli Conte Editori, 1968</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap7">
+          <author>Caianiello, Raffaele</author>
+          <title>E grazie do paravise (commedia un prologo e due atti)</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://www.gliantinati.it/copioni2.php</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap8">
+          <author>Cavalcanti, Ippolito</author>
+          <title>Cucina casareccia in dialetto napoletano (ricettario)</title>
+          <date when="1837">1837</date>
+          <edition>
+            <title>Napoli, Tommaso Marotta Editore, 1837</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Nap9">
+          <author>Chiurazzi, Raffaele</author>
+          <title>O purgatorio (poesia)</title>
+          <date when="1951">1951</date>
+          <edition>
+            <title>Napoli, BIDERI, 1989</title>
+          </edition>
+          <country>Napoli</country>
+        </bibl>
+        <bibl xml:id="Sal1">
+          <author>Musio, C.</author>
+          <title>Il Salento in vernacolo. Commedie – volume primo</title>
+          <date when="1995">1995</date>
+          <edition>
+            <title>Congedo, Galatina</title>
+          </edition>
+          <country>Salento</country>
+        </bibl>
+        <bibl xml:id="Sal2">
+          <author>Fiorentino, F.</author>
+          <title>Vernacolo Salento. Commedie.</title>
+          <date when="1998">1998</date>
+          <edition>
+            <title>Congedo, Galatina</title>
+          </edition>
+          <country>Salento</country>
+        </bibl>
+        <bibl xml:id="Sal3">
+          <author>Protopapa, Raffaele</author>
+          <title>Teatro dialettale leccese. Volume secondo. L’acchaitura. La riforma. Eulalia.
+                        Le mbrogghie te lu requenzinu. Le corne d’argentu</title>
+          <date when="1990">1990</date>
+          <edition>
+            <title>Capone, Cavallino di Lecce</title>
+          </edition>
+          <country>Salento</country>
+        </bibl>
+        <bibl xml:id="Sal4">
+          <author>Protopapa, Raffaele</author>
+          <title>Teatro dialettale leccese. Volume terzo. L’àncura. La furtuna. Lu rre te
+                        Lecce. Filippu e ppanaru. Nna causa alla pretura.</title>
+          <date when="1991">1991</date>
+          <edition>
+            <title>Capone, Cavallino di Lecce</title>
+          </edition>
+          <country>Salento</country>
+        </bibl>
+        <bibl xml:id="Sal5">
+          <author>Protopapa, Raffaele</author>
+          <title>Teatro dialettale leccese. Volume quarto. Li do’ cumpari. Le do’ cummari.
+                        Salvatore lu rapinatore. Epigrammi</title>
+          <date when="1992">1992</date>
+          <edition>
+            <title>Capone, Cavallino di Lecce</title>
+          </edition>
+          <country>Salento</country>
+        </bibl>
+        <bibl xml:id="Sic1">
+          <author>Lo Castro, A.</author>
+          <title>Arte della beffa</title>
+          <date when="2003">2003</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/arte_beffa.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic10">
+          <author>Bonanno, A.</author>
+          <title>A repubblica di patati</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/repubblica_patati.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic11">
+          <author>Cuffaro, A.</author>
+          <title>Serafinu Addummisciutu</title>
+          <date when="2007">2007</date>
+          <edition>
+            <title>http://copioni.corrierespettacolo.it/cuffaro-aristotele-lu-serafinu-addummisciutu/</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic12">
+          <author>Chinnici, R.</author>
+          <title>Sta arrivannu u ziu d’America</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/ziu_damerica.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic13">
+          <author>Bonanno, A.</author>
+          <title>Vota a To’ Nannu</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://copioni.corrierespettacolo.it/bonanno-alfio-vota-a-to-nannu/</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic14">
+          <author>Vassallo, N.</author>
+          <title>Un marito per mia figlia</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://copioni.corrierespettacolo.it/wp-content/uploads/2016/12/VASSALLO%20Nuccio__Un%20marito%20per%20mia%20figlia__null__U(5)-D(4)__Commedia__3a.pdf</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic15">
+          <author>Chinnici, R.</author>
+          <title>Pitrinu e lu ddisiu de li gucciddata</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://www.attoripercaso.it/copioni-commediedialettali.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic16">
+          <author>Cocivera, N.</author>
+          <title>Vita di parrocchia</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://www.ilteatrodicocivera.org/interno/vita_it.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic17">
+          <author>Leotta, A.</author>
+          <title>Che magica luna di miele</title>
+          <date when="2001">2001</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/luna_dimiele.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic18">
+          <author>Lo Castro, Aldo</author>
+          <title>Ius primae noctis</title>
+          <date when="2003">2003</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/primae_noctis.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic19">
+          <author>Barbera, C.</author>
+          <title>Il marquese del pesce</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://copioni.corrierespettacolo.it/barbera-carlo-il-marchese-del-pesce/</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic2">
+          <author>Maurici, C.</author>
+          <title>A famigghia diffitusa</title>
+          <date when="2002">2002</date>
+          <edition>
+            <title>www.gttempo.it/Copioni_M.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic20">
+          <author>Barbera, C.</author>
+          <title>Mandragola</title>
+          <date cert="low" when=" 2000"> 2000</date>
+          <edition>
+            <title>http://copioni.corrierespettacolo.it/wp-content/uploads/2016/12/BARBERA%20Carlo__Mandragola__null__U(7)-D(2)__Unavailable__2a.pdf</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic21">
+          <author>Maurici, C.</author>
+          <title>Bedda di fora…fracida di dintra</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/bedda_difora.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic22">
+          <author>Maurici, C.</author>
+          <title>Camurriusa, capricciusa, piducchiusa…</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/camurriusa.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic23">
+          <author>Chinnici, R.</author>
+          <title>Vogghiu fari u bammineddu</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>https://www.ateatro.info/copioni/vogghiu-fari-u-bammineddu/</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic24">
+          <author>Vasallo, N.</author>
+          <title>A&apos; Bonamma</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://copioni.corrierespettacolo.it/vassallo-nuccio-a-bonamma/</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic25">
+          <author>Cocivera, N.</author>
+          <title>Cercasi ienniru dispiratamenti</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>https://www.ateatro.info/copioni/cercasi-ienniru-dispiratamenti/</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic26">
+          <author>Guzzio, Annamaria</author>
+          <title>’Na bona jurnata</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://copioni.corrierespettacolo.it/guzzio-annamaria-na-bona-jurnata/</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic27">
+          <author>Chinnici, R.</author>
+          <title>Melu e li jaddini di l’ova d’oru</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/melu.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic28">
+          <author>Leotta, Alfia</author>
+          <title>T’aspettu ’n Paradisu</title>
+          <date cert="low" when="1980">1980</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/paradisu.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic29">
+          <author>Lo Castro, Aldo</author>
+          <title>Roba da matti</title>
+          <date when="2005">2005</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/roba_damatti.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic3">
+          <author>Lo Castro, Aldo</author>
+          <title>Lu Ciclopu Polifemu</title>
+          <date when="2003">2003</date>
+          <edition>
+            <title>www.teatrodeglispecchi.it/copioni.aspx</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic30">
+          <author>Lo Castro, Aldo</author>
+          <title>Caffè chantant</title>
+          <date when="2005">2005</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/caffe.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic4">
+          <author>Bonanno, A</author>
+          <title>Don Pippino u varberi</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>http://copioni.corrierespettacolo.it/wp-content/uploads/2016/12/BONANNO%20Alfio__Don%20Pipppinu%20u%20varberi__null__U(8)-D(3)__Unavailable__3a.pdf</title>
+          </edition>
+          <country>Sicilia</country>      
+  </bibl>
+        <bibl xml:id="Sic5">
+          <author>Lo Castro, Aldo</author>
+          <title>Giulietta &amp; Romeo</title>
+          <date when="2002">2002</date>
+          <edition>
+            <title>www.teatrodeglispecchi.it/copioni.aspx</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic6">
+          <author>Leotta, A.</author>
+          <title>L’isola dei girasoli</title>
+          <date when="2000">2000</date>
+          <edition>
+            <title>http://copioni.corrierespettacolo.it/leotta-alfia-lisola-dei-girasoli/</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic7">
+          <author>Leotta, A.</author>
+          <title>Missione Impossibile</title>
+          <date when="1998">1998</date>
+          <edition>
+            <title>http://www.dramma.it/dati/libreria/missione_impossibile.htm</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic8">
+          <author>Lo Castro, Aldo</author>
+          <title>Occhio non vede</title>
+          <date cert="low" when="2000">2000</date>
+          <edition>
+            <title>https://www.ateatro.info/copioni/occhio-non-vede/</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+        <bibl xml:id="Sic9">
+          <author>Lo Castro, Aldo</author>
+          <title>Promessi sposi</title>
+          <date when="2004">2004</date>
+          <edition>
+            <title>www.teatrodeglispecchi.it/copioni.aspx</title>
+          </edition>
+          <country>Sicilia</country>
+        </bibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>

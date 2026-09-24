@@ -1,0 +1,2358 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rendition="tei:teisimple">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Annotation Model: Criteria for Linguistic Categorization in the Database
+                    &quot;Adjective-Adverb Interfaces in Romance&quot;</title>
+        <author>Gerhalter, Katharina</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+          <date>2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <p>unknown</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Converted from a Word document</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="TEI_fromDOCX" version="2.15.0" xml:id="docxtotei">
+          <label>DOCX to TEI</label>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change>
+          <date>2019-06-11T11:42:43Z</date>
+          <name>Gerhalter, Katharina</name>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head n="1" xml:id="id.1">Introduction</head>
+        <p>The examples in the database <hi rend="italic">Adjective</hi>‑<hi rend="italic">Adverb Interfaces in Romance</hi> (=aaif) are tagged according to a shared
+                    annotation model, using the same categories for different Romance languages and
+                    corpora. Thus, the annotation model offers a cross‑linguistic categorization
+                    based on the <hi rend="bold">forms, functions and meanings</hi> of the
+                    heterogeneous and multifunctional word‑class <hi rend="italic">adverb</hi>,
+                    which could also be applied to other languages besides Romance (e.g. for
+                    English). The following description of the tags and their definitions in the
+                    aaif‑annotation model aims at a transparent and operational systematization.
+                    However, not all categories are annotated in all subcorpora, since they were
+                    created for different purposes: the metadata‑description of each subcorpus (see
+                    menu item Corpora) specifies which types of adverbs were compiled, which
+                    word‑classes (also called <hi rend="italic">parts of speech</hi>) were tagged
+                    and which categories were annotated in a given subcorpus. Hence, the following
+                    description is an extensive repertoire of the possibilities offered by the
+                    aaif‑annotation tool. </p>
+        <p>For each attested adverb in the database, a
+                    <hi rend="bold" xml:space="preserve">short example phrase </hi>is tagged. The
+                    short example phrases are shown in the Search Interface and can be read in a
+                    broader context (possibly also the whole full‑texts) via the menu item Corpora.
+                    Every tagged example (i.e. every short example phrase) in the corpus contains at
+                    least one annotated adverb (see section 2). Since this is the main tag of the
+                    annotation model and the only obligatory one, the counting of the examples in
+                    each subcorpus is based on the number of tagged adverbs. Note that more than one
+                    adverb may be attested in a given short example phrase (see coordination
+                    [section 2.2.3] and adverbs modifying other adverbs [section 2.2.1]). Inside the
+                    short example phrase, other tags besides the one for adverbs —possibly in
+                    combination with prepositions and articles or possessives (see section 2.1.5.)—
+                    can be used, such as the verb (see section 3) and the subject (see section 4) of
+                    the sentence.</p>
+
+        <p>Furthermore, the adverbs (and occasionally prepositions and verbs) of the
+                    examples are lemmatized in order to unify orthographic variation – especially      
+              regarding historical and dialectal data. This enables search queries via <hi rend="bold">lemma</hi> and analysis of type‑token‑frequencies to be
+                    performed. The following description also explains the criteria for lemmatizing
+                    the tagged word‑classes. </p>
+      </div>
+      <div>
+        <head n="2" xml:id="id.2">Annotations concerning the word-class <hi rend="italic">Adverb</hi>
+        </head>
+        <div>
+          <head n="2.1" xml:id="id.2.1">Morphosyntactic structure (form) of the
+                        adverb</head>
+
+          <p>The morphosyntactic structure takes into account the formal structure of the
+                        adverbial as well as its possible morphological variation (inflection,
+                        suffixes). The annotation model suits different types of adverbials based on
+                        an adjectival root: simple (one‑word) adverbs such as <hi rend="bold">adjective‑adverbs</hi> (2.1.1), <hi rend="bold">derived adverbs</hi>
+                        (2.1.2) and <hi rend="bold">nouns</hi> used as adverbs (2.1.3.), as well as
+                        adverbials formed by more than one word‑form, such as <hi rend="bold">reduplicated adverbs</hi> (2.1.4) and adverbial locutions (<hi rend="bold">prepositional phrases</hi> (2.1.5)). These variants are
+                        lemmatized with the same <hi rend="bold">lemma</hi> (the same underlying
+                        adjective): e.g. the Portuguese lemma <hi rend="italic">claro</hi> delivers
+                        examples of <hi rend="italic">claro</hi> (adjective‑adverb), <hi rend="italic">às claras</hi> (prepositional phrase) and <hi rend="italic">claramente</hi> (derived adverb). </p>
+
+          <p>Since the database concerns the interface between adjectives and adverbs, it
+                        only includes adverbials that are lexically based on an adjectival root and,
+                        in exceptional cases, adverbials based on nouns. Therefore, <hi rend="bold">lexical adverbs</hi> like Spanish / French <hi rend="italic">bien</hi>,
+                            <hi rend="italic">mal</hi>, Portuguese <hi rend="italic">bem, mal</hi>,
+                        Italian <hi rend="italic">bene, male</hi> or Romanian <hi rend="italic">bine</hi> are not tagged in this corpus. </p>
+          <div>
+            <head n="2.1.1" xml:id="id.2.1.1">Adjective-Adverbs</head>
+            <p>In the case of adjective‑adverbs (also called <hi rend="italic">bare
+                                adverbs, adverbialized adjectives</hi> or <hi rend="italic">short
+                                adverbs</hi>), a word belonging to the word‑class of the adjective
+                            takes adverbial functions (for the theoretical background, see Hummel
+                            2017), such as the modification of the verb (manner adverb) as shown in
+                            the following examples: Spanish <hi rend="italic">claro</hi> in <hi rend="italic">hablar claro</hi> &apos;to speak clearly&apos;, French <hi rend="italic">haut</hi> in <hi rend="italic">voler trop haut</hi>
+                            &apos;to fly too high&apos;, Portuguese <hi rend="italic">rápido</hi> in <hi rend="italic">aprender rápido</hi> &apos;to learn fast&apos;, Italian <hi rend="italic">bello</hi> in <hi rend="italic">scrivere bello</hi>
+                            &apos;to write beautifully&apos; or Romanian <hi rend="italic">drept</hi> in <hi rend="italic">a merge drept</hi> &apos;to go straight/right&apos;. These
+                            adverbs are annotated with the category <hi rend="color text-uppercase">morphosyntactic structure: </hi>
+              <hi rend="color">adjectival</hi>.               
+             Only adjective‑adverbs —that is, adjectives with adverbial functions
+                            (see section 2.2.1 for the syntactic functions of the adverbs)— are
+                            tagged and annotated, whereas adjectives with adjectival syntax are not
+                            tagged in the aaif‑database (e.g. examples such as Spanish <hi rend="italic">alto</hi> in <hi rend="italic">el arbol es alto</hi>
+                            &apos;the tree is high&apos; or French <hi rend="italic">droit</hi> in <hi rend="italic">l&apos;angle droit</hi> &apos;the right angle&apos;).</p>
+            <p>For the <hi rend="bold">lemmatization</hi> of the examples, the
+                            uninflected standard form in present‑day language is used. It is
+                            identical to the masculine singular form of the base adjective, as in
+                            the case of the above‑mentioned forms: Spanish <hi rend="italic">claro</hi>, French <hi rend="italic">haut</hi>, Portuguese <hi rend="italic">rápido</hi>, Italian <hi rend="italic">bello</hi>,
+                            Romanian <hi rend="italic">drept</hi>. Regarding the rich diversity in
+                            varieties of southern Italy (<hi rend="italic">Napolitano, Siciliano,
+                                Salentino</hi> and <hi rend="italic">Calabrese</hi>, see subcorpus
+                            It_A_aaif), the corresponding standard Italian lemma is annotated in
+                            order to enable a simpler lemma search, e.g. dialectal <hi rend="italic">biello</hi> in Calabrian texts is lemmatized as <hi rend="italic">bello</hi>. In case there is no such corresponding standard Italian
+                            lemma, a reconstructed vernacular Latin form is marked with an asterisk
+                            and written in capital letters, for example, the lemma <hi rend="text-uppercase">*maiaticum</hi> for the Neapolitan
+                            adjective‑adverb <hi rend="italic">majàteco</hi> &apos;solidly&apos; in the
+                            following example:</p>
+            <p>(1) <hi rend="italic">parlava Napoletano chiantuto e majàteco</hi> (La
+                            Posilecheata, 1684, Napoli, It_A_aaif) <lb></lb> &apos;he was speaking Neapolitan
+                            robustly and solidly&apos;.</p>
+            <p>The category <hi rend="color text-uppercase">inflection</hi> refers to the number and
+                            gender of the adjectival form. Since most adjective‑adverbs appear in
+                            their masculine singular form (as in the above‑mentioned examples), they
+                            are considered an invariable and uninflected word‑class. Despite the
+                            normative preference for invariable/uninflected adverbs, especially
+                            older examples in historical corpora show inflected uses of adverbs, as
+                            in this Spanish example:</p>
+            <p n="2">(2) <hi rend="italic">que se vayan luego derechos a Marbella</hi>
+                            (Sp_AP_SH3, Epistolario del Conde de Tendilla, 1504‑1506) <lb></lb>
+                            &apos;they should go straight to Marbella&apos;</p>
+            <p>In this example, the adjective‑adverb <hi rend="italic">derechos</hi>
+                            (lemma: <hi rend="italic">derecho</hi> &apos;straight&apos;) agrees with the
+                            subject; therefore, the inflectional category of this example is
+                            annotated as <hi rend="color text-uppercase">inflection: </hi>
+              <hi rend="color">masculine plural</hi>. Consequently, Spanish <hi rend="italic">derecha</hi> is annotated as <hi rend="color text-uppercase">inflection: </hi>
+              <hi rend="color" xml:space="preserve">feminine singular</hi> and
+                            <hi rend="italic">derechas</hi> as <hi rend="color text-uppercase">inflection: </hi>
+              <hi rend="color">feminine plural</hi>. Since the
+                            masculine singular form of the adjective‑adverb is identical to the
+                            unmarked, uninflected form, in examples such as (3) it is not possible
+                            to distinguish between an uninflected or inflected use of the
+                            adjective‑adverb <hi rend="italic">derecho</hi>:</p>
+            <p n="3">(3) <hi rend="italic">que él</hi>
+              <hi rend="subscript">[masc.
+                                sg.]</hi>
+              <hi rend="italic"> se vaya derecho</hi>
+              <hi rend="subscript">[masc. sg.]</hi>
+              <hi rend="italic"> a Marbella</hi>
+            </p>
+
+            <p>The only way to clearly identify uninflected/unmarked adverbs are cases
+                            such as (4). In this example, the subject would cause plural agreement
+                            (the form <hi rend="italic">derechos</hi> would agree with the subject),
+                            whereas the adverb <hi rend="italic">derecho</hi> is clearly
+                            uninflected: </p>
+            <p n="4">(4) <hi rend="italic">que se vayan<hi rend="subscript">[plural]</hi>
+                                derecho<hi rend="subscript" xml:space="preserve">[masc. sg.] </hi>a
+                                Marbella</hi>
+            </p>
+
+            <p>However, in most cases the examples are simply ambiguous, as in (3).
+                            Therefore, the tag <hi rend="color text-uppercase">inflection:
+                            </hi>
+              <hi rend="color" xml:space="preserve">uninflected</hi> is
+                            considered the default‑tag which necessarily also covers the
+                            inflectional category <hi rend="color">masculine singular</hi>, whereas
+                            the other inflectional categories can be tagged separately (<hi rend="color">masculine plural / feminine singular / feminine
+                                plural</hi> and —for languages like Romanian—
+                            <hi rend="color" xml:space="preserve">neuter singular </hi>and <hi rend="color">neuter plural</hi>).</p>
+            <p>The <hi rend="bold">lemmatization</hi> enables searching for all <hi rend="bold">inflected variants</hi> of one adjective‑adverb. For
+                            example, the simple query for the Spanish lemma <hi rend="italic">derecho</hi> (without specifying the category &quot;inflection&quot;)
+                            delivers all inflected and uninflected examples, <hi rend="italic">derecho, derechos, derecha, derechas</hi>, as well as diminutive
+                            forms such as <hi rend="italic">derechito, derechitas</hi>, etc.</p>
+
+            <p>The specific inflectional categories (masculine/feminine/neuter and
+                            singular/plural) are annotated in all corpora except in the French ones.
+                            For French, the tags for the inflectional categories (besides the
+                            default category <hi rend="color">uninflected = masculine singular</hi>)
+                            are based on the distinction between <hi rend="color text-uppercase">inflection: </hi>
+              <hi rend="color">audible inflection</hi> (for example, <hi rend="italic">sain &gt; saine</hi> in <hi rend="italic">vivre
+                                    saine</hi>) and <hi rend="color text-uppercase">inflection: </hi>
+              <hi rend="color">inaudible inflection</hi> (for example, the inflection of <hi rend="italic">seul &gt; seule</hi> is only relevant for written
+                            French, as in the example <hi rend="italic">je m&apos;en vais seule</hi>, but
+                            not in spoken French).</p>
+          </div>
+          <div>
+            <head n="2.1.2" xml:id="id.2.1.2">Derived adverbs</head>
+            <p>Some subcorpora of the database include examples of <hi rend="bold">derived adverbs</hi>, although they are not the main focus of the
+                            aaif‑database. Derived adverbs are formed by a derivational suffix like
+                                ‑<hi rend="italic">mente</hi> which is added to an adjectival base.
+                            Hence, contrarily to adjective‑adverbs, where an adjective is directly
+                            converted into an adverb, derived adverbs show a specific adverbial
+                            suffix which clearly marks them as belonging to the word‑class <hi rend="italic">adverb</hi>. The tag <hi rend="color text-uppercase">morphosyntactic structure:
+                            </hi>
+              <hi rend="color" xml:space="preserve">derived -<hi rend="italic">mente</hi></hi>
+                            covers all variants of this suffix in several Romance languages: French
+                                ‑<hi rend="italic">ment</hi> and Spanish / Portuguese / Italian ‑<hi rend="italic">mente</hi>, as well as historical variants such as
+                            Spanish ‑<hi rend="italic">mientre</hi>, ‑<hi rend="italic">miente</hi>
+                            or ‑<hi rend="italic">mentre</hi> and regional varieties such as
+                            Calabrian and Sicilian ‑<hi rend="italic">menti</hi>. Romanian only has
+                            a few borrowed <hi rend="italic">mente</hi>‑adverbs, which are not
+                            documented in the aaif‑database.</p>
+            <p>The <hi rend="bold">lemma</hi> of derived adverbs is the adjectival lemma
+                            of the derivational base: Spanish <hi rend="italic">ciertamente</hi>
+                            &apos;certainly&apos; is lemmatized as <hi rend="italic">cierto</hi>, Portuguese
+                                <hi rend="italic">exatamente</hi> &apos;exactly&apos; as <hi rend="italic">exato</hi>. Since the systematic derivational base of <hi rend="italic">mente</hi>‑adverbs is the feminine singular form of
+                            the adjective (Spanish <hi rend="italic">cierta &gt; ciertamente</hi>
+                            and Portuguese <hi rend="italic">exata &gt; exatamente</hi>), we
+                            consider that a fossilized form of the stem, but not an inflectional
+                            process on the whole adverb. Therefore, <hi rend="italic">mente</hi>‑adverbs are by default categorized as <hi rend="color text-uppercase">inflection: </hi>
+              <hi rend="color">uninflected</hi>. We would only
+                            consider <hi rend="italic">mente</hi>‑adverbs to be inflected if the
+                            whole adverb takes, for example, a plural morpheme: e.g. informal
+                            Spanish <hi rend="italic">los ríos meramentes flotables</hi>, which is
+                            considered incorrect but still attested (not in the database). </p>
+            <p>Besides ‑<hi rend="italic">mente</hi>, other language‑specific
+                            derivational suffixes are the Romanian suffixes ‑<hi rend="italic">eşte</hi> (e.g. <hi rend="italic">crestineşte</hi> &apos;in a Christian
+                            manner&apos;), ‑<hi rend="italic">iş</hi> (e.g. <hi rend="italic">făţiş</hi>
+                            &apos;openly, directly&apos;) and ‑<hi rend="italic">ul</hi>; for each
+                            derivational suffix there is a specific tag:
+                            <hi rend="color text-uppercase" xml:space="preserve">morphosyntactic structure: </hi>
+              <hi rend="color" xml:space="preserve">derived -<hi rend="italic">eşte</hi></hi>,
+                            <hi rend="color" xml:space="preserve"> / derived -<hi rend="italic">iş</hi></hi>,
+                            <hi rend="color" xml:space="preserve">derived -<hi rend="italic">ul</hi></hi>. </p>
+            <p>The annotation tool also includes tags for the Italian suffix ‑<hi rend="italic">oni/</hi>‑<hi rend="italic">one</hi> (used for actions
+                            that involve a body part touching the ground: <hi rend="italic">ginocchione/i</hi> &apos;on one&apos;s knees&apos;, <hi rend="italic">bocconi</hi>
+                            &apos;on one&apos;s mouth&apos;) and the English suffix ‑<hi rend="italic">ly</hi>.
+                            Those two options as well as
+                            <hi rend="color" xml:space="preserve">derived -<hi rend="italic">ul</hi></hi>                            
+are not shown in the search interface, since there have not (yet) been
+                            any annotated examples.</p>
+          </div>
+          <div>
+            <head n="2.1.3" xml:id="id.2.1.3">Nouns used as adverbials</head>
+
+            <p>This category applies to nouns that are used with adverbial functions.
+                            For example, in Spanish <hi rend="italic">pasarlo bomba</hi> &apos;to have a
+                            very good time&apos;, the noun <hi rend="italic">bomba</hi> &apos;bomb&apos; is used as
+                            a manner adverb meaning (metaphorically) &apos;very well&apos;. Nouns also appear
+                            in adverbial locutions (see section 2.1.5), e.g. Portuguese <hi rend="italic">com certeza</hi> &apos;certainly&apos; (literally &apos;with
+                            certainty&apos;) and<hi rend="italic" xml:space="preserve"> com clareza</hi>
+                            &apos;clearly&apos; (literally &apos;with clarity&apos;), as well as in reduplicated
+                            locutions, e.g. Neapolitan <hi rend="italic">ardere miccia miccia</hi>
+                            (see section 2.1.4). These nouns are tagged as adverbs and further
+                            annotated with the tag <hi rend="color text-uppercase">morphosyntactic
+                                structure: </hi>
+              <hi rend="color">noun</hi>. </p>
+            <p>The <hi rend="bold">lemma</hi> of these adverbials is the basic
+                            (singular) form of the noun. Therefore, contrarily to <hi rend="italic">mente</hi>‑adverbs, adjective‑adverbs and prepositional phrases of
+                            the type &quot;preposition + adjective&quot; —which are all lemmatized with an
+                            adjectival lemma— nouns are lemmatized as nouns. The category <hi rend="color text-uppercase">inflection</hi> (<hi rend="color">feminine singular / masculine plural</hi>, etc.) is also tagged;
+                            note that the inflectional categories in the annotation tool were
+                            established for adjectives, thus gender (masculine, feminine, neuter)
+                            appears as an inflectional category even though it is inherent and nouns
+                            are only inflected for number (singular, plural).</p>
+
+            <p>This category is not systematically annotated in the database, since
+                            nouns are not the main target of the aaif‑project. For example, in the
+                            Portuguese database Pt_APM_DeG, only the prepositional phrases <hi rend="italic">com certeza</hi>
+                            and<hi rend="italic" xml:space="preserve"> com clareza</hi> are tagged         
+                   because they form paradigms with the adverbs <hi rend="italic">certo, ao
+                                certo, certamente</hi> (common adjectival lemma: <hi rend="italic">certo</hi>) and <hi rend="italic">claro, claramente, às claras, em
+                                claro</hi> (common adjectival lemma: <hi rend="italic">claro</hi>).
+                            On the contrary, other prepositional adverbials such as <hi rend="italic">sem interrupções</hi> &apos;without interruptions&apos; are not
+                            tagged in this subcorpus, since they share no lexemic root with any
+                            adjective‑adverb. </p>
+
+            <p>Only nouns that are used adverbially (via direct conversion or via
+                            reduplication) or that form part of a prepositional phrase are tagged as
+                            nouns. In cases where the derivational basis of a derived adverb (see
+                            previous section) is a noun (instead of an adjective), the adverb has
+                            been classified as derived. For example, the Romanian adverb <hi rend="italic">făţiş</hi> &apos;openly, directly&apos; is formed by the noun
+                                <hi rend="italic">faţă</hi> &apos;face, visage&apos; and the derivational
+                            suffix ‑<hi rend="italic">iş</hi>, and has been classified as a derived
+                            adverb with the <hi rend="color text-uppercase">morphosyntactic
+                                structure</hi>
+              <hi rend="color" xml:space="preserve">: derived -<hi rend="italic">iş</hi></hi>.</p>
+          </div>
+          <div>
+            <head n="2.1.4" xml:id="id.2.1.4">Reduplicated adverbs</head>
+            <p>The category <hi rend="color text-uppercase">reduplication</hi> refers to the
+                            lexicalized or spontaneous consecutive repetition (doubling) of the same
+                            adverb. In some dialects of Southern Italy, the reduplication of <hi rend="bold">adjective</hi>‑<hi rend="bold">adverbs</hi> is
+                            especially productive. For example, Neapolitan <hi rend="italic">sano
+                                sano</hi> means &apos;entirely&apos;: </p>
+            <p n="5">(5) <hi rend="italic">ma la diceno tutta sana sana</hi> (It_A_aaif,
+                            Aminta, 1725) <lb></lb>       &apos;but they tell all [these things]
+                            entirely&apos;</p>
+            <p>Reduplicated adverbs are tagged only once: e.g. only one word‑form <hi rend="italic">sana</hi> has been tagged with the same categories as
+                            a single‑word adverb, that is: lemmatized as <hi rend="italic">sano</hi>
+                            and annotated as an adverb with the <hi rend="color text-uppercase">morphosyntactic
+                                structure</hi>
+              <hi rend="color">: adjectival</hi> and its specific
+                            inflectional features
+                                (<hi rend="color text-uppercase" xml:space="preserve">inflection: </hi>
+              <hi rend="color">feminine singular</hi>). Additionally, <hi rend="italic">sana</hi> has been tagged with the separate category
+                            <hi rend="color text-uppercase">reduplicated</hi>
+              <hi rend="color">: true</hi>.</p>
+            <p>Likewise, one instance of <hi rend="italic">paso</hi> &apos;slowly&apos; was
+                            annotated as an adjective‑adverb and tagged as reduplicated in the
+                            following Spanish example: </p>
+            <p n="6">(6) <hi rend="italic">¡Paso, paso, Pármeno, no saltes!</hi>
+                            (Sp_AP_SH3, La Celestina, 1499) <lb></lb>       &apos;Slowly, slowly, Pármeno, do
+                            not jump&apos;. </p>
+            <p>As this example shows, adjective‑adverbs can also be productively
+                            reduplicated in order to boost their meaning, without having a specific
+                            lexicalized or idiomatic meaning. Any type of reduplication is tagged in
+                            the aaif‑database, regardless of its meaning.</p>
+            <p>In the same vein, reduplications of a <hi rend="bold">noun</hi> may be
+                            used adverbially, e.g. the Neapolitan noun <hi rend="italic">miccia</hi>
+                            &apos;fuse&apos;:</p>
+            <p n="7">(7) <hi rend="italic">ardere miccia miccia</hi> (It_A_aaif, La vita
+                            e morte de lo sciatamone &apos;mpetrato, 1750) <lb></lb>       &apos;to burn weak&apos;</p>
+            <p>In the case of <hi rend="italic">miccia miccia</hi>, one word‑form <hi rend="italic">miccia</hi> is annotated as an adverb with the tag <hi rend="color text-uppercase">morphosyntactic structure</hi>
+              <hi rend="color">:
+                                noun</hi> and
+                                <hi rend="color text-uppercase" xml:space="preserve">inflection: </hi>
+              <hi rend="color">feminine singular</hi>. Additionally, <hi rend="italic">miccia</hi> has been tagged with the category <hi rend="color text-uppercase">reduplicated</hi>
+              <hi rend="color">: true</hi>. In this case, <hi rend="italic">miccia miccia</hi> (literally &apos;fuse&apos;) has a specific
+                            lexicalized idiomatic meaning.</p>
+
+            <p>Hence, in the case of reduplicated adverbials, only one form is annotated
+                            with the same tags as a single‑word adverb (be it an adjective‑adverb or
+                            a noun) and the feature of reduplication is not found under the category
+                            &quot;morphosyntactic structure&quot;, but as a separate category: the
+                                tag<hi rend="color text-uppercase" xml:space="preserve"> reduplicated</hi>
+              <hi rend="color">: true</hi>. Therefore, the default tag for all other
+                            examples is <hi rend="color text-uppercase">reduplicated</hi>
+              <hi rend="color">:
+                                false</hi>.</p>
+          </div>
+          <div>
+            <head n="2.1.5" xml:id="id.2.1.5">Prepositional phrases (adverbial
+                            locutions)</head>
+            <p>Some periphrastic adverbials are formed by multi‑word sequences
+                            introduced by a preposition. The following combinations can be tagged
+                            with the annotation tool, although not all possibilities are attested in
+                            the database: </p>
+            <table rendition="simple:rules">
+              <row>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Formation</item>
+                  </list>
+                </cell>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Examples</item>
+                  </list>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Preposition + Adjective </item>
+                  </list>
+                </cell>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Portuguese <hi rend="italic">de novo</hi>
+                                        &apos;again&apos;</item>
+                  </list>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Preposition + Preposition + Adjective</item>
+                  </list>
+                </cell>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Spanish <hi rend="italic">por de pronto</hi>
+                                            &apos;provisionally&apos;</item>
+                  </list>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Preposition + Article + Adjective </item>
+                  </list>
+                </cell>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Spanish <hi rend="italic">por lo seguro</hi>
+                                            &apos;surely&apos;</item>
+                  </list>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Preposition + Possessive + Adjective </item>
+                  </list>
+                </cell>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Spanish <hi rend="italic">a mis solas</hi> &apos;on my
+                                            own&apos;</item>
+                  </list>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Preposition + Noun </item>
+                  </list>
+                </cell>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Portuguese <hi rend="italic">com certeza</hi>
+                                            &apos;certainly&apos;</item>
+                  </list>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Preposition + Article + Noun </item>
+                  </list>
+                </cell>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Portuguese <hi rend="italic">na verdade</hi> &apos;in
+                                            truth&apos;</item>
+                  </list>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Preposition + Adjective + Article </item>
+                  </list>
+                </cell>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Romanian <hi rend="italic">cu dereptul</hi> &apos;rightly, correctly&apos;</item>
+                  </list>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Preposition + Derived Adverb </item>
+                  </list>
+                </cell>
+                <cell rendition="simple:List_Number">
+                  <list type="ordered">
+                    <item>Romanian <hi rend="italic">de făţiş</hi> &apos;openly,
+                                            directly&apos;</item>
+                  </list>
+                </cell>
+              </row>
+            </table>
+
+            <p>For each word‑class (part of speech) there is a separate tag; the tag for
+                            the word‑class <hi rend="bold">adverb</hi> is thus combined with a
+                            separate word‑class tag for <hi rend="bold">prepositions</hi> and any
+                                <hi rend="bold">articles</hi> or <hi rend="bold">possessives</hi>.
+                            Therefore, in these adverbial locutions (prepositional phrases), each
+                            part of the multi‑word sequence is annotated with the corresponding
+                            word-class category.</p>         
+   <p>For the <hi rend="bold">lemma</hi> of these Romanian adverbials, the
+                            underlying adjectival (or nominal) base is annotated, i.e. <hi rend="italic">cu dereptul</hi> &apos;rightly, correctly&apos; is lemmatized as
+                                <hi rend="italic">drept</hi> (hence, the same etymology as Spanish
+                                <hi rend="italic">derecho</hi>, see examples above).</p>
+            <p>For example, the adjective <hi rend="italic">novo</hi> &apos;new&apos; in the
+                            Portuguese locution <hi rend="italic">de novo</hi> &apos;again&apos; is annotated
+                            with the tag for the word‑class <hi rend="bold">adverb</hi>. Hence, <hi rend="italic">novo</hi> is lemmatized and categorized as <hi rend="color text-uppercase">morphosyntactic structure: </hi>
+              <hi rend="color">adjectival</hi>. Additionally, <hi rend="italic">novo</hi> is tagged with the category
+                                <hi rend="color text-uppercase" xml:space="preserve">part of prepositional phrase: </hi>
+              <hi rend="color">true</hi> (hence, the default for all other examples
+                                is<hi rend="color text-uppercase" xml:space="preserve"> part of prepositional phrase: </hi>
+              <hi rend="color">false</hi>). Likewise, the noun <hi rend="italic">certeza</hi> &apos;certainty&apos; in the prepositional phrase <hi rend="italic">com certeza</hi> &apos;certainly&apos; is categorized as an
+                            adverb with the
+                                <hi rend="color text-uppercase" xml:space="preserve">morphosyntactic structure: </hi>
+              <hi rend="color">noun</hi>. </p>
+            <p>The Romanian derived adverb <hi rend="italic">făţiş</hi> (<hi rend="italic">faţă</hi> &apos;face&apos; + derivational suffix -<hi rend="italic">iş</hi>) occurs both alone and in the prepositional
+                            phrase <hi rend="italic">de făţiş</hi> &apos;openly, directly&apos;; in both cases
+                            it is tagged with
+                            <hi rend="colo text-uppercase" xml:space="preserve">morphosyntactic structure: </hi>
+              <hi rend="color" xml:space="preserve">derived -<hi rend="italic">iş</hi></hi>.
+                            Whereas examples of <hi rend="italic">de făţiş</hi> are tagged as
+                                <hi rend="color text-uppercase" xml:space="preserve">part of prepositional phrase: </hi>
+              <hi rend="color">true</hi>, examples of the simple adverb <hi rend="italic">făţiş</hi> are tagged as
+                                <hi rend="color text-uppercase" xml:space="preserve">part of prepositional phrase: </hi>
+              <hi rend="color">false</hi>.</p>
+
+            <p>Therefore, the adjectives, nouns or adverbs that form part of a
+                            prepositional phrase are tagged and lemmatized as a single‑word adverb
+                            (be it an adjective‑adverb, a noun or a derived adverb, see previous
+                            sections), also regarding their possible <hi rend="color text-uppercase">inflection</hi>. </p>
+
+            <p>Consequently, prepositional phrases can be queried in the search
+                            interface by selecting the
+                                category<hi rend="color text-uppercase" xml:space="preserve"> Adverb: part of prepositional phrase: </hi>
+              <hi rend="color">true</hi>. Additionally, the <hi rend="bold">prepositions</hi> that form part of a prepositional phrase are
+                            lemmatized and can be found via lemma search. Therefore, it is possible,
+                            for example, to search prepositions cross‑linguistically in several
+                            Romance languages, e.g. the <hi rend="bold">lemma</hi> search for the
+                            preposition <hi rend="italic">de</hi> in various subcorpora
+                            simultaneously delivers examples such as Portuguese <hi rend="italic">de
+                                novo</hi> &apos;again&apos;<hi rend="italic">, de leve</hi> &apos;lightly&apos;, Spanish
+                                <hi rend="italic">de cierto</hi>
+                            &apos;certainly&apos;,<hi rend="italic" xml:space="preserve"> de seguro</hi>
+                            &apos;surely&apos;, and Romanian <hi rend="italic">de făţiş</hi> &apos;openly&apos;, <hi rend="italic">de curând</hi> &apos;quickly&apos;. In the case of the subcorpus
+                            It_A_aaif, the lemmatization of the prepositions is based on the
+                            standard Italian form, therefore the dialectal form <hi rend="italic">de
+                                veru</hi> &apos;really&apos; (attested in Salento) can be found via lemma
+                            search for <hi rend="italic">di</hi>.</p>
+
+            <p>In prepositional phrases which are formed by more than one preposition,
+                            each preposition is tagged and lemmatized separately. Therefore,
+                            examples such as Spanish <hi rend="italic">por de pronto</hi>
+                            &apos;provisionally&apos; show three tagged word‑classes: two prepositions and one
+                            adjective‑adverb. Since both prepositions are lemmatized, examples like
+                            the following can be found both via lemma search for <hi rend="italic">por</hi> and lemma search for <hi rend="italic">de</hi>:</p>
+            <p n="8">(8) <hi rend="italic">Supongamos, por de pronto un sustantivo, por
+                                ejemplo: &quot;herencia&quot;.</hi> (Sp_AP_CORDIAM, Documentos comentativos:
+                            El Coronel, Uruguay, 1880)<lb></lb>&apos;Let’s assume, provisionally, a noun, for
+                            example: &quot;inheritance&quot;&apos; </p>
+            <p>In some cases, the preposition is <hi rend="bold">contracted</hi> with
+                            the adjective: Romanian <hi rend="italic">deplin</hi> &apos;completely,
+                            fully&apos; is an contracted form: preposition <hi rend="italic">de</hi> +
+                            adjective <hi rend="italic">plin</hi>. In these cases, both the
+                            preposition and the adjective are tagged and lemmatized. The contracted
+                            preposition is additionally tagged with the category
+                                <hi rend="color text-uppercase" xml:space="preserve">contracted: </hi>
+              <hi rend="color">true</hi>. Hence, the default tag for all prepositions
+                            that are not fused
+                                is<hi rend="color text-uppercase" xml:space="preserve"> contracted: </hi>
+              <hi rend="color">false</hi>.</p>
+            <p>Occasionally, prepositional adverbials are formed with two <hi rend="bold">contracted</hi> prepositions. The Romanian adverbial <hi rend="italic">îndelung</hi> &apos;during a long time&apos; is formed as
+                            follows: contracted preposition <hi rend="italic">în</hi> + contracted
+                            preposition <hi rend="italic">de</hi> + adjective <hi rend="italic">lung</hi>&apos;long&apos;.</p>
+            <p>In some cases, the periphrastic adverb may also include an <hi rend="bold">article</hi> which is tagged as a separate word‑class
+                            and annotated with the categories <hi rend="color text-uppercase">gender</hi> (<hi rend="color">masculine / feminine / neuter / undefined</hi>) and <hi rend="color text-uppercase">number</hi> (<hi rend="color">singular / plural /
+                                undefined</hi>). Articles are not lemmatized. Therefore,
+                            prepositional phrases like Spanish <hi rend="italic">a la fija, a lo
+                                seguro</hi> contain three tagged word‑classes (preposition + article
+                            + adverb), which can be queried in the search mask independently or in
+                            different combinations. </p>
+            <p>In some Romance languages, <hi rend="bold">articles</hi> may be <hi rend="bold">contracted</hi> with the preposition, e.g. Portuguese
+                                <hi rend="italic">ao</hi> (preposition <hi rend="italic">a</hi> +
+                            masculine singular article <hi rend="italic">o</hi>) and <hi rend="italic">às</hi> (preposition <hi rend="italic">a</hi> +
+                            feminine plural article <hi rend="italic">as</hi>). Therefore,
+                            prepositional adverbials like <hi rend="italic">ao certo</hi>
+                            &apos;certainly&apos; and <hi rend="italic">às claras</hi> &apos;clearly&apos; are tagged as
+                            follows: </p>
+            <table rendition="simple:rules">
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="italic">ao certo</hi>
+                </cell>
+                <cell rendition="simple:List_Paragraph"></cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase">preposition</hi>
+                </cell>
+                <cell rendition="simple:List_Paragraph">
+                  <p>lemma <hi rend="italic">a</hi>
+                  </p>
+                  <p></p>
+                  <p>contracted: false</p>
+                </cell>
+              </row>
+              <row>              
+  <cell rendition="simple:left">
+                  <hi rend="text-uppercase">article</hi>
+                </cell>
+                <cell rendition="simple:List_Paragraph">gender: masculine<p></p>number:
+                                    singular<p></p>contracted: true</cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase">adverb</hi>
+                </cell>
+                <cell rendition="simple:List_Paragraph">lemma <hi rend="italic">certo</hi>
+                  <p></p>morphosyntactic structure:
+                                    adjectival<p></p>inflection: uninflected<p></p>part of prepositional
+                                    phrase: true</cell>
+              </row>
+            </table>
+            <table rendition="simple:rules">
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="italic">às
+                                    claras</hi>
+                </cell>
+                <cell rendition="simple:List_Paragraph"></cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase">preposition</hi>
+                </cell>
+                <cell rendition="simple:List_Paragraph">lemma <hi rend="italic">a</hi>
+                  <p></p>contracted: false</cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase">article</hi>
+                </cell>
+                <cell rendition="simple:List_Paragraph">gender: feminine<p></p>number:
+                                    plural<p></p>contracted: true</cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase">adverb</hi>
+                </cell>
+                <cell rendition="simple:List_Paragraph">lemma <hi rend="italic">claro</hi>     
+             <p></p>morphosyntactic structure:
+                                    adjectival<p></p>inflection: feminine plural<p></p>part of
+                                    prepositional phrase: true</cell>
+              </row>
+            </table>
+            <p>In these examples, the prepositions themselves are tagged as
+                                <hi rend="color text-uppercase" xml:space="preserve">contracted: </hi>
+              <hi rend="color">false</hi>, since the category
+                                <hi rend="color text-uppercase" xml:space="preserve">contracted: </hi>
+              <hi rend="color">true</hi> applies to prepositions contracted to the
+                            adjective‑adverb (see above). Simply for practical reasons and in order
+                            to differentiate the patterns, the contraction of <hi rend="italic">a +
+                                o</hi> and <hi rend="italic">a + as</hi>, in turn, is tagged by
+                            annotating the article as contracted.</p>
+
+            <p>In Romanian, the article is postponed and contracted to the noun or
+                            nominalized adjective. For example, the morphemes of the Romanian adverb
+                                <hi rend="italic">de amănuntul</hi> &apos;detailed&apos; are: <hi rend="italic">de a‑mănunt‑ul</hi>. Hence, this adverbial is based on
+                            the adjective <hi rend="italic">mănunt</hi> &apos;small, detailed&apos; (&lt; lat.
+                                <hi rend="italic">minutus</hi>) and further consists of two
+                            prepositions (<hi rend="italic">de</hi> and contracted <hi rend="italic">a</hi>) and of the postponed and contracted article -<hi rend="italic">ul</hi>. It is tagged with four tags:</p>
+            <table rendition="simple:rules">
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="italic">de
+                                    amănuntul</hi>
+                </cell>
+                <cell rendition="simple:left"></cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase" xml:space="preserve">Preposition </hi>
+                </cell>
+                <cell rendition="simple:left">
+                  <p>lemma<hi rend="italic" xml:space="preserve"> de</hi>
+                  </p>
+                  <p></p>
+                  <p>contracted: false</p>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase">Preposition</hi>
+                </cell>
+                <cell rendition="simple:left">
+                  <p>lemma<hi rend="italic" xml:space="preserve"> a</hi>
+                  </p>
+                  <p></p>
+                  <p>contracted: true</p>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase">Adverb</hi>
+                </cell>
+                <cell rendition="simple:left">
+                  <p>lemma <hi rend="italic">mănunt</hi>
+                  </p>
+                  <p></p>
+                  <p>morphosyntactic structure: adjective</p>
+                  <p></p>
+                  <p>part of prepositional phrase: true</p>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase">Article</hi>
+                </cell>
+                <cell rendition="simple:left">gender: masculine<p></p> number:
+                                    singular<p></p> contracted: true</cell>
+              </row>
+            </table>
+            <p>In those cases where the periphrastic adverb includes a <hi rend="bold">possessive</hi> (instead of an article), it is also annotated with                        
+    a tag for this part of speech. Possessives are not lemmatized. The
+                            categories for possessives are <hi rend="color text-uppercase">gender</hi> (<hi rend="color">masculine / feminine / neuter / undefined</hi>), <hi rend="color text-uppercase">number</hi> (<hi rend="color">singular / plural /
+                                        undefined</hi>), and <hi rend="color text-uppercase">person</hi> (<hi rend="color">1st</hi> / <hi rend="color" xml:space="preserve"> 2nd</hi> / 
+                            <hi rend="color">3rd</hi>). For
+                            example, the Spanish prepositional phrase <hi rend="italic">a mis
+                                solas</hi> &apos;on my own&apos; has been tagged as follows:</p>
+            <table rendition="simple:rules">
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="italic" xml:space="preserve">a mis solas: </hi>
+                </cell>
+                <cell rendition="simple:left"></cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase">preposition</hi>
+                </cell>
+                <cell rendition="simple:left">
+                  <p>lemma <hi rend="italic">a</hi>
+                  </p>
+                  <p></p>
+                  <p>contracted: false</p>
+                </cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase">possessive</hi>
+                </cell>
+                <cell rendition="simple:List_Paragraph">number: plural <p></p>gender:
+                                    undefined <p></p>person: 1st</cell>
+              </row>
+              <row>
+                <cell rendition="simple:left">
+                  <hi rend="text-uppercase">adverb</hi>
+                </cell>
+                <cell rendition="simple:left">
+                  <p>lemma <hi rend="italic">solo</hi>
+                  </p>
+                  <p></p>
+                  <p>morphosyntactic structure: adjectival</p>
+                  <p></p>
+                  <p>inflection: feminine plural</p>
+                  <p></p>        
+          <p>part of prepositional phrase: true</p>
+                </cell>
+              </row>
+            </table>
+            <p>In sum, the annotation tool serves to annotate each word of a
+                            prepositional phrase separately and therefore allows different (or the
+                            same) word‑class tags to be freely combined.</p>
+          </div>
+        </div>
+        <div>
+          <head n="2.2" xml:id="id.2.2">Syntactic properties and functions of the
+                        adverb</head>
+
+          <p>The following categories are annotated for all types of adverbs regardless of
+                        their morphosyntactic form (adjective‑adverbs, derived adverbs,
+                        prepositional phrases or reduplicated adverbs). The categories offer a broad
+                        systematization of the diverse syntactic functions (see section 2.2.1) of
+                        the word‑class <hi rend="italic">adverb</hi> and other syntactic properties
+                        such as modification (see 2.2.2.) and coordination of two or more adverbs
+                        (see 2.2.3.).</p>
+          <div>
+            <head n="2.2.1" xml:id="id.2.2.1">Attribution target</head>
+            <p>The main function of the word‑class <hi rend="italic">adverb</hi> has
+                            been defined as <hi rend="italic">modification</hi>: adverbs modify
+                            another part of the sentence (a word, a phrase or even the sentence as a
+                            whole). The syntactic scope of the adverb —the segment it modifies— is
+                            tagged under the category <hi rend="color text-uppercase">attribution                         
+       target</hi>. Depending on which types of adverbs have been compiled
+                            for a specific subcorpus (e.g. only manner adverbs or also other
+                            adverbial functions), more or fewer categories have been annotated and
+                            can be found via the search interface. Note that some examples may be
+                            ambiguous and can be interpreted differently; therefore, some categories
+                            may be vague and may have been used slightly differently (i.e. a broader
+                            or more general classification) by the different linguists who annotated
+                            the various subcorpora. </p>
+            <p>The following classifications were established for the aaif‑annotation
+                            tool: </p>
+            <list type="unordered">
+              <item>
+                <hi rend="color text-uppercase">attribution target: </hi>
+                <hi rend="color">verb</hi>
+              </item>
+            </list>
+
+            <p>According to literature, the main function of adverbs is manner, that is,
+                            verb modification: Spanish <hi rend="italic">proceder de ligero</hi> &apos;to
+                            proceed quickly&apos;, French <hi rend="italic">dire tout bas</hi> &apos;to say
+                            very quietly&apos;, Portuguese <hi rend="italic">participar ativamente</hi>
+                            &apos;to participate actively&apos;, Italian <hi rend="italic">scrivere bello</hi>
+                            &apos;to write beautifully&apos;, or Romanian <hi rend="italic">a zice chiar</hi>
+                            &apos;to speak clearly&apos;. In these examples, the syntactic scope of the adverb
+                            is annotated as
+                                <hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color">verb</hi>. The verb form modified by the adverbial is
+                            tagged and lemmatized too (see the tag for the word‑class <hi rend="bold">verb</hi>, section 3).</p>
+            <list type="unordered">
+              <item>
+                <hi rend="color text-uppercase">attribution target: </hi>
+                <hi rend="color">verb and subject</hi>
+              </item>
+            </list>
+            <p>In certain sentences, the manner adverb modifies both the action
+                            described by the verb of the sentence and the subject involved, e.g. the
+                            following Spanish example:</p>
+            <p n="9">(9) <hi rend="italic">decía el Marquesito muy serio</hi>
+                            (Sp_AP_SH3, La Regenta, 1884‑1885)<lb></lb>&apos;said the little marquis very
+                            serious(ly)&apos;</p>
+            <p>The adjective‑adverb <hi rend="italic">serio</hi> &apos;serious(ly)&apos; describes
+                            both the action expressed by the verb <hi rend="italic">decir</hi> &apos;to
+                            say&apos; (the serious manner of speaking) and the attitude of the subject,
+                                <hi rend="italic">el Marquesito</hi>, while speaking. Whereas
+                            secondary predicates modify exclusively the subject, albeit limited to
+                            the scope of the verb (e.g. <hi rend="italic">Juan compró una casa
+                                desesperado.</hi> &apos;Desperate, John bought a house&apos;), the adverbs of
+                            the category
+                                <hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color">verb and subject</hi> also modify the verb at the same
+                            time. </p>
+            <p>The <hi rend="bold">inflection</hi> of the adjective‑adverb (see section
+                            2.1.1.1) occasionally agrees in number and gender with the subject: in
+                            the French example <hi rend="italic">elle vivait saine</hi> &apos;she lived
+                            healthy&apos;, the adjective‑adverb <hi rend="italic">saine</hi> (fem. sg.)
+                            agrees with the subject <hi rend="italic">elle</hi> (fem. sg.) and
+                            describes both a quality of the subject (&apos;she is healthy&apos;) and a
+                            characteristic of the verb <hi rend="italic">vivre</hi> (&apos;she lives in a
+                            healthy manner&apos;). In these kinds of examples, in addition to the verb,
+                            occasionally the <hi rend="bold">subject</hi> the adverb refers to is
+                            also annotated in some corpora (see the tag for the word‑class <hi rend="italic">subject</hi>, section 4). It should be added however
+                            that the distinction between
+                            &quot;<hi rend="color" xml:space="preserve">subject</hi> only&quot;,
+                                &quot;<hi rend="color">verb and subject&quot;</hi> and &quot;secondary predicate&quot;
+                            (not included in the database) is all but clear‑cut. Hence, the database
+                            provides a rough classification that should be subject to more detailed
+                            analyses in research using the data.</p>
+            <list type="unordered">
+              <item>
+                <hi rend="color text-uppercase">attribution target: </hi>
+                <hi rend="color">verb and object</hi>
+              </item>
+            </list>
+            <p>Similarly, this tag applies to those manner adverbials that modify both
+                            the (transitive) verb of the sentence and the object involved, as in the
+                            following Spanish example:</p>
+            <p n="10">(10) <hi rend="italic">los martirios [...] los ha de pagar bien
+                                caros</hi> (Sp_AP_SH3, Los bandidos del Río frío, México, 1889‑1891)
+                            <lb></lb>&apos;s/he has to pay very dearly for the torments&apos;. </p>
+            <p>In this example, the adjective‑adverb <hi rend="italic">caro</hi>
+                            &apos;dear(ly), expensive&apos; is inflected (masc. pl. form <hi rend="italic">caros</hi>) and it agrees not with the (singular) subject of the
+                            sentence, but with <hi rend="italic">los martirios</hi> (masc. pl.),
+                            i.e. the direct object of the verb <hi rend="italic">pagar</hi> &apos;to
+                            pay&apos;. </p>
+            <p>Likewise, reduplicated adverbs can also be inflected and may agree with
+                            the object of the sentence, as in the following Neapolitan example:</p>
+            <p n="11">(11) <hi rend="italic">ma la diceno tutta sana sana
+                            </hi>(It_A_aaif, Aminta, 1725) <lb></lb>&apos;but they tell all [these things]
+                            entirely&apos;</p>
+            <p>The reduplicated adjective‑adverb <hi rend="italic">sana sana</hi>
+                            &apos;entirely&apos; (literal translation: &apos;healthy‑healthy&apos;) concords with the
+                            direct object <hi rend="italic" xml:space="preserve">la </hi>(fem. sg.). </p>
+            <p>Likewise, in the French sentence </p>
+            <p n="12">(12) <hi rend="italic">On peut la [=la soupe] manger chaude,
+                                froide </hi>(2015, Fr_A_Web) <lb></lb>&apos;you can eat it [=the soup] hot or
+                            cold&apos;, </p>
+            <p>the adjective‑adverbs <hi rend="italic">chaud</hi> and <hi rend="italic">froid</hi> are inflected (fem. sg.), agreeing with the direct
+                            object <hi rend="italic" xml:space="preserve">la </hi>[<hi rend="italic">=la soupe</hi>]. Hence, the adjective‑adverbs <hi rend="italic">chaud</hi> &apos;hot&apos; and <hi rend="italic">froid</hi> &apos;cold&apos; refer to a
+                            quality of the direct object (the soup) at the moment the action
+                            described by the verb <hi rend="italic">manger</hi> &apos;to eat&apos; takes
+                            place. </p>
+
+            <p>Occasionally, the adverb refers to an implicit direct object of verbs
+                            like Portuguese <hi rend="italic">votar</hi> &apos;to vote&apos;, as in the
+                            sentence </p>
+            <p n="13">(13) <hi rend="italic">O povo brasileiro […] continua votando
+                                errado, sempre</hi> (Pt_APM_DeG, 1993, Rio de Janeiro, parte
+                            escrita)<lb></lb>&apos;the Brazilian people always continue voting wrong(ly)&apos;. </p>
+            <p>The adjective‑adverb <hi rend="italic">errado</hi> &apos;wrong(ly)&apos; does not
+                            describe solely the manner of voting (the action of voting itself is not
+                            invalid or done in an incorrect manner), but refers to the implicit
+                            direct object (e.g. they voted the wrong party), hence it is also
+                            annotated as
+                                <hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color">verb and subject</hi>.</p>
+
+            <p>Besides, adverbs also modify other parts of the sentence than the verb.
+                            The following <hi rend="color text-uppercase">attribution
+                            target</hi>‑categories do not consider the verb of the sentence, which
+                            is, consequently, not tagged:</p>
+            <list type="unordered">
+              <item>
+                <hi rend="color text-uppercase">attribution target:
+                                </hi>
+                <hi rend="color" xml:space="preserve">adjective </hi>
+              </item>
+            </list>
+            <p>Adverbs may modify adjectives, e.g. the Romanian adjective‑adverb <hi rend="italic">foarte</hi> &apos;strong(ly)&apos; modifies the adjective <hi rend="italic">mare</hi> &apos;big&apos; in this example:</p>
+            <p n="14">(14) <hi rend="italic">Ţara Ungurească mai denainte vreme era
+                                foarte mare</hi> (1725, Grigore Ureche: Letopiseţul Ţărîi Moldovei,                          
+  Ro_ADP_aaif) <lb></lb>&apos;The country of Hungary was really large before&apos;. </p>
+            <p>In this example, <hi rend="italic">foarte</hi> is annotated with the
+                            category
+                                <hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color">adjective</hi>; in turn, the adjective <hi rend="italic">mare</hi> itself is not tagged (since adjectives with
+                            adjectival syntax are not included in the annotation model). </p>
+
+            <p>Adjective‑adverbs may also be inflected and show agreement with the
+                            inflectional categories of the adjective they modify (which itself
+                            concords with the subject): the inflected (fem. sg.) Neapolitan
+                            adjective‑adverb <hi rend="italic">meza</hi> (standard Italian lemma:
+                                <hi rend="italic">mezzo</hi>) modifies the adjective <hi rend="italic">vregognosa</hi> (modern standard Italian: <hi rend="italic">vergognosa</hi>) in the following sentence: </p>
+            <p n="15">(15) <hi rend="italic">steva meza vregognosa</hi> (It_AP_aaif,
+                            1684, Napoli, Sarnelli, La Posilecheata) <lb></lb>&apos;she was half
+                            shy/ashamed&apos;. </p>
+
+            <p>As noted above, the adjective modified by the adverb (that is, the
+                            adjective as an attribution target) is not tagged itself. Nevertheless,
+                            deverbal adjectives (e.g. participles) are classified and tagged as verb
+                            forms (see section 3 for the tagging of the word‑class <hi rend="bold">verb</hi>), since this allows for annotating and lemmatizing of the
+                            participle. For example, in the Spanish sentence </p>
+            <p n="16">(16) <hi rend="italic">como un cordero recién esquilado</hi>
+                            (2007, El corazón helado, Sp_AP_SH3) <lb></lb>&apos;like a recently sheared
+                            sheep&apos;</p>
+            <p>the adjective‑adverb <hi rend="italic">recién</hi>
+                                (<hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color">adjective</hi>) modifies the deverbal adjective <hi rend="italic">esquilado</hi>, which itself has been annotated with
+                            the tag for the word‑class <hi rend="bold">verb</hi> and lemmatized as
+                                <hi rend="italic">esquilar</hi>.</p>
+            <list type="unordered">
+              <item>
+                <hi rend="color text-uppercase">attribution target: </hi>
+                <hi rend="color">adverb</hi>
+              </item>
+            </list>
+
+            <p>Adverbs may also modify other adverbs: the syntactic scope of the Spanish
+                            adjective‑adverb <hi rend="italic">harto</hi> in <hi rend="italic">interpretar harto duramente</hi> (&apos;to interpret/perform extremely
+                            hard&apos;) is the <hi rend="italic">mente</hi>‑adverb <hi rend="italic">duramente</hi>, which, in turn, is a manner adverb that modifies
+                            the verb <hi rend="italic">interpretar</hi>. Therefore, <hi rend="italic">harto</hi> is tagged with the
+                                category<hi rend="color text-uppercase" xml:space="preserve"> attribution target: </hi>
+              <hi rend="color">adverb</hi>. Depending on the types of adverbs tagged
+                            in each dataset (e.g. additionally to adjective‑adverbs also <hi rend="italic">mente</hi>‑adverbs), the adverb modified by an adverb
+                            has also been tagged itself. In the following Portuguese example, the
+                                <hi rend="italic">mente</hi>‑adverb <hi rend="italic">praticamente</hi> modifies the adjective‑adverb <hi rend="italic">sozinho</hi>: </p>
+            <p n="17">(17) <hi rend="italic">a pessoa trabalha praticamente sozinho ...
+                                na sua ... na sua criação</hi> (1993, Natal, Pt_APM_DeG, oral
+                            corpus) <lb></lb>&apos;the person works practically/nearly alone on its
+                            creation&apos;. </p>
+            <p>In this example, the adverb <hi rend="italic">praticamente</hi> has been
+                            tagged with the category
+                                <hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color">adverb</hi> and the adjective‑adverb <hi rend="italic">sozinho</hi> with the category
+                                <hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color">verb and subject</hi>. </p>
+            <p>In Romanian, an adjective‑adverb (e.g. <hi rend="italic">foarte</hi>
+                            &apos;strong(ly)&apos;) can also modify another adjective‑adverb (e.g. <hi rend="italic">greu</hi> &apos;hard(ly), difficult(ly)&apos;): </p>
+            <p n="18">(18) <hi rend="italic">foarte greu au stătut strâmbătate</hi>
+                            (1774, Bertoldo, Ro_APD_aaif)<lb></lb>&apos;with real difficulty they stood                            
+crooked&apos;</p>
+            <p>In this sentence, both the adjective‑adverbs <hi rend="italic">foarte</hi>
+                                (<hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color">adverb</hi>) and <hi rend="italic">greu</hi>
+                                (<hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color">verb</hi>) have been tagged.</p>
+            <list type="unordered">
+              <item>
+                <hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+                <hi rend="color">noun or syntagma without verb-reference</hi>
+              </item>
+            </list>
+
+            <p>This category includes all types of nouns or noun phrases as well as
+                            prepositional phrases or any type of phrase which does not include the
+                            verb of the sentence (in the annotation model, we use the term <hi rend="italic">syntagma</hi> for <hi rend="italic">phrase</hi>). For
+                            example, the Spanish adjective‑adverb <hi rend="italic">sola</hi>
+                            (inflected: fem. sg., lemma <hi rend="italic">solo</hi>) modifies the
+                            syntagma <hi rend="italic">una palabra</hi> (which is a noun phrase) in
+                            the following example:</p>
+            <p n="19">(19) <hi rend="italic">con sola una palabra </hi>(1499, La
+                            Celestina, Sp_AP_SH3) <lb></lb>&apos;with just/only one word&apos;. </p>
+            <p>Likewise, in the Portuguese example </p>
+            <p n="20">(20) <hi rend="italic">principalmente no verão</hi> (1993, Rio de
+                            Janeiro, parte oral, Pt_APD_DeG) <lb></lb>&apos;particularly during the
+                            summer&apos;</p>
+            <p>the adverb <hi rend="italic">principalmente</hi> modifies the
+                            prepositional phrase <hi rend="italic">no verão</hi>. </p>
+            <p>Finally, in the Neapolitan example </p>
+            <p n="21">(21) <hi rend="italic">simmo iusto quatto</hi> (1934, Napoli,
+                            Salvatore Di Giacomo: Tutto il teatro, It_A_aaif) <lb></lb>&apos;we are exactly
+                            four&apos;</p>
+            <p>the adjective‑adverb <hi rend="italic">iusto</hi> (standard Italian lemma
+                                <hi rend="italic">giusto</hi>) refers to the numeral. Hence, this
+                            heterogeneous category includes different types of phrases or words
+                            (nouns, numerals, etc. — all word‑classes except adjective and adverb
+                            for which there is a proper category, see above). The common criterion
+                            is that the modified phrase or word does not include the verb, hence,
+                            the adverb does not characterize the action described by the verb.</p>
+            <list type="unordered">
+              <item>
+                <hi rend="color text-uppercase">attribution target: </hi>
+                <hi rend="color">sentence</hi>
+              </item>
+            </list>
+            <p>Adverbs of this category modify the sentence as a whole. For example, in
+                            the Neapolitan phrase </p>
+            <p n="22">(22) <hi rend="italic">sì lo conosco, lo conosco sicuro</hi>
+                            (1925, Eduardo Scarpetta, Tutto il teatro, It_A_aaif) <lb></lb>&apos;yes, I know
+                            him, I know him surely/ for sure&apos;</p>
+            <p>the adjective‑adverb <hi rend="italic">sicuro</hi> does not refer as a
+                            manner adverb to the verb <hi rend="italic">conoscere</hi>, but its
+                            scope is the whole sentence; <hi rend="italic">sicuro</hi> is a
+                            sentence‑adverb that characterizes the whole proposition —the fact of
+                            knowing him— as &apos;sure&apos;. </p>
+            <p>Similarly, the Spanish adjective‑adverb <hi rend="italic">cierto</hi>
+                            &apos;certainly&apos; modifies the whole sentence (note that the adverb is also
+                            separated by commas, hence there is a prosodic pause):</p>
+            <p n="23">(23) <hi rend="italic">Verdad sea que, cierto, duele más la
+                                pérdida</hi> (1499, La Celestina, Sp_AP_SH3) <lb></lb>&apos;Certainly, it is
+                            true that the loss hurts more&apos;. </p>
+            <p>Likewise, the Portuguese adverb <hi rend="italic">infelizmente</hi>
+                            &apos;unfortunately, unhappily&apos; refers to the whole sentence (expressing the
+                            speaker’s point of view) in the following example:</p>
+            <p n="24">(24) <hi rend="italic">Meu grupo infelizmente não foi o
+                                vencedor</hi> (1993, Natal, parte escrita, Pt_APM_DeG)
+                            <lb></lb>&apos;Unfortunately, my group was not the winner&apos;. </p>
+            <p>The tag
+                                <hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color">sentence</hi> also applies for discourse markers, for
+                            example, affirmation markers or phatic markers (Spanish <hi rend="italic">bueno, claro</hi>, Portuguese <hi rend="italic">bom,
+                                exatamente</hi>, Neapolitan <hi rend="italic">certo</hi>).</p>
+          </div>
+          <div>
+            <head n="2.2.2" xml:id="id.2.2.2">Modification of the adverb</head>
+            <p>The category <hi rend="color text-uppercase" xml:space="preserve">modified: </hi>
+              <hi rend="color">true</hi> applies if the adverbial itself is modified
+                            (mostly intensified) by another adverbial (hence, the default category
+                            for all non‑modified adverbs
+                                is<hi rend="color text-uppercase" xml:space="preserve"> modified: </hi>
+              <hi rend="color">false</hi>). For example, the Romanian adjective‑adverb
+                                <hi rend="italic">scurt</hi> &apos;short&apos; is modified by the adverb <hi rend="italic">mai</hi> &apos;more&apos; in the following example: </p>
+            <p n="25">(25) <hi rend="italic">alţii au scris mai scurt</hi> (1620,
+                            Cronica universală, Ro_APD_aaif) <lb></lb>&apos;others wrote more briefly&apos;</p>
+            <p>Similarly, in the French example </p>
+            <p n="26">(26) <hi rend="italic">car ilz parloient bien bas</hi> (1489,
+                            Philippe de Commynes, Fr_A_DHAA) <lb></lb>&apos;because they spoke very  
+                          quietly&apos;</p>
+            <p>the adjective‑adverb <hi rend="italic">bas</hi> is modified by the adverb
+                                <hi rend="italic">bien</hi> &apos;very&apos;. The feature
+                                <hi rend="color text-uppercase" xml:space="preserve">modified: </hi>
+              <hi rend="color">true</hi> is annotated for the adjective‑adverbs <hi rend="italic">scurt</hi> and <hi rend="italic">bas</hi>, whereas the
+                            modifiers themselves, <hi rend="italic">mai</hi> &apos;more&apos; and <hi rend="italic">bien</hi> &apos;very&apos;, are not tagged. As explained above,
+                            the aaif‑database only annotates and lemmatizes adverbials which are
+                            based on an adjectival root. Therefore, modifiers such as Spanish <hi rend="italic">muy, tan, bien</hi>, French <hi rend="italic">très,
+                                trop, bien</hi>, Portuguese <hi rend="italic">tão, bem, demais</hi>,
+                            Romanian <hi rend="italic">mai, aşa</hi> or Neapolitan <hi rend="italic">tanto, cchiú</hi> (standard Italian <hi rend="italic">più</hi>),
+                                <hi rend="italic">così</hi> are not tagged and annotated themselves. </p>
+
+            <p>In the case that the modifier itself is actually based on an adjectival
+                            root, both adverbials are tagged and annotated (see section
+                                2.2.1<hi rend="color text-uppercase" xml:space="preserve"> attribution target: </hi>
+              <hi rend="color">adverb</hi>), as in the case of the following
+                            Portuguese example:</p>
+            <p n="27">(27) <hi rend="italic">a pessoa trabalha praticamente sozinho ...
+                                na sua ... na sua criação</hi> (1993, Natal, Pt_APM_DeG, oral
+                            corpus) <lb></lb>&apos;the person works practically/nearly alone on its
+                            creation&apos;</p>
+            <p>Both adverbs are annotated: <hi rend="italic">praticamente</hi> (<hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color" xml:space="preserve">adverb; </hi>
+              <hi rend="color text-uppercase" xml:space="preserve">modified: </hi>
+              <hi rend="color">false</hi>) and <hi rend="italic">sozinho</hi>
+                                (<hi rend="color text-uppercase" xml:space="preserve">attribution target: </hi>
+              <hi rend="color" xml:space="preserve">verb and subject; </hi>
+              <hi rend="color text-uppercase" xml:space="preserve">modified: </hi>
+              <hi rend="color">true</hi>). </p>
+            <p>Likewise, both adjective‑adverbs, <hi rend="italic">foarte</hi> and <hi rend="italic">greu</hi>, in the Romanian example <hi rend="italic">foarte greu au stătut strâmbătate</hi> &apos;with real difficulty they
+                            stood crooked&apos; (see example 18 above) were tagged, and <hi rend="italic">greu</hi> was annotated with the category
+                                <hi rend="color text-uppercase" xml:space="preserve">modified: </hi>
+              <hi rend="color">true</hi>. </p>
+          </div>
+          <div>
+            <head n="2.2.3" xml:id="id.2.2.3">Coordination of adverbs</head>
+            <p>If two or more different adverbs are coordinated, they share the same
+                            syntactic function and syntactic scope. For example, two manner adverbs
+                            can be coordinated, as in the following French example:</p>
+            <p n="28">(28) <hi rend="italic">des accents qui sonnent beaux et
+                                étranges</hi> (2016, Fr_A_Web) <lb></lb>&apos;accents which sound beautiful
+                            and strange&apos;</p>
+            <p>In this example, the two inflected adjective‑adverbs <hi rend="italic">beau</hi> &apos;beautiful(ly)&apos; and <hi rend="italic">étrange</hi>
+                            &apos;strange(ly)&apos; are both manner adverbs which both modify the verb form
+                                <hi rend="italic">sonnent</hi> &apos;to sound&apos;. The adverbs <hi rend="italic">beau</hi> &apos;beautiful(ly)&apos; and <hi rend="italic">étrange</hi> &apos;strange(ly)&apos; are annotated separately and both appear
+                            separately in the table of results in the search interface.
+                            Additionally, they are tagged with the category
+                                <hi rend="color text-uppercase" xml:space="preserve">coordinated: </hi>
+              <hi rend="color">true</hi> (hence, the default tag for all
+                            non‑coordinated examples is
+                                <hi rend="color text-uppercase" xml:space="preserve">coordinated: </hi>
+              <hi rend="color">false</hi>). </p>
+            <p>In the following Romanian example, two prepositional phrases are
+                            coordinated: </p>
+            <p n="29">(29) <hi rend="italic">mai pe largu şi de agiunsu scriu</hi>
+                            (1725, Letopiseţul Ţărîi Moldovei, Ro_ADP_aaif) <lb></lb>&apos;I write
+                            longer/more in detail and sufficient&apos;. </p>
+            <p>Both adverbials, <hi rend="italic">pe largu</hi> &apos;long&apos; (which is, by the
+                            way, modified by <hi rend="italic">mai</hi>) and <hi rend="italic">de
+                                agiunsu</hi> &apos;detailed&apos; (modern standard Romanian lemma: <hi rend="italic">de</hi>‑<hi rend="italic">ajuns</hi>), are annotated
+                            and both are tagged
+                                as<hi rend="color text-uppercase" xml:space="preserve"> coordinated: </hi>
+              <hi rend="color">true</hi>. </p>
+            <p>In line with this, more than two adverbs can be coordinated, as in this
+                            Neapolitan example: </p>
+            <p n="30">(30) <hi rend="italic">abbiannose chiano chiano adaso adaso e
+                                palillo palillo</hi> (1634‑1636, Lo cunto de li cunti, Napoli,
+                            It_A_aaif) <lb></lb>&apos;they set off [standard Italian verb <hi rend="italic">avviarsi</hi>] slowly, quietly and gently&apos;</p>
+
+            <p>The three coordinated adverbs are each reduplicated (see section 2.1.4).
+                            Hence, one of the instances of the adjective‑adverb <hi rend="italic">chiano</hi> [standard Italian lemma <hi rend="italic">piano</hi>]
+                            is lemmatized and tagged as
+                                <hi rend="color text-uppercase" xml:space="preserve">reduplicated: </hi>
+              <hi rend="color">true</hi>
+                                and<hi rend="color text-uppercase" xml:space="preserve"> coordinated: </hi>
+              <hi rend="color">true</hi>, and the same holds for the reduplicated and
+                            coordinated adjective‑adverb <hi rend="italic">adaso</hi> [standard
+                            Italian adjective‑adverb lemma <hi rend="italic">adagio</hi>] and for
+                            the reduplicated and coordinated noun <hi rend="italic">palillo</hi>.</p>
+
+            <p>Coordination is also possible between different adverb types, i.e. with
+                            different morphosyntactic structures. Depending on which types of
+                            adverbs are tagged in a given subcorpus (adjective‑adverbs, derived
+                            adverbs, prepositional phrases, etc.), the coordinated adverb may be
+                            tagged or not. For example, in the following Portuguese sentence, a <hi rend="italic">mente</hi>‑adverb is coordinated with a prepositional
+                            phrase (preposition + noun: <hi rend="italic">com clareza</hi>) and both
+                            are annotated because this subcorpus includes both types of adverbials: </p>
+            <p n="31">(31) <hi rend="italic">onde mostra objetivamente e com clareza                           
+     como pratica‑se o esporte</hi> (1994, Relato de interação,
+                            Pt_APM_DeG) <lb></lb>&apos;where he/she shows objectively and clearly how this
+                            sport is practised&apos;</p>
+            <p>On the contrary, adverbs like Spanish <hi rend="italic">bien</hi> &apos;well&apos;
+                            are not tagged, as in the following example: </p>
+            <p n="32">(32) <hi rend="italic">Francisco manejaba rápido y bien
+                            </hi>(1996, Los últimos días de &quot;La Prensa&quot;, 1996,
+                            Sp_A_CDH)<lb></lb>&apos;Francisco drove quickly and well&apos;</p>
+            <p>Therefore, only <hi rend="italic">rápido</hi> is tagged and categorized
+                            as
+                                <hi rend="color text-uppercase" xml:space="preserve">coordinated: </hi>
+              <hi rend="color">true</hi>.</p>
+          </div>
+        </div>
+        <div>
+          <head n="2.3" xml:id="id.2.3">Semantic classification of the adverb</head>
+
+          <p>Given the diversity of possible (contextual) meanings and polysemy as well as
+                        diachronic semantic changes, the specific meaning of each adverb in a given
+                        example is not annotated, but depending on the annotated lemma, its meaning
+                        can be searched in dictionaries elsewhere. The French database Fr_A_DHAA
+                        exclusively contains a register of the specific meaning of each combination
+                        of the type &quot;verb + adjective‑adverb&quot; (e.g. <hi rend="italic">tomber
+                            sec</hi> &apos;tomber, arriver immédiatement, tout d’un coup&apos;). </p>
+          <p>In order to offer a rough <hi rend="bold">semantic classification</hi> of the
+                        adverbials, six general categories were established and annotated for each
+                        example. Note that the meaning of some examples may be ambiguous and can be
+                        interpreted differently; therefore, some categories may be vague and may
+                        have been used slightly differently by the different linguists who annotated
+                        the various subcorpora.</p>
+          <list type="unordered">
+            <item>
+              <anchor xml:id="Hlk49457874"></anchor>
+              <hi rend="color text-uppercase" xml:space="preserve">Semantic classification: </hi>
+              <hi rend="color">manner</hi>
+            </item>
+          </list>
+
+          <p>Manner‑adverbs semantically modify the event expressed by the verb of the
+                        sentence, as in the following examples: Spanish <hi rend="italic">proceder
+                            de ligero</hi> &apos;to proceed quickly, thoughtlessly&apos;, French <hi rend="italic">dire tout bas</hi> &apos;to say very quietly&apos;, Portuguese <hi rend="italic">participar ativamente</hi> &apos;to participate actively&apos;,
+                        Italian <hi rend="italic">scrivere bello</hi> &apos;to write beautifully&apos;, or
+                        Romanian <hi rend="italic">a zice chiar</hi> &apos;to speak clearly&apos;. Therefore,
+                        most examples of manner adverbs take the verb as their syntactic scope (<hi rend="color text-uppercase">attribution target: </hi>
+            <hi rend="color">verb / verb and subject / verb and object</hi>, see section 2.2.1
+                        above) and have also been tagged for the word‑class <hi rend="bold">verb</hi> (see section 3).</p>
+          <p>In addition, adverbs that modify deverbal adjectives (<hi rend="color text-uppercase">attribution target: </hi>
+            <hi rend="color">adjective</hi>) also are often manner adverbs from a semantic point of
+                        view: e.g. the Portuguese example </p>
+          <p n="33">(33) <hi rend="italic">siluetas bem definidas e pinceladas
+                            esmeradamente alisadas</hi> (1993, parte escrita, Pt_APM_DeG) <lb></lb>&apos;well
+                        defined silhouettes and carefully straight brushstrokes&apos;. </p>
+          <p>The adverb <hi rend="italic">esmeradamente</hi> &apos;neatly, carefully&apos;
+                        characterizes a manner‑property of the adjective <hi rend="italic">alisado</hi> &apos;straight, smooth&apos; (<hi rend="italic">alisado de modo
+                            esmerado</hi> &apos;straightened in a careful manner&apos;). </p>
+          <p>Likewise, the Spanish adverbial prepositional phrase <hi rend="italic">a
+                            tuerto</hi> &apos;one‑eyed&apos; typically describes a characteristic of verbs
+                        like <hi rend="italic">acusar</hi> &apos;to accuse&apos;, <hi rend="italic">condenar</hi> &apos;to condemn&apos;, etc. In the following example, <hi rend="italic">a tuerto</hi> modifies the deverbal adjective <hi rend="italic">acusado</hi> &apos;accused&apos; and is classified as a manner
+                        adverb: </p>
+          <p n="34">(34) <hi rend="italic">si matarme quisieres acusado a tuerto, Dios me
+                            aya merçed </hi>(1251, Calila e Dimna, Sp_AP_SH3) <lb></lb>&apos;if you wish to
+                        kill me when I am only accused in a one‑eyed manner, I am at God&apos;s
+                        mercy&apos;</p>
+          <list type="unordered">
+            <item>
+              <hi rend="color text-uppercase" xml:space="preserve">Semantic classification: </hi>
+              <hi rend="color">time</hi>
+            </item>
+          </list>
+          <p>Adverbs expressing temporal circumstances are tagged with this category, e.g.
+                        the examples in the following list.</p>
+          <p>Spanish adjective‑adverb <hi rend="italic">recién</hi> &apos;recently&apos;:</p>
+          <p n="35">(35) <hi rend="italic">como un cordero recién esquilado </hi>(2007, El
+                        corazón helado, Sp_AP_SH3) <lb></lb>&apos;like a recently sheared sheep&apos;, </p>
+          <p>French adjective‑adverb <hi rend="italic">bref</hi> &apos;briefly&apos;:</p>
+          <p n="36">(36) <hi rend="italic">pour répondre bref</hi> (2015, Fr_A_Web)
+                        <lb></lb>&apos;to answer quickly/briefly&apos;, </p>
+          <p>Calabrese derived adverb <hi rend="italic">novamenti</hi> &apos;again&apos; (standard
+                        Italian: <hi rend="italic">nuovamente</hi>):</p>
+          <p n="37">(37) <hi rend="italic">si maritau novamenti</hi> (1979, Calabria,
+                        Racconti populari calabresi, It_A_aaif) <lb></lb>&apos;s/he got married again&apos;, </p>
+          <p>Portuguese prepositional phrase <hi rend="italic">de novo</hi> &apos;again&apos;:</p>
+          <p n="38">(38) <hi rend="italic">lavo a minha mão de novo </hi>(1993, Rio de
+                        Janeiro, parte oral, Pt_APM_DeG) <lb></lb>&apos;I wash my hands again&apos;, </p>
+          <p>Romanian contracted prepositional phrase <hi rend="italic">îndelung</hi>
+                        (preposition <hi rend="italic">în</hi> + preposition <hi rend="italic">de</hi> + adjective <hi rend="italic">lung</hi>) &apos;during a long
+                        time&apos;:</p>
+          <p n="39">(39) <hi rend="italic">nu îndelung au ţinut Mihai vodă</hi> (1675,
+                        Letopiseţul Ţărâi Moldovei, Ro_APD_aaif) <lb></lb>&apos;not for long they held Mihai
+                        Voda&apos;. </p>
+
+          <p>Since the adverbials express a temporal circumstance of the action described
+                        by the verb, the <hi rend="bold">verb</hi> in these examples is occasionally
+                        tagged too (see section 4).</p>
+          <list type="unordered">
+            <item>
+              <hi rend="color text-uppercase" xml:space="preserve">Semantic classification: </hi>
+              <hi rend="color">location (place and direction)</hi>
+            </item>
+          </list>
+
+          <p>Adverbs expressing a local circumstance of the event expressed by or referred
+                        to by the verb are tagged with this semantic classification, e.g. Spanish
+                            <hi rend="italic">alto</hi> in <hi rend="italic">volar alto</hi> and
+                        French <hi rend="italic">haut</hi> in <hi rend="italic">voler haut</hi>
+                        (both meaning &apos;to fly high&apos;), as well as Portuguese <hi rend="italic">direto</hi> in the following example:</p>
+          <p n="40">(40) <hi rend="italic">vai direto lá</hi> (1993, parte oral,
+                        Pt_APM_DeG) <lb></lb>&apos;go directly there&apos;</p>
+          <p>Likewise, in Salentino dialect, the reduplicated adjective‑adverb <hi rend="italic">rittu rittu</hi> (standard Italian lemma <hi rend="italic">diritto</hi> &apos;direct&apos;) has a directional meaning and therefore is
+                        tagged with this category:</p>         
+ <p n="41">(41) <hi rend="italic">cu pozzi rrivare rittu rittu a ncielu</hi>
+                        (1995, Il Salento in vernacolo, It_A_aaif) <lb></lb>&apos;that you could arrive
+                        directly to heaven&apos;. </p>
+
+          <p>Since the adverbials refer to a spatial circumstance of the action described
+                        by the verb, the <hi rend="bold">verb</hi> in these examples is also tagged
+                        occasionally (see section 4).</p>
+          <list type="unordered">
+            <item>
+              <hi rend="color text-uppercase" xml:space="preserve">Semantic classification: </hi>
+              <hi rend="color">quantity</hi>
+            </item>
+          </list>
+
+          <p>Certain adverbs quantify on a scale or a semantic characteristic or the
+                        degree of a semantic property expressed by the segment they modify (the
+                        attribution target, be it a verb, an adjective, an adverb, a noun or a
+                        syntagma). In the following French example, the adjective‑adverb <hi rend="italic">double</hi> &apos;double&apos; denotes the quantity the verb &apos;to
+                        pay&apos; refers to (hence, <hi rend="color text-uppercase">attribution target:
+                            </hi>
+            <hi rend="color">verb and object</hi>):</p>
+          <p n="42">(42) <hi rend="italic">dimanche serait payé double </hi>(2015,
+                        Fr_A_Web) <lb></lb>&apos;Sunday would be paid double&apos;, </p>
+          <p>In the Spanish example <hi rend="italic">hombres harto sabios</hi> &apos;very wise
+                        men&apos; the adjective‑adverb <hi rend="italic">harto</hi> &apos;very&apos; quantifies
+                        (more precisely: intensifies) the denoted quality of the adjective <hi rend="italic">sabios</hi> &apos;wise&apos;. Likewise, in the following Portuguese
+                        example the adverb <hi rend="italic">completamente</hi> &apos;completely&apos;
+                        intensifies the adjective <hi rend="italic">distorcido</hi> &apos;distorted&apos;:</p>
+          <p n="43">(43) <hi rend="italic">O som estava completamente distorcido</hi>
+                        (1993, Rio de Janeiro, parte escrita, Pt_APM_DeG) <lb></lb>&apos;the sound was
+                        completely distorted&apos;, </p>
+          <p>Similarly, in the Romanian example <hi rend="italic">foarte greu au stătut
+                            strâmbătate</hi> (see example 18) &apos;with real difficulty they stood
+                        crooked&apos;, the adjective‑adverb <hi rend="italic">foarte</hi> &apos;strongly,
+                        very&apos; quantifies and intensifies the quality denoted by the adverb <hi rend="italic">greu</hi> &apos;hard&apos;. On the contrary, quantifiers may also
+                        downgrade: the Neapolitan adjective‑adverb <hi rend="italic">meza</hi>
+                        &apos;half&apos; (standard Italian lemma: <hi rend="italic">mezzo</hi>) quantifies the
+                        adjective <hi rend="italic">vregognosa</hi> (modern standard Italian: <hi rend="italic">vergognosa</hi> &apos;ashamed&apos;) in the following sentence:</p>
+          <p n="44">(44) <hi rend="italic">steva meza vregognosa </hi>(1684, Napoli,
+                        Sarnelli, La Posilecheata) <lb></lb>&apos;she was half shy/ashamed&apos;</p>
+
+          <p>This adjective‑adverb may also quantify the inherent property of a noun, e.g.
+                        the Spanish adverb <hi rend="italic">medio</hi> quantifies the noun <hi rend="italic">mujeres</hi> in this example:</p>
+          <p n="45">(45) <hi rend="italic">éstos son medio mujeres</hi> (1671, El rey
+                        gallo, Sp_AP_SH3) <lb></lb>&apos;these men are half women&apos;</p>
+          <list type="unordered">
+            <item>
+              <hi rend="color text-uppercase" xml:space="preserve">Semantic classification: </hi>
+              <hi rend="color">specification</hi>
+            </item>
+          </list>
+
+          <p>Focus adverbs express a semantic specification of the segment they modify;
+                        their syntactic scope (attribution target) is mostly a noun or any syntagma
+                        without verb‑reference. For example, French <hi rend="italic">juste</hi>
+                        focuses on the temporal subordinate clause in this example:</p>
+          <p n="46">(46) <hi rend="italic">J&apos;arrive aux marches juste quand le maton donne
+                            l&apos;ordre de couper la flotte</hi> (2016, Fr_A_Web) <lb></lb>&apos;I arrive at the
+                        stairs just as the prison warden gives the order to cut the float&apos;</p>
+          <p>Hence, <hi rend="italic">juste</hi> &apos;exactly, just&apos; specifies the temporal
+                        complement of the sentence. Likewise, in the Neapolitan example </p>
+          <p n="47">(47) <hi rend="italic">simmo iusto quatto</hi> (1934, Napoli,
+                        Salvatore Di Giacomo: Tutto il teatro, It_A_aaif) <lb></lb>&apos;we are exactly
+                        four&apos;</p>
+          <p>the adjective‑adverb <hi rend="italic">iusto</hi> (standard Italian lemma <hi rend="italic">giusto</hi>) specifies and focuses on the numeral. </p>
+          <p>The Spanish adjective‑adverb <hi rend="italic">solo</hi> specifies a noun
+                        phrase in the example </p>
+          <p n="48">(48) <hi rend="italic">con sola una palabra de tu noble boca</hi>
+                        (1499, La Celestina, Sp_AP_SH3) <lb></lb>&apos;with only one word from your noble
+                        mouth&apos;. </p>
+          <p>Likewise, the prepositional phrase <hi rend="italic">en especial</hi>
+                        &apos;especially&apos; focuses on a noun phrase in the example </p>
+          <p n="49">(49) <hi rend="italic">pasaron muchas cosas de notar, en especial para
+                            mí </hi>(1492, Cárcel de Amor, Sp_AP_SH3) <lb></lb>&apos;a lot of noteworthy
+                        things happened, especially for me&apos;</p>
+          <p>The Portuguese <hi rend="italic">mente</hi>‑adverbs <hi rend="italic">especialmente</hi> &apos;especially&apos; and <hi rend="italic">basicamente</hi>
+                        &apos;basically&apos; specify a noun phrase and an adjectival phrase in the following
+                        examples: </p>
+          <p n="50">(50) <hi rend="italic">como todo filme especialmente filme de terror
+                            num tem fim</hi> (1993, parte oral, Pt_APM_DeG) <lb></lb>&apos;like all films,
+                        especially horror‑films, it has no end&apos;</p>
+          <p n="51">(51) <hi rend="italic">ela é basicamente azul e branco</hi> (1993,
+                        parte oral, Pt_APM_DeG) <lb></lb>&apos;she is basically blue and white&apos;.</p>
+          <list type="unordered">
+            <item>
+              <hi rend="color text-uppercase" xml:space="preserve">Semantic classification: </hi>
+              <hi rend="color">discourse</hi>
+            </item>
+          </list>
+
+          <p>Adverbs that express metalinguistic, pragmatic and/or discursive
+                        extra‑propositional characterizations or speaker‑attitudes (e.g. discourse           
+             markers and sentence adverbs) are subsumed under the general classification
+                        of <hi rend="italic">discourse</hi>. This tag coincides mostly with the
+                        category <hi rend="color text-uppercase">attribution target: </hi>
+            <hi rend="color">sentence</hi>; as in the above cited examples: </p>
+          <p>Neapolitan <hi rend="italic">sicuro</hi> &apos;sure(ly)&apos;:</p>
+          <p n="52">(52) <hi rend="italic">sì lo conosco, lo conosco sicuro</hi> (1925,
+                        Eduardo Scarpetta, Tutto il teatro, It_A_aaif) <lb></lb>&apos;yes, I know him, I know
+                        him surely/ for sure&apos;</p>
+          <p>Spanish <hi rend="italic">cierto</hi> &apos;certainly&apos;: </p>
+          <p n="53">(53) <hi rend="italic">Verdad sea que, cierto, duele más la
+                            pérdida</hi> (1499, La Celestina, Sp_AP_SH3) <lb></lb>&apos;Certainly it is true
+                        that the loss hurts more&apos;</p>
+          <p>Portuguese <hi rend="italic">infelizmente</hi> &apos;unfortunately,
+                        unhappily&apos;:</p>
+          <p n="54">(54) <hi rend="italic">Meu grupo infelizmente não foi o vencedor</hi>
+                        (1993, Natal, parte escrita, Pt_APM_DeG) <lb></lb>&apos;Unfortunately, my group was
+                        not the winner&apos;</p>
+        </div>
+      </div>
+      <div>
+        <head n="3" xml:id="id.3">Annotations concerning the word‑class <hi rend="italic">verb</hi>
+        </head>
+        <p>The tag for the word‑class <hi rend="bold">
+            <hi rend="italic">verb</hi>
+
+          </hi> is
+                    optional depending on the characteristics of each subcorpus. Some of the corpora
+                    specifically document adjective‑adverbs as manner adverbs (Fr_A_DHAA, Fr_A_Web,
+                    Sp_A_CDH), therefore, the annotations in these corpora target the combination
+                    &quot;verb + adjective‑adverb&quot; and the verb in each example is tagged. In other
+                    corpora, the verbs are only tagged if the annotated adverb modifies the verb
+                    (e.g. <hi rend="color text-uppercase">semantic classification: </hi>
+          <hi rend="color">manner</hi>, and/or <hi rend="color text-uppercase">attribution
+                        target: </hi>
+          <hi rend="color">verb / verb and subject / verb and
+                    object</hi>). </p>
+        <p>The infinite form of the verb was annotated as the <hi rend="bold">lemma</hi>:
+                    e.g. Spanish / Portuguese <hi rend="italic">cantar</hi>, French <hi rend="italic">chanter</hi>, Italian <hi rend="italic">cantare</hi> and
+                    Romanian <hi rend="italic">cânta</hi> (without preposition <hi rend="italic">a</hi>) &apos;to sing&apos;. Regarding the formal variation in varieties of southern
+                    Italy (<hi rend="italic">Napolitano, Siciliano, Salentino</hi> and <hi rend="italic">Calabrese</hi>, see subcorpus It_A_aaif), the corresponding
+                    standard Italian lemma was annotated in order to enable a simpler lemma search.
+                    In case there is no corresponding standard Italian lemma, a reconstructed
+                    vernacular Latin form was marked with an asterisk and written in capital letters
+                    (for example *<hi rend="text-uppercase">commogliare</hi> for the Neapolitan
+                    verb forms <hi rend="italic">accumigliateva</hi> and <hi rend="italic">commoglio</hi>). In the case of periphrastic verb forms, the verb carrying
+                    the main semantic information has been tagged and lemmatized: for example,
+                    Spanish <hi rend="italic">vestir</hi> in the sentence </p>
+        <p n="55">(55) <hi rend="italic">con vna manta blanca como andan vestidos de
+                        ordinario </hi>(1602, Documentos cronísticos, México, Sp_AP_CORDIAM)
+                    <lb></lb>&apos;with a white blanket as they usually are dressed&apos;</p>
+
+        <p>The tagging and lemmatization of the verbs enables queries for recurrent
+                    combinations of verbs and adverbs, such as French <hi rend="italic">parler
+                        fort</hi> &apos;to speak loud&apos;, <hi rend="italic">parler bas</hi> &apos;to speak
+                    quietly&apos;, <hi rend="italic">voir grand</hi> &apos;to think big&apos;, etc. Furthermore,
+                    the tagged verbs have been annotated regarding three formal categories (<hi rend="color">syntactic construction, coordination, part of the text</hi>),
+                    which are explained in the following paragraphs.</p>
+        <div>
+          <head n="3.1" xml:id="id.3.1">Syntactic construction of the verb</head>
+          <p>The category syntactic construction includes three basic features:
+                        transitive, intransitive and reflexive. </p>
+          <p>As for the first category, the category <hi rend="color text-uppercase">syntactic construction: </hi>
+            <hi rend="color">transitive</hi> applies
+                        to those sentences in which the verb requires a direct or indirect object,
+                        for example the Spanish verb <hi rend="italic">pagar</hi> &apos;to pay&apos; in the
+                        sentence </p>
+          <p n="56">(56) <hi rend="italic">los martirios </hi>[...]<hi rend="italic"> los
+                            ha de pagar bien caros</hi> (1889‑1891, Los bandidos del Río frío,
+                        México, Sp_AP_SH3) <lb></lb>&apos;he/she has to pay very dearly for the torments&apos;</p>
+          <p>The category <hi rend="color text-uppercase">syntactic construction: </hi>
+            <hi rend="color">intransitive</hi> applies to those examples in which the
+                        verb does not select an object, such as the French verb <hi rend="italic">sentir</hi> &apos;to smell&apos; in the following example:</p>
+          <p n="57">(57) <hi rend="italic">ça sent bizarre</hi> (2015, Fr_A_Web)
+                        <lb></lb>&apos;that smells bizarre&apos;</p>
+          <p>The category <hi rend="color text-uppercase">syntactic construction: </hi>
+            <hi rend="color">reflexive</hi> is annotated for verbs that are used with a
+                        reflexive pronoun, e.g. the Italian and Neapolitan verb <hi rend="italic">addormentarsi</hi> &apos;to fall asleep&apos; in this example: </p>
+          <p n="58">(58) <hi rend="italic">t&apos;adduorme doce doce</hi> (1853‑1925, Tutto il
+                        teatro, Napoli, It_A_aaif) <lb></lb>&apos;you fell asleep sweetly/gently&apos; [standard
+                        Italian adjective‑adverb lemma <hi rend="italic">dolce</hi>]</p>
+
+          <p>In order to join reflexive and non‑reflexive occurrences of the same verb
+                        under one common lemma, the reflexive pronoun was not annotated as part of
+                        the verb lemma, e.g. <hi rend="italic">t&apos;adduorme</hi> is lemmatized as <hi rend="italic">addormentare</hi> (not as <hi rend="italic">addormentarsi</hi>). In these cases, the tag <hi rend="color text-uppercase">syntactic
+                            construction</hi> allows for differentiation between reflexive and
+                        non‑reflexive (hence, transitive or intransitive) occurrences.</p>
+        </div>
+        <div>
+          <head n="3.2" xml:id="id.3.2">Coordination of verbs</head>
+          <p>Coordinated verbs are modified by the same adverb, e.g. the French verbs <hi rend="italic">manger</hi> &apos;to eat&apos; and <hi rend="italic">boire</hi> &apos;to
+                        drink&apos; are coordinated and both are modified by the manner‑adjective‑adverb
+                            <hi rend="italic">chaud</hi> &apos;hot&apos;: </p>
+          <p n="59">(59) <hi rend="italic">Pourquoi faut‑il manger et boire bien chaud
+                        </hi>(2015, Fr_A_Web) <lb></lb>&apos;Why is it necessary to eat and drink quite hot&apos;. </p>
+
+          <p>Both verbs are annotated and lemmatized separately, and both are tagged with   
+                     the category <hi rend="color text-uppercase">coordinated:
+                        </hi>
+            <hi rend="color" xml:space="preserve">true </hi>(hence, the default tag
+                        for all other verbs is <hi rend="color text-uppercase">coordinated: </hi>
+            <hi rend="color">false</hi>).</p>
+        </div>
+        <div>
+          <head n="3.3" xml:id="id.3.3">Explicit and implicit verbs (&quot;part of the
+                        text&quot;)</head>
+          <p>This third category of the verb‑annotation allows the annotation of verbs
+                        which are not explicitly mentioned in the annotated sentence, but which can
+                        be reconstructed and inferred from the larger context. For example, the verb
+                        may be omitted (ellipsis) to avoid repetitions in sentences like </p>
+          <p n="60">(60) <hi rend="italic">les basses sonnent &quot;basses&quot; et les aigues
+                            &quot;aigues&quot;</hi> (2016, Fr‑A_Web) <lb></lb>&apos;the basses [e.g. frequencies or
+                        notes] sound &quot;low&quot; and the trebles/high notes &quot;sharp&quot;&apos;</p>
+          <p>In this sentence, the verb <hi rend="italic">sonner</hi> &apos;to sound&apos; can be
+                        easily reconstructed for the second adjective‑adverb, <hi rend="italic">aigues</hi> (<hi rend="italic">les aigues sonnent &quot;aigues&quot;</hi>). In
+                        order to be able to search for the lemma combination &quot;verb <hi rend="italic">sonner</hi> + adjective‑adverb <hi rend="italic">aigu</hi>&quot; (in
+                        addition to the combination &quot;<hi rend="italic">sonner</hi> + <hi rend="italic">bas</hi>&quot;), a placeholder (blank space) is inserted at the
+                        position the verb would be expected and annotated with the lemma <hi rend="italic">sonner</hi> (<hi rend="italic">les aigues</hi> [verb:
+                        lemma <hi rend="italic">sonner</hi>] <hi rend="italic">&quot;aigues&quot;</hi>). This
+                        placeholder is tagged with the category <hi rend="color text-uppercase">part
+                            of the text: </hi>
+            <hi rend="color">false</hi>. Hence, the default
+                        category for all explicit verbs is
+                            <hi rend="color text-uppercase" xml:space="preserve">part of the text: </hi>
+            <hi rend="color">true</hi>, as in the case of <hi rend="italic">sonnent</hi>
+                        in the first example: <hi rend="italic">les basses sonnent
+                        &quot;basses&quot;</hi>.</p>
+        </div>
+      </div>
+      <div>
+        <head n="4" xml:id="id.4">Annotations concerning the <hi rend="italic">subject</hi>
+        </head>
+        <p>The <hi rend="bold">subject</hi> is an optional category. Contrary to the other
+                    tags, which are word‑class tags (adverb, preposition, verb [although limited to
+                    the verb of the predicate]), this tag refers to a syntactic function in a given
+                    sentence. It is usually annotated if the adverb refers to the subject of the
+                    sentence (<hi rend="color text-uppercase">attribution
+                    target:</hi>
+          <hi rend="color" xml:space="preserve"> verb and subject</hi>). The
+                    following grammatical categories are annotated for the subject:</p>
+        <p>
+          <hi rend="color text-uppercase">Gender: </hi>
+          <hi rend="color">masculine, feminine, neuter,
+                        undefined</hi>
+        </p>
+        <p>
+          <hi rend="color text-uppercase">Number: </hi>
+          <hi rend="color">Singular, Plural,
+                    undefined</hi>
+        </p>
+        <p>For example, in the Spanish sentence <hi rend="italic">decía el Marquesito muy
+                        serio</hi> (see example 9 cited above) &apos;said the little marquis very
+                    serious(ly)&apos;, the sequence <hi rend="italic">el Marquesito</hi> is tagged as the
+                    subject and annotated as <hi rend="color text-uppercase">gender: </hi>
+          <hi rend="color">masculine</hi>, 
+                    <hi rend="color text-uppercase">number: </hi>
+          <hi rend="color">singular</hi>.</p>
+        <p>Furthermore, the category <hi rend="color">overt subject / null subject</hi>
+                    allows for differentiation between explicit and implicit subjects. The latter is
+                    the case of null‑subjects in pro‑drop languages (i.e. all Romance languages
+                    except French). In case the referent of the null‑subject can be inferred or
+                    reconstructed from the wider context of the example (e.g. the verb inflection),
+                    a placeholder (blank space) has been annotated with the corresponding   
+                 specifications of gender and number and the tag <hi rend="color">null
+                        subject</hi> (hence, the default tag for all other subjects
+                    is<hi rend="color" xml:space="preserve"> overt subject</hi>). </p>
+        <p>The annotation of the subject is helpful, for example, for contrasting inflected
+                    and invariable occurrences of adjective‑adverbs, e.g. in this Portuguese
+                    example:</p>
+        <p n="61">(61) <hi rend="italic">vocês tenham cuidado ... não andem sozinho</hi>
+                    (1993, parte oral, Pt_APM_DeG) <lb></lb>&apos;be<hi rend="subscript">[pl.]</hi> careful,
+                    don&apos;t go<hi rend="subscript">[pl.]</hi> around alone<hi rend="subscript">[sg.]</hi>&apos;</p>
+        <p>The plural‑subject <hi rend="italic">vocês</hi> appears as an overt subject in
+                    the first phrase but remains implicit in the second phrase, and can be inferred
+                    via the plural verbform <hi rend="italic">andem</hi>. In this example, a
+                    subject‑placeholder (blank space) is tagged:
+                    <hi rend="italic" xml:space="preserve">vocês tenham cuidado ... </hi>[null‑subject]
+                        <hi rend="italic">não andem sozinho</hi>. This subject‑placeholder is
+                    annotated with the categories <hi rend="color text-uppercase">number: </hi>
+          <hi rend="color">plural</hi> and<hi rend="color" xml:space="preserve"> null subject</hi>.
+                    Since the implicit null‑subject of the verb form <hi rend="italic">andem</hi> is
+                    clearly a plural‑subject, the adjective‑adverb <hi rend="italic">sozinho</hi> is
+                    invariable (masc. sg.).</p>
+        <p>On the contrary, inflected adverbs may show agreement with the subject (see
+                    section 2.1.1), e.g. in the Portuguese sentence </p>
+        <p n="62">(62) <hi rend="italic">emtão </hi>[sic]<hi rend="italic"> os dos Jão
+                        </hi>[sic]<hi rend="italic"> e Maria viveram felizes para sempre</hi> (1994,
+                    parte escrita, Pt_APM_DeG) [errors are original]<lb></lb>&apos;so the two, João and
+                    Maria, lived happily forever&apos;</p>
+        <p>In this example, in addition to the verb <hi rend="italic">viver</hi> &apos;to live&apos;
+                    and to the (inflected) adjective‑adverb <hi rend="italic">feliz(es)</hi>
+                    &apos;happy&apos;, the subject <hi rend="italic">os dos Jão e Maria</hi> is annotated as
+                    an <hi rend="color">overt subject</hi> and with the specifications <hi rend="color text-uppercase">gender: </hi>
+          <hi rend="color">masculine</hi>, <hi rend="color text-uppercase">number: </hi>
+          <hi rend="color">plural</hi>.</p>
+        <p style="text-align:left;">
+          <pb></pb>
+        </p>
+      </div>
+      <div>
+        <head n="5" xml:id="id.5">Overview</head>
+        <table rend="rules">
+          <row>
+            <cell>
+              <hi rend="bold">Word classes</hi>
+            </cell>
+            <cell>
+              <hi rend="bold">main categories / properties</hi>
+            </cell>  
+          <cell>
+              <hi rend="bold">options / subclasses</hi>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <list type="ordered">
+                <item>
+                  <hi rend="background(magenta)">Adverb</hi> (lemmatized) </item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>morphosyntactic structure</item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item> adjectival</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>    
+          <list type="ordered">
+                <item>noun</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> derived - <hi rend="italic">mente</hi>
+                </item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> derived - <hi rend="italic">eşte</hi>
+                </item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> derived - <hi rend="italic">ly</hi>
+                </item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> derived - <hi rend="italic">iş</hi>
+                </item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> derived - <hi rend="italic">ul</hi>
+                </item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> derived <hi rend="italic">-one/-oni</hi>
+                </item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>other</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>inflection</item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>uninflected / m.sg.</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>audible inflection</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>inaudible inflection</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>Feminine Singular</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>Neuter Singular</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>Masculine Plural</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>Feminine Plural</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>Neuter Plural</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>attribution target</item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item> verb </item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell> 
+           <cell>
+              <list type="ordered">
+                <item>verb and subject</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>verb and object</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>sentence</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> adverb </item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> adjective </item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>noun or syntagma without verb-reference</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>other</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>semantic classification</item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>manner</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>quantity / intensity</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>time</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>location</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>discourse</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>specification</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>undefined / other</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>modified</item>
+              </list>
+            </cell>
+            <cell>(true / false)</cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>reduplicated</item>
+              </list>
+            </cell>
+            <cell>(true / false)</cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> coordinated</item>
+              </list>
+            </cell>
+            <cell>(true / false)</cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> part of prepositional phrase </item>
+              </list>
+            </cell>
+            <cell>(true / false)</cell>
+          </row>
+          <row>
+            <cell>
+              <list type="ordered">
+                <item>Preposition (lemmatized)</item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item> contracted </item>
+              </list>
+            </cell>
+            <cell>(true / false)</cell>
+          </row>
+          <row>
+            <cell>
+              <list type="ordered">
+                <item>Article (not lemmatized)</item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item> gender </item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>masculine</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>feminine</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>neuter</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>undefined</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> number </item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>singular</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>plural</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>undefined</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> contracted </item>
+              </list>
+            </cell>
+            <cell>(true / false)</cell>
+          </row>
+          <row>
+            <cell>
+              <list type="ordered">
+                <item>Possessive (not lemmatized)</item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item> gender </item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>masculine</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>feminine</item>    
+          </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>neuter</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>undefined</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> number </item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>singular</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>plural</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>undefined</item>
+              </list>     
+       </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>person</item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>first</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>second</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>third</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>part of text</item>
+              </list>
+            </cell>
+            <cell>(true / false)</cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> coordinated</item>
+              </list>
+            </cell>
+            <cell>(true / false)</cell>
+          </row>
+          <row>
+            <cell>
+              <list type="ordered">
+                <item>
+                  <hi rend="background(green)">Verb</hi> (lemmatized) </item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>syntactic construction</item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>transitive</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>intransitive</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>reflexive</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell>
+              <list type="ordered">
+                <item>Subject (not lemmatized)</item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item> gender </item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>masculine</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>feminine</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>neuter</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>undefined</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item> number </item>
+              </list>
+            </cell>
+            <cell>
+              <list type="ordered">
+                <item>singular</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>plural</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>undefined</item>
+              </list>
+            </cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>
+              <list type="ordered">
+                <item>overt subject</item>
+              </list>
+            </cell>
+            <cell>true (overt subject) / false (null subject)</cell>
+          </row>
+        </table>
+      </div>
+      <div>
+        <head n="6" xml:id="id.6">References</head>
+        <p style="text-align:left;">
+          <hi rend="bold">Corpus</hi>
+        </p>
+        <p style="text-align:left;">
+          <hi xml:space="preserve">Schneider, Gerlinde / Pollin, Christopher / Gerhalter, Katharina / Hummel, Martin (2020): </hi>
+          <hi rend="italic">Adjective-Adverb Interfaces in Romance. Open-Access
+                        Database</hi>
+          <hi xml:space="preserve"> (=AAIF-Database). </hi>
+          <ref target="https://gams.uni-graz.at/context:aaif">
+            <hi>https://gams.uni-graz.at/context:aaif</hi>
+          </ref>
+        </p>
+        <p>
+          <hi rend="bold">Subcorpora</hi>
+        </p>
+        <p>
+          <hi xml:space="preserve">Fr_A_DHAA = Hummel, Martin / Gerhalter, Katharina / Schneider, Gerlinde / Pollin, Christopher (2020). </hi>
+          <hi rend="italic">Corpus French Dictionnaire historique de
+                        l’adjectif-adverbe</hi>
+          <hi>. 2</hi>
+          <hi rendition="simple:superscript">nd</hi>
+          <hi xml:space="preserve"> version. AAIF Database. </hi>
+          <ref target="https://gams.uni-graz.at/o:aaif.fradhaa">
+            <hi>https://gams.uni-graz.at/o:aaif.fradhaa</hi>
+          </ref>
+        </p>
+        <p>
+          <hi xml:space="preserve">Fr_A_Web = Hummel, Martin / Telsnig, Helena / Korper, Greta / Gazdik, Anna / Höfferer, Julia / Gerhalter, Katharina / Schneider, Gerlinde / Pollin, Christopher (2020). </hi>
+          <hi rend="italic">Corpus of French Adjective-Adverbs in Informal Texts from the
+                        Web</hi>
+          <hi xml:space="preserve">. AAIF-Database. </hi>
+          <ref target="https://gams.unigraz.at/o:aaif.fraweb">
+            <hi>https://gams.unigraz.at/o:aaif.fraweb</hi>
+          </ref>
+        </p>
+        <p>
+          <hi xml:space="preserve">It_A_aaif = Ledgeway, Adam / Gerhalter, Katharina (2020): </hi>
+          <hi rend="italic">Corpus of Adjective-Adverbs in Southern Varieties of
+                        Italy</hi>
+          <hi xml:space="preserve">. In Schneider, Gerlinde / Pollin, Christopher / Gerhalter, Katharina / Hummel, Martin (2020): </hi>
+          <hi rend="italic">Adjective-Adverb Interfaces in Romance. Open-Access
+                        Database</hi>
+          <hi xml:space="preserve"> (=AAIF-Database). </hi>
+          <ref target="https://gams.uni-graz.at/o:aaif.itaaaif">
+            <hi>https://gams.uni-graz.at/o:aaif.itaaaif</hi>
+          </ref>
+        </p>
+        <p>   
+       <hi xml:space="preserve">Pt_APM_DeG = Votre, Sebastião / Oliveira, Mariangela Rios de / Furtado da Cunha, Maria Angélica / Gerhalter, Katharina (2020): </hi>
+          <hi rend="italic">Corpus of Brazilian Portuguese Adjective-Adverbs,
+                        mente-Adverbs and Prepositional Phrases in Corpus Discurso &amp;
+                        Gramática.</hi>
+          <hi xml:space="preserve">In Schneider, Gerlinde / Pollin, Christopher / Gerhalter, Katharina / Hummel, Martin (2020): </hi>
+          <hi rend="italic">Adjective-Adverb Interfaces in Romance. Open-Access
+                        Database</hi>
+          <hi xml:space="preserve"> (=AAIF-Database). </hi>
+          <ref target="https://gams.uni-graz.at/o:aaif.ptapmdeg">
+            <hi>https://gams.uni-graz.at/o:aaif.ptapmdeg</hi>
+          </ref>
+        </p>
+        <p>
+          <hi xml:space="preserve">Ro_ADP_aaif = Chircu, Adrian (2020): </hi>
+          <hi rend="italic">Corpus of Old Romanian Adjective-Adverbs, Derived Adverbs and
+                        Prepositional
+                        Phrases</hi>
+          <hi xml:space="preserve">. In Schneider, Gerlinde / Pollin, Christopher / Gerhalter, Katharina / Hummel, Martin (2020): </hi>
+          <hi rend="italic">Adjective-Adverb Interfaces in Romance. Open-Access
+                        Database</hi>
+          <hi xml:space="preserve"> (=AAIF-Database). </hi>
+          <ref target="https://gams.unigraz.at/o:aaif.roadpdaaif">
+            <hi>https://gams.unigraz.at/o:aaif.roadpdaaif</hi>
+          </ref>
+        </p>
+        <p>
+          <hi xml:space="preserve">Sp_AP_CORDIAM = Striedner, Pascal / Gerhalter, Katharina / Hummel, Martin / Schneider, Gerlinde / Pollin, Christopher (2020): </hi>
+          <hi rend="italic">Corpus of Spanish Adjective-Adverbs and Prepositional Phrases
+                        in CORDIAM</hi>
+          <hi>. AAIF-Database.</hi>
+          <ref target="https://gams.uni-graz.at/archive/objects/o:aaif.spapcordiam">
+            <hi>https://gams.uni-graz.at/o:aaif.spapcordiam</hi>
+          </ref>
+        </p>
+        <p>
+          <hi xml:space="preserve">Sp_AP_SH3 = Gerhalter, Katharina / Hummel, Martin / Schneider, Gerlinde / Pollin, Christopher (2020). </hi>
+          <hi rend="italic">Corpus of Spanish Adjective-Adverbs in Diachrony (for Sintaxis
+                        Histórica III)</hi>
+          <hi xml:space="preserve">. AAIF-Database. </hi>
+          <ref target="https://gams.uni-graz.at/o:aaif.spapsh3">
+            <hi>https://gams.uni-graz.at/o:aaif.spapsh3</hi>
+          </ref>
+        </p>
+        <p>
+          <hi xml:space="preserve">Sp_A_CDH = Gerhalter, Katharina / Schneider, Gerlinde / Pollin, Christopher / Hummel, Martin (2020): </hi>
+          <hi rend="italic">Corpus of Spanish “Verb + Adjective-Adverbs” in CDH. 2</hi>
+          <hi rendition="simple:italicsimple:superscript">nd</hi>
+          <hi rend="italic" xml:space="preserve"> version</hi>
+          <hi xml:space="preserve">. AAIF-Database. </hi>
+          <ref target="https://gams.uni-graz.at/o:aaif.spacdh">
+            <hi>https://gams.uni-graz.at/o:aaif.spacdh</hi>
+          </ref>
+        </p>
+        <p>
+          <hi rend="bold">Other references</hi>
+        </p>
+        <p>
+          <hi xml:space="preserve">Hummel, Martin (2017): </hi>
+          <hi rend="italic">Adjectives
+                        with adverbial functions in Romance</hi>
+          <hi xml:space="preserve">, in: Hummel, Martin / Valera, Salvador (eds.), </hi>
+          <hi rend="italic">Adjective adverb interfaces in Romance</hi>
+          <hi>, Amsterdam /
+                        Philadelphia: John Benjamins Publishing Company, 13–46.</hi>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

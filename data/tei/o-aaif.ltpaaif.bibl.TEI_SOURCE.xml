@@ -1,0 +1,3378 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns:refworks="www.refworks.com/xml/">
+    <fileDesc>
+      <titleStmt>
+        <title>Bibliography: Corpus of Latin Prepositional Adverbials with Adjectival
+                    Core</title>
+        <title type="abbreviation">Lt_P_aaif</title>
+        <funder>
+          <orgName ref="http://d-nb.info/gnd/2054142-9">Fonds zur Förderung der
+                        wissenschaftlichen Forschung</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName corresp="https://romanistik.uni-graz.at" ref="http://d-nb.info/gnd/1069331422">Institut für Romanistik,
+                        Karl-Franzens-Universität Graz </orgName>
+        </publisher>
+        <authority>
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+                        Austrian Centre for Digital Humanities, Karl-Franzens-Universität
+                        Graz</orgName>
+        </authority>
+        <distributor>
+          <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+                        Management System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons
+                        BY 4.0</licence>
+        </availability>
+        <date when="2019">2019</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:aaif.ltpaaif.bibl</idno>
+        <ref target="info:fedora/corpus:aaif.ltpaaif" type="context"></ref>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="http://gams.uni-graz.at/aaif">Open Access Database
+                    &quot;Adjective-Adverb Interfaces in Romance</title>
+        <respStmt>
+          <resp>Project Leader</resp>
+          <persName ref="http://d-nb.info/gnd/1012341119">
+            <forename>Martin</forename>
+            <surname>Hummel</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Acquisition</resp>
+          <persName>
+            <forename>Katharina</forename>
+            <surname>Gerhalter</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Gerlinde</forename>
+            <surname>Schneider</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Christopher</forename>
+            <surname>Pollin</surname>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Bibliography</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listBibl>
+        <bibl xml:id="Acc.trag.">
+          <author>Lucius Accius</author>
+          <title>Tragoediarum fragmenta</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Ribbeck, O.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Scaenicae Romanorum Poesis Fragmenta Vol. 1</title>
+            <date when="1898">1898</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Aetna.">
+          <title>Aetna, carmen apendicis Vergilianae</title>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Goodyear, F. R. D.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Appendix Vergiliana</title>
+            <date when="1966">1966</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Afran.tog.">
+          <author>Lucius Afranius</author>
+          <title>Comoediarum fragmenta</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Ribbeck, O.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Scaenicae Romanorum Poesis Fragmenta</title>
+            <date when="1898">1898</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ampel.">
+          <author>Lucius Ampelius</author>
+          <title>Liber Memoralis</title>
+          <term>Prose</term>
+          <date>imperial</date>
+          <editor>Assmann, E.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Lucii Ampelii Liber Memoralis</title>
+            <date when="1935">1935</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Apic.">
+          <author>Apicius</author>
+          <title>De re coquinaria</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Milham, M. E.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>De re coquinaria</title>
+            <date when="1969">1969</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Apul.apol.">
+          <author>Apuleius Madaurus Afer</author>
+          <title>Apologia</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Helm, R.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Apulei Platonici Madaurensis Opera Quae Supersunt.</title>
+            <date when="1959">1959</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Apul.flor.">
+          <author>Apuleius Madaurus Afer</author>
+          <title>Florida</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Helm, R.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Apulei Platonici Madaurensis Opera Quae Supersunt.</title>
+            <date when="1959">1959</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Apul.met.">
+          <author>Apuleius Madaurus Afer</author>
+          <title>Metamorphoses (Asinus Aureus)</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Robertson, D. S.; Vallette, P.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>Apulée: Les Métamorphoses.</title>
+            <date when="1940">1940-1946</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Apul.mund.">
+          <author>Apuleius Madaurus Afer</author>
+          <title>De mundo</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Beaujeau, J.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>Apulée: Opuscules Philosophiques</title>
+            <date when="1973">1973</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Apul.Plat.">
+          <author>Apuleius Madaurus Afer</author>
+          <title>De Platonis et euius dogmate</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Beaujeau, J.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>Apulée: Opuscules Philosophiques</title>
+            <date when="1973">1973</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Apul.Socr.">
+          <author>Apuleius Madaurus Afer</author>
+          <title>De deo Socratis</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Beaujeau, J.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>Apulée: Opuscules Philosophiques</title>
+            <date when="1973">1973</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Caecil.com.">
+          <author>Caecilius Statius Insuber Gallus</author>
+          <title>Comoediarum fragmenta</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Ribbeck, O.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Scaenicae Romanorum Poesis Fragmenta Vol. 1</title>
+            <date when="1898">1898</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Caes.Civ.">
+          <author>Caius Iulius Caesar</author>
+          <title>Comentarii belli civilis</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Klotz, A.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>C. Iulii Caesaris commentarii</title>
+            <date when="1950">1950</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Caes.Gall.">
+          <author>Caius Iulius Caesar</author>
+          <title>Comentarii belli Gallici</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Seel, O.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>C. Iulii Caesaris: Commentarii Rerum Gestarum</title>
+            <date when="1961">1961</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cato.agr.">
+          <author>Marcus Porcius Cato Censorinus</author>
+          <title>De agri cultura</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Speranza, F.</editor>
+          <publisher>Università di Messina</publisher>
+          <pubPlace>Messina</pubPlace>
+          <edition>
+            <title>Scriptorum Romanorum De Re Rustica Reliquiae Vol. 1</title>
+            <date when="1974">1974</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cato.orat.">
+          <author>Marcus Porcius Cato Censorinus</author>
+          <title>Orationum fragmenta</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Malcovati, E.</editor>
+          <publisher>Paravia</publisher>
+          <pubPlace>Turin</pubPlace>
+          <edition>
+            <title>Oratorum Romanorum Fragmenta Liberae Rei Publicae</title>
+            <date when="1930">1930</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Catul.">
+          <author>Caius Valerius Catullus</author>
+          <title>Carmina</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Mynors, R. A. B.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>C. Valerii Catulli carmina</title>
+            <date when="1958">1958</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cels.">
+          <author>Aulus Cornelius Celsus</author>
+          <title>De medicina</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Marx, F.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Corpus Medicorum Latinorum Vol. 1</title>
+            <date when="1915">1915</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cens.">
+          <author>Censorinus</author>
+          <title>De die natali</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Jahn, O.</editor>
+          <publisher>Rodopi</publisher>
+          <pubPlace>Amsterdam</pubPlace>
+          <edition>
+            <title>Censorini de Die Natali Liber</title>
+            <date when="1964">1964</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.ac.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Academica</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Plasberg, O.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta quae Manserunt Omnia fasc. 42</title>
+            <date when="1992">1992</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Arat.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Aratea</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Soubiran, J.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>Atarea Fragments poétiques</title>
+            <date when="1972">1972</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Arch.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro A. Licinio Archia Poeta Oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 6</title>
+            <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Att.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Epistulae ad Atticum</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Shakelton Bailey, D. R.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Cicero&apos;s Letters to Atticus</title>
+            <date when="1965">1965-1968</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Brut.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Brutus</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Malcovati, E.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta quae Manserunt Omnia fasc. 4</title>
+            <date when="1992">1992</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.adBrut.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Epistulae ad Brutum</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Shakelton Bailey, D. R.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Cicero: Epistulae ad Quintum Fratrem et M. Brutum</title>
+            <date when="1980">1980</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Caecin.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro A. Caecina Oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 4</title>
+            <date when="1909">1909</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Cael.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro M. Caelio Rufo Oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 1</title>
+            <date when="1905">1905</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.catil.">
+          <author>Marcus Tullius Cicero</author>
+          <title>In L. Sergium Catilinam Orationes</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 1</title>
+            <date when="1905">1905</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Cato.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Cato maior de senectute</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Simbeck, K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta quae Manserunt Omnia fasc. 47</title>
+            <date when="1917">1917</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Cluent.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro A. Cluentio Habito oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 1</title>
+            <date when="1905">1905</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Deiot.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro rege Deiotaro oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 2</title>
+            <date when="1918">1918</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.div.">
+          <author>Marcus Tullius Cicero</author>
+          <title>De divinatione</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Mueller, C. F. W.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia Part. 4, Vol. 2</title>
+            <date when="1890">1890</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.divInCaec.">
+          <author>Marcus Tullius Cicero</author>
+          <title>in Q. Caecilium Nigrum oratio quae divinatio dicitur</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Peterson, W.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 3</title>
+            <date when="1917">1917</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.dom.">
+          <author>Marcus Tullius Cicero</author>
+          <title>De domo sua ad pontifices oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Peterson, W.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 5</title>    
+        <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.fam.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Epistulae ad familiares</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Shakelton Bailey, D. R.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Cicero: Epistulae ad Familiares</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.fat.">
+          <author>Marcus Tullius Cicero</author>
+          <title>De fato</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Mueller, C. F. W.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia Part. 4, Vol. 2</title>
+            <date when="1890">1890</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.fin.">
+          <author>Marcus Tullius Cicero</author>
+          <title>De finibus bonorum et malorum</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Schiche, T.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia fasc. 43</title>
+            <date when="1915">1915</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Flacc.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro L Valerio Flacco oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 4</title>
+            <date when="1909">1909</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Font.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro M. Fonteio orationes quae extant</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 6</title>
+            <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Har.Resp.">
+          <author>Marcus Tullius Cicero</author>
+          <title>De haruspicum responso oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Peterson, W.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 5</title>
+            <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.inv.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Rhetorici libri qui vocantur de inventione</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Stroebel, E.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia fasc. 2</title>
+            <date when="1915">1915</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Lael.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Laelius de amicitia</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Mueller, C. F. W.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia Part 4, Vol. 3</title>
+            <date when="1890">1890</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.leg.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Librorum de legibus quae exstant</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>de Plinval, G.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>Traité des Lois</title>
+            <date when="1968">1968</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.LegAgr.">
+          <author>Marcus Tullius Cicero</author>
+          <title>De lege agraria orationum quae exstant</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 4</title>
+            <date when="1909">1909</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Lig.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro Q. Ligario oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 2</title>
+            <date when="1918">1918</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Manil.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro lege Manilia (de imperio Cn. Pompei) oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 1</title>
+            <date when="1905">1905</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Marcell.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro M. Claudio Marcello oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 2</title>
+            <date when="1918">1918</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Mil.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro T. Annio Milone oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 2</title>
+            <date when="1918">1918</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Mur.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro L. Licinio Murena oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 1</title>
+            <date when="1905">1905</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.NatDeor.">
+          <author>Marcus Tullius Cicero</author>
+          <title>De natura deorum</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Ax, W.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia fasc. 45</title>
+            <date when="1933">1933</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.off.">
+          <author>Marcus Tullius Cicero</author>
+          <title>De officiis</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Atzert, C.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia fasc. 48</title>
+            <date when="1932">1932</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.orat.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Orator (ad M. Brutum)</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Reis, P.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia fasc. 5</title>
+            <date when="1932">1932</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.deOrat.">
+          <author>Marcus Tullius Cicero</author>
+          <title>De oratore</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Wilkins, A. S.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Rhetorica Vol. 1</title>
+            <date when="1955">1955</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.parad.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Paradoxa stoicorum</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Mueller, C. F. W.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia part 4, Vol. 3</title>
+            <date when="1890">1890</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.part.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Partitiones oratoriae</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Rackham, H.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>Cicero in Twenty-Eight Volumes Vol. 4</title>
+            <date when="1942">1942</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Phil.">
+          <author>Marcus Tullius Cicero</author>
+          <title>In M. Antonium orationes Philippicae</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 2</title>
+            <date when="1918">1918</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Pis.">
+          <author>Marcus Tullius Cicero</author>
+          <title>In L. Calpurnium Pisonem oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 4</title>
+            <date when="1909">1909</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Planc.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro Cn. Plancio oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 6</title>
+            <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.prov.">
+          <author>Marcus Tullius Cicero</author>
+          <title>De provinciis consularibus oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Peterson, W.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 5</title>
+            <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.AdQFr.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Epistulae ad Quintum Fratrem</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Shakelton Bailey, D. R.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Cicero: Epistulae ad Quintum Fratrem et M. Brutum</title>
+            <date when="1980">1980</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.QRosc.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro Q. Roscio Gallo Comoedo oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 4</title>
+            <date when="1909">1909</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Quinct.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro C. Quinctio oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 4</title>
+            <date when="1909">1909</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.RabPerd.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro C. Rabirio perduellionis reo orationis quae exstant</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 4</title>
+            <date when="1909">1909</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.RabPost.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Por C. Rabirio Postumo oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 4</title>
+            <date when="1909">1909</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.PRedAdQuir.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Post reditum ad quirites</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Peterson, W.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 5</title>
+            <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.PRedInSen.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Post reditum in senatu</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Peterson, W.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 5</title>
+            <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.rep.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Librorum de re publica quae exstant</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Mueller, C. F. W.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia part 4, Vol. 2</title>
+            <date when="1890">1890</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Sest.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro P. Sestio oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Peterson, W.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 5</title>
+            <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.SRosc.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro Sex. Roscio Amerino oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 1</title>
+            <date when="1905">1905</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Sull.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Pro P. Cornelio Sulla oratio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Clarck, A. C.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 6</title>
+            <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Tim.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Timaei Platonici versionis fragmenta</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Mueller, C. F. W.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia part 4, Vol. 3</title>
+            <date when="1890">1890</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.top.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Topica</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Hubbell, H. M.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>            
+<title>De Inventione, De Optimo Genere Oratorum, Topica</title>
+            <date when="1949">1949</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Tusc.">
+          <author>Marcus Tullius Cicero</author>
+          <title>Tusculanae disputationes</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Pohlenz, M.</editor>
+          <publisher>teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia fasc. 44</title>
+            <date when="1918">1918</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Vatin.">
+          <author>Marcus Tullius Cicero</author>
+          <title>In P. Vatinium testem interrogatio</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Peterson, W.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 5</title>
+            <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Cic.Verr.">
+          <author>Marcus Tullius Cicero</author>
+          <title>In C. Verrem orationes sex</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Peterson, W.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Orationes Vol. 3</title>
+            <date when="1917">1917</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Colum.arb.">
+          <author>L. Iunius Columella</author>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Rodgers, R. H.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Iuni Moderati Columellae Res rustica. : Incerti auctoris Liber de arboribus</title>
+            <date when="2010">2010</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Colum.">
+          <author>L. Iunius Columella</author>
+          <title>Res rusticae</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Rodgers, R. H.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Iuni Moderati Columellae Res rustica. : Incerti auctoris Liber de arboribus</title>
+            <date when="2010">2010</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Curt.">
+          <author>Q. Curtius Rufus</author>
+          <title>Historiae Alexandri Magni</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Rolfe, J. C.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>History of Alexander</title>
+            <date when="1946">1946</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Enn.ann.">
+          <author>Ennius</author>
+          <title>Annales</title>
+          <term>Poetry</term>
+          <date>Early</date>
+          <editor>Skutsch, O.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>The Annals of Q. Ennius</title>
+            <date when="1985">1985</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Enn.com.">
+          <author>Ennius</author>
+          <title>Comoediarum fragmenta</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Ribbeck, O.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Scaenicae Romanorum Poesis Fragmenta Vol. 1</title>
+            <date when="1898">1898</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Enn.trag.">
+          <author>Ennius</author>
+          <title>Tragoediarum fragmenta</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Jocelyn, H. D.</editor>
+          <publisher>Cambridge classical texts</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>Ennius, The Tragedies: the fragments</title>
+            <date when="1967">1967</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="EpicedDrusi.">
+          <title>Epicedion Drusi</title>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Mozley, J. H.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>Ovid in Six Volumes Vol. 2</title>
+            <date when="1979">1979</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Fest.">
+          <author>Sex. Pompeius Festus</author>
+          <title>Epitomae operis de verborum significatu</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Lindsey, W. M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Sexti Pompei Festi De Verborum Significatu Quae Supersunt cum Pauli Epitome</title>
+            <date when="1913">1913</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Flor.epit.">
+          <author>Florus</author>
+          <title>Epitoma de Tito Livio</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Malcovati, H.</editor>
+          <publisher>Librería dello Stato</publisher>
+          <pubPlace>Rome</pubPlace>
+          <edition>
+            <title>L. Annaei Flori quae exstant</title>
+            <date when="1938">1938</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Frontin.aq.">
+          <author>Sextus Iulius Frontinus</author>
+          <title>De aquaeductu urbis Romae comentarius</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Kunderewicz, C.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Sex. Iulii Frontini De Aquaeductu Urbis Romae</title>
+            <date when="1973">1973</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Frontin.grom.">
+          <title>Excerpta e Frontini opere quodam gromatico</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Thulin, C.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Corpus Agrimensorum Latinorum Vol. 1</title>
+            <date when="1971">1971</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Frontin.strat.">
+          <author>Sextus Iulius Frontinus</author>
+          <title>Strategemata</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Bendz, G.</editor>
+          <publisher>Akademie Verlag</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Frontin Krieglisten</title>
+            <date when="1987">1987</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Fronto.AdMCaes.">
+          <author>M. Cornelius Fronto Cirtensis</author>
+          <title>Epistula ad M. Caesarem et invicem</title>
+          <term>Prose</term>         
+ <date>Imperial</date>
+          <editor>Van den Hout, M. P. J.</editor>
+          <publisher>Brill</publisher>
+          <pubPlace>Leiden</pubPlace>
+          <edition>
+            <title>M. Cornelii Frontonis Epistulae</title>
+            <date when="1954">1954</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Fronto.AdMAntoniumImpEpist.">
+          <author>M. Cornelius Fronto Cirtensis</author>
+          <title>Epistula ad M. Antonium imperator</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Van den Hout, M. P. J.</editor>
+          <publisher>Brill</publisher>
+          <pubPlace>Leiden</pubPlace>
+          <edition>
+            <title>M. Cornelii Frontonis Epistulae</title>
+            <date when="1954">1954</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Gaius.inst.">
+          <author>Gaius iurisconsultus</author>
+          <title>Institutiones</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Seckel, E., Kübler, B.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>Gai Institutiones</title>
+            <date when="1969">1969</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Gall.epigr.">
+          <author>C. Asinius Gallus</author>
+          <title>Epigramma</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Morel, W.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Fragmenta Poetarum Latinorum Epicorum et Lyricorum praeter Ennium et Lucilium</title>
+            <date when="1927">1927</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Gell.">
+          <author>Aulus Gellius</author>
+          <title>Noctes Atticae</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>A. Gelli Noctes Atticae</title>
+            <date when="1990">1990</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Germ.">
+          <author>Germanicus Caesar</author>
+          <title>Aratea</title>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Gain, D. B.</editor>
+          <publisher>The Athelone Press</publisher>
+          <pubPlace>London</pubPlace>
+          <edition>
+            <title>The Aratus ascribed to Germanicus Caesar</title>
+            <date when="1976">1976</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Gratt.">
+          <author>Grattius</author>
+          <title>Cynegetica</title>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Enk, P. H.</editor>
+          <publisher>W. J. Thieme &amp; cie.</publisher>
+          <pubPlace>California</pubPlace>
+          <edition>
+            <title>Gratti Cynegeticon Quae Supersunt</title>
+            <date when="1918">1918</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Hor.ars.">
+          <author>Quintus Horatius Flaccus</author>
+          <title>De arte poetica</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Klingner, F.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Q. Horati Flacci Opera klingner</title>
+            <date when="1959">1959</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Hor.carm.">
+          <author>Quintus Horatius Flaccus</author>
+          <title>Carmina</title>      
+    <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Klingner, F.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Q. Horati Flacci Opera klingner</title>
+            <date when="1959">1959</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Hor.epist.">
+          <author>Quintus Horatius Flaccus</author>
+          <title>Epistulae</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Klingner, F.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Q. Horati Flacci Opera klingner</title>
+            <date when="1959">1959</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Hor.epod.">
+          <author>Quintus Horatius Flaccus</author>
+          <title>Epodi</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Klingner, F.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Q. Horati Flacci Opera klingner</title>
+            <date when="1959">1959</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Hor.sat.">
+          <author>Quintus Horatius Flaccus</author>
+          <title>Saturae (sermones)</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Klingner, F.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Q. Horati Flacci Opera klingner</title>
+            <date when="1959">1959</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Hyg.astr.">
+          <author>Hyginus</author>
+          <title>Astronomica</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Le Boeuffle, A.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>L&apos;Astronomie</title>
+            <date when="1983">1983</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Hyg.fab.">
+          <author>Hyginus</author>
+          <title>Fabulae</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Rose, H. J.</editor>
+          <publisher>Sijthoff</publisher>
+          <pubPlace>Leyden</pubPlace>
+          <edition>
+            <title>Hygini Fabulae</title>
+            <date when="1933">1933</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Hyg.grom.">
+          <author>Hyginus</author>
+          <title>De limitibus</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Thulin, C.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Corpus Agrimensorum Latinorum Vol. 1</title>
+            <date when="1971">1971</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Hyg.munCastr.">
+          <author>Pseudo Hyginus</author>
+          <title>De munitionibus castrorum</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Lenoir, M.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>Des fortifications du camp</title>
+            <date when="1979">1979</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Iust.">
+          <author>Marcus Iunianus Iustinus</author>
+          <title>Epitoma historiarum Philippicarum Pompei Trogi</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Arnaud-Lindet, M.P.</editor>
+          <publisher>Bibliotheca Augustana</publisher>
+          <pubPlace>online</pubPlace>
+          <edition>
+            <title>Epitoma Historiarum Philippicarum Pompeii Trogi</title>
+            <date when="2003">2003</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Liv.">
+          <author>Titus Livius Patavinus</author>
+          <title>Ab urbe condita</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Conway, R. S., Walters, C. F., et alii</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Ab urbe condita</title>
+            <date when="1914">1914-1969</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Liv.perioch.">
+          <title>operis Liviani epitoma</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Jal. P.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>Abrégés des Livres de l&apos;Histoire Romaine de Tite-Live</title>
+            <date when="1984">1984</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Iuv.">
+          <author>D. Iunius Iuvenalis</author>
+          <title>Carmina</title>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Clausen, W. V.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>A. Persi Flacci et D. Iuni Iuvenalis Saturae</title>
+            <date when="1959">1959</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Lucan.">
+          <author>M. Anneus Lucanus</author>
+          <title>Bellum civile</title>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Housman, A. E.</editor>
+          <publisher>Basil Blackwell</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Annaei Lucani Belli Civilis Libri Decem</title>
+            <date when="1927">1927</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Lucil.">
+          <author>C. Lucilius</author>
+          <title>Saturarum fragmenta</title>
+          <term>Poetry</term>
+          <date>Early</date>
+          <editor>Marx, F.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>C. Lucilii Carminum Reliquiae marx</title>
+            <date when="1904">1904</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Lucr.">
+          <author>Titus Lucretius Carus</author>
+          <title>De rerum natura</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>martin, J.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>De Rerum Natura Libri Sex</title>
+            <date when="1953">1953</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Manil.">
+          <author>M. Manilius</author>
+          <title>Astronomica</title>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Morel, W.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Fragmenta Poetarum Latinorum Epicorum et Lyricorum praeter Ennium et Lucilium</title>
+            <date when="1927">1927</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Mart.">
+          <author>M. Valerius Martialis</author>
+          <title>Epigrammata</title>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Heraeus, W., Borovxkij, J.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Valerii Martialis Epigrammaton Libri</title>
+            <date when="1925">1925</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Mela.">
+          <author>Pomponius Mela</author>
+          <title>De chorographia</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ranstrand, G.</editor>
+          <publisher>Universitas Gothoburgensis</publisher>
+          <pubPlace>Stockholm</pubPlace>
+          <edition>
+            <title>Pomponii Melae De Chorographia Libri Tres : Una Cum Indice Verborum</title>
+            <date when="1971">1971</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Naev.com.">
+          <author>Cn. Naevius</author>
+          <title>Comoediarum fragmenta</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Ribbeck, O.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Scaenicae Romanorum Poesis Fragmenta Vols. 1-2</title>
+            <date when="1898">1898</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Naev.trag.">
+          <author>Cn. Naevius</author>
+          <title>Tragoediarum fragmenta</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Ribbeck, O.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Scaenicae Romanorum Poesis Fragmenta Vol. 1</title>
+            <date when="1898">1898</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Ages.">
+          <author>Cornelius Nepos</author>
+          <title>Agesilaus</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Alc.">
+          <author>Cornelius Nepos</author>
+          <title>Alcibiades</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Arist.">
+          <author>Cornelius Nepos</author>
+          <title>Aristides</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Att.">
+          <author>Cornelius Nepos</author>
+          <title>Atticus</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Dat.">
+          <author>Cornelius Nepos</author>
+          <title>Datames</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Epam.">
+          <author>Cornelius Nepos</author>
+          <title>Epaminondas</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Eum.">
+          <author>Cornelius Nepos</author>
+          <title>Eumenes</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Ham.">
+          <author>Cornelius Nepos</author>
+          <title>Hamilcar</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Hann.">
+          <author>Cornelius Nepos</author>
+          <title>Hannibal</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Iph.">
+          <author>Cornelius Nepos</author>
+          <title>Iphicrates</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Milt.">
+          <author>Cornelius Nepos</author>
+          <title>Miltiades</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Paus.">
+          <author>Cornelius Nepos</author>
+          <title>Pausanias</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Nep.Them.">
+          <author>Cornelius Nepos</author>
+          <title>Themistocles</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marshall, P. K.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Cornelii Nepotis Vitae cum Fragmentis</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Novius.Atell.">
+          <author>Novius</author>
+          <title>Atellanarum fragmenta</title>
+          <term>Drama</term>
+          <date>Classical</date>
+          <editor>Ribbeck, O.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Scaenicae Romanorum Poesis Fragmenta Vol. 2</title>
+            <date when="1898">1898</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Octavia.">
+          <title>Octavia</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Zwierlein, O.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae Tragoediae, Incertorum Auctorum Hercules [Oetaeus], Octavia</title>
+            <date when="1987">1987</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ov.am.">
+          <author>Publius Ovidius Naso</author>
+          <title>Amores</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Showerman, G., Goold, G. P.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>Ovid in Six Volumes Vol. 1</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ov.ars.">
+          <author>Publius Ovidius Naso</author>
+          <title>Ars amatoria</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Mozley, J. H., Goold, G. P.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>Ovid in Six Volumes Vol. 2</title>
+            <date when="1979">1979</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ov.epist.">
+          <author>Publius Ovidius Naso</author>
+          <title>Epistulae (heroides)</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Showerman, G., Goold, G. P.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>Ovid in Six Volumes Vol. 1</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ov.fast.">
+          <author>Publius Ovidius Naso</author>
+          <title>Fasti</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Alton, E. H., Wormell, D. E. W.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>P. Ovidi Nasonis Fastorum libri sex</title>
+            <date when="1978">1978</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ov.Ibis.">
+          <author>Publius Ovidius Naso</author>
+          <title>Ibis</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Mozley, J. H., Goold, G. P.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>Ovid in Six Volumes Vol. 2</title>
+            <date when="1979">1979</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ov.met.">
+          <author>Publius Ovidius Naso</author>
+          <title>Metamorphoses</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Miller, F. J., Goold, G. P.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>Ovid: Metamorphoses in Two Volumes</title>
+            <date when="1977">1977-1984</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ov.Pont.">
+          <author>Publius Ovidius Naso</author>
+          <title>Epistulae ex Ponto</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>André, J.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>Pontiques</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ov.rem.">
+          <author>Publius Ovidius Naso</author>
+          <title>Remedia amoris</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Mozley, J. H., Goold, G. P.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>Ovid in Six Volumes Vol. 2</title>
+            <date when="1979">1979</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ov.trist.">
+          <author>Publius Ovidius Naso</author>
+          <title>Tristia</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Luck, G.</editor>
+          <publisher>Karl Winter</publisher>
+          <pubPlace>Heidelberg</pubPlace>
+          <edition>
+            <title>P. Ovidius Naso: Tristia</title>
+            <date when="1967">1967</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Pacuv.trag.">
+          <author>M. Pacuvius</author>
+          <title>Tragoediarum fragmenta</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Ribbeck, O.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Scaenicae Romanorum Poesis Fragmenta Vol. 1</title>
+            <date when="1898">1898</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Pers.">
+          <author>A. Persius Flaccus</author>
+          <title>Satura</title>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Clausen, W. V.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>A. Persi Flacci et D. Iuni Iuvenalis Saturae</title>
+            <date when="1959">1959</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Petron.">
+          <author>Petronius (arbiter)</author>
+          <title>Satyrica</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Müller, K., Ehlers, W.</editor>
+          <publisher>De Gruyter</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Petronius: Satyrica</title>
+            <date when="1983">1983</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Phaedr.">
+          <author>Phaedrus Augusti libertus</author>
+          <title>Fabulae</title>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Guaglianone, A.</editor>
+          <publisher>Augus Taurinorum, osv.</publisher>
+          <pubPlace>Turin</pubPlace>
+          <edition>
+            <title>Phaedri Augusti Liberti Liber Fabularum</title>
+            <date when="1969">1969</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Amph.">
+          <author>Titus Maccius Plautus</author>
+          <title>Amphitruo</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>    
+      <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 1</title>
+            <date when="1895">1895</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Asin.">
+          <author>Titus Maccius Plautus</author>
+          <title>Asinaria</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 1</title>
+            <date when="1895">1895</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Aul.">
+          <author>Titus Maccius Plautus</author>
+          <title>Aulularia</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 1</title>
+            <date when="1895">1895</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Bacch.">
+          <author>Titus Maccius Plautus</author>
+          <title>Bacchides</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 1</title>
+            <date when="1895">1895</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Capt.">
+          <author>Titus Maccius Plautus</author>
+          <title>Captivi</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 1</title>
+            <date when="1895">1895</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Cas.">
+          <author>Titus Maccius Plautus</author>
+          <title>Casina</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 1</title>
+            <date when="1895">1895</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Cist.">
+          <author>Titus Maccius Plautus</author>
+          <title>Cistellaria</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 1</title>
+            <date when="1895">1895</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Curc.">
+          <author>Titus Maccius Plautus</author>
+          <title>Curculio</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 1</title>
+            <date when="1895">1895</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Epid.">
+          <author>Titus Maccius Plautus</author>
+          <title>Epidicus</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 1</title>
+            <date when="1895">1895</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Men.">
+          <author>Titus Maccius Plautus</author>
+          <title>Menaechmi</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 1</title>
+            <date when="1895">1895</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Merc.">
+          <author>Titus Maccius Plautus</author>
+          <title>Mercator</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 1</title>
+            <date when="1895">1895</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Mil.">
+          <author>Titus Maccius Plautus</author>
+          <title>Miles Gloriosus</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 2</title>
+            <date when="1896">1896</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Most.">
+          <author>Titus Maccius Plautus</author>
+          <title>Mostellaria</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 2</title>
+            <date when="1896">1896</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Persa.">
+          <author>Titus Maccius Plautus</author>
+          <title>Persa</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 2</title>
+            <date when="1896">1896</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Poen.">
+          <author>Titus Maccius Plautus</author>
+          <title>Poenulus</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 2</title>
+            <date when="1896">1896</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Pseud.">
+          <author>Titus Maccius Plautus</author>
+          <title>Pseudolus</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 2</title>
+            <date when="1896">1896</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Rud.">
+          <author>Titus Maccius Plautus</author>
+          <title>Rudens</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 2</title>
+            <date when="1896">1896</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Stich.">
+          <author>Titus Maccius Plautus</author>
+          <title>Stichus</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 2</title>
+            <date when="1896">1896</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Trin.">
+          <author>Titus Maccius Plautus</author>
+          <title>Trinummus</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 2</title>
+            <date when="1896">1896</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Truc.">
+          <author>Titus Maccius Plautus</author>
+          <title>Truculentus</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 2</title>
+            <date when="1896">1896</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plaut.Vid.">
+          <author>Titus Maccius Plautus</author>
+          <title>Vidularia</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Leo, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Plauti Comoediae Vol. 2</title>
+            <date when="1896">1896</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plin.nat.">
+          <author>C. Secundus Plinius</author>
+          <title>Naturalis historia</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Mayhoff, K. F. T., von Jan, L.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>C. Plini Secundi Naturalis Historiae Libri XXXVII</title>
+            <date when="1892">1892-1909</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plin.epist.">
+          <author>C. Plinius Caecilius Secundos</author>
+          <title>Epistulae</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Mynors, R. A. B.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>C. Plini Caecili Secundi Epistularum Libri Decem</title>
+            <date when="1966">1966</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Plin.paneg.">
+          <author>C. Plinius Caecilius Secundos</author>
+          <title>Panegyricus</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Mynors, R. A. B.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>XII Panegyrici Latini</title>
+            <date when="1964">1964</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Pompon.praetext.">
+          <author>P. Pomponius Secundus</author>
+          <title>Fabularum praetextarum fragmenta</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Ribbeck, O.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Scaenicae Romanorum Poesis Fragmenta Vol. 1</title>
+            <date when="1898">1898</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Prop.">
+          <author>Sex. Propertius</author>
+          <title>Elegiae</title>
+          <term>Poetry</term>
+          <date>Classical</date>     
+     <editor>Barber, E. A.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Sexti Properti Carmina</title>
+            <date when="1963">1963</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Publil.">
+          <author>Publilius Syrus</author>
+          <title>Sententiae</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Meyer, W.</editor>
+          <publisher>Theobaldus Griebenus</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Publilii Syri Mimi Sententiae</title>
+            <date when="1880">1880</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="QCic.pet.">
+          <author>Q. Tullius Cicero</author>
+          <title>Commentariolum petitionis</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Watt, W. S.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Epistulae Vol. 3</title>
+            <date when="1958">1958</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Quint.decl.">
+          <author>M. Fabius Quintilianus</author>
+          <title>Declamationes minores</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Winterbottom, M.</editor>
+          <publisher>De Gruyter</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>The Minor Declamations Ascribed to Quintilian</title>
+            <date when="1984">1984</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Quint.inst.">
+          <author>M. Fabius Quintilianus</author>
+          <title>Institutio oratoria</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Winterbottom, M.</editor>
+          <publisher>De Gruyter</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>M. Fabi Quintiliani Institutionis Oratoriae Libri Duodecim</title>
+            <date when="1970">1970</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="PsQuint.decl.">
+          <author>Ps. M. Fabius Quintilianos</author>
+          <title>Declamationes maiores</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Håkanson, L.</editor>
+          <publisher>De Gruyter</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Declamationes XIX Maiores Quintiliano Falso Ascriptae</title>
+            <date when="1982">1982</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Rhet.Her.">
+          <title>Rhetorica ad Herennium</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Marx, F.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>M. Tulli Ciceronis Scripta Quae Manserunt Omnia fasc. 1</title>
+            <date when="1923">1923</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Rut.Lup.">
+          <author>Publius Rutilius Rufus</author>
+          <title>De vita sua</title>
+          <term>Prose</term>
+          <date>Early</date>
+          <editor>Peter, H.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Historicorum Romanorum Fragmenta Vol. 1</title>
+            <date when="1914">1914</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sall.Catil.">
+          <author>C. Sallustius Crispus</author>
+          <title>De coniuratione Catilinae</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Kurfess, A.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>C. Sallusti Crispi Catilina, Iugurtha, Fragmenta Ampliora</title>
+            <date when="1957">1957</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sall.epist.">
+          <author>C. Sallustius Crispus</author>
+          <title>Epistulae</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Kurfess, A.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Appendix Sallustiana</title>
+            <date when="1970">1970</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sall.hist.">
+          <author>C. Sallustius Crispus</author>
+          <title>Historiarum reliquiae</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Maurenbrecher, B.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>C. Sallusti Crispi Historiarum Reliquiae</title>
+            <date when="1893">1893</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sall.Iug.">
+          <author>C. Sallustius Crispus</author>
+          <title>De bello Iugurthino</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Kurfess, A.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>C. Sallusti Crispi Catilina, Iugurtha, Fragmenta Ampliora</title>
+            <date when="1957">1957</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="PsSall.rep.">
+          <author>Ps. C. Sallustius Crispus</author>
+          <title>Epistulae ad Caesarem senem de re publica</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Kurfess, A.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Appendix Sallustiana</title>
+            <date when="1970">1970</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="ScribLarg.">
+          <author>Scribonius Largus</author>
+          <title>Compositiones</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Sconocchia, S.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Scribonii Largi Compositiones</title>
+            <date when="1983">1983</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.contr.">
+          <author>L. Annaeus Seneca (rhetor)</author>
+          <title>Controversiae</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Winterbottom, M.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>The Elder Seneca: Declamations in Two Volumes</title>
+            <date when="1974">1974</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.suas.">
+          <author>L. Annaeus Seneca (rhetor)</author>
+          <title>Suasoriae</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Winterbottom, M.</editor>
+          <publisher>Loeb Classical Library</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>The Elder Seneca: Declamations in Two Volumes</title>
+            <date when="1974">1974</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.Ag.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Agamemno</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Zwierlein, O.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae Tragoediae, Incertorum Auctorum Hercules [Oetaeus], Octavia</title>
+            <date when="1987">1987</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.apocol.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Divi Claudii apocolocyntosis</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Eden, P. T.</editor>
+          <publisher>Cambridge classical texts</publisher>
+          <pubPlace>Cambridge</pubPlace>
+          <edition>
+            <title>Seneca: Apocolocyntosis</title>
+            <date when="1984">1984</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.benef.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>De beneficiis</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Hosius, C.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae opera quae supersunt Vol. 1, fasc. 2</title>
+            <date when="1914">1914</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.clem.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>De clementia</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Hosius, C.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae opera quae supersunt Vol. 1, fasc. 2</title>
+            <date when="1900">1900</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.dial.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Dialogi</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Reynolds, L. D.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae Dialogorum Libri Duodecim</title>
+            <date when="1977">1977</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.epist.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Epistulae morales ad Lucilium</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Reynolds, L. D.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae ad Lucilium Epistulae Morales</title>
+            <date when="1965">1965</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.HercF.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Hercules (furens)</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Zwierlein, O.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae Tragoediae, Incertorum Auctorum Hercules [Oetaeus], Octavia</title>
+            <date when="1987">1987</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.HercO.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Hercules (Oataeus)</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Zwierlein, O.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae Tragoediae, Incertorum Auctorum Hercules [Oetaeus], Octavia</title>
+            <date when="1987">1987</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.Med.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Medea</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Zwierlein, O.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae Tragoediae, Incertorum Auctorum Hercules [Oetaeus], Octavia</title>
+            <date when="1987">1987</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.nat.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Naturales quaestiones</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Oltramare, P.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>Seneque, Questions Naturelles</title>
+            <date when="1929">1929</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.Oed.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Oedipus</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Zwierlein, O.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae Tragoediae, Incertorum Auctorum Hercules [Oetaeus], Octavia</title>
+            <date when="1987">1987</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.Phaedr.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Phaedra</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Zwierlein, O.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae Tragoediae, Incertorum Auctorum Hercules [Oetaeus], Octavia</title>
+            <date when="1987">1987</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.Phoen.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Phoenissae</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Zwierlein, O.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae Tragoediae, Incertorum Auctorum Hercules [Oetaeus], Octavia</title>
+            <date when="1987">1987</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.Thy.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Thyestes</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Zwierlein, O.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae Tragoediae, Incertorum Auctorum Hercules [Oetaeus], Octavia</title>
+            <date when="1987">1987</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sen.Tro.">
+          <author>L. Annaeus Seneca (philosophus)</author>
+          <title>Troades</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Zwierlein, O.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>L. Annaei Senecae Tragoediae, Incertorum Auctorum Hercules [Oetaeus], Octavia</title>
+            <date when="1987">1987</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Sil.">
+          <author>Ti. Catius Asconius Silius Italicus</author>
+          <title>Punica</title>
+          <term>Poetry</term>
+          <date>Imperial</date>
+          <editor>Summers, W. C.</editor>
+          <publisher>Sumptibus G. Bell et filiorum</publisher>
+          <pubPlace>London</pubPlace>
+          <edition>
+            <title>Corpus Poetarum Latinorum Vol. 3</title>
+            <date when="1905">1905</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Stat.silv.">
+          <author>P. Papinius Statius</author>
+          <title>Silvae</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Marastoni, A.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>P. Papini Stati Silvae</title>
+            <date when="1970">1970</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Stat.Theb.">
+          <author>P. Papinius Statius</author>
+          <title>Thebais</title>
+          <term>Drama</term>
+          <date>Imperial</date>
+          <editor>Hill, D. E.</editor>
+          <publisher>Brill</publisher>
+          <pubPlace>Lugduni Batavorum</pubPlace>
+          <edition>
+            <title>P. Papini Stati Thebaidos Libri XII</title>
+            <date when="1983">1983</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.Aug.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita Augusti</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.Cal.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita caligulae</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.Claud.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita Claudii</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.Dom.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita Domitiani</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.galba.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita Galbae</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.Iul.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita Iulii</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.Nero.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita Neronis</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.Otho.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita Othonis</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.Tib.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita Tiberii</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.Tit.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita Titi</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.Vesp.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita Vespasiani</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Suet.Vit.">
+          <author>C. Suetonius Tranquillus</author>
+          <title>Vita Vitellii</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Ihm, M.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Stuttgart</pubPlace>
+          <edition>
+            <title>C. Suetoni Tranquilli Opera Vol. 1</title>
+            <date when="1908">1908</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Tac.Agr.">
+          <author>(P.) Cornelius Tacitus</author>
+          <title>De vita Iulii Agricolae</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Anderson, J. G. C.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Cornelii Taciti Opera Minora</title>
+            <date when="1939">1939</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Tac.ann.">
+          <author>(P.) Cornelius Tacitus</author>
+          <title>Annales</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Fisher, C. D.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Cornelii Taciti Annalium Ab Excessu Divi Augusti Libri</title>
+            <date when="1906">1906</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Tac.dial.">
+          <author>(P.) Cornelius Tacitus</author>
+          <title>Dialogus de oratoribus</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Anderson, J. G. C.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Cornelii Taciti Opera Minora</title>
+            <date when="1939">1939</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Tac.Germ.">
+          <author>(P.) Cornelius Tacitus</author>
+          <title>Germania</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Anderson, J. G. C.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Cornelii Taciti Opera Minora</title>
+            <date when="1939">1939</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Tac.hist.">
+          <author>(P.) Cornelius Tacitus</author>
+          <title>Historiae</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Fisher, C. D.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>Cornelii Taciti: Historiarum Libri</title>
+            <date when="1911">1911</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ter.Ad.">
+          <author>P. Terentius Afer</author>
+          <title>Adelphoe</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Kauer, R., Lindsay, W. M., Skutsch, O.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>P. Terenti Afri Comoediae</title>
+            <date when="1958">1958</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ter.Andr.">
+          <author>P. Terentius Afer</author>
+          <title>Andria</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Kauer, R., Lindsay, W. M., Skutsch, O.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>P. Terenti Afri Comoediae</title>
+            <date when="1958">1958</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ter.Eun.">
+          <author>P. Terentius Afer</author>
+          <title>Eunuchus</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Kauer, R., Lindsay, W. M., Skutsch, O.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>P. Terenti Afri Comoediae</title>
+            <date when="1958">1958</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ter.Haut.">
+          <author>P. Terentius Afer</author>
+          <title>Heautontimorumenos</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Kauer, R., Lindsay, W. M., Skutsch, O.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>P. Terenti Afri Comoediae</title>
+            <date when="1958">1958</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ter.Hec.">
+          <author>P. Terentius Afer</author>
+          <title>hecyra</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Kauer, R., Lindsay, W. M., Skutsch, O.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>P. Terenti Afri Comoediae</title>
+            <date when="1958">1958</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Ter.Phorm.">
+          <author>P. Terentius Afer</author>
+          <title>Phormio</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Kauer, R., Lindsay, W. M., Skutsch, O.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>P. Terenti Afri Comoediae</title>
+            <date when="1958">1958</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Tib.">
+          <author>Albius Tibullus</author>
+          <title>Elegiae</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Galinsky, G. K., Lenz, F. W.</editor>
+          <publisher>E. J. Brill</publisher>
+          <pubPlace>Leiden</pubPlace>
+          <edition>
+            <title>Albi Tibulli Aliorumque Carminum Libri Tres</title>
+            <date when="1971">1971</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Trabea.com.">
+          <author>Trabea</author>
+          <title>Comoediarum palliatarum fragmenta</title>
+          <term>Drama</term>
+          <date>Early</date>
+          <editor>Kauer, R., Lindsay, W. M., Skutsch, O.</editor>
+          <publisher>Clarendon University Press</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>P. Terenti Afri Comoediae</title>
+            <date when="1958">1958</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="ValMax.">
+          <author>Valerius Maximus</author>
+          <title>Dicta et facta memorabilia</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Kempf, C.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Valerii Maximi Factorum et Dictorum Memorabilium Libri Novem</title>
+            <date when="1888">1888</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Varro.ling.">
+          <author>M. Terentius Varro Reatinus</author>
+          <title>De lingua latina</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Goetz, G., Schoell, F.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Terenti Varronis De lingua latina quae supersunt</title>
+            <date when="1910">1910</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Varro.Men.">
+          <author>M. Terentius Varro Reatinus</author>
+          <title>Menippearum fragmenta</title>
+          <term>Drama</term>
+          <date>Classical</date>
+          <editor>Bücheler, F.</editor>
+          <publisher>Weidmann</publisher>
+          <pubPlace>Berlin</pubPlace>
+          <edition>
+            <title>Petronii Saturae, Adiectae Sunt Varronis et Senecae Saturae Similesque
+                Reliquiae</title>
+            <date when="1963">1963</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Varro.rust.">
+          <author>M. Terentius Varro Reatinus</author>
+          <title>Res rusticae</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Goetz, G.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>M. Terenti Varronis Rerum Rusticarum Libri Tres</title>
+            <date when="1929">1929</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Vell.">
+          <author>Velleius Paterculus</author>
+          <title>Historiae Romanae</title>
+          <term>Prose</term>
+          <date>Imperial</date>
+          <editor>Hellegouarc&apos;h, J.</editor>
+          <publisher>Belles Lettres</publisher>
+          <pubPlace>Paris</pubPlace>
+          <edition>
+            <title>Velleius Paterculus: Histoire Romaine</title>
+            <date when="1982">1982</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Verg.Aen.">
+          <author>Publius Vergilius Maro</author>
+          <title>Aeneis</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Mynors, R. A. B.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>P. Vergili Maronis Opera</title>
+            <date when="1972">1972</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Verg.ecl.">
+          <author>Publius Vergilius Maro</author>
+          <title>Eclogae</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Mynors, R. A. B.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>P. Vergili Maronis Opera</title>
+            <date when="1972">1972</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Verg.georg.">
+          <author>Publius Vergilius Maro</author>
+          <title>Georgica</title>
+          <term>Poetry</term>
+          <date>Classical</date>
+          <editor>Mynors, R. A. B.</editor>
+          <publisher>Oxford classical texts</publisher>
+          <pubPlace>Oxford</pubPlace>
+          <edition>
+            <title>P. Vergili Maronis Opera</title>
+            <date when="1972">1972</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+        <bibl xml:id="Vitr.">
+          <author>Vitruvius</author>
+          <title>De architectura</title>
+          <term>Prose</term>
+          <date>Classical</date>
+          <editor>Krohn, F.</editor>
+          <publisher>Teubner</publisher>
+          <pubPlace>Leipzig</pubPlace>
+          <edition>
+            <title>Vitruvii de Architectura</title>
+            <date when="1912">1912</date>
+          </edition>
+          <country>Ancient Rome</country>
+        </bibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>

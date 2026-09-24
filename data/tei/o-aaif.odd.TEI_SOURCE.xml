@@ -1,0 +1,267 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Schema for TEI AAIF</title>
+        <author>Gerlinde Schneider</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a
+            Creative Commons Attribution-ShareAlike 3.0 Unported License </licence>
+          <licence target="http://www.opensource.org/licenses/BSD-2-Clause">
+            <p>Copyright 2013 TEI Consortium.</p>
+            <p>All rights reserved.</p>
+            <p>Redistribution and use in source and binary forms, with or without modification, are
+              permitted provided that the following conditions are met:</p>
+            <list>
+              <item>Redistributions of source code must retain the above copyright notice, this list
+                of conditions and the following disclaimer.</item>
+              <item>Redistributions in binary form must reproduce the above copyright notice, this
+                list of conditions and the following disclaimer in the documentation and/or other
+                materials provided with the distribution.</item>
+            </list>
+            <p>This software is provided by the copyright holders and contributors &quot;as is&quot; and any
+              express or implied warranties, including, but not limited to, the implied warranties
+              of merchantability and fitness for a particular purpose are disclaimed. In no event
+              shall the copyright holder or contributors be liable for any direct, indirect,
+              incidental, special, exemplary, or consequential damages (including, but not limited
+              to, procurement of substitute goods or services; loss of use, data, or profits; or
+              business interruption) however caused and on any theory of liability, whether in
+              contract, strict liability, or tort (including negligence or otherwise) arising in any
+              way out of the use of this software, even if advised of the possibility of such
+              damage.</p>
+          </licence>
+
+          <p>TEI material can be licensed differently depending on the use you intend to make of it.
+            Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
+            generally appropriate for usages which treat TEI content as data or documentation. The
+            BSD-2 licence is generally appropriate for usage of TEI content in a software
+            environment. For further information or clarification, please contact the <ref target="mailto:info@tei-c.org">TEI Consortium</ref>. </p>
+        </availability>
+        <idno type="PID">info:fedora/o:aaif.odd</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Created from scratch by James Cummings, but looking at previous tei_minimal and tei_bare
+          exemplars by SPQR and LR.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>A Minimal TEI Customization</head>
+
+      <p>This TEI ODD defines a TEI customization that is as minimal as possible and the schema
+        generated from it will validate a document that is minimally valid against the TEI scheme.
+        It includes only the ten required elements: <list rend="numbered">
+          <item>
+            <gi>teiHeader</gi> from the header module to store required metadata</item>
+          <item>
+            <gi>fileDesc</gi> from the header module to record information about this
+            file</item>
+          <item>
+            <gi>titleStmt</gi> from the header module to record information about the
+            title</item>
+          <item>
+            <gi>publicationStmt</gi> from the header module to detail how it is published</item>
+          <item>
+            <gi>sourceDesc</gi> from the header module to record where it is from</item>
+          <item>
+            <gi>p</gi> from the core module for use in the header and the body</item>    
+      <item>
+            <gi>title</gi> from the core module for use in the titleStmt</item>
+          <item>
+            <gi>TEI</gi> from the textstructure module because what is a TEI file without
+            that?</item>
+          <item>
+            <gi>text</gi> from the textstructure module to hold some text</item>
+          <item>
+            <gi>body</gi> from the textstructure module as a place to put that text</item>
+        </list>
+      </p>
+      <schemaSpec docLang="en" ident="tei_aaif" prefix="tei_" start="TEI" targetLang="en">
+        
+        <moduleRef include="teiHeader fileDesc titleStmt publicationStmt sourceDesc profileDesc funder extent authority distributor availability idno seriesStmt encodingDesc abstract langUsage licence editorialDecl projectDesc language notesStmt classDecl taxonomy textClass keywords" key="header"></moduleRef>
+        
+        <moduleRef include="p title list bibl citedRange publisher date pubPlace ref listBibl num hi respStmt resp term time item" key="core"></moduleRef>
+        
+        <moduleRef include="TEI text body div" key="textstructure"></moduleRef>
+        
+        <moduleRef key="tei"></moduleRef>
+        <moduleRef include="w phr s span" key="analysis"></moduleRef>
+        <moduleRef include="ab" key="linking"></moduleRef>
+        <moduleRef include="settingDesc setting locale" key="corpus"></moduleRef>
+        <moduleRef include="orgName persName forename surname placeName" key="namesdates"></moduleRef>
+        <elementSpec ident="body" mode="change">
+          <classes mode="change">
+            <memberOf key="att.declaring" mode="delete"></memberOf>
+          </classes>
+          <attList>
+            <attDef ident="xml:lang" mode="change" usage="req">
+              <valList mode="change"></valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="w" mode="change">
+          <attList>
+            <attDef ident="met" mode="delete"></attDef>
+            <attDef ident="real" mode="delete"></attDef>
+            <attDef ident="rhyme" mode="delete"></attDef>
+            <attDef ident="source" mode="delete"></attDef>
+            <attDef ident="cert" mode="delete"></attDef>
+            <attDef ident="resp" mode="delete"></attDef>
+            <attDef ident="rend" mode="delete"></attDef>
+            <attDef ident="style" mode="delete"></attDef>
+            <attDef ident="rendition" mode="delete"></attDef>
+            <attDef ident="corresp" mode="delete"></attDef>
+            <attDef ident="synch" mode="delete"></attDef>
+            <attDef ident="sameAs" mode="delete"></attDef>
+            <attDef ident="copyOf" mode="delete"></attDef>
+            <attDef ident="next" mode="delete"></attDef>
+            <attDef ident="prev" mode="delete"></attDef>
+            <attDef ident="exclude" mode="delete"></attDef>
+            <attDef ident="select" mode="delete"></attDef>
+            <attDef ident="facs" mode="delete"></attDef>
+            <attDef ident="change" mode="delete"></attDef>
+            <attDef ident="ana" mode="delete"></attDef>
+            <attDef ident="norm" mode="delete"></attDef>
+            <attDef ident="orig" mode="delete"></attDef>
+            <attDef ident="lemmaRef" mode="delete"></attDef>
+            <attDef ident="pos" mode="delete"></attDef>
+            <attDef ident="msd" mode="delete"></attDef>
+            <attDef ident="join" mode="delete"></attDef>
+            <attDef ident="datcat" mode="delete" ns="http://www.isocat.org/ns/dcr"></attDef>
+            <attDef ident="valueDatcat" mode="delete" ns="http://www.isocat.org/ns/dcr"></attDef>
+            <attDef ident="part" mode="delete"></attDef>
+            <attDef ident="function" mode="change" usage="req"></attDef>
+            <attDef ident="type" mode="change" usage="req">
+              <valList mode="change" type="closed">
+                <valItem ident="verb" mode="add"></valItem>
+                <valItem ident="adverb" mode="add"></valItem>
+                <valItem ident="" mode="add"></valItem>
+                <valItem ident="subject" mode="add"></valItem>
+                <valItem ident="preposition" mode="add"></valItem>
+                <valItem ident="article" mode="add"></valItem>
+                <valItem ident="possessive" mode="add"></valItem>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="change">
+              <valList mode="change" type="closed">
+                <valItem ident="coordination" mode="add"></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="phr" mode="change">
+          <attList>
+            <attDef ident="datcat" mode="delete" ns="http://www.isocat.org/ns/dcr"></attDef>
+            <attDef ident="valueDatcat" mode="delete" ns="http://www.isocat.org/ns/dcr"></attDef>
+            <attDef ident="part" mode="delete"></attDef>
+            <attDef ident="ana" mode="delete"></attDef>
+            <attDef ident="change" mode="delete"></attDef>
+            <attDef ident="facs" mode="delete"></attDef>
+            <attDef ident="corresp" mode="delete"></attDef>
+            <attDef ident="synch" mode="delete"></attDef>
+            <attDef ident="sameAs" mode="delete"></attDef>
+            <attDef ident="copyOf" mode="delete"></attDef>
+            <attDef ident="next" mode="delete"></attDef>
+            <attDef ident="prev" mode="delete"></attDef>
+            <attDef ident="exclude" mode="delete"></attDef>
+            <attDef ident="select" mode="delete"></attDef>
+            <attDef ident="rend" mode="delete"></attDef>
+            <attDef ident="style" mode="delete"></attDef>
+            <attDef ident="rendition" mode="delete"></attDef>
+            <attDef ident="cert" mode="delete"></attDef>
+            <attDef ident="resp" mode="delete"></attDef>
+            <attDef ident="source" mode="delete"></attDef>
+            <attDef ident="met" mode="delete"></attDef>
+            <attDef ident="real" mode="delete"></attDef>
+            <attDef ident="rhyme" mode="delete"></attDef>
+            <attDef ident="subtype" mode="delete"></attDef>
+            <attDef ident="type" mode="change" usage="req">
+              <valList mode="change" type="closed">
+                <valItem ident="syntagm" mode="add"></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="div" mode="change">
+          <classes mode="change">
+            <memberOf key="att.declaring" mode="delete"></memberOf>
+          </classes>
+          <attList>
+            <attDef ident="part" mode="delete"></attDef>
+            <attDef ident="xml:id" mode="change" usage="req"></attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="list" mode="change">
+          <attList>
+            <attDef ident="type" mode="change" usage="rec">
+              <valList mode="change" type="closed">
+                <valItem ident="metadata" mode="add"></valItem>
+                <valItem ident="gloss" mode="delete"></valItem>
+                <valItem ident="index" mode="delete"></valItem>
+                <valItem ident="instructions" mode="delete"></valItem>
+                <valItem ident="litany" mode="delete"></valItem>
+                <valItem ident="syllogism" mode="delete"></valItem>
+              </valList>
+            </attDef>
+            <attDef ident="ana" mode="delete"></attDef>
+            <attDef ident="change" mode="delete"></attDef>
+            <attDef ident="facs" mode="delete"></attDef>
+            <attDef ident="corresp" mode="delete"></attDef>
+            <attDef ident="synch" mode="delete"></attDef>
+            <attDef ident="sameAs" mode="delete"></attDef>
+            <attDef ident="copyOf" mode="delete"></attDef>
+            <attDef ident="next" mode="delete"></attDef>
+            <attDef ident="prev" mode="delete"></attDef>
+            <attDef ident="exclude" mode="delete"></attDef>
+            <attDef ident="select" mode="delete"></attDef>
+            <attDef ident="rend" mode="delete"></attDef>
+            <attDef ident="style" mode="delete"></attDef>
+            <attDef ident="rendition" mode="delete"></attDef>
+            <attDef ident="cert" mode="delete"></attDef>
+            <attDef ident="resp" mode="delete"></attDef>
+            <attDef ident="source" mode="delete"></attDef>
+            <attDef ident="subtype" mode="delete"></attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="ab" mode="change">
+          <classes mode="change">
+            <memberOf key="att.declaring" mode="delete"></memberOf>
+            <memberOf key="att.fragmentable" mode="delete"></memberOf>
+            <memberOf key="att.written" mode="delete"></memberOf> 
+         </classes>
+          <attList>
+            <attDef ident="ana" mode="delete"></attDef>
+            <attDef ident="change" mode="delete"></attDef>
+            <attDef ident="facs" mode="delete"></attDef>
+            <attDef ident="corresp" mode="delete"></attDef>
+            <attDef ident="synch" mode="delete"></attDef>
+            <attDef ident="sameAs" mode="delete"></attDef>
+            <attDef ident="copyOf" mode="delete"></attDef>
+            <attDef ident="next" mode="delete"></attDef>
+            <attDef ident="prev" mode="delete"></attDef>
+            <attDef ident="exclude" mode="delete"></attDef>
+            <attDef ident="select" mode="delete"></attDef>
+            <attDef ident="cert" mode="delete"></attDef>
+            <attDef ident="resp" mode="delete"></attDef>
+            <attDef ident="source" mode="delete"></attDef>
+            <attDef ident="subtype" mode="delete"></attDef>
+            <attDef ident="type" mode="change" usage="rec">
+              <valList mode="change" type="closed">
+                <valItem ident="corpus" mode="add"></valItem>
+                <valItem ident="resp" mode="add"></valItem>
+                <valItem ident="bibliography" mode="add"></valItem>
+                <valItem ident="example" mode="add"></valItem>
+                <valItem ident="categories" mode="add"></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

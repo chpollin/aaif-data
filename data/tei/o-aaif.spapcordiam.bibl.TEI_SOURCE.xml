@@ -1,0 +1,3611 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns:refworks="www.refworks.com/xml/">
+    <fileDesc>
+      <titleStmt>
+        <title>Bibliography: Corpus of Spanish Adjective-Adverbs and Prepositional Phrases in CORDIAM.</title>
+        <title type="abbreviation">Sp_AP_Cordiam</title>
+        <respStmt>
+          <resp>
+            <term>Compilation</term>
+          </resp>
+          <persName>
+            <persName>
+              <forename>Katharina</forename>
+              <surname>Gerhalter</surname>
+            </persName>
+          </persName>
+        </respStmt>
+        <funder>
+          <orgName ref="http://d-nb.info/gnd/2054142-9">Fonds zur
+                    Förderung der wissenschaftlichen
+                    Forschung</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName corresp="https://romanistik.uni-graz.at" ref="http://d-nb.info/gnd/1069331422">Institut
+                    für Romanistik, Karl-Franzens-Universität Graz
+                </orgName>
+        </publisher>
+        <authority>
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung - Austrian
+                    Centre for Digital Humanities,
+                    Karl-Franzens-Universität
+                    Graz</orgName>
+        </authority>
+        <distributor>
+          <orgName ref="https://gams.uni-graz.at">GAMS -
+                    Geisteswissenschaftliches Asset Management
+                    System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+        </availability>
+        <date when="2019">2019</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:aaif.spapcordiam.bibl</idno>
+        <ref target="corpus:aaif.spapcordiam" type="context"></ref>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="http://gams.uni-graz.at/aaif">Open
+                    Access Database &quot;Adjective-Adverb Interfaces in
+                    Romance</title>
+        <respStmt>
+          <resp>Project Leader</resp>
+          <persName ref="http://d-nb.info/gnd/1012341119">
+            <forename>Martin</forename>
+            <surname>Hummel</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Acquisition</resp>
+          <persName>
+            <forename>Katharina</forename>
+            <surname>Gerhalter</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Gerlinde</forename>
+            <surname>Schneider</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Christopher</forename>
+            <surname>Pollin</surname>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Bibliography</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listBibl>
+        <bibl xml:id="Cordiam1">
+          <title>Documentos administrativos</title>
+          <date when="1585">1585</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam2">
+          <title>Documentos administrativos</title>
+          <date when="1586">1586</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam3">
+          <title>Documentos administrativos</title>
+          <date when="1608">1608</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam4">
+          <title>Documentos administrativos</title>
+          <date when="1609">1609</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam5">
+          <title>Documentos administrativos</title>
+          <date when="1610">1610</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam6">
+          <title>Documentos administrativos</title>
+          <date when="1620">1620</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam7">
+          <title>Documentos administrativos</title>
+          <date when="1630">1630</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam8">
+          <title>Documentos administrativos</title>
+          <date when="1633">1633</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam9">
+          <title>Documentos administrativos</title>
+          <date when="1648">1648</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam10">
+          <title>Documentos administrativos</title>
+          <date when="1669">1669</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam11">
+          <title>Documentos administrativos</title>
+          <date when="1691">1691</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam12">
+          <title>Documentos administrativos</title>
+          <date when="1703">1703</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam13">
+          <title>Documentos administrativos</title>
+          <date when="1748">1748</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam14">
+          <title>Documentos administrativos</title>
+          <date when="1790">1790</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam15">
+          <title>Documentos administrativos</title>
+          <date when="1792">1792</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam16">
+          <title>Documentos administrativos</title>
+          <date when="1802">1802</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam17">
+          <title>Documentos administrativos</title>
+          <date when="1813">1813</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam18">
+          <title>Documentos administrativos</title>
+          <date when="1566">1566</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam19">
+          <title>Documentos administrativos</title>
+          <date when="1569">1569</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam20">
+          <title>Documentos administrativos</title>
+          <date when="1572">1572</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam21">
+          <title>Documentos administrativos</title>
+          <date when="1576">1576</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam22">
+          <title>Documentos administrativos</title>
+          <date when="1578">1578</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam23">
+          <title>Documentos administrativos</title>
+          <date when="1581">1581</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam24">
+          <title>Documentos administrativos</title>
+          <date when="1585">1585</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam25">
+          <title>Documentos administrativos</title>
+          <date when="1587">1587</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam26">
+          <title>Documentos administrativos</title>
+          <date when="1589">1589</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam27">
+          <title>Documentos administrativos</title>
+          <date when="1590">1590</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam28">
+          <title>Documentos administrativos</title>
+          <date when="1595">1595</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam29">
+          <title>Documentos administrativos</title>
+          <date when="1604">1604</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam30">
+          <title>Documentos administrativos</title>
+          <date when="1625">1625</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam31">
+          <title>Documentos administrativos</title>
+          <date when="1709">1709</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam32">
+          <title>Documentos administrativos</title>
+          <date when="1768">1768</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam33">
+          <title>Documentos administrativos</title>
+          <date when="1779">1779</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam34">
+          <title>Documentos administrativos</title>
+          <date when="1548">1548</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam35">
+          <title>Documentos administrativos</title>
+          <date when="1558">1558</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam36">
+          <title>Documentos administrativos</title>
+          <date when="1559">1559</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam37">
+          <title>Documentos administrativos</title>
+          <date when="1571">1571</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam38">
+          <title>Documentos administrativos</title>
+          <date when="1573">1573</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam39">
+          <title>Documentos administrativos</title>
+          <date when="1576">1576</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam40">
+          <title>Documentos administrativos</title>
+          <date when="1580">1580</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam41">
+          <title>Documentos administrativos</title>
+          <date when="1583">1583</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam42">
+          <title>Documentos administrativos</title>
+          <date when="1597">1597</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam43">
+          <title>Documentos administrativos</title>
+          <date when="1624">1624</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam44">
+          <title>Documentos administrativos</title>
+          <date when="1628">1628</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam45">
+          <title>Documentos administrativos</title>
+          <date when="1631">1631</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam46">
+          <title>Documentos administrativos</title>
+          <date when="1643">1643</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam47">
+          <title>Documentos administrativos</title>
+          <date when="1647">1647</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam48">
+          <title>Documentos administrativos</title>
+          <date when="1649">1649</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam49">
+          <title>Documentos administrativos</title>
+          <date when="1664">1664</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam50">
+          <title>Documentos administrativos</title>
+          <date when="1680">1680</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam51">
+          <title>Documentos administrativos</title>
+          <date when="1711">1711</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam52">
+          <title>Documentos administrativos</title>
+          <date when="1717">1717</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam53">
+          <title>Documentos administrativos</title>
+          <date when="1721">1721</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam54">
+          <title>Documentos administrativos</title>
+          <date when="1726">1726</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam55">
+          <title>Documentos administrativos</title>
+          <date when="1756">1756</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam56">
+          <title>Documentos administrativos</title>
+          <date when="1758">1758</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam57">
+          <title>Documentos administrativos</title>
+          <date when="1779">1779</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam58">
+          <title>Documentos administrativos</title>
+          <date when="1785">1785</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam59">
+          <title>Documentos administrativos</title>
+          <date when="1785">1785</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam60">
+          <title>Documentos administrativos</title>
+          <date when="1795">1795</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam61">
+          <title>Documentos administrativos</title>
+          <date when="1796">1796</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam62">
+          <title>Documentos administrativos</title>
+          <date when="1530">1530</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam63">
+          <title>Documentos administrativos</title>
+          <date when="1531">1531</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam64">
+          <title>Documentos administrativos</title>
+          <date when="1543">1543</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam65">
+          <title>Documentos administrativos</title>
+          <date when="1544">1544</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam66">
+          <title>Documentos administrativos</title>
+          <date when="1662">1662</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam67">
+          <title>Documentos administrativos</title>
+          <date when="1733">1733</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam68">
+          <title>Documentos administrativos</title>
+          <date when="1772">1772</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam69">
+          <title>Documentos administrativos</title>
+          <date when="1778">1778</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam70">
+          <title>Documentos administrativos</title>
+          <date when="1630">1630</date>
+          <country key="CR">Costa Rica</country>
+        </bibl>
+        <bibl xml:id="Cordiam71">
+          <title>Documentos administrativos</title>
+          <date when="1518">1518</date>
+          <country key="CUB">Cuba</country>
+        </bibl>
+        <bibl xml:id="Cordiam72">
+          <title>Documentos administrativos</title>
+          <date when="1529">1529</date>
+          <country key="CUB">Cuba</country>
+        </bibl>
+        <bibl xml:id="Cordiam73">
+          <title>Documentos administrativos</title>
+          <date when="1564">1564</date>
+          <country key="CUB">Cuba</country>
+        </bibl>
+        <bibl xml:id="Cordiam74">
+          <title>Documentos administrativos</title>
+          <date when="1555">1555</date>
+          <country key="ECU">Ecuador</country>
+        </bibl>
+        <bibl xml:id="Cordiam75">
+          <title>Documentos administrativos</title>
+          <date when="1601">1601</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam76">
+          <title>Documentos administrativos</title>
+          <date when="1694">1694</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam77">
+          <title>Documentos administrativos</title>
+          <date when="1696">1696</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam78">
+          <title>Documentos administrativos</title>
+          <date when="1706">1706</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam79">
+          <title>Documentos administrativos</title>
+          <date when="1724">1724</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam80">
+          <title>Documentos administrativos</title>
+          <date when="1535">1535</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam81">
+          <title>Documentos administrativos</title>
+          <date when="1546">1546</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam82">
+          <title>Documentos administrativos</title>
+          <date when="1523">1523</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam83">
+          <title>Documentos administrativos</title>
+          <date when="1523">1523</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam84">
+          <title>Documentos administrativos</title>
+          <date when="1525">1525</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam85">
+          <title>Documentos administrativos</title>
+          <date when="1526">1526</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam86">
+          <title>Documentos administrativos</title>
+          <date when="1529">1529</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam87">
+          <title>Documentos administrativos</title>
+          <date when="1534">1534</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam88">
+          <title>Documentos administrativos</title>
+          <date when="1538">1538</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam89">
+          <title>Documentos administrativos</title>
+          <date when="1540">1540</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam90">
+          <title>Documentos administrativos</title>
+          <date when="1550">1550</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam91">
+          <title>Documentos administrativos</title>
+          <date when="1563">1563</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam92">
+          <title>Documentos administrativos</title>
+          <date when="1569">1569</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam93">
+          <title>Documentos administrativos</title>
+          <date when="1571">1571</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam94">
+          <title>Documentos administrativos</title>
+          <date when="1577">1577</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam95">
+          <title>Documentos administrativos</title>
+          <date when="1577">1577</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam96">
+          <title>Documentos administrativos</title>
+          <date when="1578">1578</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam97">
+          <title>Documentos administrativos</title>
+          <date when="1578">1578</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam98">
+          <title>Documentos administrativos</title>
+          <date when="1598">1598</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam99">
+          <title>Documentos administrativos</title>
+          <date when="1602">1602</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam100">
+          <title>Documentos administrativos</title>
+          <date when="1615">1615</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam101">
+          <title>Documentos administrativos</title>
+          <date when="1621">1621</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam102">
+          <title>Documentos administrativos</title>
+          <date when="1642">1642</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam103">
+          <title>Documentos administrativos</title>
+          <date when="1646">1646</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam104">
+          <title>Documentos administrativos</title>
+          <date when="1681">1681</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam105">
+          <title>Documentos administrativos</title>
+          <date when="1706">1706</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam106">
+          <title>Documentos administrativos</title>
+          <date when="1748">1748</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam107">
+          <title>Documentos administrativos</title>
+          <date when="1755">1755</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam108">
+          <title>Documentos administrativos</title>
+          <date when="1769">1769</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam109">
+          <title>Documentos administrativos</title>
+          <date when="1773">1773</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam110">
+          <title>Documentos administrativos</title>
+          <date when="1773">1773</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam111">
+          <title>Documentos administrativos</title>
+          <date when="1786">1786</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam112">
+          <title>Documentos administrativos</title>
+          <date when="1787">1787</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam113">
+          <title>Documentos administrativos</title>
+          <date when="1788">1788</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam114">
+          <title>Documentos administrativos</title>
+          <date when="1792">1792</date>       
+   <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam115">
+          <title>Documentos administrativos</title>
+          <date when="1802">1802</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam116">
+          <title>Documentos administrativos</title>
+          <date when="1804">1804</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam117">
+          <title>Documentos administrativos</title>
+          <date when="1804">1804</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam118">
+          <title>Documentos administrativos</title>
+          <date when="1813">1813</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam119">
+          <title>Documentos administrativos</title>
+          <date when="1816">1816</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam120">
+          <title>Documentos administrativos</title>
+          <date when="1722">1722</date>
+          <country key="NIC">Nicaragua</country>
+        </bibl>
+        <bibl xml:id="Cordiam121">
+          <title>Documentos administrativos</title>
+          <date when="1767">1767</date>
+          <country key="PAR">Paraguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam122">
+          <title>Documentos administrativos</title>
+          <date when="1548">1548</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam123">
+          <title>Documentos administrativos</title>
+          <date when="1551">1551</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam124">
+          <title>Documentos administrativos</title>
+          <date when="1558">1558</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam125">
+          <title>Documentos administrativos</title>
+          <date when="1586">1586</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam126">
+          <title>Documentos administrativos</title>
+          <date when="1587">1587</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam127">
+          <title>Documentos administrativos</title>
+          <date when="1588">1588</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam128">
+          <title>Documentos administrativos</title>
+          <date when="1597">1597</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam129">
+          <title>Documentos administrativos</title>
+          <date when="1518">1518</date>
+          <country key="PR">Puerto Rico</country>
+        </bibl>
+        <bibl xml:id="Cordiam130">
+          <title>Documentos administrativos</title>
+          <date when="1587">1587</date>
+          <country key="PR">Puerto Rico</country>
+        </bibl>
+        <bibl xml:id="Cordiam131">
+          <title>Documentos administrativos</title>
+          <date when="1518">1518</date>
+          <country key="RD">República Dominicana</country>
+        </bibl>
+        <bibl xml:id="Cordiam132">
+          <title>Documentos administrativos</title>
+          <date when="1531">1531</date>
+          <country key="RD">República Dominicana</country>
+        </bibl>
+        <bibl xml:id="Cordiam133">
+          <title>Documentos administrativos</title>
+          <date when="1662">1662</date>
+          <country key="RD">República Dominicana</country>
+        </bibl>
+        <bibl xml:id="Cordiam134">
+          <title>Documentos administrativos</title>
+          <date when="1686">1686</date>
+          <country key="RD">República Dominicana</country>
+        </bibl>
+        <bibl xml:id="Cordiam135">
+          <title>Documentos administrativos</title>
+          <date when="1792">1792</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam136">
+          <title>Documentos administrativos</title>
+          <date when="1812">1812</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam137">
+          <title>Documentos administrativos</title>
+          <date when="1532">1532</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam138">
+          <title>Documentos administrativos</title>
+          <date when="1533">1533</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam139">
+          <title>Documentos administrativos</title>
+          <date when="1538">1538</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam140">
+          <title>Documentos administrativos</title>
+          <date when="1551">1551</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam141">
+          <title>Documentos administrativos</title>
+          <date when="1581">1581</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam142">
+          <title>Documentos administrativos</title>
+          <date when="1590">1590</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam143">
+          <title>Documentos administrativos</title>
+          <date when="1594">1594</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam144">
+          <title>Documentos administrativos</title>
+          <date when="1597">1597</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam145">
+          <title>Documentos administrativos</title>
+          <date when="1602">1602</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam146">
+          <title>Documentos administrativos</title>
+          <date when="1604">1604</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam147">
+          <title>Documentos administrativos</title>
+          <date when="1608">1608</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam148">
+          <title>Documentos administrativos</title>
+          <date when="1626">1626</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam149">
+          <title>Documentos administrativos</title>
+          <date when="1635">1635</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam150">
+          <title>Documentos administrativos</title>
+          <date when="1649">1649</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam151">
+          <title>Documentos administrativos</title>
+          <date when="1707">1707</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam152">
+          <title>Documentos administrativos</title>
+          <date when="1790">1790</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam153">
+          <title>Documentos administrativos</title>
+          <date when="1808">1808</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam154">
+          <title>Documentos comentativos: El Patriota</title>
+          <date when="1821">1821</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam155">
+          <title>Documentos comentativos: El Mártir o Libre</title>
+          <date when="1830">1830</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam156">
+          <title>Documentos comentativos: La Camelia</title>
+          <date when="1852">1852</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam157">
+          <title>Documentos comentativos: El Argos de Chile</title>
+          <date when="1818">1818</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam158">
+          <title>Documentos comentativos: El Hambriento</title>
+          <date when="1827">1827</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam159">
+          <title>Documentos comentativos: El Hambriento</title>
+          <date when="1828">1828</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam160">
+          <title>Documentos comentativos: Papel periódico de la ciudad de Santafé de Bogotá</title>
+          <date when="1791">1791</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam161">
+          <title>Documentos comentativos: Papel periódico de la ciudad de Santafé de Bogotá</title>
+          <date when="1792">1792</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam162">
+          <title>Documentos comentativos: Papel periódico de la ciudad de Santafé de Bogotá</title>
+          <date when="1794">1794</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam163">
+          <title>Documentos comentativos: Papel periódico de la ciudad de Santafé de Bogotá</title>
+          <date when="1795">1795</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam164">
+          <title>Documentos comentativos: Papel periódico de la ciudad de Santafé de Bogotá</title>
+          <date when="1796">1796</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam165">
+          <title>Documentos comentativos: Plus-Café</title>
+          <date when="1849">1849</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam166">
+          <title>Documentos comentativos: Gazeta de México</title>
+          <date when="1722">1722</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam167">
+          <title>Documentos comentativos: Gazeta de México</title>
+          <date when="1784">1784</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam168">
+          <title>Documentos comentativos: Gazeta de México</title>
+          <date when="1785">1785</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam169">
+          <title>Documentos comentativos: Gazeta de Montevideo</title>
+          <date when="1810">1810</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam170">
+          <title>Documentos comentativos: Gazeta de Montevideo</title>
+          <date when="1811">1811</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam171">
+          <title>Documentos comentativos: Gazeta de Montevideo</title>
+          <date when="1812">1812</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam172">
+          <title>Documentos comentativos: Gazeta de Montevideo</title>
+          <date when="1813">1813</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam173">
+          <title>Documentos comentativos: El Sol de las Provincias Unidas</title>
+          <date when="1814">1814</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam174">
+          <title>Documentos comentativos: El Pacífico Oriental de Montevideo</title>
+          <date when="1822">1822</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam175">
+          <title>Documentos comentativos: El Ciudadano</title>
+          <date when="1823">1823</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam176">
+          <title>Documentos comentativos: Gaceta de la Provincia Oriental</title>
+          <date when="1826">1826</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam177">
+          <title>Documentos comentativos: Miscelanea-Oriental</title>
+          <date when="1827">1827</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam178">
+          <title>Documentos comentativos: Las Cuestiones, ó Sean Las Cartas Orientales</title>
+          <date when="1829">1829</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam179">
+          <title>Documentos comentativos: El Patriota</title>
+          <date when="1831">1831</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam180">
+          <title>Documentos comentativos: La Estrella y el Cañón de la Libertad</title>
+          <date when="1839">1839</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam181">
+          <title>Documentos comentativos: El Coronel</title>
+          <date when="1880">1880</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam182">
+          <title>Documentos comentativos: El Partido obrero</title>
+          <date when="1890">1890</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam183">
+          <title>Documentos comentativos: El Tribuno</title>
+          <date when="1896">1896</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam184">
+          <title>Documentos cronísticos</title>
+          <date when="1708">1708</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam185">
+          <title>Documentos cronísticos</title>
+          <date when="1780">1780</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam186">
+          <title>Documentos cronísticos</title>
+          <date when="1789">1789</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam187">
+          <title>Documentos cronísticos</title>
+          <date when="1661">1661</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam188">
+          <title>Documentos cronísticos</title>
+          <date when="1781">1781</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam189">
+          <title>Documentos cronísticos</title>
+          <date when="1783">1783</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam190">
+          <title>Documentos cronísticos</title>
+          <date when="1579">1579</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam191">
+          <title>Documentos cronísticos</title>
+          <date when="1613">1613</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam192">
+          <title>Documentos cronísticos</title>
+          <date when="1529">1529</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam193">
+          <title>Documentos cronísticos</title>
+          <date when="1531">1531</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam194">
+          <title>Documentos cronísticos</title>
+          <date when="1797">1797</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam195">
+          <title>Documentos cronísticos</title>
+          <date when="1800">1800</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam196">
+          <title>Documentos cronísticos</title>
+          <date when="1555">1555</date>
+          <country key="CUB">Cuba</country>
+        </bibl>
+        <bibl xml:id="Cordiam197">      
+    <title>Documentos cronísticos</title>
+          <date when="1539">1539</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam198">
+          <title>Documentos cronísticos</title>
+          <date when="1598">1598</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam199">
+          <title>Documentos cronísticos</title>
+          <date when="1599">1599</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam200">
+          <title>Documentos cronísticos</title>
+          <date when="1601">1601</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam201">
+          <title>Documentos cronísticos</title>
+          <date when="1643">1643</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam202">
+          <title>Documentos cronísticos</title>
+          <date when="1694">1694</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam203">
+          <title>Documentos cronísticos</title>
+          <date when="1694">1694</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam204">
+          <title>Documentos cronísticos</title>
+          <date when="1706">1706</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam205">
+          <title>Documentos cronísticos</title>
+          <date when="1790">1790</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam206">
+          <title>Documentos cronísticos</title>
+          <date when="1791">1791</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam207">
+          <title>Documentos cronísticos</title>
+          <date when="1523">1523</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam208">
+          <title>Documentos cronísticos</title>
+          <date when="1529">1529</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam209">
+          <title>Documentos cronísticos</title>
+          <date when="1565">1565</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam210">
+          <title>Documentos cronísticos</title>
+          <date when="1579">1579</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam211">
+          <title>Documentos cronísticos</title>
+          <date when="1582">1582</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam212">
+          <title>Documentos cronísticos</title>
+          <date when="1599">1599</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam213">
+          <title>Documentos cronísticos</title>
+          <date when="1602">1602</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam214">
+          <title>Documentos cronísticos</title>
+          <date when="1603">1603</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam215">
+          <title>Documentos cronísticos</title>
+          <date when="1605">1605</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam216">
+          <title>Documentos cronísticos</title>
+          <date when="1620">1620</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam217">
+          <title>Documentos cronísticos</title>
+          <date when="1631">1631</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam218">
+          <title>Documentos cronísticos</title>
+          <date when="1632">1632</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam219">
+          <title>Documentos cronísticos</title>
+          <date when="1668">1668</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam220">
+          <title>Documentos cronísticos</title>
+          <date when="1670">1670</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam221">
+          <title>Documentos cronísticos</title>
+          <date when="1752">1752</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam222">
+          <title>Documentos cronísticos</title>
+          <date when="1752">1752</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam223">
+          <title>Documentos cronísticos</title>
+          <date when="1757">1757</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam224">
+          <title>Documentos cronísticos</title>
+          <date when="1764">1764</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam225">
+          <title>Documentos cronísticos</title>
+          <date when="1766">1766</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam226">
+          <title>Documentos cronísticos</title>
+          <date when="1774">1774</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam227">
+          <title>Documentos cronísticos</title>
+          <date when="1788">1788</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam228">
+          <title>Documentos cronísticos</title>
+          <date when="1797">1797</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam229">
+          <title>Documentos cronísticos</title>
+          <date when="1632">1632</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam230">
+          <title>Documentos cronísticos</title>
+          <date when="1698">1698</date>
+          <country key="PAR">Paraguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam231">
+          <title>Documentos cronísticos</title>
+          <date when="1600">1600</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam232">
+          <title>Documentos cronísticos</title>
+          <date when="1615">1615</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam233">
+          <title>Documentos cronísticos</title>
+          <date when="1633">1633</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam234">
+          <title>Documentos cronísticos</title>
+          <date when="1582">1582</date>
+          <country key="PR">Puerto Rico</country>
+        </bibl>
+        <bibl xml:id="Cordiam235">
+          <title>Documentos cronísticos</title>
+          <date when="1528">1528</date>
+          <country key="RD">República Dominicana</country>
+        </bibl>
+        <bibl xml:id="Cordiam236">
+          <title>Documentos cronísticos</title>
+          <date when="1773">1773</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam237">
+          <title>Documentos cronísticos</title>
+          <date when="1622">1622</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam238">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1592">1592</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam239">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1593">1593</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam240">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1597">1597</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam241">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1709">1709</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam242">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1790">1790</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam243">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1793">1793</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam244">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1794">1794</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam245">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1796">1796</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam246">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1867">1867</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam247">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1613">1613</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam248">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1550">1550</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam249">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1564">1564</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam250">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1573">1573</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam251">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1574">1574</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam252">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1576">1576</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam253">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1578">1578</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam254">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1579">1579</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam255">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1580">1580</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam256">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1581">1581</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam257">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1582">1582</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam258">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1583">1583</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam259">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1586">1586</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam260">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1596">1596</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam261">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1672">1672</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam262">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1709">1709</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam263">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1750">1750</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam264">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1750">1750</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam265">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1769">1769</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam266">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1551">1551</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam267">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1552">1552</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam268">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1697">1697</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam269">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1747">1747</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam270">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1550">1550</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam271">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1556">1556</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam272">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1558">1558</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam273">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1580">1580</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam274">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1583">1583</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam275">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1587">1587</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam276">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1589">1589</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam277">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1590">1590</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam278">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1591">1591</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam279">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1567">1567</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam280">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1552">1552</date>
+          <country key="CUB">Cuba</country>
+        </bibl>
+        <bibl xml:id="Cordiam281">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1582">1582</date>
+          <country key="CUB">Cuba</country>
+        </bibl>
+        <bibl xml:id="Cordiam282">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1560">1560</date>
+          <country key="ECU">Ecuador</country>
+        </bibl>
+        <bibl xml:id="Cordiam283">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1580">1580</date>
+          <country key="ECU">Ecuador</country>
+        </bibl>
+        <bibl xml:id="Cordiam284">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1583">1583</date>
+          <country key="ECU">Ecuador</country>
+        </bibl>
+        <bibl xml:id="Cordiam285">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1585">1585</date>
+          <country key="ECU">Ecuador</country>
+        </bibl>
+        <bibl xml:id="Cordiam286">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1588">1588</date>
+          <country key="ECU">Ecuador</country>
+        </bibl>
+        <bibl xml:id="Cordiam287">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1570">1570</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam288">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1580">1580</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam289">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1591">1591</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam290">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1575">1575</date>
+          <country key="HON">Honduras</country>
+        </bibl>
+        <bibl xml:id="Cordiam291">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1598">1598</date>
+          <country key="HON">Honduras</country>
+        </bibl>
+        <bibl xml:id="Cordiam292">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1599">1599</date>
+          <country key="HON">Honduras</country>
+        </bibl>
+        <bibl xml:id="Cordiam293">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1681">1681</date>
+          <country key="HON">Honduras</country>
+        </bibl>
+        <bibl xml:id="Cordiam294">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1538">1538</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam295">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1539">1539</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam296">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1541">1541</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam297">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1543">1543</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam298">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1544">1544</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam299">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1545">1545</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam300">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1553">1553</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam301">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1554">1554</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam302">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1555">1555</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam303">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1556">1556</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam304">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1559">1559</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam305">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1565">1565</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam306">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1566">1566</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam307">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1567">1567</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam308">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1569">1569</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam309">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1570">1570</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam310">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1571">1571</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam311">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1572">1572</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam312">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1573">1573</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam313">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1574">1574</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam314">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1575">1575</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam315">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1576">1576</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam316">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1577">1577</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam317">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1578">1578</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam318">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1581">1581</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam319">
+          <title>Documentos entre particulares: cartas y otros</title>         
+ <date when="1582">1582</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam320">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1585">1585</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam321">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1586">1586</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam322">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1587">1587</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam323">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1589">1589</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam324">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1592">1592</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam325">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1594">1594</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam326">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1596">1596</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam327">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1598">1598</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam328">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1602">1602</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam329">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1684">1684</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam330">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1730">1730</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam331">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1736">1736</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam332">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1754">1754</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam333">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1776">1776</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam334">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1777">1777</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam335">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1778">1778</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam336">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1783">1783</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam337">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1784">1784</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam338">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1785">1785</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam339">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1789">1789</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam340">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1791">1791</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam341">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1792">1792</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam342">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1794">1794</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam343">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1795">1795</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam344">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1798">1798</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam345">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1799">1799</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam346">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1818">1818</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam347">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1819">1819</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam348">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1565">1565</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam349">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1574">1574</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam350">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1686">1686</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam351">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1795">1795</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam352">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date>s/d</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam353">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1574">1574</date>
+          <country key="NIC">Nicaragua</country>
+        </bibl>
+        <bibl xml:id="Cordiam354">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1539">1539</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam355">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1560">1560</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam356">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1566">1566</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam357">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1569">1569</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam358">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1572">1572</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam359">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1573">1573</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam360">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1580">1580</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam361">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1582">1582</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam362">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1587">1587</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam363">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1588">1588</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam364">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1589">1589</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam365">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1592">1592</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam366">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1556">1556</date>
+          <country key="PAR">Paraguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam367">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1548">1548</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam368">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1551">1551</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam369">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1552">1552</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam370">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1554">1554</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam371">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1556">1556</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam372">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1557">1557</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam373">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1558">1558</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam374">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1559">1559</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam375">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1561">1561</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam376">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1564">1564</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam377">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1566">1566</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam378">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1568">1568</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam379">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1570">1570</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam380">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1571">1571</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam381">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1572">1572</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam382">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1577">1577</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam383">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1581">1581</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam384">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1582">1582</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam385">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1585">1585</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam386">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1586">1586</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam387">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1587">1587</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam388">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1588">1588</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam389">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1589">1589</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam390">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1594">1594</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam391">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1596">1596</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam392">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1597">1597</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam393">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1598">1598</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam394">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1633">1633</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam395">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1637">1637</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam396">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1639">1639</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam397">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1642">1642</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam398">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1647">1647</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam399">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1668">1668</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam400">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1720">1720</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam401">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1721">1721</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam402">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1722">1722</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam403">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1750">1750</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam404">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1751">1751</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam405">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1765">1765</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam406">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1773">1773</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam407">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1778">1778</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam408">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1547">1547</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam409">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1636">1636</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam410">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1666">1666</date>
+          <country key="SAL">El Salvador</country>
+        </bibl>
+        <bibl xml:id="Cordiam411">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1787">1787</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam412">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1821">1821</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam413">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1826">1826</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam414">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1827">1827</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam415">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1829">1829</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam416">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1830">1830</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam417">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1882">1882</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam418">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1887">1887</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam419">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1890">1890</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam420">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1894">1894</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam421">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1902">1902</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam422">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1904">1904</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam423">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1905">1905</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam424">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1873">1873</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam425">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1904">1904</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam426">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1532">1532</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam427">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1561">1561</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam428">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1564">1564</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam429">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1588">1588</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam430">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1644">1644</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam431">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1764">1764</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam432">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1778">1778</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam433">
+          <title>Documentos informativos: El Patriota</title>
+          <date when="1821">1821</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam434">
+          <title>Documentos informativos: El Argos de Chile</title>
+          <date when="1818">1818</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam435">
+          <title>Documentos informativos: Gazeta de Santafé de Bogotá, capital del nuevo reyno de
+                Granada</title>
+          <date when="1785">1785</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam436">
+          <title>Documentos informativos: Plus-Café</title>
+          <date when="1849">1849</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam437">
+          <title>Documentos informativos: Gazeta de México</title>
+          <date when="1722">1722</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam438">
+          <title>Documentos informativos: Gazeta de México</title>
+          <date when="1728">1728</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam439">
+          <title>Documentos informativos: Gazeta de México</title>
+          <date when="1731">1731</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam440">
+          <title>Documentos informativos: Gazeta de México</title>
+          <date when="1732">1732</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam441">
+          <title>Documentos informativos: Gazeta de México</title>
+          <date when="1733">1733</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam442">
+          <title>Documentos informativos: Gazeta de México</title>
+          <date when="1737">1737</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam443">
+          <title>Documentos informativos: Gazeta de México</title>
+          <date when="1738">1738</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam444">
+          <title>Documentos informativos: Gazeta de México</title>
+          <date when="1739">1739</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam445">
+          <title>Documentos informativos: Gazeta de México</title>
+          <date when="1784">1784</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam446">
+          <title>Documentos informativos: Gazeta de México</title>
+          <date when="1785">1785</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam447">
+          <title>Documentos informativos: Gazeta de México</title>
+          <date when="1787">1787</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam448">
+          <title>Documentos informativos: Gazeta de Montevideo</title>
+          <date when="1810">1810</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam449">
+          <title>Documentos informativos: Gazeta de Montevideo</title>
+          <date when="1811">1811</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam450">
+          <title>Documentos informativos: Gazeta de Montevideo</title>
+          <date when="1813">1813</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam451">
+          <title>Documentos informativos: Gazeta de Montevideo</title>
+          <date when="1814">1814</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam452">
+          <title>Documentos informativos: El Patriota</title>
+          <date when="1822">1822</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam453">
+          <title>Documentos informativos: La Aurora</title>
+          <date when="1823">1823</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam454">
+          <title>Documentos informativos: Gaceta de la Provincia Oriental</title>
+          <date when="1826">1826</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam455">
+          <title>Documentos informativos: Miscelanea-Oriental</title>
+          <date when="1827">1827</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam456">
+          <title>Documentos informativos: El Constitucional</title>
+          <date when="1829">1829</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam457">
+          <title>Documentos informativos: El Patriota</title>
+          <date when="1831">1831</date>     
+     <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam458">
+          <title>Documentos informativos: EL Negro Timoteo</title>
+          <date when="1878">1878</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam459">
+          <title>Documentos informativos: EL Negro Timoteo</title>
+          <date when="1879">1879</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam460">
+          <title>Documentos informativos: La Trinidad</title>
+          <date when="1880">1880</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam461">
+          <title>Documentos informativos: El Negro Timoteo</title>
+          <date when="1896">1896</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam462">
+          <title>Documentos jurídicos</title>
+          <date when="1586">1586</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam463">
+          <title>Documentos jurídicos</title>
+          <date when="1613">1613</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam464">
+          <title>Documentos jurídicos</title>
+          <date when="1749">1749</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam465">
+          <title>Documentos jurídicos</title>
+          <date when="1754">1754</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam466">
+          <title>Documentos jurídicos</title>
+          <date when="1772">1772</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam467">
+          <title>Documentos jurídicos</title>
+          <date when="1782">1782</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam468">
+          <title>Documentos jurídicos</title>
+          <date when="1790">1790</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam469">
+          <title>Documentos jurídicos</title>
+          <date when="1792">1792</date>
+          <country key="ARG">Argentina</country>
+        </bibl>
+        <bibl xml:id="Cordiam470">
+          <title>Documentos jurídicos</title>
+          <date when="1682">1682</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam471">
+          <title>Documentos jurídicos</title>
+          <date when="1695">1695</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam472">
+          <title>Documentos jurídicos</title>
+          <date when="1701">1701</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam473">
+          <title>Documentos jurídicos</title>
+          <date when="1757">1757</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam474">
+          <title>Documentos jurídicos</title>
+          <date when="1758">1758</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam475">
+          <title>Documentos jurídicos</title>
+          <date when="1597">1597</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam476">
+          <title>Documentos jurídicos</title>
+          <date when="1712">1712</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam477">
+          <title>Documentos jurídicos</title>
+          <date when="1785">1785</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam478">
+          <title>Documentos jurídicos</title>
+          <date when="1786">1786</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam479">
+          <title>Documentos jurídicos</title>      
+    <date when="1787">1787</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam480">
+          <title>Documentos jurídicos</title>
+          <date when="1529">1529</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam481">
+          <title>Documentos jurídicos</title>
+          <date when="1565">1565</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam482">
+          <title>Documentos jurídicos</title>
+          <date when="1571">1571</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam483">
+          <title>Documentos jurídicos</title>
+          <date when="1575">1575</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam484">
+          <title>Documentos jurídicos</title>
+          <date when="1580">1580</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam485">
+          <title>Documentos jurídicos</title>
+          <date when="1586">1586</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam486">
+          <title>Documentos jurídicos</title>
+          <date when="1587">1587</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam487">
+          <title>Documentos jurídicos</title>
+          <date when="1588">1588</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam488">
+          <title>Documentos jurídicos</title>
+          <date when="1611">1611</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam489">
+          <title>Documentos jurídicos</title>
+          <date when="1627">1627</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam490">
+          <title>Documentos jurídicos</title>
+          <date when="1633">1633</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam491">
+          <title>Documentos jurídicos</title>
+          <date when="1634">1634</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam492">
+          <title>Documentos jurídicos</title>
+          <date when="1760">1760</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam493">
+          <title>Documentos jurídicos</title>
+          <date when="1770">1770</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam494">
+          <title>Documentos jurídicos</title>
+          <date when="1778">1778</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam495">
+          <title>Documentos jurídicos</title>
+          <date when="1811">1811</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam496">
+          <title>Documentos jurídicos</title>
+          <date when="1818">1818</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam497">
+          <title>Documentos jurídicos</title>
+          <date when="1570">1570</date>
+          <country key="CR">Costa Rica</country>
+        </bibl>
+        <bibl xml:id="Cordiam498">
+          <title>Documentos jurídicos</title>
+          <date when="1590">1590</date>
+          <country key="CR">Costa Rica</country>
+        </bibl>
+        <bibl xml:id="Cordiam499">
+          <title>Documentos jurídicos</title>
+          <date when="1683">1683</date>
+          <country key="CR">Costa Rica</country>
+        </bibl>
+        <bibl xml:id="Cordiam500">
+          <title>Documentos jurídicos</title>
+          <date when="1720">1720</date>
+          <country key="CR">Costa Rica</country>
+        </bibl>
+        <bibl xml:id="Cordiam501">
+          <title>Documentos jurídicos</title>
+          <date when="1731">1731</date>
+          <country key="CR">Costa Rica</country>
+        </bibl>
+        <bibl xml:id="Cordiam502">
+          <title>Documentos jurídicos</title>
+          <date when="1740">1740</date>
+          <country key="CR">Costa Rica</country>
+        </bibl>
+        <bibl xml:id="Cordiam503">
+          <title>Documentos jurídicos</title>
+          <date when="1745">1745</date>
+          <country key="CR">Costa Rica</country>
+        </bibl>
+        <bibl xml:id="Cordiam504">
+          <title>Documentos jurídicos</title>
+          <date when="1775">1775</date>
+          <country key="CR">Costa Rica</country>
+        </bibl>
+        <bibl xml:id="Cordiam505">
+          <title>Documentos jurídicos</title>
+          <date when="1534">1534</date>
+          <country key="CUB">Cuba</country>
+        </bibl>
+        <bibl xml:id="Cordiam506">
+          <title>Documentos jurídicos</title>
+          <date when="1556">1556</date>
+          <country key="CUB">Cuba</country>
+        </bibl>
+        <bibl xml:id="Cordiam507">
+          <title>Documentos jurídicos</title>
+          <date when="1723">1723</date>
+          <country key="CUB">Cuba</country>
+        </bibl>
+        <bibl xml:id="Cordiam508">
+          <title>Documentos jurídicos</title>
+          <date when="1677">1677</date>
+          <country key="ECU">Ecuador</country>
+        </bibl>
+        <bibl xml:id="Cordiam509">
+          <title>Documentos jurídicos</title>
+          <date when="1677">1677</date>
+          <country key="ECU">Ecuador</country>
+        </bibl>
+        <bibl xml:id="Cordiam510">
+          <title>Documentos jurídicos</title>
+          <date when="1598">1598</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam511">
+          <title>Documentos jurídicos</title>
+          <date when="1601">1601</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam512">
+          <title>Documentos jurídicos</title>
+          <date when="1640">1640</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam513">
+          <title>Documentos jurídicos</title>
+          <date when="1641">1641</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam514">
+          <title>Documentos jurídicos</title>
+          <date when="1643">1643</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam515">
+          <title>Documentos jurídicos</title>
+          <date when="1644">1644</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam516">
+          <title>Documentos jurídicos</title>
+          <date when="1661">1661</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam517">
+          <title>Documentos jurídicos</title>
+          <date when="1662">1662</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam518">
+          <title>Documentos jurídicos</title>
+          <date when="1666">1666</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam519">
+          <title>Documentos jurídicos</title>
+          <date when="1684">1684</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam520">
+          <title>Documentos jurídicos</title>
+          <date when="1704">1704</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam521">
+          <title>Documentos jurídicos</title>
+          <date when="1715">1715</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam522">
+          <title>Documentos jurídicos</title>
+          <date when="1734">1734</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam523">
+          <title>Documentos jurídicos</title>
+          <date when="1737">1737</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam524">
+          <title>Documentos jurídicos</title>
+          <date when="1741">1741</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam525">
+          <title>Documentos jurídicos</title>
+          <date when="1743">1743</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam526">
+          <title>Documentos jurídicos</title>
+          <date when="1744">1744</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam527">
+          <title>Documentos jurídicos</title>
+          <date when="1747">1747</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam528">
+          <title>Documentos jurídicos</title>
+          <date when="1748">1748</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam529">
+          <title>Documentos jurídicos</title>
+          <date when="1762">1762</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam530">
+          <title>Documentos jurídicos</title>
+          <date when="1769">1769</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam531">
+          <title>Documentos jurídicos</title>
+          <date when="1789">1789</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam532">
+          <title>Documentos jurídicos</title>
+          <date when="1616">1616</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam533">
+          <title>Documentos jurídicos</title>
+          <date when="1698">1698</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam534">
+          <title>Documentos jurídicos</title>
+          <date when="1715">1715</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam535">
+          <title>Documentos jurídicos</title>
+          <date when="1722">1722</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam536">
+          <title>Documentos jurídicos</title>
+          <date when="1726">1726</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam537">
+          <title>Documentos jurídicos</title>
+          <date when="1738">1738</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam538">
+          <title>Documentos jurídicos</title>
+          <date when="1739">1739</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam539">
+          <title>Documentos jurídicos</title>
+          <date when="1773">1773</date>
+          <country key="HON">Honduras</country>
+        </bibl>
+        <bibl xml:id="Cordiam540">
+          <title>Documentos jurídicos</title>
+          <date when="1797">1797</date>
+          <country key="HON">Honduras</country>
+        </bibl>
+        <bibl xml:id="Cordiam541">
+          <title>Documentos jurídicos</title>
+          <date when="1819">1819</date>
+          <country key="HON">Honduras</country>
+        </bibl>
+        <bibl xml:id="Cordiam542">
+          <title>Documentos jurídicos</title>
+          <date when="1523">1523</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam543">
+          <title>Documentos jurídicos</title>
+          <date when="1532">1532</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam544">
+          <title>Documentos jurídicos</title>
+          <date when="1536">1536</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam545">
+          <title>Documentos jurídicos</title>
+          <date when="1537">1537</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam546">
+          <title>Documentos jurídicos</title>
+          <date when="1538">1538</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam547">
+          <title>Documentos jurídicos</title>
+          <date when="1539">1539</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam548">
+          <title>Documentos jurídicos</title>
+          <date when="1540">1540</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam549">
+          <title>Documentos jurídicos</title>
+          <date when="1547">1547</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam550">
+          <title>Documentos jurídicos</title>
+          <date when="1569">1569</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam551">
+          <title>Documentos jurídicos</title>
+          <date when="1576">1576</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam552">
+          <title>Documentos jurídicos</title>
+          <date when="1585">1585</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam553">
+          <title>Documentos jurídicos</title>
+          <date when="1587">1587</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam554">
+          <title>Documentos jurídicos</title>
+          <date when="1610">1610</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam555">
+          <title>Documentos jurídicos</title>
+          <date when="1612">1612</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam556">
+          <title>Documentos jurídicos</title>
+          <date when="1615">1615</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam557">
+          <title>Documentos jurídicos</title>
+          <date when="1621">1621</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam558">
+          <title>Documentos jurídicos</title>
+          <date when="1622">1622</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam559">
+          <title>Documentos jurídicos</title>
+          <date when="1624">1624</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam560">
+          <title>Documentos jurídicos</title>
+          <date when="1629">1629</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam561">
+          <title>Documentos jurídicos</title>
+          <date when="1637">1637</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam562">
+          <title>Documentos jurídicos</title>
+          <date when="1642">1642</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam563">
+          <title>Documentos jurídicos</title>
+          <date when="1643">1643</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam564">
+          <title>Documentos jurídicos</title>
+          <date when="1645">1645</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam565">
+          <title>Documentos jurídicos</title>
+          <date when="1646">1646</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam566">
+          <title>Documentos jurídicos</title>
+          <date when="1647">1647</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam567">
+          <title>Documentos jurídicos</title>
+          <date when="1655">1655</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam568">
+          <title>Documentos jurídicos</title>
+          <date when="1656">1656</date>
+          <country key="MEX">México</country>   
+     </bibl>
+        <bibl xml:id="Cordiam569">
+          <title>Documentos jurídicos</title>
+          <date when="1661">1661</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam570">
+          <title>Documentos jurídicos</title>
+          <date when="1681">1681</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam571">
+          <title>Documentos jurídicos</title>
+          <date when="1687">1687</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam572">
+          <title>Documentos jurídicos</title>
+          <date when="1688">1688</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam573">
+          <title>Documentos jurídicos</title>
+          <date when="1689">1689</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam574">
+          <title>Documentos jurídicos</title>
+          <date when="1692">1692</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam575">
+          <title>Documentos jurídicos</title>
+          <date when="1694">1694</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam576">
+          <title>Documentos jurídicos</title>
+          <date when="1696">1696</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam577">
+          <title>Documentos jurídicos</title>
+          <date when="1697">1697</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam578">
+          <title>Documentos jurídicos</title>
+          <date when="1699">1699</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam579">
+          <title>Documentos jurídicos</title>
+          <date when="1704">1704</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam580">
+          <title>Documentos jurídicos</title>
+          <date when="1707">1707</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam581">
+          <title>Documentos jurídicos</title>
+          <date when="1713">1713</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam582">
+          <title>Documentos jurídicos</title>
+          <date when="1721">1721</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam584">
+          <title>Documentos jurídicos</title>
+          <date when="1723">1723</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam585">
+          <title>Documentos jurídicos</title>
+          <date when="1724">1724</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam586">
+          <title>Documentos jurídicos</title>
+          <date when="1725">1725</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam587">
+          <title>Documentos jurídicos</title>
+          <date when="1726">1726</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam588">
+          <title>Documentos jurídicos</title>
+          <date when="1727">1727</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam589">
+          <title>Documentos jurídicos</title>
+          <date when="1731">1731</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam590">
+          <title>Documentos jurídicos</title>
+          <date when="1733">1733</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam591">
+          <title>Documentos jurídicos</title>
+          <date when="1736">1736</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam592">
+          <title>Documentos jurídicos</title>
+          <date when="1744">1744</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam593">
+          <title>Documentos jurídicos</title>
+          <date when="1745">1745</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam594">
+          <title>Documentos jurídicos</title>
+          <date when="1747">1747</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam595">
+          <title>Documentos jurídicos</title>
+          <date when="1748">1748</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam596">
+          <title>Documentos jurídicos</title>
+          <date when="1750">1750</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam597">
+          <title>Documentos jurídicos</title>
+          <date when="1765">1765</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam598">
+          <title>Documentos jurídicos</title>
+          <date when="1767">1767</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam599">
+          <title>Documentos jurídicos</title>
+          <date when="1770">1770</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam600">
+          <title>Documentos jurídicos</title>
+          <date when="1772">1772</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam601">
+          <title>Documentos jurídicos</title>
+          <date when="1777">1777</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam602">
+          <title>Documentos jurídicos</title>
+          <date when="1781">1781</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam603">
+          <title>Documentos jurídicos</title>
+          <date when="1786">1786</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam604">
+          <title>Documentos jurídicos</title>
+          <date when="1793">1793</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam605">
+          <title>Documentos jurídicos</title>
+          <date when="1795">1795</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam606">
+          <title>Documentos jurídicos</title>
+          <date when="1797">1797</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam607">
+          <title>Documentos jurídicos</title>
+          <date when="1798">1798</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam608">
+          <title>Documentos jurídicos</title>
+          <date when="1799">1799</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam609">
+          <title>Documentos jurídicos</title>
+          <date when="1803">1803</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam610">
+          <title>Documentos jurídicos</title>
+          <date when="1804">1804</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam611">
+          <title>Documentos jurídicos</title>
+          <date when="1808">1808</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam612">
+          <title>Documentos jurídicos</title>
+          <date when="1808">1808</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam613">
+          <title>Documentos jurídicos</title>
+          <date when="1810">1810</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam614">
+          <title>Documentos jurídicos</title>
+          <date when="1813">1813</date>      
+    <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam615">
+          <title>Documentos jurídicos</title>
+          <date when="1815">1815</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam616">
+          <title>Documentos jurídicos</title>
+          <date when="1816">1816</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam617">
+          <title>Documentos jurídicos</title>
+          <date when="1818">1818</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam618">
+          <title>Documentos jurídicos</title>
+          <date when="1819">1819</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam619">
+          <title>Documentos jurídicos</title>
+          <date when="1800">1800</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam620">
+          <title>Documentos jurídicos</title>
+          <date when="1749">1749</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam621">
+          <title>Documentos jurídicos</title>
+          <date when="1593">1593</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam623">
+          <title>Documentos jurídicos</title>
+          <date when="1625">1625</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam624">
+          <title>Documentos jurídicos</title>
+          <date when="1650">1650</date>
+          <country key="SAL">El Salvador</country>
+        </bibl>
+        <bibl xml:id="Cordiam625">
+          <title>Documentos jurídicos</title>
+          <date when="1730">1730</date>
+          <country key="SAL">El Salvador</country>
+        </bibl>
+        <bibl xml:id="Cordiam626">
+          <title>Documentos jurídicos</title>
+          <date when="1769">1769</date>
+          <country key="SAL">El Salvador</country>
+        </bibl>
+        <bibl xml:id="Cordiam627">
+          <title>Documentos jurídicos</title>
+          <date when="1747">1747</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam628">
+          <title>Documentos jurídicos</title>
+          <date when="1750">1750</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam629">
+          <title>Documentos jurídicos</title>
+          <date when="1768">1768</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam630">
+          <title>Documentos jurídicos</title>
+          <date when="1789">1789</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam631">
+          <title>Documentos jurídicos</title>
+          <date when="1799">1799</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam632">
+          <title>Documentos jurídicos</title>
+          <date when="1816">1816</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam633">
+          <title>Documentos jurídicos</title>
+          <date when="1890">1890</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam634">
+          <title>Documentos jurídicos</title>
+          <date when="1590">1590</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam635">
+          <title>Documentos jurídicos</title>
+          <date when="1599">1599</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam636">
+          <title>Documentos jurídicos</title>
+          <date when="1636">1636</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam637">
+          <title>Documentos jurídicos</title>
+          <date when="1643">1643</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam638">
+          <title>Documentos jurídicos</title>
+          <date when="1693">1693</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam639">
+          <title>Documentos jurídicos</title>
+          <date when="1734">1734</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam640">
+          <title>Documentos jurídicos</title>
+          <date when="1746">1746</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam641">
+          <title>Documentos jurídicos</title>
+          <date when="1772">1772</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam642">
+          <title>Documentos jurídicos</title>
+          <date when="1786">1786</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam643">
+          <title>Documentos jurídicos</title>
+          <date when="1787">1787</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam644">
+          <title>Documentos jurídicos</title>
+          <date when="1794">1794</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam645">
+          <title>Documentos jurídicos</title>
+          <date when="1799">1799</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam646">
+          <title>Documentos jurídicos</title>
+          <date when="1800">1800</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam647">
+          <title>Documentos jurídicos</title>
+          <date when="1801">1801</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam648">
+          <title>Documentos jurídicos</title>
+          <date when="1808">1808</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam649">
+          <title>Documentos jurídicos</title>
+          <date when="1809">1809</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam650">
+          <title>Documentos jurídicos</title>
+          <date when="1826">1826</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam651">
+          <title>Documentos jurídicos</title>
+          <date when="1832">1832</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam652">
+          <title>Documentos jurídicos</title>
+          <date when="1837">1837</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam653">
+          <title>Documentos publicitarios y anuncios varios: Plus-Café</title>
+          <date when="1849">1849</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam654">
+          <title>Documentos publicitarios y anuncios varios: Gaceta de México</title>
+          <date when="1722">1722</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam655">
+          <title>Documentos publicitarios y anuncios varios: Gazeta de México</title>
+          <date when="1733">1733</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam656">
+          <title>Documentos publicitarios y anuncios varios: Gazeta de México</title>
+          <date when="1784">1784</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam657">
+          <title>Documentos publicitarios y anuncios varios: Gazeta de México</title>
+          <date when="1785">1785</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam658">
+          <title>Documentos publicitarios y anuncios varios: Gazeta de México</title>
+          <date when="1788">1788</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam659">
+          <title>Documentos publicitarios y anuncios varios: Gazeta de Montevideo</title>
+          <date when="1812">1812</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam660">
+          <title>Documentos publicitarios y anuncios varios: La Aurora</title>
+          <date when="1822">1822</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam661">
+          <title>Documentos publicitarios y anuncios varios: La Trinidad</title>
+          <date when="1879">1879</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam662">
+          <title>Documentos publicitarios y anuncios varios: El Partido Obrero</title>
+          <date when="1890">1890</date>
+          <country key="URU">Uruguay</country>
+        </bibl>
+        <bibl xml:id="Cordiam663">
+          <title>Poesía: Cruz, Sor Juana Inés de la, 1676, Villancicos</title>
+          <date when="1676">1676</date>
+          <edition>
+            <title>Edición crítica de Jorge Gutiérrez Reyna, Tesis de maestría inédita, México:
+                Universidad Nacional Autónoma de México, 2016</title>
+          </edition>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam665">
+          <title>Prosa varia: Valdivia, Luis de, 1615, Sermón en lengua de Chile</title>
+          <date when="1615">1615</date>
+          <edition>
+            <title>Edición de Nataly Cancino Cabello, Tesis de doctorado inédita, Sevilla: Universidad
+                de Sevilla, 2013</title>
+          </edition>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam666">
+          <title>Prosa varia: Anónimo, Trompeta del gran Jesús (Manuscrito guatemalteco del siglo
+                XVIII)</title>
+          <date when="1739">1739</date>
+          <edition>
+            <title>Transcripción inédita de Erick Almaraz Pérez y José Luís Ramírez Luengo, 2016</title>
+          </edition>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam667">
+          <title>Prosa varia: Anónimo, Trompeta del gran Jesús (Manuscrito guatemalteco del siglo
+                XVIII)</title>
+          <date when="1682">1682</date>
+          <edition>
+            <title>Transcripción inédita de Erick Almaraz Pérez y José Luís Ramírez Luengo, 2016</title>
+          </edition>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam668">
+          <title>Prosa varia: Anónimo, Trompeta del gran Jesús (Manuscrito guatemalteco del siglo
+                XVIII)</title>
+          <date when="1604">1604</date>
+          <edition>
+            <title>Transcripción inédita de Erick Almaraz Pérez y José Luís Ramírez Luengo, 2016</title>
+          </edition>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam669">
+          <title>Textos cronísticos: Sigüenza y Góngora, Carlos de, 1684, Paraíso occidental</title>
+          <date when="1682">1682</date>
+          <edition>
+            <title>Transcripción y sistematización de CORDIAM-Literatura, 2017</title>
+          </edition>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam670">
+          <title>Textos cronísticos: Garcilaso de la Vega, Inca, 1609, Comentarios reales</title>
+          <date when="1604">1604</date>
+          <edition>
+            <title>Transcripción y sistematización de CORDIAM-Literatura, 2017</title>
+          </edition>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam671">
+          <title>Documentos administrativos</title>
+          <date when="1529">1529</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam672">
+          <title>Documentos administrativos</title>
+          <date when="1589">1589</date>
+          <country key="BOL">Bolivia</country>  
+      </bibl>
+        <bibl xml:id="Cordiam673">
+          <title>Documentos jurídicos</title>
+          <date when="1708">1708</date>
+          <country key="VEN">Venezuela</country>
+        </bibl>
+        <bibl xml:id="Cordiam674">
+          <title>Documentos jurídicos</title>
+          <date when="1752">1752</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam675">
+          <title>Documentos jurídicos</title>
+          <date when="1778">1778</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam676">
+          <title>Documentos administrativos</title>
+          <date when="1792">1792</date>
+          <country key="GUA">Guatemala</country>
+        </bibl>
+        <bibl xml:id="Cordiam677">
+          <title>Documentos jurídicos</title>
+          <date when="1796">1796</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam678">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1577">1577</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam679">
+          <title>Documentos jurídicos</title>
+          <date when="1683">1683</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam680">
+          <title>Documentos administrativos</title>
+          <date when="1705">1705</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam681">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1751">1751</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam682">
+          <title>Documentos administrativos</title>
+          <date when="1816">1816</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam683">
+          <title>Textos cronísticos</title>
+          <date when="1568">1568</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam684">
+          <title>Documentos jurídicos</title>
+          <date when="1685">1685</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam685">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1584">1584</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam686">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1608">1608</date>
+          <country key="BOL">Bolivia</country>
+        </bibl>
+        <bibl xml:id="Cordiam687">
+          <title>Documentos administrativos</title>
+          <date when="1791">1791</date>
+          <country key="EUA">USA</country>
+        </bibl>
+        <bibl xml:id="Cordiam688">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1567">1567</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam689">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1568">1568</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam690">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1583">1583</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam691">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1592">1592</date>
+          <country key="PER">Perú</country>
+        </bibl>
+        <bibl xml:id="Cordiam692">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1593">1593</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam693">
+          <title>Documentos jurídicos</title>
+          <date when="1654">1654</date>
+          <country key="MEX">México</country>  
+      </bibl>
+        <bibl xml:id="Cordiam694">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1726">1726</date>
+          <country key="MEX">México</country>
+        </bibl>
+        <bibl xml:id="Cordiam695">
+          <title>Documentos cronísticos</title>
+          <date when="1530">1530</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam696">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1557">1557</date>
+          <country key="CHI">Chile</country>
+        </bibl>
+        <bibl xml:id="Cordiam697">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1783">1783</date>
+          <country key="HON">Honduras</country>
+        </bibl>
+        <bibl xml:id="Cordiam698">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1578">1578</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam699">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1594">1594</date>
+          <country key="PAN">Panamá</country>
+        </bibl>
+        <bibl xml:id="Cordiam700">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1596">1596</date>
+          <country key="COL">Colombia</country>
+        </bibl>
+        <bibl xml:id="Cordiam701">
+          <title>Documentos entre particulares: cartas y otros</title>
+          <date when="1788">1788</date>
+          <country key="MEX">México</country>
+        </bibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>

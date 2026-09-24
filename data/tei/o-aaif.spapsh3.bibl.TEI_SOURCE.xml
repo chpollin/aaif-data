@@ -1,0 +1,304 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xmlns:refworks="www.refworks.com/xml/">
+    <fileDesc>
+      <titleStmt>
+        <title>Bibliography: Corpus of Spanish Adjective-Adverbs in Diachrony (for Sintaxis Histórica III). 2nd version.</title>
+        <title type="abbreviation">Sp_AP_SH3</title>
+        <respStmt>
+          <resp>
+            <term>Compilation</term>
+          </resp>
+          <persName>
+            <persName>
+              <forename>Katharina</forename>
+              <surname>Gerhalter</surname>
+            </persName>
+          </persName>
+        </respStmt>
+        <funder>
+          <orgName ref="http://d-nb.info/gnd/2054142-9">Fonds zur
+                    Förderung der wissenschaftlichen
+                    Forschung</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName corresp="https://romanistik.uni-graz.at" ref="http://d-nb.info/gnd/1069331422">Institut
+                    für Romanistik, Karl-Franzens-Universität Graz
+                </orgName>
+        </publisher>
+        <authority>
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung - Austrian
+                    Centre for Digital Humanities,
+                    Karl-Franzens-Universität
+                    Graz</orgName>
+        </authority>
+        <distributor>
+          <orgName ref="https://gams.uni-graz.at">GAMS -
+                    Geisteswissenschaftliches Asset Management
+                    System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+        </availability>
+        <date when="2019">2019</date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:aaif.spapsh3.bibl</idno>
+        <ref target="corpus:aaif.spapsh3" type="context"></ref>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="http://gams.uni-graz.at/aaif">Open
+                    Access Database &quot;Adjective-Adverb Interfaces in
+                    Romance</title>
+        <respStmt>
+          <resp>Project Leader</resp>
+          <persName ref="http://d-nb.info/gnd/1012341119">
+            <forename>Martin</forename>
+            <surname>Hummel</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Acquisition</resp>
+          <persName>
+            <forename>Katharina</forename>
+            <surname>Gerhalter</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Gerlinde</forename>
+            <surname>Schneider</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Data Modelling</resp>
+          <persName>
+            <forename>Christopher</forename>
+            <surname>Pollin</surname>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Bibliography</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listBibl>
+        <bibl xml:id="Sh3rk14">
+          <author>Alfonso X</author>
+          <title>General Estoria. Primera Parte</title>
+          <date when="1252">1252-1284</date>
+          <editor>Sánchez-Prieto Borja, Pedro</editor>
+          <publisher>Universidad de Alcalá de Henares</publisher>
+          <pubPlace>Alcalá de Henares - Madrid</pubPlace>
+          <edition>
+            <date when="2002">2002</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk13">
+          <author>Alfonso X</author>
+          <title>Setenario</title>
+          <date when="1252 ">1252 - 1284</date>
+          <editor>Vanderford, Kenneth H.</editor>
+          <publisher>Instituto de Filología, Facultad de Filosofía y Letras de la Universidad de Buenos
+                Aires</publisher>
+          <pubPlace>Buenos Aires</pubPlace>
+          <edition>
+            <date when="1945">1945</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk6">
+          <author>Anónimo</author>
+          <title>Crónica anónima de Enrique IV de Castilla 1454-1474, Tomo II</title>
+          <date when="1481 ">1481 - 1482</date>
+          <editor>Sánchez Parra, María Pilar</editor>
+          <publisher>Ediciones de la Torre</publisher>
+          <pubPlace>Madrid</pubPlace>
+          <edition>
+            <date when="1991">1991</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk17">
+          <author>Anónimo</author>
+          <title>Calila e Dimna</title>
+          <date when="1251">1251</date>
+          <editor>Cacho Blecua, Juan Manuel Lacarra, María Jesús</editor>
+          <publisher>Castalia</publisher>
+          <pubPlace>Madrid</pubPlace>
+          <edition>
+            <date when="1993">1993</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk1">
+          <author>Clarín, Leopoldo Alas</author>
+          <title>La Regenta. Tomo 1</title>
+          <date when="1884">1884-1885</date>
+          <editor>Sobejano, Gonzalo</editor>
+          <publisher>Castalia</publisher>
+          <pubPlace>Madrid</pubPlace>
+          <edition>
+            <date when="1990">1990</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk15">
+          <author>Company Company, Concepción (ed. 1994)</author>
+          <title>Documentos lingüísticos de la nueva España. Altiplano central.</title>
+          <date when="1650">1650-1699</date>
+          <publisher>Universidad Nacional Autónoma de México</publisher>
+          <pubPlace>México, D.F.</pubPlace>
+          <edition>
+            <date when="1994">1994</date>
+          </edition>
+          <country>México</country>
+        </bibl>
+        <bibl xml:id="Sh3rk12">
+          <author>Conde de Tendilla (López de Mendoza, don Íñigo)</author>
+          <title>Epistolario del conde de Tendilla (1504-1506) I</title>
+          <date when="1504">1504-1506</date>
+          <editor>Szmolka Clares, José Moreno Trujillo, María Amparo Osorio Pérez, María José</editor>
+          <publisher>Universidad de Granada</publisher>
+          <pubPlace>Granada</pubPlace>
+          <edition>
+            <date when="1996">1996</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk4">
+          <author>Grandes, Almudena</author>
+          <title>El corazón helado</title>
+          <date when="2007">2007</date>
+          <publisher>Tusquets Editores</publisher>
+          <pubPlace>Barcelona</pubPlace>
+          <edition>
+            <date when="2010">2010</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk9">
+          <author>Gutiérrez de los Ríos y Córdoba, Don Francisco</author>
+          <title>El Hombre práctico. O discursos varios sobre su conocimiento y enseñanzas.</title>
+          <date when="1680">1680</date>
+          <editor>Pérez Magallón, Jesús Sebold, Russel P.</editor>
+          <publisher>Publicaciones obra social y cultural Cajasur</publisher>
+          <pubPlace>Córdoba</pubPlace>
+          <edition>
+            <date when="2000">2000</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk7">
+          <author>Gutiérrez Nájera, Manuel</author>
+          <title>Crónicas y artículos sobre teatro. In: Obras VII.</title>
+          <date when="1890">1890-1892</date>
+          <editor>Díaz Alejo, Ana Elena López Aparicio, Elvira</editor>
+          <publisher>Universidad Nacional Autónoma de México</publisher>
+          <pubPlace>México</pubPlace>
+          <edition>
+            <date when="1990">1990</date>
+          </edition>
+          <country>México</country>
+        </bibl>
+        <bibl xml:id="Sh3rk18">
+          <author>Menéndez Pidal, Ramón (ed. 1919)</author>
+          <title>Documentos lingüísticos de España. Reino de Castilla</title>     
+     <date when="1250">1250-1300</date>
+          <publisher>Consejo Superior de Investigaciones Científicas</publisher>
+          <pubPlace>Madrid</pubPlace>
+          <edition>
+            <date>1919/1966</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk8">
+          <author>Payno, Manuel</author>
+          <title>Los bandidos del Río frío. In: Obras completas X, Tomo 2</title>
+          <date when="1889">1889-1891</date>
+          <publisher>Consejo nacional para la cultura y las artes</publisher>
+          <pubPlace>México</pubPlace>
+          <edition>
+            <date when="2000">2000</date>
+          </edition>
+          <country>México</country>
+        </bibl>
+        <bibl xml:id="Sh3rk16">
+          <author>Rojas, Fernando de</author>
+          <title>La Celestina. Tragicomedia de Calisto y Melibea</title>
+          <date when="1499">1499</date>
+          <editor>Lobera, Francisco J. Serés, Guillermo Díaz-Mas, Paloma Mota, Carlos Ruiz Arzálluz,Íñigo Rico, Francisco</editor>
+          <publisher>Crítica</publisher>
+          <pubPlace>Barcelona</pubPlace>
+          <edition>
+            <date when="2000">2000</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk11">
+          <author>San Pedro, Diego de</author>
+          <title>Cárcel de amor. In: Obras Completas II</title>
+          <date when="1492">1492</date>
+          <editor>Parrilla, Carmen</editor>
+          <publisher>Crítica</publisher>
+          <pubPlace>Barcelona</pubPlace>
+          <edition>
+            <date when="1995">1995</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk10">
+          <author>Santos, Francisco</author>
+          <title>El rey gallo y discursos de la hormiga</title>
+          <date when="1671">1671</date>
+          <editor>Arizpe, Víctor</editor>
+          <publisher>Castalia</publisher>
+          <pubPlace>Madrid</pubPlace>
+          <edition>
+            <date when="1991">1991</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+        <bibl xml:id="Sh3rk5">
+          <author>Sigüenza y Góngora, Carlos de</author>
+          <title>Parayso occidental</title>
+          <date when="1684">1684</date>
+          <publisher>Universidad Nacional Autónoma de México, Facultad de Filosofía y Letras</publisher>
+          <pubPlace>México, D.F.</pubPlace>
+          <edition>
+            <date when="1995">1995</date>
+          </edition>
+          <country>México</country>
+        </bibl>
+        <bibl xml:id="Sh3rk3">
+          <author>Uribe, Álvaro</author>
+          <title>Expediente del atentado</title>
+          <date when="2007">2007</date>
+          <publisher>Tusquets Editores</publisher>
+          <pubPlace>Barcelona</pubPlace>
+          <edition>
+            <date when="2008">2008</date>
+          </edition>
+          <country>México</country>
+        </bibl>
+        <bibl xml:id="Sh3rk2">
+          <author>Valera, Juan</author>
+          <title>Pepita Jiménez</title>
+          <date when="1874">1874</date>
+          <publisher>Cátedra</publisher>
+          <pubPlace>Madrid</pubPlace>
+          <edition>
+            <date when="1997">1997</date>
+          </edition>
+          <country>España</country>
+        </bibl>
+      </listBibl>
+    </body>
+  </text>
+</TEI>

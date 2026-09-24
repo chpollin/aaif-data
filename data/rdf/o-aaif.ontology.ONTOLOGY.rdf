@@ -1,0 +1,740 @@
+
+<rdf:RDF xmlns="https://gams.uni-graz.at/o:aaif.ontology#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xml:base="https://gams.uni-graz.at/o:aaif.ontology">
+  <owl:Ontology rdf:about="https://gams.uni-graz.at/o:aaif.ontology">
+    <rdfs:label xml:lang="en">Adjective-Adverb Interfaces in Romance Ontology</rdfs:label>
+    <dc:identifier>https://gams.uni-graz.at/o:aaif.ontology</dc:identifier>
+    <dc:publisher>Zentrum für Informationsmodellierung, Universität Graz</dc:publisher>
+    <dc:date>2019</dc:date>
+    <rdfs:label>AAIF Ontology</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://gams.uni-graz.at/context:aaif?mode=ontology_desc"></rdfs:seeAlso>
+    <dc:creator>Christopher Pollin</dc:creator>
+    <dc:creator>Gerlinde Schneider</dc:creator>
+    <dc:creator>Katharina Gerhalter</dc:creator>
+    <dc:rights>https://creativecommons.org/licenses/by/4.0</dc:rights>
+    <owl:versionInfo>1.2</owl:versionInfo>
+    <dc:title>Annotation Model: Criteria for Linguistic Categorization in the Database Adjective
+      Adverb Interfaces in Romance</dc:title>
+  </owl:Ontology>
+  <owl:DatatypeProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#coordinated">
+    <rdfs:label xml:lang="en">coordinated</rdfs:label>
+    <rdfs:comment xml:lang="en">Coordination means the combination of two different adverbs. If two
+      or more different adverbs are coordinated, they usually share the same syntactic function and
+      syntactic scope. For example, two manner adverbs can be coordinated: Sp. volar alto y rápido.
+      In those cases, both adjective-adverbs has been lemmatized and tagged and their attribution
+      target (syntactic scope) is the same verb in the sentence: volar. For both alto and rápido,
+      the category modifications holds &quot;true/yes&quot;. Coordination is possible between
+      different types of adverbs: periphrastic adverbs (prepositional phrases), adjective-adverbs
+      and mente-adverbs. Every adverbial involved has been tagged and lemmatized with the
+      corresponding categories. If one of the coordinated adverbs has a proper lexical form (Sp.,
+      Fr. bien, mal), it has not been tagged and only the other coordinated adjective-adverb or
+      prepositional phrase or mente-adverb has been tagged. The category Coordination holds for
+      coordinated verbs that may be modified by the same adverb. The adjective-adverb presto
+      modifies both verb forms cae and sube. Therefore, both verb forms has been lemmatized and
+      annotated regarding their syntactic construction (intransitive) and both have been tagged with
+      &quot;coordination = yes / true&quot;. </rdfs:comment>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Adverb"></rdf:Description>
+          <rdf:Description rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Verb"></rdf:Description>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"></rdfs:range>
+    <skos:example xml:lang="es">volar alto y rápido</skos:example>
+    <skos:example xml:lang="es">más presto cae que sube</skos:example>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#feature">
+    <rdfs:label xml:lang="en">feature</rdfs:label>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationFeature"></rdfs:range>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:domain>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#attributionTarget">
+    <rdfs:subPropertyOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#feature"></rdfs:subPropertyOf>
+    <rdfs:label xml:lang="en">attribution target</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines the attribute target of an adverb.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Adverb"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AttributionTarget"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#contraction">
+    <rdfs:label xml:lang="en">has Contraction</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#feature"></rdfs:subPropertyOf>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Article"></rdf:Description>
+          <rdf:Description rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Preposition"></rdf:Description>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Contraction"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#gender">
+    <rdfs:label xml:lang="en">has Gender</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines the gender of an article, possessive or a
+      subject.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#feature"></rdfs:subPropertyOf>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Article"></rdf:Description>
+          <rdf:Description rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Possessive"></rdf:Description>
+          <rdf:Description rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Subject"></rdf:Description>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Gender"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#adverb">
+    <rdfs:label xml:lang="en">has Adverb</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines an adverb in a phrase.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Phrase"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Adverb"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#article">
+    <rdfs:label xml:lang="en">has Article</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines an article in a phrase.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Phrase"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Article"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#morphosyntacticStructure">
+    <rdfs:subPropertyOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#feature"></rdfs:subPropertyOf>
+    <rdfs:label xml:lang="en">morphosyntactic structure</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines the morphosyntactic structure of an adverb.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Adverb"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticStructure"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#phrase">
+    <rdfs:label xml:lang="en">has Phrase</rdfs:label>
+    <rdfs:comment xml:lang="en">A record in a corpus.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Entry"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Phrase"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#preposition">
+    <rdfs:label xml:lang="en">has Preposition</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines a preposition in a phrase.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Phrase"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Preposition"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#subject">
+    <rdfs:label xml:lang="en">has Subject</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines a subject in a phrase.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Phrase"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Subject"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#verb">
+    <rdfs:label xml:lang="en">has Verb</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines a verb in a phrase.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Phrase"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Verb"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#inflection">
+    <rdfs:label xml:lang="en">inflection</rdfs:label>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Adverb"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Inflection"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#number">
+    <rdfs:subPropertyOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#feature"></rdfs:subPropertyOf>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Article"></rdf:Description>
+          <rdf:Description rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Possessive"></rdf:Description>
+          <rdf:Description rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Subject"></rdf:Description>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Number"></rdfs:range>
+    <rdfs:comment xml:lang="en">Defines the number of an article or subject.</rdfs:comment>
+    <rdfs:label xml:lang="en">number</rdfs:label>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#semanticClassification">
+    <rdfs:label xml:lang="en">semantic classification</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines the semantic classification of an adverb.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Adverb"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SemanticClassification"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#syntacticConstruction">
+    <rdfs:label xml:lang="en">syntactic construction</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines the syntactic construction of a verb.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Verb"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SyntacticConstruction"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#text">
+    <rdfs:label xml:lang="en">text</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines a text node.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"></rdfs:range>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#prepositionalPhrase">
+    <rdfs:label xml:lang="en">prepositional phrase</rdfs:label>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"></rdfs:range>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#annoText">
+    <rdfs:label xml:lang="en">annotated text</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines a text node, including the annotated words.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"></rdfs:range>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#lemma">
+    <rdfs:label xml:lang="en">lemma</rdfs:label>
+    <rdfs:comment xml:lang="en">The lemmatization unifies orthographic variation –- especially
+      regarding historical data -– and enables the search via lemma. It further allows analysis of
+      type-token-frequencies. For the category adverb, we used the present-day, uninflected form,
+      which is identical to the masculine singular form: Spanish claro, cierto, French droit, juste,
+      etc. The basic lemma of derived adverbs (like Sp. ciertamente, Fr. justement) is also the
+      adjectival lemma (Sp. cierto, Fr. juste). Therefore, the lemmatization allows for searching
+      all adverbial variants of one lexeme. For example, the Spanish lemma seguro catches the
+      following adverbs: seguro, segura, seguramente, de seguro, etc. For the word-class verb, we
+      used the infinite form as a Lemma (Sp. caminar, Fr. aller). Regarding the variation of verb
+      forms in southern Italy, we chose a reconstructed lemma marked with an asterisk and in capital
+      letters (for example *COMMOGLIARE for the Neapolitan verb forms accumigliateva and commoglio).
+      Also the prepositions were lemmatized (de, a, por, etc.).</rdfs:comment>
+    <skos:example xml:lang="es">https://gams.uni-graz.at/o:aaif.lemma#rozzo</skos:example>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Lemma"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#modified">
+    <rdfs:label xml:lang="en">modification of the adverb</rdfs:label>
+    <rdfs:comment xml:lang="en">The category modification applies if the adverbial itself is
+      modified (mostly intensified) by another adverb like Sp. muy, tan, Fr. très, trop, etc. This
+      modifiers have not been tagged or llematized itself, since they are lexical adverbs that are
+      not tackeled in the aaif-project. Therefore, examples like Sp. volar muy alto are tagged for
+      the verb volar and the adjective-adverb alto, which is categorized as &quot;modification:
+      true/yes&quot;.</rdfs:comment>
+    <skos:example xml:lang="es">volar muy alto</skos:example>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Adverb"></rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"></rdfs:range>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Lemma">
+    <rdfs:label xml:lang="en">Lemma</rdfs:label>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#overtSubject">
+    <rdfs:label xml:lang="en">has Overt Subject</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines a Subject as an overt subject</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#feature"></rdfs:subPropertyOf>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Subject"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#OvertSubject"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#OvertSubject">
+    <rdfs:label xml:lang="en">Overt Subject</rdfs:label>
+    <rdfs:comment xml:lang="en">The category overt subject allows to annotate null-subjects in
+      pro-drop languages. In those cases, a placeholder has been annotated with Gender and Number
+      and allows to show the concordance of adjective-adverbs with the null-subject as in Sp.
+      [null-subject fem. pl.] vuelan altas, in case the reference of the null-subject is clear from
+      the wider context of the example. On the other hand, to show the uninflected use of
+      adjective-adverbs, possibly there is a null-subject that does not concord with the
+      adjective-adverb: Sp. [null-subject fem. pl.] vuelan alto.</rdfs:comment>
+    <skos:example xml:lang="es">vuelan altas</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticFeature"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticFeature">
+    <rdfs:label xml:lang="en">Morphosyntactic Feature</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationFeature"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:DatatypeProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#partOfText">
+    <rdfs:label xml:lang="en">is part of text</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines a verb as part of text.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Verb"></rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"></rdfs:range>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#PartOfText">
+    <rdfs:label xml:lang="en">Part of text</rdfs:label>
+    <rdfs:comment xml:lang="en">The category part of text allows to annotate those verbs that are
+      not explicitly mentioned in the annotated KWIC-Phase, but can be reconstructed from the larger
+      context. For example, if the verb modified by an adjective-adverb has been supressed
+      (ellipsis) to avoid repetition, a placeholder is annotated and lemmatized. For example, in the
+      sentence Sp. María canta bien […] Pero Pedro horrible the adjective-adverb horrible modifies
+      an elliptical verb form Pedro canta horrible. In order to be able to search for the lemma
+      combination cantar and horrible, a verb-placeholder has been annotated with the lemma cantar
+      and has been tagged with the category &quot;part of text: no&quot;.</rdfs:comment>
+    <skos:example xml:lang="es">María canta bien […] Pero Pedro horrible</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SyntacticCategory"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#person">
+    <rdfs:label xml:lang="en">person</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines the person of a possessive.</rdfs:comment>
+    <rdfs:subPropertyOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#feature"></rdfs:subPropertyOf>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Possessive"></rdfs:domain>
+    <rdfs:range rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Person"></rdfs:range>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#position">
+    <rdfs:label xml:lang="en">position</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines the position of a word in a phrase.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"></rdfs:range>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#reduplicated">
+    <rdfs:label xml:lang="en">reduplicated adverbs</rdfs:label>
+    <rdfs:comment xml:lang="en">The category reduplication refers to the repetition of the same
+      adverb. In case an adverb is reduplicated, only one form has been tagged as a single-word
+      adverb and annotated as reduplicated. In some dialects of Southern Italy, reduplication of
+      adjective-adverbs is especially productive and in some cases, the reduplicated form has been
+      lexicalized with a specific meaning: Neapolitan sano sano &apos;entirely&apos;: ma la diceno
+      tutta sana sana. In that case, sana has been tagged with the same categories as
+      single-word-adverbs, that is: lemmatized as sano and annotated as an adverb with
+      morphosyntactic structure adjective and its specific inflection features (fem. sg.).
+      Additionally, sana has been classified as &quot;reduplication: yes&quot;. Also lexicalized
+      reduplications of a noun are used adverbially: Neapolitan miccia miccia &apos;weak&apos;. In
+      those cases, one of the forms has been tagged with the same categories as single-word-adverbs,
+      that is: lemmatized as miccia and annotated as an adverb with morphosyntactic structure noun
+      and its specific inflection features (fem.sg.). Additionally, miccia has been classified as
+      &quot;reduplication: yes&quot;. In other cases, adjective-adverbs are expressively
+      reduplicated, without a specific lexicalized meaning. Therefore, the morphosyntactic structure
+      of reduplicated adverbs is basically an adjective-adverb or a noun, and the feature of
+      reduplication is not found under the category &quot;morphosyntactic structure&quot;, but as a
+      separate category / tag. </rdfs:comment>
+    <skos:example xml:lang="es">¡Paso, paso, Pármeno, no saltes!</skos:example>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Adverb"></rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"></rdfs:range>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="https://gams.uni-graz.at/o:aaif.ontology#source">
+    <rdfs:label xml:lang="en">source</rdfs:label>
+    <rdfs:comment xml:lang="en">Bibliographic reference of an entry.</rdfs:comment>
+    <rdfs:domain rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Entry"></rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"></rdfs:range>
+  </owl:DatatypeProperty>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Adverb">
+    <rdfs:label xml:lang="en">Adverb</rdfs:label>
+    <rdfs:comment xml:lang="en">Every example in the corpus contains at least one annotated adverb.
+      Given the formal, syntactic and semantic complexity of the word-class adverb, several
+      categories were established.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Adjectival">
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticStructure"></rdfs:subClassOf>
+    <rdfs:label xml:lang="en">Adjectival</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Article">
+    <rdfs:label xml:lang="en">Article</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Subject">
+    <rdfs:label xml:lang="en">Subject</rdfs:label>
+    <rdfs:comment xml:lang="en">The subject is an optional category. In some examples, the subject
+      has been annotated, if the adverb refers to the subject of the sentence. For example, in the
+      sentence &quot;las aves vuelan altas&quot;, the adjective-adverb altas is inflected and shows
+      concordance with the subject &quot;las aves&quot;. Therefore, the attribution target of this
+      adverb is verb and subject.</rdfs:comment>
+    <skos:example xml:lang="es">las aves vuelan altas</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Contraction">
+    <rdfs:label xml:lang="en">Contraction</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticFeature"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Derived">
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticStructure"></rdfs:subClassOf>
+    <rdfs:label xml:lang="en">Derived</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#AudibleInflection">
+    <rdfs:label xml:lang="en">Audible Inflection</rdfs:label>
+    <skos:example>vivre saine</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Inflection"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Entry">
+    <rdfs:label xml:lang="en">Entry</rdfs:label>
+    <rdfs:comment xml:lang="en">A record in a corpus</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Feminine">
+    <rdfs:label xml:lang="en">Feminine</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Gender"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#FemininePlural">
+    <rdfs:label xml:lang="en">Feminine Plural</rdfs:label>
+    <skos:example>las aves vuelan altas</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Inflection"></rdfs:subClassOf> 
+ </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#FeminineSingular">
+    <rdfs:label xml:lang="en">Feminine Singular</rdfs:label>
+    <skos:example>con sola una palabra de tu boca</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Inflection"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#InaudibleInflection">
+    <rdfs:label xml:lang="en">Inaudible Inflection</rdfs:label>
+    <skos:example>je m’en vais seule</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Inflection"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Inflection">
+    <rdfs:label xml:lang="en">Inflection</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationFeature"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Masculine">
+    <rdfs:label xml:lang="en">Masculine</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Gender"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#UndefinedGender">
+    <rdfs:label xml:lang="en">Undefined Gender</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Gender"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#MasculinePlural">
+    <rdfs:label xml:lang="en">Masculine Plural</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Inflection"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Neuter">
+    <rdfs:label xml:lang="en">Neuter</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Gender"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#NeuterPlural">
+    <rdfs:label xml:lang="en">Neuter Plural</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Inflection"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#NeuterSingular">
+    <rdfs:label xml:lang="en">Neuter Singular</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Inflection"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity">
+    <rdfs:label xml:lang="en">Annotatation Entity</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#AttributionTarget">
+    <rdfs:label xml:lang="en">Attribution Target</rdfs:label>
+    <rdfs:comment xml:lang="en"> In the first place, the syntactic scope of the adverbial has been
+      tagged under the category Attribution target. </rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationFeature"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#AdverbTarget">
+    <rdfs:label xml:lang="en">Adverb or adverbial Phrase</rdfs:label>
+    <rdfs:comment xml:lang="en">Adverbs may modify other adverbs. In those cases, the Attribution
+      target Adverb was chosen. This second adverb has not been tagged and lemmatized because there
+      aren&apos;t any examples of an adjective-adverb modifying another adjective-adverb, but always
+      a mente-Adverb or a lexical adverb.</rdfs:comment>
+    <skos:example xml:lang="es">harto in interpreter harto duramente</skos:example>
+    <skos:example xml:lang="es">mal or bien</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AttributionTarget"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#VerbTarget">
+    <rdfs:label xml:lang="en">Verb Target</rdfs:label>
+    <rdfs:comment xml:lang="en">The syntactic scope may be the verb of the sentence, being the
+      adjective-adverb a modal adverb. In those cases, the verb form modified by the adverbial has
+      been tagged and lemmatized with the tag for Verb.</rdfs:comment>
+    <skos:example xml:lang="es">correr in correr rápido</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AttributionTarget"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#AdjectiveTarget">
+    <rdfs:label xml:lang="en">Adjective Target</rdfs:label>
+    <rdfs:comment xml:lang="en">Adverbs also modify adjectives. In those cases, the Attribution
+      target Adjective was chosen. The adjective modified by the adverb has not been tagged.
+      Deverbal adjectives, that is: participles, in some cases has been classified as verbs, as this
+      allows for tagging and lemmatizing the verb form.</rdfs:comment>
+    <skos:example xml:lang="es">harto in hombres harto sabios modifies the adjective
+      sabios</skos:example>
+    <skos:example xml:lang="es">vestir in the sentence con vna manta blanca como andan vestidos de
+      ordinario</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AttributionTarget"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#VerbObjectTarget">
+    <rdfs:label xml:lang="en">Verb Object Target</rdfs:label>
+    <rdfs:comment xml:lang="en">The Attribution target Verb and Object holds for those adverbials
+      that modify both the (transitive) verb of the sentence and the object involved. In those
+      cases, the verb also has been annotated.</rdfs:comment>
+    <skos:example xml:lang="es">los martirios los paga caros</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AttributionTarget"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#VerbSubjectTarget">
+    <rdfs:label xml:lang="en">Verb Subject Target</rdfs:label>
+    <rdfs:comment xml:lang="en">In those cases where the adverb modifies both the action described
+      by the verb of the sentence and the subject involved (), the category Verb and Subject has
+      been chosen as the attribution target. In those cases, the verb also has been annotated. For
+      all corpora but the French ones, if the Subject appears in the same sentence, it also has been
+      annotated, since the inflection of the adjective-adverb shows frequently concordance in number
+      and gender with the Subject.</rdfs:comment>
+    <skos:example xml:lang="fr">elle vivait saine</skos:example>
+    <skos:example xml:lang="es">la mujer vive sana</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AttributionTarget"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#SentenceTarget">
+    <rdfs:label xml:lang="en">Sentence Target</rdfs:label>
+    <rdfs:comment xml:lang="en">If the adverb does not modify a specific part of the sentence, but
+      the sentence as a whole, the Attribution Target Sentence has been chosen (Sp. Verdad sea que,
+      cierto, duele…). This also holds for discourse markers that are used as an utterance, for
+      example, affirmation markers (Sp. Justo. Claro.)</rdfs:comment>
+    <skos:example xml:lang="es">Verdad sea que, cierto, duele… </skos:example>
+    <skos:example xml:lang="es">Justo. Claro.</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AttributionTarget"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#OtherTarget">
+    <rdfs:label xml:lang="en">Other Target</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AttributionTarget"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#NounTarget">
+    <rdfs:label xml:lang="en">Noun or syntagma without verb-reference</rdfs:label>
+    <rdfs:comment xml:lang="en">The category Noun or syntagma without verb-reference as an
+      attribution target englobes all types of noun phrases and prepositional
+      phrases.</rdfs:comment>
+    <skos:example xml:lang="es">con sola una palabra de tu boca</skos:example>
+    <skos:example xml:lang="es">justo después de tres días</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AttributionTarget"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#SemanticClassification">
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationFeature"></rdfs:subClassOf>
+    <rdfs:label xml:lang="en">Semantic Classification</rdfs:label>
+    <rdfs:comment xml:lang="en">In order to offer a rough semantic classification of the adverbials,
+      six general categories have been established.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Quantity">
+    <rdfs:label xml:lang="en">Quantity / Intensity</rdfs:label>
+    <rdfs:comment xml:lang="en">Adverbs that quantify or intensify a denoted quality on a scale has
+      been tagged with the semantic classification of quantity / intensity.</rdfs:comment>
+    <skos:example xml:lang="es">hombres harto sabios</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SemanticClassification"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Manner">
+    <rdfs:label xml:lang="en">Manner</rdfs:label>
+    <rdfs:comment xml:lang="en">Manner-adverbs typically describe or characterize the action
+      expressed by the verb of the sentence, therefore most examples of manner adverbs have the verb
+      as their syntactic scope (attribution target) and also has been tagged for the
+      verb.</rdfs:comment>
+    <skos:example xml:lang="es">correr rápido</skos:example>
+    <skos:example xml:lang="fr">vive saine</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SemanticClassification"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Time">
+    <rdfs:label xml:lang="en">Time</rdfs:label>
+    <rdfs:comment xml:lang="en">Adverbs expressing temporal circumstances of the verb action have
+      been tagged with the semantic classification of time.</rdfs:comment>
+    <skos:example xml:lang="es">más presto cae que sube</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SemanticClassification"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Location">
+    <rdfs:label xml:lang="en">Location</rdfs:label>
+    <rdfs:comment xml:lang="en">Adverbs expressing local circumstances of the verb action have been
+      tagged with the semantic classification of location.</rdfs:comment>
+    <skos:example xml:lang="es">volar alto</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SemanticClassification"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Discourse">
+    <rdfs:label xml:lang="en">Discourse</rdfs:label>
+    <rdfs:comment xml:lang="en">Adverbs that express metalinguistic or extra-propositional
+      characterizations (e.g. discourse markers and sentence adverbs) has been tagged with the
+      semantic classification of discourse.</rdfs:comment>
+    <skos:example xml:lang="es"> Verdad sea que, cierto, duele… and ¡Claro!</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SemanticClassification"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Specification">
+    <rdfs:label xml:lang="en">Specification</rdfs:label>
+    <rdfs:comment xml:lang="en">Focus Adverbs has been tagged with the semantic classification of
+      specification.</rdfs:comment>
+    <skos:example xml:lang="es">con sola una palabra de tu boca</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SemanticClassification"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Undefined">
+    <rdfs:label xml:lang="en">Undefined</rdfs:label>
+    <rdfs:comment xml:lang="en">All undefined semantic classifications.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SemanticClassification"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#SyntacticConstruction">
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationFeature"></rdfs:subClassOf>
+    <rdfs:label xml:lang="en">Syntactic Construction</rdfs:label>
+    <rdfs:comment xml:lang="en">The syntactic construction takes into account transitivity and
+      reflexivity of the verb in every specific example annotated.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Reflexive">
+    <rdfs:label xml:lang="en">Reflexive</rdfs:label>
+    <rdfs:comment xml:lang="en">Reflexive verbs are used with a reflexive pronoun.</rdfs:comment>
+    <skos:example xml:lang="es">No se vestía rico</skos:example>
+    <skos:example xml:lang="fr">je m&apos;en vais seule</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SyntacticConstruction"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Intransitive">
+    <rdfs:label xml:lang="en">Intransitive</rdfs:label>
+    <rdfs:comment xml:lang="en">Intransitive for those examples in which the verb does not select an
+      object.</rdfs:comment>
+    <skos:example xml:lang="es">María camina rápido</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SyntacticConstruction"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Transitive">
+    <rdfs:label xml:lang="en">Transitive</rdfs:label>
+    <rdfs:comment xml:lang="en">As for the first feature, the category transitive holds for those
+      sentences in which the verb is used with an explicit object.</rdfs:comment>
+    <skos:example xml:lang="es">los martirios los paga caros</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#SyntacticConstruction"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Phrase">
+    <rdfs:label xml:lang="en">Phrase</rdfs:label>
+    <rdfs:comment xml:lang="en">Defines a phrase within an entry in which there are
+      annotations.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Plural">
+    <rdfs:label xml:lang="en">Plural</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Number"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Preposition">
+    <rdfs:label xml:lang="en">Preposition</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Number">
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticFeature"></rdfs:subClassOf>
+    <rdfs:label xml:lang="en">Number</rdfs:label>
+    <rdfs:comment xml:lang="en">The category Number chooses Singular, Plural and undefined. For
+      example, &quot;las aves in las aves vuelan altas&quot; has been categorized as &quot;Gender:
+      feminine&quot; and &quot;Number: Plural&quot; </rdfs:comment>
+    <skos:example xml:lang="es">las aves in las aves vuelan altas</skos:example>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Singular">
+    <rdfs:label xml:lang="en">Singular</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Number"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#UndefinedNumber">
+    <rdfs:label xml:lang="en">Undefined Number</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Number"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Subject">
+    <rdfs:label xml:lang="en">Subject</rdfs:label>
+    <rdfs:comment xml:lang="en">The subject is an optional category. In some examples, the subject
+      has been annotated, if the adverb refers to the subject of the sentence. For example, in the
+      sentence &quot;las aves vuelan altas&quot;, the adjective-adverb altas is inflected and shows
+      concordance with the subject &quot;las aves&quot;. Therefore, the attribution target of this
+      adverb is verb and subject.</rdfs:comment>
+    <skos:example xml:lang="es">las aves vuelan altas</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Uninflected">
+    <rdfs:label xml:lang="en">Uninflected</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Inflection"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Verb">
+    <rdfs:label xml:lang="en">Verb</rdfs:label>
+    <rdfs:comment xml:lang="en">In some examples, the verb of the sentence has been tagged. It is,
+      therefore, an optional category. The verb of the sentence is of interest when the adverb
+      modifies the verb. In those cases, the verb has been lemmatized (see lemma), which allows for
+      analysing specific verb + adverb combinations and their type-token-frequencies. As for
+      periphrastic verb constructions, the verb carrying the main semantic information has been
+      tagged and lemmatized: for example, Sp. vestir in the sentence con vna manta blanca como andan
+      vestidos de ordinario. The tagged verbs has been annotated regarding three formal categories:
+      syntactic construction, coordination and part of text. </rdfs:comment>
+    <skos:example xml:lang="es">vender caro</skos:example>
+    <skos:example xml:lang="fr">parler fort, parler bas, etc.</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Gender">
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticFeature"></rdfs:subClassOf>
+    <rdfs:label xml:lang="en">Gender</rdfs:label>
+    <rdfs:comment xml:lang="en">The category Gender chooses masculine, feminine, neuter or
+      undefined.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticStructure">
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationFeature"></rdfs:subClassOf>
+    <rdfs:label xml:lang="en">Morphosyntactic Structure</rdfs:label>
+    <rdfs:comment xml:lang="en">The morphosyntactic structure takes into account the formal
+      structure of the adverbial as well as its possible inflection. The annotation model suits (i)
+      simple (one-word) adverbs (ii) reduplicated adverbs and (iii) phrasal (periphrastic)
+      adverbs.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Adjectival">
+    <rdfs:label xml:lang="en">Adjectival</rdfs:label>
+    <rdfs:comment xml:lang="en">If the morphosyntactic structure of the adverb is a simple
+      adjective, this means an adjective is used as an adverb, like alto in Sp. volar alto, and
+      droit in Fr. aller droit. Therefore, adjective-adverbs are adverbs that formally use an
+      adjective for expressing adverbial functions. The lemma of these adjective-adverbs is the
+      uninflected form (=masc.sg.), e.g. Sp. alto and Fr. droit. If the adjective-adverb is
+      inflected, like Sp. directos in vamos directos a casa, that information can be specified via
+      the category inflection. The database only contains adjectives with adverbial functions, but
+      not adjectives with adjectival syntax (e.g. el arbol es alto). The diverse adverbial functions
+      (e.g. verb-modification as modal adverb like in volar alto) are specified under the categories
+      attribution target and semantic classification. The database does not include lexical adverbs
+      like Sp. / Fr. bien, mal.</rdfs:comment>
+    <skos:example xml:lang="es">volar alto</skos:example>
+    <skos:example xml:lang="fr">aller droit</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticStructure"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#NounMS">
+    <rdfs:label xml:lang="en">Noun MS</rdfs:label>
+    <rdfs:comment xml:lang="en">The category morphosyntacic structure / noun applies to nouns that
+      are used as adverbs. For example, in Spanish pasarlo bomba, the noun bomba is used adverbially
+      meaning &apos;well&apos;. Nouns also appear in periphrastic or phrasal adverbs. The category
+      inflection allows for specifying number and gender of the adjective or noun used adverbially.
+      Most Adjective-Adverbs currently are used in their uninflected form, that is, the masculine
+      singular form: Sp. volar alto, Fr. aller droit use the masculine singular of the adjective as
+      unmarked adverbial form. </rdfs:comment>
+    <skos:example xml:lang="es">pasarlo bomba</skos:example>
+    <skos:example xml:lang="es">volar alto</skos:example>
+    <skos:example xml:lang="fr">aller droit</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticStructure"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Derived_mente">
+    <rdfs:label xml:lang="en">derived -mente</rdfs:label>
+    <rdfs:comment xml:lang="en">Derived adverbs are formed by a derivational suffix like -mente that
+      adds to an adjectival base. The category –mente covers all variants of this suffix in several
+      Romance languages: Fr. –ment, and Sp. / Pt. / It. –mente, as well as historical variants like
+      Sp. –mientre, -miente or –mentre. The lemma of the derived adverb is the lemma of the base
+      adjective: for example, Sp. ciertamente can be found via the lemma search for cierto, and Fr.
+      justement via the lemma juste. Since the mente-Adverbs take systematically the feminine
+      singular form of the adjective, we consider that a fossilized form of the stem, but not an
+      inflectional process on the whole adverb. Therefore, mente-adverbs are categorized as
+      uninflected. We only consider mente-Adverbs inflected if the whole adverb takes a plural
+      suffix, like in Sp. los ríos meramentes flotables. </rdfs:comment>
+    <skos:example xml:lang="es">ciertamente</skos:example>
+    <skos:example xml:lang="fr">justement</skos:example>
+    <skos:example xml:lang="fr">los ríos meramentes flotables</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Derived"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Derived_este">
+    <rdfs:label xml:lang="en">derived -eşte</rdfs:label>
+    <rdfs:comment xml:lang="en">Romanian suffixes –eşte.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Derived"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Derived_is">
+    <rdfs:label xml:lang="en">derived -iş</rdfs:label>
+    <rdfs:comment xml:lang="en">Romanian suffixes -iş.</rdfs:comment>
+    <skos:example xml:lang="ro">iară româneşte</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Derived"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Derived_ul">
+    <rdfs:label xml:lang="en">derived -ul</rdfs:label>
+    <rdfs:comment xml:lang="en">Romanian suffixes –ul.</rdfs:comment>
+    <skos:example xml:lang="ro">dreptul</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Derived"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Derived_one_oni">
+    <rdfs:label xml:lang="en">derived -one/-oni</rdfs:label>
+    <rdfs:comment xml:lang="en">The Italian suffix –oni/-one si used for actions that involve a body
+      part touching the ground.</rdfs:comment>
+    <skos:example xml:lang="it">ginocchione/i, bocconi</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Derived"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Derived_ly">
+    <rdfs:label xml:lang="en">derived -ly</rdfs:label>
+    <rdfs:comment xml:lang="en">Romanian suffixes –ly.</rdfs:comment>
+    <skos:example xml:lang="en">to run quickly</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Derived"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#OtherMS">
+    <rdfs:label xml:lang="en">Other morphosyntactic structure</rdfs:label>
+    <rdfs:comment xml:lang="en">Other morphosyntactic Structures</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#MorphosyntacticStructure"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#First">
+    <rdfs:label xml:lang="en">First Person</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Person"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Second">
+    <rdfs:label xml:lang="en">Second Person</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Person"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Third">
+    <rdfs:label xml:lang="en">Third Person</rdfs:label>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#Person"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Person">
+    <rdfs:label xml:lang="en">Person</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#Possessive">
+    <rdfs:label xml:lang="en">Possessive</rdfs:label>
+    <rdfs:comment xml:lang="en">In case the phrasal or periphrastic adverb includes a possessive, it
+      is tagged for the categories Gender (masculine, feminine, neuter, undefined), number
+      (singular, plural, undefined), and person (1st, 2nd and 3rd person). For example, the Sp.
+      possessive mis in a mis solas has been categorized as &quot;Number: plural, Gender: undefined,
+      person: 1st&quot;.</rdfs:comment>
+    <skos:example xml:lang="es">possessive mis in a mis solas</skos:example>
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationEntity"></rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#SyntacticCategory">
+    <rdfs:subClassOf rdf:resource="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationFeature"></rdfs:subClassOf>
+    <rdfs:label xml:lang="en">Syntactic Category</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://gams.uni-graz.at/o:aaif.ontology#AnnotatationFeature">
+    <rdfs:label xml:lang="en">Annotatation Feature</rdfs:label>
+  </owl:Class>
+  <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"></owl:AnnotationProperty>
+</rdf:RDF>
