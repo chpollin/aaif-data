@@ -6,7 +6,7 @@ project:
 status: draft
 language: en
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-11-10
 authors: [Christopher Pollin]
 generated-with: Claude Code (Claude Opus 5.5)
 method:
@@ -21,7 +21,7 @@ related: [project.md, data.md, testing.md]
 
 # Specification
 
-The archive has to keep a verifiable, complete and unchanged copy of the AAIF data and state what is known about it. The requirements change rarely, the user stories name who relies on the archive, the scope describes the three scripts and the data folder, and the decisions grow with every new choice.
+The archive has to keep a verifiable, complete and unchanged copy of the AAIF data and state what is known about it. The requirements change rarely, the user stories name who relies on the archive, the scope describes the four scripts, the profile view and the data folder, and the decisions grow with every new choice.
 
 ## Requirements
 

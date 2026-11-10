@@ -9,7 +9,7 @@ method:
 status: active
 language: en
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-11-10
 authors: [Christopher Pollin]
 generated-with: Claude Code (Claude Opus 5.5)
 template:
@@ -24,6 +24,10 @@ related: [project.md, specification.md, handoff.md]
 This journal is the curated backward-looking provenance index of the archive. Current content lives in the documents it points to, open inputs in [handoff.md](handoff.md).
 
 ## Entries
+
+### 2026-11-10 korrigiert script count and recorded the checks
+
+Source. A maintenance pass against Git, the scripts and the published page. Target. [specification.md](specification.md). Result. The specification summary named three scripts where the scope lists four. `03_verify.py` verified every manifest file, `02_analyze.py` parsed every corpus without errors, ruff check and format check passed, and `04_export.py`, run on a copy outside the repository, reproduced the published `docs/data/profiles.json` byte for byte. The page serves only `docs/`, with aggregated counts and links to this repository.
 
 ### 2026-09-24 integriert archive, analysis and knowledge base
 
