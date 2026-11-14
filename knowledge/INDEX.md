@@ -17,7 +17,7 @@ template:
   name: Vorlage Index
   version: 0.4
   url: https://dhcraft.org/Promptotyping/promptotyping-document/index
-related: [project.md, data.md, annotation-model.md, specification.md, testing.md, handoff.md, journal.md]
+related: [project.md, data.md, annotation-model.md, specification.md, testing.md, journal.md]
 ---
 
 # Index
@@ -33,8 +33,7 @@ Entry point to the knowledge about the archived data of the AAIF database, for r
 | [annotation-model.md](annotation-model.md) | Which linguistic categories the annotation uses, how `@function` codes decode, where RDF and ontology names differ |
 | [specification.md](specification.md) | What the archive has to do and which decisions shape it |
 | [testing.md](testing.md) | What the checks guarantee and how to run them |
-| [handoff.md](handoff.md) | Open handoff points awaiting integration |
-| [journal.md](journal.md) | How the archive and its knowledge came about |
+| [journal.md](journal.md) | What is open, and how the archive and its knowledge came about |
 
 ## Storage zones
 
@@ -50,7 +49,7 @@ Entry point to the knowledge about the archived data of the AAIF database, for r
 
 - Reusing the corpora. [data.md](data.md), then [annotation-model.md](annotation-model.md), then the known properties in [data.md](data.md#known-properties).
 - Querying the RDF. [annotation-model.md](annotation-model.md) for the names that occur in the data, then the RDF section of [data.md](data.md#rdf).
-- Preparing corrections in GAMS. The known properties in [data.md](data.md#known-properties), then the unresolved phenomena in [annotation-model.md](annotation-model.md#unresolved-phenomena), then [handoff.md](handoff.md).
+- Preparing corrections in GAMS. The known properties in [data.md](data.md#known-properties), then the unresolved phenomena in [annotation-model.md](annotation-model.md#unresolved-phenomena), then the open points in [journal.md](journal.md#open).
 - Working on the archive. [specification.md](specification.md#decisions), then [testing.md](testing.md).
 
 ## Convention

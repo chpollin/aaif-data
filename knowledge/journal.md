@@ -9,21 +9,29 @@ method:
 status: active
 language: en
 created: 2026-09-24
-updated: 2026-11-10
+updated: 2026-11-14
 authors: [Christopher Pollin]
 generated-with: Claude Code (Claude Opus 5.5)
 template:
   name: Vorlage Journal
   version: 0.4
   url: https://dhcraft.org/Promptotyping/promptotyping-document/journal
-related: [project.md, specification.md, handoff.md]
+related: [project.md, specification.md]
 ---
 
 # Journal
 
-This journal is the curated backward-looking provenance index of the archive. Current content lives in the documents it points to, open inputs in [handoff.md](handoff.md).
+This journal is the curated backward-looking provenance index of the archive. Current content lives in the documents it points to, open inputs in the section Open below.
+
+## Open
+
+Nothing open.
 
 ## Entries
+
+### 2026-11-14 integriert handoff dissolved into the journal
+
+Source. The operator's decision of 2026-11-14 that a Promptotyping repository no longer keeps `knowledge/handoff.md` and that the journal opens with what is open. Target. This journal, `CLAUDE.md` and [INDEX.md](INDEX.md). Result. The handoff held no open point, so nothing was carried over. Its process rule, to check source and target, integrate durable content, record the result here and then remove the point, now applies to the points under Open.
 
 ### 2026-11-10 korrigiert script count and recorded the checks
 

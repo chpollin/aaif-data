@@ -6,7 +6,7 @@ This repository archives the TEI and RDF data of the Open Access Database "Adjec
 
 ## Knowledge base
 
-Read [knowledge/INDEX.md](knowledge/INDEX.md), then [knowledge/handoff.md](knowledge/handoff.md), then the document the task needs. [knowledge/data.md](knowledge/data.md) describes corpora, TEI, RDF and the known properties, [knowledge/annotation-model.md](knowledge/annotation-model.md) the categories, the `@function` codes and the names of RDF and ontology, [knowledge/project.md](knowledge/project.md) responsibility and publications, [knowledge/specification.md](knowledge/specification.md) requirements and decisions, [knowledge/testing.md](knowledge/testing.md) the checks and their results.
+Read [knowledge/INDEX.md](knowledge/INDEX.md), then the section Open at the beginning of [knowledge/journal.md](knowledge/journal.md), then the document the task needs. [knowledge/data.md](knowledge/data.md) describes corpora, TEI, RDF and the known properties, [knowledge/annotation-model.md](knowledge/annotation-model.md) the categories, the `@function` codes and the names of RDF and ontology, [knowledge/project.md](knowledge/project.md) responsibility and publications, [knowledge/specification.md](knowledge/specification.md) requirements and decisions, [knowledge/testing.md](knowledge/testing.md) the checks and their results.
 
 ## Working rules
 
